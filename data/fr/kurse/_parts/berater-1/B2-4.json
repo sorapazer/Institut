@@ -1,0 +1,198 @@
+{
+ "id": "B2-4",
+ "titel": "Signaux d’alerte, crises et limites de l’accompagnement",
+ "dauer": 40,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Reconnaître la suicidalité",
+   "text": "La suicidalité est le signal d’alerte le plus important que les accompagnants puissent rencontrer. Elle va des souhaits de mort passifs (« Ça me serait égal de ne pas me réveiller demain matin ») aux pensées et projets suicidaires, jusqu’aux préparatifs concrets et aux tentatives de suicide.\n\nLes **facteurs de risque** comprennent :\n\n- des tentatives de suicide antérieures (l’un des facteurs de risque les plus forts)\n- des maladies mentales, en particulier la dépression, la dépendance, les psychoses\n- des suicides dans la famille ou l’entourage social\n- des crises aiguës telles qu’une séparation, une perte d’emploi, des dettes, des expériences de honte et d’humiliation\n- l’isolement social, les douleurs chroniques et les maladies physiques graves\n- l’accès à des moyens de suicide\n\nLes **signaux d’alerte** peuvent être : des annonces directes ou indirectes (« Bientôt, vous serez débarrassés de moi »), un désespoir prononcé, un retrait social, le fait de donner des biens importants, de régler ses dernières affaires, ainsi qu’un calme soudain et inexplicable après une période de grand désespoir.\n\nErwin Ringel a décrit le **syndrome présuicidaire** à travers trois caractéristiques : un **rétrécissement** croissant (situationnel, émotionnel, relationnel et au niveau des valeurs), une **agressivité inhibée retournée contre soi-même** et des **fantasmes suicidaires** de plus en plus envahissants. Walter Pöldinger a distingué les stades de la **réflexion, de l’ambivalence et de la décision**.\n\nPoint important : l’ambivalence – une partie de la personne veut mourir, une autre veut vivre – est présente longtemps chez beaucoup de personnes suicidaires. C’est précisément là qu’un entretien peut intervenir."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Quiconque demande directement à une personne si elle pense à mettre fin à ses jours lui met l’idée en tête et augmente ainsi le risque.",
+   "richtig": false,
+   "erklaerung": "Il s’agit d’un mythe répandu. La recherche ne trouve aucune preuve que le fait d’aborder directement les pensées suicidaires augmente le risque. Au contraire, beaucoup de personnes concernées vivent comme un soulagement le fait de pouvoir en parler ouvertement."
+  },
+  {
+   "typ": "text",
+   "titel": "Aborder la suicidalité et agir",
+   "text": "Lorsqu’il existe des indices de suicidalité, l’accompagnant devrait aborder le sujet **ouvertement, calmement et directement**. Une approche progressive a fait ses preuves :\n\n- « Quand vous allez aussi mal – avez-vous parfois le sentiment que la vie n’a plus de sens ? »\n- « Vous arrive-t-il de penser à mettre fin à vos jours ? »\n- En cas de réponse affirmative : « Dans quelle mesure ces pensées sont-elles concrètes ? Avez-vous déjà pensé à la manière ou au moment ? » – « Avez-vous déjà fait des préparatifs ? »\n- « Qu’est-ce qui vous a retenu jusqu’à présent ? » – interroger les **raisons de vivre** renforce le versant de l’ambivalence tourné vers la vie.\n\n**Comment agir ?**\n\n- En cas de **pensées suicidaires sans projet concret** et avec une capacité fiable à s’engager sur des accords : organiser une évaluation rapide par un psychiatre ou un psychothérapeute, fournir des contacts de crise, impliquer des personnes de soutien et fixer une date contraignante pour le prochain contact.\n- En cas de **projets concrets, de préparatifs ou d’absence de prise de distance** : ne pas laisser la personne seule ; appeler le **numéro d’urgence 112** ou organiser l’accompagnement de la personne vers un hôpital psychiatrique ou un service d’urgence.\n\nEn Allemagne, la **TelefonSeelsorge** (ligne d’écoute téléphonique en situation de crise) est joignable gratuitement 24 heures sur 24 au 0800 111 0 111 et au 0800 111 0 222 ainsi qu’au 116 123. De nombreuses régions disposent de **services de crise** et de **services sociopsychiatriques** (Sozialpsychiatrische Dienste).\n\nLa **documentation** de l’entretien et des mesures prises ainsi que l’**intervision ou la supervision** sont indispensables après une telle situation. Personne ne devrait porter seul la responsabilité d’une crise suicidaire."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Aborder les pensées suicidaires",
+   "einleitung": "Situation construite : Mme B., 47 ans, vient consulter au service de conseil en surendettement. Son mari l’a récemment quittée et les dettes augmentent. Pendant l’entretien, elle paraît épuisée et désespérée.",
+   "runden": [
+    {
+     "klient": "« Je ne sais même pas pourquoi je m’inflige encore tout ça. Plus rien n’a de sens. »",
+     "antworten": [
+      {
+       "text": "« Courage – on va trouver une solution pour les dettes ! »",
+       "gut": false,
+       "feedback": "Un encouragement prématuré passe outre le désespoir et peut amener Mme B. à se sentir non prise au sérieux et à dissimuler ses pensées."
+      },
+      {
+       "text": "« Vous semblez très désespérée. Quand vous dites que plus rien n’a de sens – vous arrive-t-il de penser que vous ne voulez plus vivre ? »",
+       "gut": true,
+       "feedback": "La réponse reprend le sentiment et interroge ouvertement et directement les pensées suicidaires. Cela rend une évaluation possible et signale que ce sujet aussi a sa place ici."
+      },
+      {
+       "text": "« Restons-en plutôt aux faits, sinon nous n’avancerons pas. »",
+       "gut": false,
+       "feedback": "Revenir aux questions factuelles ignore un possible signal d’alerte de suicidalité."
+      }
+     ]
+    },
+    {
+     "klient": "(après une pause) « Oui … parfois je me dis que ce serait mieux si je n’étais simplement plus là. »",
+     "antworten": [
+      {
+       "text": "« Il ne faut pas dire des choses pareilles – pensez à vos enfants ! »",
+       "gut": false,
+       "feedback": "La moralisation crée de la culpabilité et de la honte et ferme l’échange. Les enfants pourront plus tard être explorés comme raison de vivre – mais pas sous forme de reproche."
+      },
+      {
+       "text": "« Cela ressemble à une phase qui va bientôt passer. »",
+       "gut": false,
+       "feedback": "La banalisation empêche une évaluation soigneuse du risque."
+      },
+      {
+       "text": "« Merci de me le dire si ouvertement. Dans quelle mesure ces pensées sont-elles concrètes ? Avez-vous déjà pensé à la manière dont vous le feriez ? »",
+       "gut": true,
+       "feedback": "La reconnaissance de son ouverture et la question calme sur le degré de concrétisation sont des étapes centrales de l’évaluation : les pensées, les projets et les préparatifs diffèrent nettement quant au risque."
+      }
+     ]
+    },
+    {
+     "klient": "« Non, je n’ai pas de projet. Et je ne le ferais pas à cause de ma fille. Mais les pensées reviennent sans cesse. »",
+     "antworten": [
+      {
+       "text": "« Votre fille compte beaucoup pour vous. Je ne veux pas que vous restiez seule avec ces pensées. Pouvons-nous réfléchir ensemble à la manière dont vous pourriez obtenir rapidement un soutien médical, et voulez-vous emporter le numéro de la TelefonSeelsorge ? »",
+       "gut": true,
+       "feedback": "La réponse reconnaît la raison de vivre, prend au sérieux les pensées récurrentes et engage des étapes concrètes : une évaluation professionnelle rapide et des contacts de crise joignables."
+      },
+      {
+       "text": "« Bien, alors tout va bien. Passons au budget du ménage. »",
+       "gut": false,
+       "feedback": "L’absence de projets ne signifie pas qu’aucune action n’est nécessaire. Des pensées suicidaires récurrentes exigent une évaluation professionnelle."
+      },
+      {
+       "text": "« J’appelle tout de suite le médecin urgentiste, contre votre volonté. »",
+       "gut": false,
+       "feedback": "En cas de prise de distance crédible, d’absence de projets et de raison de vivre claire, une admission en urgence n’est en général pas indiquée. Une évaluation rapide et contraignante est appropriée. En cas de danger aigu, en revanche, appeler le numéro d’urgence serait la bonne décision."
+      }
+     ]
+    },
+    {
+     "klient": "« Oui … ce serait sans doute bien. Je ne sais simplement pas si j’oserai appeler le médecin. »",
+     "antworten": [
+      {
+       "text": "« Il faudra que vous vous débrouilliez seule ; vous êtes adulte, après tout. »",
+       "gut": false,
+       "feedback": "Les personnes désespérées ont souvent peu d’énergie pour des démarches qui paraissent faciles aux autres. Un soutien concret est approprié ici."
+      },
+      {
+       "text": "« Si vous le souhaitez, nous pouvons passer l’appel ensemble d’ici, tout de suite. Et nous fixons immédiatement un prochain rendez-vous. »",
+       "gut": true,
+       "feedback": "Une aide concrète à la prise de contact abaisse considérablement le seuil. Un rendez-vous de suivi contraignant assure la continuité."
+      },
+      {
+       "text": "« Alors attendons de voir ; peut-être que ça ira mieux tout seul. »",
+       "gut": false,
+       "feedback": "Attendre sans aucun accord laisse Mme B. seule face à un risque considérable."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "text",
+   "titel": "Autres signaux d’alerte et situations de crise",
+   "text": "Outre la suicidalité, il existe d’autres situations dans lesquelles les accompagnants doivent agir rapidement ou orienter vers des services spécialisés :\n\n- **Symptômes psychotiques :** idées délirantes (comme la conviction ferme d’être persécuté ou surveillé), hallucinations (p. ex. entendre des voix), pensée ou comportement gravement désorganisés. Ne pas discuter des contenus délirants ; rester calme, prendre la peur au sérieux et orienter vers une aide médicale, généralement psychiatrique.\n- **Symptômes maniaques :** humeur nettement exaltée ou irritable, besoin extrême de parler, quasi-absence de besoin de sommeil, décisions risquées telles que de grosses dépenses.\n- **Comportement auto-agressif :** par exemple les scarifications ; il sert souvent à réguler une tension et ne doit pas être assimilé à la suicidalité, mais doit être pris au sérieux et évalué professionnellement.\n- **Danger pour autrui :** menaces concrètes envers d’autres personnes.\n- **Mise en danger du bien-être de l’enfant :** indices substantiels de maltraitance, de négligence ou d’abus sexuel. Pour les professionnels de l’aide à l’enfance et à la jeunesse, le § 8a SGB VIII (Code social allemand, livre VIII) régit la procédure ; pour les professionnels tenus au secret, tels que les médecins, les psychologues ou les travailleurs sociaux, le § 4 KKG (loi allemande sur la coopération et l’information en matière de protection de l’enfance) crée une autorisation de consulter un spécialiste expérimenté de la protection de l’enfance et, si nécessaire, d’informer l’office de la jeunesse (Jugendamt).\n- **Violence domestique :** la protection est prioritaire ; la ligne d’aide nationale « Violence contre les femmes » (Hilfetelefon « Gewalt gegen Frauen ») est joignable 24 heures sur 24 au 116 016.\n- **Urgences physiques aiguës**, telles qu’une intoxication ou de graves symptômes de sevrage.\n\nDans les situations de danger aigu, la règle est toujours : veiller à sa propre sécurité et appeler le **numéro d’urgence 112** ou la **police au 110**. Chaque institution devrait disposer d’un **plan de crise** clair connu de tous les collaborateurs."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Quel est le degré d’urgence de chaque situation ? Classez-les.",
+   "kategorien": [
+    "Agir immédiatement (appel d’urgence/prise en charge d’urgence)",
+    "Suggérer une évaluation professionnelle rapide"
+   ],
+   "elemente": [
+    {
+     "text": "Un client rapporte qu’il a accumulé des comprimés et veut les prendre ce soir.",
+     "kat": 0
+    },
+    {
+     "text": "Une cliente dit qu’elle dort mal depuis des semaines et qu’elle a perdu le plaisir dans presque tout.",
+     "kat": 1
+    },
+    {
+     "text": "Un client paraît gravement confus, a de l’écume aux lèvres et réagit à peine quand on lui parle.",
+     "kat": 0
+    },
+    {
+     "text": "Un adolescent mentionne que depuis quelques mois il se scarifie occasionnellement pour relâcher la pression.",
+     "kat": 1
+    },
+    {
+     "text": "Pendant l’entretien, un homme annonce qu’il va « régler son compte » à son ex-femme aujourd’hui et montre un couteau.",
+     "kat": 0
+    },
+    {
+     "text": "Une cliente rapporte des inquiétudes et une tension persistantes dont elle ne parvient pas à se défaire depuis des mois.",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Des projets suicidaires concrets avec préparatifs, des urgences physiques aiguës et un danger concret pour autrui exigent une action immédiate. Les symptômes dépressifs, l’automutilation non suicidaire sans danger aigu et l’anxiété persistante exigent une évaluation professionnelle rapide, qui doit être activement suggérée et soutenue."
+  },
+  {
+   "typ": "text",
+   "titel": "Limites juridiques et professionnelles de l’accompagnement",
+   "text": "En Allemagne, l’accompagnement psychologique s’inscrit dans un cadre juridique clairement défini. En vertu du **Heilpraktikergesetz** (loi allemande sur les praticiens de santé non médecins), l’**exercice de l’art de guérir (Heilkunde)** – diagnostiquer, guérir ou soulager des maladies, y compris des maladies mentales – est réservé aux professions titulaires d’une Approbation (autorisation d’exercice délivrée par l’État) (médecins, psychothérapeutes psychologues, psychothérapeutes pour enfants et adolescents ou psychothérapeutes relevant du nouveau droit) ou aux personnes titulaires d’une **autorisation de Heilpraktiker** (autorisation d’exercice de praticien de santé non médecin), y compris lorsqu’elle est limitée à la psychothérapie.\n\nPour l’accompagnement psychologique qui ne relève pas de l’exercice de l’art de guérir, il s’ensuit que :\n\n- Il s’adresse à des personnes confrontées à des **questions de vie, des conflits, des crises et des décisions**, et non au traitement de troubles mentaux.\n- Il ne pose **aucun diagnostic** et ne promet **aucune guérison**.\n- Il s’abstient d’utiliser pour ses propres prestations des termes relevant de l’art de guérir, tels que « thérapie », à moins de disposer de l’autorisation correspondante.\n- Il peut avoir lieu **parallèlement** à un traitement si cela est coordonné et qu’il n’en résulte pas d’interventions concurrentes.\n\nD’autres limites concernent le **secret professionnel** : pour certains groupes professionnels, tels que les travailleurs sociaux et éducateurs sociaux reconnus par l’État ou les psychologues professionnels ayant passé un examen universitaire final reconnu par l’État, la divulgation de secrets privés constitue une infraction pénale en vertu du **§ 203 StGB** (Code pénal allemand). Indépendamment de cela, l’éthique professionnelle et la protection des données exigent la confidentialité. Des exceptions existent, par exemple en cas de consentement et dans les situations d’état de nécessité.\n\nSur le plan professionnel, il faut respecter ses propres **limites de compétence** : qu’est-ce qui dépasse ma qualification ? Où ai-je besoin de supervision ? Où suis-je personnellement trop impliqué, par exemple dans des relations duelles ?"
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles affirmations décrivent correctement les limites de l’accompagnement psychologique qui ne relève pas de l’exercice de l’art de guérir ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Il ne peut pas diagnostiquer de troubles mentaux.",
+    "Il peut traiter sous sa propre responsabilité une dépression diagnostiquée si le client ne souhaite pas de thérapie.",
+    "Il peut accompagner des personnes dans des crises de vie et dans leurs prises de décision.",
+    "Il peut avoir lieu parallèlement à une psychothérapie si cela est coordonné.",
+    "Il peut désigner ses prestations comme « psychothérapie » si les méthodes sont thérapeutiques."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "L’accompagnement sans autorisation d’exercer l’art de guérir soutient des personnes confrontées à des questions de vie et à des crises, y compris parallèlement à un traitement et en coordination avec celui-ci. Le traitement de troubles mentaux et l’utilisation de termes relevant de l’art de guérir pour ses propres prestations sont interdits sans Approbation ou autorisation de Heilpraktiker."
+  },
+  {
+   "typ": "text",
+   "titel": "Gérer l’orientation de manière responsable",
+   "text": "Orienter n’est **pas se débarrasser** de quelqu’un, mais une prestation professionnelle. Les études et l’expérience pratique montrent que beaucoup d’orientations échouent parce que les obstacles sont trop élevés ou que les clients se sentent rejetés. Une bonne orientation comprend :\n\n- **Justification et transparence :** « Ce que vous décrivez devrait être examiné de plus près par un professionnel, car cela se traite très bien. Dans mon rôle, je ne peux pas le faire. »\n- **Maintien de la relation :** préciser que l’orientation ne signifie pas la fin du soutien si un accompagnement parallèle est judicieux et coordonné.\n- **Montrer des voies concrètes :** en Allemagne, les interlocuteurs importants sont le **médecin traitant**, la **consultation psychothérapeutique** (psychotherapeutische Sprechstunde) proposée par les psychothérapeutes libéraux, les **services de prise de rendez-vous** des associations de médecins conventionnés (téléphone 116 117), les **consultations psychiatriques ambulatoires hospitalières** (Institutsambulanzen), les **services sociopsychiatriques**, les **centres de consultation en addictologie** et les services d’accompagnement spécialisés.\n- **Abaisser les obstacles :** fournir les coordonnées, téléphoner ensemble, préparer aux délais d’attente.\n- **Obtenir le consentement :** ne transmettre des informations à d’autres services qu’avec le consentement du client – sauf en cas d’urgence aiguë.\n- **Assurer le suivi :** demander lors du contact suivant si l’orientation a abouti.\n\nUne **liste des services d’aide régionaux** bien tenue et à jour fait partie de l’équipement de base de toute pratique d’accompagnement."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Classez les étapes d’une orientation réussie dans un ordre judicieux.",
+   "elemente": [
+    "Nommer les observations et le motif de manière transparente et respectueuse",
+    "Discuter ensemble des possibilités et des interlocuteurs appropriés",
+    "Obtenir le consentement pour l’étape suivante et pour toute transmission d’informations",
+    "Soutenir concrètement la prise de contact, par exemple en téléphonant ensemble",
+    "Demander lors du contact de suivi si l’orientation a abouti"
+   ],
+   "erklaerung": "Une orientation réussie commence par la transparence, associe la personne au choix, respecte sa décision, abaisse les obstacles pratiques et ne s’arrête pas à la remise d’un numéro de téléphone, mais se termine par un suivi."
+  },
+  {
+   "typ": "merke",
+   "text": "Connaître ses propres limites n’est pas un signe de faiblesse, mais de professionnalisme. Un bon accompagnement sait quand accompagner – et quand ouvrir la voie vers d’autres aides."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Quels services de crise et services spécialisés existent dans votre région, et dans quelle mesure vos connaissances à leur sujet sont-elles à jour ?",
+   "hinweis": "Notez les interlocuteurs pour les crises suicidaires, l’addiction, la violence, les urgences psychiatriques et la protection de l’enfance. Savez-vous comment les joindre en dehors des heures d’ouverture ? Existe-t-il un plan de crise dans votre institution ?"
+  }
+ ]
+}

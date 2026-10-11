@@ -1,0 +1,163 @@
+{
+ "id": "B6-3",
+ "titel": "Évaluer la suicidalité et l’aborder ouvertement",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Pourquoi la suicidalité est un thème dans tout contexte de conseil",
+   "text": "Le suicide n’est pas un phénomène marginal en Allemagne. Selon les données de l’Office fédéral de la statistique (Statistisches Bundesamt), plus de 9 000 personnes sont mortes par suicide chaque année au cours des dernières années – nettement plus que sur les routes. Le nombre de tentatives de suicide est plusieurs fois supérieur. Beaucoup de personnes qui mettent fin à leurs jours avaient eu, dans les semaines ou les mois précédents, des contacts avec des médecins, des services de conseil ou d’autres aidants.\n\nLa **suicidalité** désigne l’ensemble des pensées, sentiments et actes qui visent à mettre fin à sa propre vie ou qui acceptent cette issue. Elle va des souhaits de mort passifs (« Cela me serait égal de ne pas me réveiller demain ») aux actes suicidaires, en passant par les pensées et les projets suicidaires.\n\nLa plupart des personnes suicidaires sont **ambivalentes** : une partie d’elles veut mourir, ou veut surtout que la souffrance insupportable cesse ; une autre partie veut vivre. La suicidalité est souvent l’expression d’un **rétrécissement** dans lequel aucune autre issue n’est visible, et généralement pas une décision librement mûrie. Cette ambivalence est le point d’appui le plus important pour l’aide.\n\nPour les conseillers, il en découle que la suicidalité doit être **gardée à l’esprit** dans tout contexte de conseil et **activement abordée** en présence d’indices. C’est l’un des devoirs professionnels fondamentaux – quel que soit le champ du conseil et que l’on travaille ou non soi-même de manière thérapeutique."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Interroger directement une personne qui consulte sur ses pensées suicidaires augmente le risque qu’elle se fasse du mal.",
+   "richtig": false,
+   "erklaerung": "Faux. Il s’agit d’un mythe répandu. Selon l’état de la recherche, le fait d’aborder directement et avec empathie la question n’augmente pas le risque de suicide. Beaucoup de personnes concernées vivent comme un soulagement le fait de pouvoir parler de leurs pensées. Ne pas poser la question signifie en revanche négliger un danger possible."
+  },
+  {
+   "typ": "text",
+   "titel": "Modèles du développement suicidaire : Pöldinger et Ringel",
+   "text": "Deux modèles classiques aident à comprendre les développements suicidaires.\n\nLe psychiatre **Walter Pöldinger** a décrit le développement suicidaire en trois **stades** :\n\n- **Considération** : le suicide est envisagé comme une solution possible. Les déclencheurs peuvent être des suicides dans l’entourage, des reportages médiatiques ou son propre désespoir. La personne dispose encore d’une distance et d’une capacité de contrôle de soi.\n- **Ambivalence** : une lutte intérieure entre forces de préservation de soi et forces autodestructrices. À ce stade surviennent souvent des **annonces directes ou indirectes du suicide** – ce sont des appels à l’aide et des offres de contact.\n- **Décision** : la décision est prise. Certaines personnes paraissent alors étonnamment **calmes et détendues**, ce que l’entourage interprète à tort comme une amélioration (souvent appelé le « calme avant la tempête »). Des préparatifs sont faits.\n\nLe psychiatre viennois **Erwin Ringel** a décrit le **syndrome présuicidaire** avec trois éléments :\n\n- **Rétrécissement** : situationnel (sentiment qu’il n’y a pas d’issue), dynamique (les sentiments ne s’écoulent que dans une seule direction), dans les relations interpersonnelles (repli, isolement) et dans le monde des valeurs (les choses perdent leur importance).\n- **Agressivité inhibée retournée contre soi**.\n- **Fantasmes suicidaires** : d’abord activement suscités, puis s’imposant de manière compulsive.\n\nLes deux modèles le montrent clairement : la suicidalité se développe souvent sur une certaine durée, et il existe des phases dans lesquelles l’aide peut être particulièrement efficace."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Remettez dans le bon ordre les stades du développement suicidaire selon Pöldinger.",
+   "elemente": [
+    "Considération",
+    "Ambivalence",
+    "Décision"
+   ],
+   "erklaerung": "La considération est suivie de l’ambivalence, au cours de laquelle surviennent fréquemment des appels à l’aide et des annonces. Au stade de la décision, certaines personnes paraissent trompeusement calmes."
+  },
+  {
+   "typ": "fall",
+   "titel": "Un calme soudain",
+   "fall": "Vignette pédagogique construite : une collègue de l’équipe soignante vous parle d’un résident de 70 ans, très déprimé depuis le décès de sa femme il y a trois mois, qui a dit à plusieurs reprises qu’il voulait aller « la rejoindre ». Depuis deux jours, il est « comme transformé », calme et aimable. Il a donné sa montre à son petit-fils et a dit qu’il avait « tout réglé ».",
+   "frage": "Comment évaluez-vous ce changement ?",
+   "optionen": [
+    "Comme un indice possible d’une décision de suicide prise ; il faut aborder la question directement et rapidement avec le résident et obtenir une évaluation médicale.",
+    "Comme une amélioration bienvenue ; le travail de deuil semble avoir abouti.",
+    "Comme le signe d’une démence débutante, à aborder lors de la prochaine réunion de synthèse.",
+    "Comme une affaire privée dans laquelle l’équipe ne devrait pas s’immiscer."
+   ],
+   "richtig": 0,
+   "erklaerung": "Un calme soudain après une phase de désespoir, le fait de donner des objets personnels et des propos comme « tout réglé » sont des signes d’alerte sérieux d’une possible décision de suicide. S’y ajoutent des facteurs de risque tels que la perte du conjoint, l’âge avancé et le sexe masculin. Une action rapide est nécessaire : lui en parler directement, ne pas le laisser seul, obtenir une évaluation médicale."
+  },
+  {
+   "typ": "text",
+   "titel": "Facteurs de risque, signes d’alerte et facteurs de protection",
+   "text": "L’évaluation de la suicidalité repose sur l’entretien et sur les facteurs de risque connus. Aucune liste ne peut prédire un suicide ; elle aide toutefois à aiguiser l’attention.\n\nLes **facteurs de risque** comprennent notamment :\n\n- les **tentatives de suicide antérieures** – l’un des facteurs de risque les plus forts connus,\n- les **maladies mentales**, en particulier la dépression, les troubles liés à l’usage de substances, les psychoses et certains troubles de la personnalité,\n- les **suicides dans la famille ou dans l’entourage**,\n- le **désespoir**,\n- l’**isolement social**, la perte du conjoint, la séparation,\n- les **maladies physiques chroniques** et la douleur,\n- le **sexe masculin et l’âge avancé**,\n- l’**accès aux moyens de suicide**, tels que des armes à feu ou des stocks importants de médicaments,\n- les **crises aiguës** : perte d’emploi, ruine financière, procédure pénale imminente, humiliations.\n\nLes **signes d’alerte** au sens strict comprennent les annonces directes ou indirectes, une préoccupation intense pour la mort, des lettres d’adieu, le fait de donner des objets personnels, de régler ses dernières affaires, un calme soudain après le désespoir et l’acquisition de moyens.\n\nLes **facteurs de protection** sont des relations porteuses, la responsabilité d’enfants ou d’animaux, des convictions religieuses ou philosophiques qui rejettent le suicide, des projets d’avenir, la disposition à accepter de l’aide et un traitement en cours. Les facteurs de protection réduisent le risque, mais ne le suppriment pas."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Classez les caractéristiques.",
+   "kategorien": [
+    "Facteur de risque",
+    "Signe d’alerte",
+    "Facteur de protection"
+   ],
+   "elemente": [
+    {
+     "text": "Tentative de suicide antérieure il y a deux ans",
+     "kat": 0
+    },
+    {
+     "text": "La personne règle soudainement son testament et donne des objets de valeur.",
+     "kat": 1
+    },
+    {
+     "text": "Lien étroit avec ses propres enfants, pour lesquels elle veut être présente",
+     "kat": 2
+    },
+    {
+     "text": "Dépendance à l’alcool de longue date",
+     "kat": 0
+    },
+    {
+     "text": "Propos : « Bientôt, vous serez débarrassés de moi. »",
+     "kat": 1
+    },
+    {
+     "text": "Disposition à consulter régulièrement le médecin de famille et à accepter de l’aide",
+     "kat": 2
+    },
+    {
+     "text": "Repli social après la perte du conjoint",
+     "kat": 0
+    },
+    {
+     "text": "Recherches sur les doses létales de médicaments",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Les facteurs de risque décrivent des caractéristiques qui augmentent statistiquement le risque. Les signes d’alerte sont des indices actuels d’un danger aigu. Les facteurs de protection réduisent le risque sans le supprimer. Les frontières sont en partie floues ; le repli social, par exemple, peut aussi compter comme signe d’alerte actuel."
+  },
+  {
+   "typ": "text",
+   "titel": "Aborder ouvertement la suicidalité : comment poser la question ?",
+   "text": "Aborder la suicidalité est d’abord inhabituel pour beaucoup de conseillers. Une attitude intérieure claire et quelques principes sont utiles :\n\n- **Demander directement et sans détour** – d’une voix calme, sans hésitation effrayée. Des questions claires signalent : on peut en parler ici.\n- **Procéder par étapes** : des questions générales aux questions concrètes, par exemple :\n- « Quand vous allez si mal – avez-vous parfois le sentiment que la vie n’a plus de sens ? »\n- « Avez-vous déjà pensé à ne plus vouloir vivre ? »\n- « Pensez-vous à mettre fin à vos jours ? »\n- « À quel point ces pensées sont-elles concrètes ? Avez-vous réfléchi à la manière et au moment ? »\n- « Avez-vous déjà fait des préparatifs ? »\n- « Avez-vous déjà essayé auparavant ? »\n- **Éviter les euphémismes** : des formules comme « Vous n’allez pas faire de bêtise, n’est-ce pas ? » banalisent et suggèrent une réponse négative.\n- **Ne pas juger** : ni l’alarme ni la morale (« Pensez à votre famille ! ») n’aident. Qui se sent condamné se tait.\n- **Prendre la souffrance au sérieux** : le souhait de mourir est le plus souvent un souhait qu’un état insupportable prenne fin. Reconnaître cette douleur crée du lien.\n- **Reconnaître l’ambivalence** : « Une partie de vous ne veut plus vivre – et une partie de vous vous a amené ici aujourd’hui. »\n\nL’entretien sur la suicidalité est déjà en lui-même une intervention : il brise l’isolement et le rétrécissement."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles formulations conviennent pour aborder la suicidalité de manière appropriée ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "« Avez-vous déjà pensé à mettre fin à vos jours ? »",
+    "« Vous n’allez pas faire de bêtise, n’est-ce pas ? »",
+    "« Quand vous pensez à vos enfants, vous ne devez même pas penser une chose pareille. »",
+    "« À quel point ces pensées sont-elles concrètes – avez-vous déjà réfléchi à la manière dont vous le feriez ? »",
+    "« Certaines personnes, dans une situation comme celle-ci, pensent à ne plus vouloir vivre. Connaissez-vous aussi de telles pensées ? »"
+   ],
+   "richtig": [
+    0,
+    3,
+    4
+   ],
+   "erklaerung": "Des questions directes, calmes et normalisantes ouvrent l’entretien. Les euphémismes comme « bêtise » banalisent et suggèrent un non. Les appels moraux suscitent culpabilité et honte et conduisent à dissimuler les pensées suicidaires."
+  },
+  {
+   "typ": "text",
+   "titel": "Évaluer le degré de danger",
+   "text": "Les conseillers qui ne disposent pas d’une Heilkundeerlaubnis (autorisation légale allemande d’exercer l’art de guérir) ne réalisent pas d’évaluation clinique définitive du risque. Ils doivent toutefois reconnaître **avec quelle urgence** il faut agir. Les questions suivantes servent de repères :\n\n- **Caractère concret** : s’agit-il seulement de souhaits de mort passifs, de pensées sans projet, d’un projet concret (méthode, lieu, moment), ou déjà de préparatifs ?\n- **Accès aux moyens** : les moyens envisagés sont-ils disponibles ?\n- **Pression** : les pensées s’imposent-elles à la personne, ou peut-elle les contrôler ?\n- **Capacité de distanciation** : la personne peut-elle se distancier de manière crédible des intentions suicidaires ? Parle-t-elle de raisons de continuer à vivre ?\n- **Capacité à conclure des accords** : peut-elle s’engager de manière fiable à reprendre contact et à chercher de l’aide si la situation s’aggrave ? Un tel accord n’est toutefois **pas une garantie**.\n- **Facteurs de risque et de protection** tels que décrits plus haut, en particulier les tentatives antérieures.\n- **Impression dans l’entretien** : la personne paraît-elle accessible, ou reste-t-elle fermée, distante, étonnamment calme ?\n\nOn peut distinguer grossièrement trois configurations :\n\n- **Lassitude de vivre ou pensées sans projet, bonne distanciation** : continuer à travailler ouvertement sur le thème, élaborer un plan d’urgence, recommander une évaluation médicale ou psychothérapeutique, fixer un rendez-vous de suivi rapproché.\n- **Pensées ou projets concrets, distanciation incertaine** : organiser une évaluation médicale ou psychiatrique rapide, si possible le jour même, et impliquer les personnes significatives.\n- **Danger aigu** (projet concret, moyens disponibles, pas de distanciation, préparatifs) : **ne pas laisser la personne seule**, appeler le numéro d’urgence **112** ou accompagner la personne aux urgences psychiatriques."
+  },
+  {
+   "typ": "luecke",
+   "text": "Une personne qui a un projet concret, dispose des moyens et ne parvient pas de manière crédible à {{s’en distancier|s’en souvenir|se calmer}} est en danger aigu. Il faut {{ne pas la laisser seule|d’abord la renvoyer chez elle|l’orienter vers un groupe d’entraide}} et appeler le numéro d’urgence {{112|110|116 117}}.",
+   "erklaerung": "En cas de danger suicidaire aigu, la sécurité immédiate est prioritaire : ne pas laisser la personne seule et appeler les secours médicaux d’urgence via le 112. En Allemagne, le 110 est le numéro d’urgence de la police, et le 116 117 est le service médical de garde pour les cas ne mettant pas la vie en danger."
+  },
+  {
+   "typ": "karten",
+   "titel": "Suicidalité – l’essentiel",
+   "karten": [
+    {
+     "vorne": "Stades selon Pöldinger",
+     "hinten": "Considération – ambivalence – décision ; au stade de la décision, parfois un calme trompeur."
+    },
+    {
+     "vorne": "Syndrome présuicidaire selon Ringel",
+     "hinten": "Rétrécissement, agressivité inhibée retournée contre soi, fantasmes suicidaires."
+    },
+    {
+     "vorne": "Facteur de risque le plus fort connu",
+     "hinten": "Tentatives de suicide antérieures ; en outre maladie mentale, désespoir, isolement, accès aux moyens."
+    },
+    {
+     "vorne": "Poser la question directement",
+     "hinten": "N’augmente pas le risque ; au contraire, cela soulage et rend possibles l’évaluation et l’aide."
+    },
+    {
+     "vorne": "Capacité de distanciation",
+     "hinten": "La personne peut-elle se distancier de manière crédible des intentions suicidaires ? Critère central d’urgence."
+    },
+    {
+     "vorne": "Danger aigu",
+     "hinten": "Ne pas laisser la personne seule ; appeler le numéro d’urgence 112 ou l’accompagner aux urgences psychiatriques."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Que suscite en vous l’idée d’interroger directement une personne qui consulte sur ses pensées suicidaires ? Quelle formulation vous correspond ?",
+   "hinweis": "Questions directrices : quelles craintes ai-je ? Quelles expériences personnelles du thème est-ce que j’apporte ? Comment pourrais-je poser la question avec mes propres mots, de manière à la fois directe et empathique ? Où puis-je m’exercer à aborder ce thème (p. ex. jeu de rôle, supervision) ?"
+  }
+ ]
+}

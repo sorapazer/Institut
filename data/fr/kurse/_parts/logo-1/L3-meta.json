@@ -1,0 +1,108 @@
+{
+ "kurs": "logo",
+ "id": "L3",
+ "titel": "L'entretien de conseil logothérapeutique",
+ "beschreibung": "Le module traduit la conception logothérapeutique de l'être humain en une pratique concrète de l'entretien. Il associe les attitudes fondamentales centrées sur la personne au dialogue socratique et à la modulation des attitudes, présente une structure pour les séances de conseil et entraîne les techniques de questionnement dans plusieurs simulations d'entretien.",
+ "lernziele": [
+  "Vous pouvez décrire les attitudes fondamentales centrées sur la personne (empathie, considération positive, congruence) et les relier à la conception logothérapeutique de l'être humain.",
+  "Vous pouvez structurer en phases une séance de conseil d'orientation logothérapeutique et reconnaître les limites du mandat de conseil.",
+  "Vous pouvez expliquer le dialogue socratique comme procédé maïeutique et utiliser de manière ciblée des techniques de questionnement orientées vers le sens.",
+  "Vous pouvez expliquer le procédé de la modulation des attitudes, le distinguer de la manipulation et du recadrage à tout prix, et l'appliquer dans des situations d'entretien."
+ ],
+ "pruefung": [
+  {
+   "typ": "multi",
+   "frage": "Quelles attitudes fondamentales Carl R. Rogers a-t-il décrites comme conditions centrales d'un changement constructif ? (Plusieurs réponses sont correctes)",
+   "optionen": [
+    "L'empathie",
+    "La confrontation",
+    "La considération positive inconditionnelle",
+    "La congruence",
+    "L'abstinence"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Rogers a nommé l'empathie, la considération positive inconditionnelle et la congruence. La confrontation et l'abstinence ne font pas partie de ces attitudes fondamentales."
+  },
+  {
+   "typ": "mc",
+   "frage": "Que signifie « maïeutique » en lien avec le dialogue socratique ?",
+   "optionen": [
+    "L'art de la réfutation",
+    "L'art de la persuasion",
+    "L'art de l'interprétation",
+    "L'art de l'accouchement"
+   ],
+   "richtig": 3,
+   "erklaerung": "Maïeutique signifie l'art de l'accouchement : celui qui interroge aide à faire naître des connaissances qui sont latentes chez l'autre."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Dans le dialogue socratique, le conseiller tire la conclusion à la fin et la communique à la personne en quête d'aide.",
+   "richtig": false,
+   "erklaerung": "La conclusion est laissée à la personne en quête d'aide ; ce n'est qu'ainsi que la prise de conscience devient la sienne."
+  },
+  {
+   "typ": "mc",
+   "frage": "Lors d'une première séance de conseil, une cliente dit : « Au fond, peu importe que je sois encore en vie. » Qu'est-ce qui a la priorité ?",
+   "optionen": [
+    "Explorer ses sources de sens par une question « pour quoi »",
+    "Évaluer directement et avec respect les pensées suicidaires",
+    "Une modulation des attitudes concernant cet énoncé",
+    "Clarifier le cadre formel du conseil"
+   ],
+   "richtig": 1,
+   "erklaerung": "Un tel énoncé peut indiquer une suicidalité. L'évaluation du risque a la priorité ; poser directement la question est professionnellement requis et n'augmente pas le risque."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle question est une question de liberté typique ?",
+   "optionen": [
+    "« Qu'est-ce qui, dans tout cela, est entre vos mains – et qu'est-ce qui ne l'est pas ? »",
+    "« Pourquoi avez-vous décidé ainsi ? »",
+    "« Ne pensez-vous pas que vous devriez mieux prendre soin de vous ? »",
+    "« Depuis combien de temps le problème existe-t-il ? »"
+   ],
+   "richtig": 0,
+   "erklaerung": "Les questions de liberté distinguent ce qui peut être changé de ce qui est inchangeable. La deuxième est une question « pourquoi », la troisième une question suggestive, la quatrième une question exploratoire sur la durée."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels énoncés sur la modulation des attitudes sont exacts ? (Plusieurs réponses sont correctes)",
+   "optionen": [
+    "Elle vise la position face à une situation, pas nécessairement la situation elle-même.",
+    "Elle est particulièrement significative dans les situations inchangeables.",
+    "Elle impose une interprétation positive, même contre la conviction de la personne.",
+    "La nouvelle attitude devrait se rattacher aux valeurs de la personne et lui sembler juste.",
+    "Elle doit être assimilée à la pensée positive."
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "La modulation des attitudes change la position, est particulièrement importante face à l'inchangeable et se rattache aux valeurs de la personne. Elle n'est ni une manipulation ni de la pensée positive."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Dans le conseil logothérapeutique, la considération positive inconditionnelle et l'appel à la capacité de responsabilité ne s'excluent pas mutuellement.",
+   "richtig": true,
+   "erklaerung": "La considération s'adresse à la personne ; c'est précisément d'elle que naît la confiance que la personne peut prendre position et assumer sa responsabilité."
+  },
+  {
+   "typ": "mc",
+   "frage": "En quoi la modulation des attitudes se distingue-t-elle, par son accent, de la restructuration cognitive ?",
+   "optionen": [
+    "Elle travaille exclusivement avec des devoirs et des relevés.",
+    "Elle rejette toute forme de questions.",
+    "Elle examine les attitudes avant tout sous l'angle de leur orientation vers le sens et est particulièrement significative dans les situations inchangeables.",
+    "Elle n'est indiquée que pour les troubles psychotiques."
+   ],
+   "richtig": 2,
+   "erklaerung": "La restructuration cognitive examine souvent l'adéquation à la réalité et la fonctionnalité ; la modulation des attitudes interroge l'orientation vers le sens et la position, en particulier face à l'inchangeable. Toutes deux travaillent avec des questions."
+  }
+ ]
+}

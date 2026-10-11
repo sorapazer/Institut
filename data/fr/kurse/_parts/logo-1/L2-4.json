@@ -1,0 +1,129 @@
+{
+ "id": "L2-4",
+ "titel": "La recherche sur le sens aujourd'hui : approches quantitatives et qualitatives",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "De Frankl à la recherche empirique sur le sens",
+   "text": "Les thèses de Frankl ont stimulé une vaste **recherche empirique sur le sens**. Au début, ce sont les **méthodes par questionnaire** destinées à mesurer le degré de signification vécue de la vie qui étaient au premier plan. Parmi les instruments les plus connus figurent :\n\n- le **Purpose in Life Test (PIL)** de James Crumbaugh et Leonard Maholick (1964), qui se rattache directement au concept de vide existentiel de Frankl,\n- le **Logo-Test** d'Elisabeth Lukas,\n- l'**Échelle d'existence** (Existenzskala) issue du cercle d'Alfred Längle,\n- le **Meaning in Life Questionnaire (MLQ)** de Michael Steger et collègues (2006), qui distingue entre la **présence de sens** et la **recherche de sens**,\n- le **Fragebogen zu Lebensbedeutungen und Lebenssinn (LeBe ;** Questionnaire sur les significations de vie et le sens de la vie**)** de Tatjana Schnell et Peter Becker, qui saisit non seulement la signification de la vie, mais aussi les **sources** individuelles de sens.\n\nCes instruments ont établi la recherche sur le sens comme partie de la psychologie. Mais ils ont aussi des **limites** : les premiers instruments comme le PIL ont été critiqués parce que certains items mêlent le sens à la joie de vivre, à l'optimisme face à l'avenir ou à l'absence de dépression. En outre, un questionnaire standardisé ne peut saisir que ce qui a été défini à l'avance comme option de réponse.\n\nC'est précisément là qu'interviennent les **approches qualitatives** : elles ne demandent pas seulement *combien* de sens une personne vit, mais *ce qui* lui donne du sens, *comment* elle construit et vit le sens, et *dans quel langage* elle en parle."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les instruments de la recherche sur le sens à leur caractéristique distinctive.",
+   "paare": [
+    [
+     "Purpose in Life Test (PIL)",
+     "Instrument précoce de Crumbaugh et Maholick, en lien direct avec le vide existentiel de Frankl"
+    ],
+    [
+     "Meaning in Life Questionnaire (MLQ)",
+     "Distingue la présence de sens et la recherche de sens"
+    ],
+    [
+     "LeBe (Schnell & Becker)",
+     "Saisit, outre la signification de la vie, les sources individuelles de sens"
+    ],
+    [
+     "Logo-Test",
+     "Instrument de l'école de Frankl développé par Elisabeth Lukas"
+    ]
+   ],
+   "erklaerung": "Le PIL se rattache directement au concept de Frankl. Le MLQ sépare présence et recherche. Le LeBe saisit les significations de vie comme sources de sens. Le Logo-Test provient d'Elisabeth Lukas."
+  },
+  {
+   "typ": "text",
+   "titel": "La recherche qualitative sur le sens : ce qu'elle apporte",
+   "text": "La **recherche qualitative sur le sens** étudie le vécu de sens à l'aide de méthodes ouvertes et interprétatives. Les méthodes typiques sont :\n\n- les **entretiens semi-directifs et narratifs**, dans lesquels les personnes décrivent avec leurs propres mots leur histoire de vie et leurs sources de sens,\n- l'**Interpretative Phenomenological Analysis (IPA ; analyse phénoménologique interprétative)**, qui reconstruit en détail la signification subjective d'une expérience – comme une maladie ou une perte,\n- la **grounded theory (théorie ancrée)**, avec laquelle des concepts et des théories sont développés pas à pas à partir des données,\n- l'**analyse de contenu qualitative** de témoignages personnels écrits, de journaux intimes ou de réponses ouvertes à des questionnaires.\n\nLes approches qualitatives remplissent plusieurs fonctions dans la recherche sur le sens :\n\n- Elles **découvrent** des dimensions de sens qui manquent dans les questionnaires existants.\n- Elles servent au **développement d'instruments** : les questionnaires sont souvent construits sur la base de travaux préliminaires qualitatifs.\n- Elles saisissent des **processus**, par exemple la manière dont le vécu de sens se modifie après un diagnostic ou au cours d'un deuil.\n- Elles rendent visibles des **différences culturelles et biographiques** que les méthodes standardisées aplanissent facilement.\n\nPour la logothérapie, les approches qualitatives sont particulièrement compatibles parce que – à l'instar de l'approche phénoménologique de Frankl – elles partent du **vécu de la personne** et prennent au sérieux son caractère unique. En même temps, des critères de qualité scientifique s'appliquent ici aussi : transparence de la démarche, traçabilité de l'interprétation et réflexion sur ses propres présupposés."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles fonctions les approches qualitatives remplissent-elles dans la recherche sur le sens ? (Plusieurs réponses sont correctes)",
+   "optionen": [
+    "Elles peuvent découvrir des dimensions de sens pas encore saisies dans les questionnaires.",
+    "Elles permettent des énoncés précis sur la fréquence des crises de sens dans la population générale.",
+    "Elles constituent souvent la base du développement d'instruments standardisés.",
+    "Elles peuvent reconstruire des processus de changement dans le vécu de sens, par exemple après un diagnostic.",
+    "Elles renoncent à toute forme de traçabilité méthodologique."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Les approches qualitatives sont exploratoires, soutiennent le développement d'instruments et reconstruisent des processus. Les énoncés représentatifs sur les fréquences relèvent des études quantitatives. La recherche qualitative suit elle aussi des critères de qualité tels que la transparence et la traçabilité."
+  },
+  {
+   "typ": "text",
+   "titel": "Un exemple : sources de sens et indifférence existentielle",
+   "text": "Un exemple parlant de l'interaction entre recherche qualitative et quantitative est le travail de la psychologue **Tatjana Schnell** sur les **significations de vie** ou **sources de sens**. Le point de départ était de vastes **entretiens qualitatifs** dans lesquels on demandait pas à pas aux personnes pourquoi certaines activités et certains buts étaient importants pour elles, jusqu'à ce que des significations de vie fondamentales deviennent visibles (une procédure appelée *laddering*). De ces données sont issues des catégories qui ont ensuite été transposées dans le questionnaire **LeBe**.\n\nLes sources de sens peuvent être regroupées en dimensions englobantes, telles que l'**autotranscendance verticale** (religiosité, spiritualité), l'**autotranscendance horizontale** (p. ex. engagement social, proximité avec la nature, générativité), la **réalisation de soi**, l'**ordre** ainsi que le **bien-être et la relation**.\n\nPour le conseil, la distinction faite par Schnell entre **signification de la vie**, **crise de sens** et **indifférence existentielle** est particulièrement significative. Les personnes existentiellement indifférentes vivent peu de sens, mais n'en souffrent pas et ne le cherchent pas non plus. Cela correspond à la description par Frankl de l'indifférence comme expression du vide existentiel, mais montre en même temps que **tout faible niveau de signification de la vie ne s'accompagne pas de détresse.**\n\nIl en découle des pistes pour la pratique : une crise de sens accompagnée de détresse est aussi un signe que le sens importe – un point de départ pour le conseil. L'indifférence, en revanche, se présente rarement comme une demande de conseil et requiert une autre forme d'approche."
+  },
+  {
+   "typ": "luecke",
+   "text": "Dans la {{technique du laddering|méthode Delphi|analyse factorielle}}, l'intervieweur demande « pourquoi » pas à pas jusqu'à ce que des significations de vie fondamentales deviennent visibles. Schnell décrit les personnes qui vivent peu de sens mais n'en souffrent pas comme {{existentiellement indifférentes|comblées de sens|en crise de sens}}. L'engagement social et la générativité sont rattachés à {{l'autotranscendance horizontale|l'autotranscendance verticale|l'ordre}}.",
+   "erklaerung": "Le laddering est une procédure d'entretien qualitative qui ramène pas à pas les buts aux significations sous-jacentes. L'indifférence existentielle désigne une faible signification de la vie sans détresse et sans recherche. L'engagement social et la générativité sont dirigés vers les autres êtres humains et le monde – autotranscendance horizontale ; l'autotranscendance verticale se rapporte à la religiosité et à la spiritualité."
+  },
+  {
+   "typ": "mc",
+   "frage": "Une conseillère souhaite mieux comprendre le vécu de sens d'une cliente après un diagnostic de cancer. Quelle démarche s'inspire le plus de la recherche qualitative sur le sens ?",
+   "optionen": [
+    "Elle obtient le score total d'un questionnaire sur le sens et le compare aux valeurs normatives.",
+    "Elle demande ouvertement à la cliente ce qui est devenu important pour elle depuis le diagnostic et, aux endroits significatifs, relance avec douceur par « pour quoi » et « pourquoi ».",
+    "Elle remet à la cliente une liste de dix sources de sens, dont celle-ci doit cocher trois.",
+    "Elle demande à la cliente d'évaluer sa satisfaction de vie sur une échelle de 1 à 10."
+   ],
+   "richtig": 1,
+   "erklaerung": "Les questions ouvertes avec relances approfondies correspondent aux techniques d'entretien qualitatives comme le laddering. Les scores de questionnaires et d'échelles sont des approches quantitatives qui peuvent certes être utiles, mais présupposent des catégories définies à l'avance. Une liste à cocher prédéfinie restreint les propres mots de la cliente."
+  },
+  {
+   "typ": "text",
+   "titel": "Recherche sur le sens et pratique du conseil",
+   "text": "Que découle-t-il de la recherche actuelle sur le sens pour le conseil logothérapeutique ? Plusieurs points peuvent être retenus sans surinterpréter les données :\n\n- **Le sens peut faire l'objet d'une recherche empirique.** Le vécu de sens peut être décrit, mesuré et saisi dans ses sources. Les concepts de Frankl sont ainsi devenus compatibles avec la psychologie scientifique.\n- **Le vécu de sens est associé à la santé psychique.** De nombreuses études trouvent des associations entre la signification vécue de la vie et le bien-être. Toutefois, comme beaucoup de ces études utilisent des plans transversaux, les **énoncés sur la cause et l'effet** ne sont possibles que de manière limitée.\n- **Les sources de sens sont diverses.** La recherche confirme l'ampleur que Frankl indiquait avec les trois catégories de valeurs – et la différencie davantage.\n- **La recherche de sens et la présence de sens doivent être distinguées.** Qui cherche un sens n'en manque pas nécessairement ; la recherche peut être l'expression d'un développement.\n\nLes méthodes qualitatives peuvent être **adaptées** à la pratique du conseil : exploration ouverte des sources de sens, relances progressives par « pour quoi », travail avec les histoires de vie. Il faut garder à l'esprit qu'un entretien de recherche et un entretien de conseil ont des buts différents : l'un cherche à comprendre et à généraliser, l'autre à **soutenir la personne dans sa demande**.\n\nLes questionnaires standardisés peuvent être utilisés en complément pour documenter les progrès, à condition d'être sélectionnés et interprétés de manière professionnelle."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Puisque des études transversales montrent une association entre le vécu de sens et le bien-être, il est prouvé que davantage de sens conduit causalement à davantage de bien-être.",
+   "richtig": false,
+   "erklaerung": "Les données transversales montrent des associations, mais ne permettent pas d'énoncés causaux. Le bien-être pourrait aussi favoriser le vécu de sens, ou les deux pourraient dépendre de facteurs tiers. Les énoncés causaux requièrent des plans longitudinaux ou expérimentaux."
+  },
+  {
+   "typ": "karten",
+   "titel": "La recherche sur le sens en bref",
+   "karten": [
+    {
+     "vorne": "PIL",
+     "hinten": "Purpose in Life Test (Crumbaugh & Maholick, 1964) ; instrument précoce en lien direct avec le vide existentiel de Frankl."
+    },
+    {
+     "vorne": "MLQ",
+     "hinten": "Meaning in Life Questionnaire (Steger et al., 2006) ; distingue présence de sens et recherche de sens."
+    },
+    {
+     "vorne": "LeBe",
+     "hinten": "Fragebogen zu Lebensbedeutungen und Lebenssinn (Questionnaire sur les significations de vie et le sens de la vie ; Schnell & Becker) ; saisit la signification de la vie, la crise de sens et les sources de sens."
+    },
+    {
+     "vorne": "Laddering",
+     "hinten": "Technique d'entretien qualitative : relances progressives par « pourquoi » jusqu'à ce que des significations de vie fondamentales deviennent visibles."
+    },
+    {
+     "vorne": "Indifférence existentielle",
+     "hinten": "Faible signification de la vie sans détresse et sans recherche de sens (Schnell)."
+    },
+    {
+     "vorne": "IPA",
+     "hinten": "Interpretative Phenomenological Analysis (analyse phénoménologique interprétative) ; reconstruit en détail la signification subjective d'une expérience."
+    }
+   ]
+  },
+  {
+   "typ": "merke",
+   "text": "Les méthodes quantitatives demandent combien de sens une personne vit ; les approches qualitatives demandent ce qui lui donne du sens et comment elle le vit. Les deux se complètent – et les techniques de questionnement qualitatives peuvent être utilisées avec prudence dans le conseil."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Comment aborderiez-vous les sources de sens dans votre champ de travail sans mener un entretien de recherche ? Formulez trois questions d'ouverture.",
+   "hinweis": "Questions directrices : quelles questions laissent de la place aux propres mots de la personne ? Quand un questionnaire serait-il utile, et quand plutôt un obstacle ? Comment abordez-vous l'« indifférence existentielle » ?"
+  }
+ ]
+}
