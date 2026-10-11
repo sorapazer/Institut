@@ -1,0 +1,180 @@
+{
+ "id": "L4-3",
+ "titel": "La déréflexion : se détourner et se tourner vers",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Le principe de la déréflexion",
+   "text": "La **déréflexion** est la deuxième méthode spécifique de la logothérapie. Elle est dirigée contre l'**hyperréflexion** et l'**hyperintention** et se fonde sur la capacité d'**autotranscendance**.\n\nLe principe peut être décrit en deux mouvements :\n\n- **Se détourner** : l'attention est **retirée** du symptôme, de son propre fonctionnement et de l'auto-observation. Frankl disait que le symptôme devait être **ignoré**.\n- **Se tourner vers** : l'attention ainsi libérée est dirigée vers quelque chose de **porteur de sens** – une tâche, une personne, une expérience qui a de l'importance pour elle-même.\n\nLe second mouvement est décisif. Frankl soulignait qu'on ne peut pas simplement « ne pas penser à quelque chose ». L'injonction d'oublier le symptôme dirige d'autant plus le regard vers lui. Ignorer ne réussit que lorsque l'attention est **positivement liée ailleurs**. C'est pourquoi la déréflexion n'est pas possible sans orientation vers le sens.\n\nLa méthode se rattache ainsi directement à la thèse de l'effet secondaire : le sommeil, la détente, l'épanouissement sexuel ou le bien-être surviennent lorsque l'être humain se consacre à autre chose. La déréflexion déplace le poids de « Comment est-ce que je vais ? » vers « Pour quoi suis-je là ? »\n\nContrairement à l'intention paradoxale, qui est appliquée dans une situation concrète, la déréflexion est souvent un **processus à plus long terme** au cours duquel les priorités de vie se déplacent."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels énoncés sur la déréflexion sont exacts ? (Plusieurs réponses sont correctes)",
+   "optionen": [
+    "Elle consiste à se détourner du symptôme et à se tourner vers quelque chose de porteur de sens.",
+    "Elle se fonde sur la capacité d'autotranscendance.",
+    "Elle consiste essentiellement dans l'instruction de cesser de penser au symptôme.",
+    "Sans que l'attention soit positivement liée à quelque chose d'important, ignorer réussit difficilement.",
+    "Elle est identique à l'intention paradoxale."
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "La déréflexion associe le détournement et l'orientation vers quelque chose, se fonde sur l'autotranscendance et a besoin que l'attention soit positivement liée. La simple instruction de ne pas y penser dirige d'autant plus le regard vers le symptôme. L'intention paradoxale est une méthode distincte fondée sur l'autodistanciation."
+  },
+  {
+   "typ": "text",
+   "titel": "La déréflexion est plus qu'une distraction",
+   "text": "La déréflexion est parfois confondue avec la **distraction**. La différence est pourtant fondamentale :\n\n- La **distraction** est liée au symptôme : on s'occupe d'autre chose *afin de* ne pas ressentir le symptôme. Le symptôme reste le point de référence secret. Lorsque la distraction s'estompe, l'attention revient.\n- La **déréflexion** est liée au **sens** : on se tourne vers quelque chose *parce que* c'est important pour lui-même. Que le symptôme passe ainsi au second plan est un effet secondaire.\n\nUn exemple : une femme souffrant de douleurs dorsales chroniques regarde des séries télévisées pour ne pas sentir la douleur – c'est de la distraction. Une autre femme souffrant de douleurs semblables s'engage dans une initiative de lecture pour enfants parce que l'éducation lui tient à cœur. Pendant qu'elle lit à voix haute, la douleur passe au second plan – cela correspond à la déréflexion.\n\nPour le conseil, il en découle que la déréflexion présuppose la question de **ce qui importe vraiment à la personne**. L'orientation vers quelque chose doit se rattacher à ses valeurs ; sinon, elle devient une simple occupation thérapeutique.\n\nLa distraction n'est pas fondamentalement mauvaise ; elle peut apporter un soulagement à court terme. Mais elle ne remplace pas la réorientation vers le sens que vise la déréflexion. Il faut en outre noter que les symptômes nécessitant un traitement (p. ex. la douleur) doivent être traités **médicalement** ; la déréflexion complète, elle ne remplace pas."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Attribuez : s'agit-il plutôt de distraction ou de déréflexion ?",
+   "kategorien": [
+    "Distraction",
+    "Déréflexion"
+   ],
+   "elemente": [
+    {
+     "text": "Un homme souffrant d'acouphènes monte le son de la radio le soir pour couvrir le sifflement dans ses oreilles.",
+     "kat": 0
+    },
+    {
+     "text": "Une femme joue à des jeux sur son téléphone pour ne pas penser à son anxiété d'examen.",
+     "kat": 0
+    },
+    {
+     "text": "Un homme enclin à la rumination se consacre à l'aménagement d'un jardin partagé parce que le quartier lui importe.",
+     "kat": 1
+    },
+    {
+     "text": "Une femme ayant des problèmes de sommeil passe délibérément ses soirées à écrire une lettre à sa petite-fille au lieu d'attendre de s'endormir.",
+     "kat": 1
+    },
+    {
+     "text": "Dans l'intimité, un couple dirige son attention vers la tendresse et vers l'autre plutôt que vers sa propre « performance ».",
+     "kat": 1
+    },
+    {
+     "text": "Un adolescent regarde des vidéos pendant des heures pour ne pas ressentir le vide intérieur.",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "La distraction reste liée au symptôme et sert à ne pas le ressentir. La déréflexion dirige l'attention vers quelque chose qui a de l'importance pour lui-même ; le recul du symptôme est un effet secondaire."
+  },
+  {
+   "typ": "text",
+   "titel": "Champs d'application classiques",
+   "text": "Frankl et ses élèves ont décrit la déréflexion surtout dans les domaines suivants :\n\n- **Dysfonctionnements sexuels** : l'hyperintention y est souvent centrale. Frankl a décrit une démarche dans laquelle il « interdisait » temporairement aux couples d'avoir des rapports sexuels et les encourageait plutôt à la tendresse sans objectif de performance. Lorsque la pression de performance disparaissait, l'excitation souhaitée survenait souvent d'elle-même. (Des principes semblables se retrouvent dans des approches sexothérapeutiques ultérieures, comme l'approche du sensate focus de Masters et Johnson.)\n- **Troubles du sommeil** : au lieu de vouloir s'endormir de manière compulsive, l'attention est dirigée vers quelque chose d'important ou vers le fait de rester allongé tranquillement sans but.\n- **Rumination et auto-observation** : les personnes qui analysent constamment leur état d'esprit sont invitées à orienter davantage leur vie vers des tâches et des relations.\n- **Gestion des plaintes chroniques** : là où les symptômes ne peuvent pas être complètement éliminés, la déréflexion peut aider à ce qu'ils ne déterminent plus toute la vie.\n\n**Elisabeth Lukas** a développé la déréflexion pour le conseil, en soulignant particulièrement que le détournement du problème doit toujours s'accompagner d'une orientation positive vers quelque chose – par exemple par une recherche commune de tâches, d'intérêts et de relations qui interpellent la personne.\n\nIci aussi : les dysfonctionnements sexuels, les troubles du sommeil et les douleurs chroniques nécessitent d'abord une **évaluation médicale**."
+  },
+  {
+   "typ": "fall",
+   "titel": "La déréflexion dans la rumination",
+   "fall": "Vignette pédagogique construite : Mme E., 55 ans, en retraite anticipée depuis un an, passe beaucoup de temps à réfléchir à son humeur, lit des guides d'optimisation de soi et tient un journal d'humeur détaillé. Elle dit : « Je m'analyse constamment, mais ça ne s'améliore pas. » Une maladie dépressive a été exclue par un spécialiste. Elle travaillait autrefois comme cheffe de chœur.",
+   "frage": "Quelle intervention correspond le mieux à la déréflexion ?",
+   "optionen": [
+    "La conseillère recommande un journal d'humeur encore plus détaillé afin d'identifier les déclencheurs.",
+    "La conseillère demande à Mme E. de cesser désormais de penser à son humeur.",
+    "La conseillère conseille à Mme E. de se distraire en regardant la télévision lorsque la rumination commence.",
+    "La conseillère explore ce qui était important pour Mme E. dans son travail de cheffe de chœur et comment elle pourrait lui redonner de la place aujourd'hui – par exemple dans une chorale de seniors ou un projet avec des enfants."
+   ],
+   "richtig": 3,
+   "erklaerung": "La déréflexion associe le détournement de l'auto-observation à l'orientation vers quelque chose d'important – ici en se rattachant aux valeurs que Mme E. réalisait dans son travail de cheffe de chœur. Un journal plus détaillé intensifie l'hyperréflexion. Une interdiction de penser dirige d'autant plus le regard vers la rumination. La télévision est une distraction sans lien avec le sens."
+  },
+  {
+   "typ": "text",
+   "titel": "Démarche et limites de la déréflexion",
+   "text": "La démarche de la déréflexion peut être divisée en les éléments suivants :\n\n1. **Comprendre** : ensemble, le conseiller et la personne explorent comment l'hyperréflexion ou l'hyperintention entretient le problème. La personne comprend que ses efforts sont devenus une partie du problème.\n2. **Soulager** : la pression de devoir éliminer le symptôme est explicitement levée (« Vous n'êtes pas obligée de dormir cette nuit »).\n3. **Explorer les valeurs** : qu'est-ce qui est important pour la personne, qu'est-ce qui l'interpelle, à quoi veut-elle consacrer du temps et de l'énergie ?\n4. **Façonner l'orientation vers quelque chose** : des étapes concrètes sont planifiées par lesquelles la personne se tourne vers ce qui est important.\n5. **Évaluer les expériences** : la personne n'observe pas d'abord le symptôme, mais ce qu'elle a vécu dans ce qui est important.\n\nLes **limites** de la déréflexion se situent surtout là où les symptômes remontent à des causes nécessitant un traitement qui ne doivent pas être négligées. Qui « déréfléchit » des signaux d'alerte – douleurs thoraciques, perte de poids, déficits neurologiques – peut se mettre en danger. Dans une dépression sévère, la personne peut souvent à peine percevoir des valeurs et des possibilités de sens ; un appel à se tourner vers quelque chose peut alors submerger et intensifier les sentiments de culpabilité.\n\nIl faut aussi veiller à ce que la déréflexion ne soit pas détournée pour éviter des sujets importants. Qui « déréfléchit » le deuil, par exemple, pour ne pas avoir à faire son deuil, se dérobe à une tâche. La déréflexion vise l'auto-observation **excessive**, non toute forme de réflexion sur soi."
+  },
+  {
+   "typ": "dialog",
+   "titel": "La déréflexion face aux problèmes de sommeil",
+   "einleitung": "Situation construite : Mme W., 47 ans, responsable d'un service de soins infirmiers, dort mal depuis plusieurs mois. Son médecin traitant a évalué les causes physiques et n'a constaté aucune maladie dépressive. Mme W. utilise une application de sommeil, mesure ses phases de sommeil et se couche à 21 heures « pour dormir suffisamment ».",
+   "runden": [
+    {
+     "klient": "Je fais vraiment tout. Au lit tôt, pas de café, l'application me dit exactement combien de sommeil profond j'ai eu. Et pourtant je reste éveillée à penser : maintenant il faut vraiment que tu dormes !",
+     "antworten": [
+      {
+       "text": "Peut-être avez-vous besoin d'une meilleure application qui propose aussi des exercices de relaxation.",
+       "gut": false,
+       "feedback": "Cela intensifie l'hyperréflexion et l'hyperintention : encore plus de mesure, encore plus d'efforts pour dormir."
+      },
+      {
+       "text": "Vous faites de gros efforts – et c'est précisément ce « maintenant il faut vraiment que tu dormes » qui semble chasser le sommeil. Connaissez-vous cela dans d'autres domaines aussi, que quelque chose réussit d'autant moins qu'on le veut ?",
+       "gut": true,
+       "feedback": "Bien. La conseillère reconnaît l'effort et rend accessible le mécanisme de l'hyperintention par une question. Mme W. peut le reconnaître à partir de sa propre expérience."
+      },
+      {
+       "text": "Avez-vous essayé un somnifère ?",
+       "gut": false,
+       "feedback": "Une question sur un médicament relève de mains médicales et contourne ici le mécanisme psychique qui entretient le problème."
+      }
+     ]
+    },
+    {
+     "klient": "Oui … avec les gâteaux. Quand je veux absolument qu'il soit parfait, il ne lève pas. Mais qu'est-ce que je dois faire ? Je ne peux pas simplement ne pas penser au sommeil.",
+     "antworten": [
+      {
+       "text": "Si, vous pouvez – essayez simplement de ne plus y penser du tout.",
+       "gut": false,
+       "feedback": "Une interdiction de penser dirige d'autant plus l'attention vers le sommeil. Ignorer ne réussit que lorsque l'attention est positivement liée ailleurs."
+      },
+      {
+       "text": "Vous avez raison – simplement ne pas y penser, ça ne marche pas. La question est plutôt : à quoi aimeriez-vous vraiment consacrer vos soirées ? Qu'est-ce qui était important pour vous le soir avant que le sommeil ne devienne un projet ?",
+       "gut": true,
+       "feedback": "Bien. La conseillère confirme la prise de conscience juste et oriente ensuite vers le fait de se tourner vers quelque chose : qu'est-ce qui est important ? Cela crée le second mouvement, décisif, de la déréflexion."
+      },
+      {
+       "text": "Alors cette nuit, restez délibérément éveillée toute la nuit.",
+       "gut": false,
+       "feedback": "Ce serait de l'intention paradoxale, introduite ici sans préparation ni accord. De plus, Mme W. vient de demander une alternative au fait de ne pas y penser – ce qui plaide pour la déréflexion."
+      }
+     ]
+    },
+    {
+     "klient": "Avant, je lisais le soir, des romans vraiment épais. Et j'écrivais de longues lettres à ma sœur. Je ne fais plus du tout ça, depuis que je me couche à neuf heures.",
+     "antworten": [
+      {
+       "text": "La lecture est une bonne distraction, après tout.",
+       "gut": false,
+       "feedback": "« Distraction » fait de nouveau du sommeil le point de référence secret. L'important est que la lecture et l'écriture ont de l'importance pour elles-mêmes."
+      },
+      {
+       "text": "Alors, à partir de maintenant, vous devriez lire deux heures chaque soir.",
+       "gut": false,
+       "feedback": "Une prescription rigide transforme ce qui est important en une nouvelle obligation – et donc en une nouvelle forme d'hyperintention."
+      },
+      {
+       "text": "Des romans et des lettres à votre sœur – cela ressemble à quelque chose qui comptait beaucoup pour vous. Que diriez-vous de consacrer de nouveau vos soirées à ces choses et de laisser simplement le sommeil venir quand il vient ? Peut-être l'application pourrait-elle faire une pause pendant un certain temps.",
+       "gut": true,
+       "feedback": "Bien. La conseillère associe l'orientation vers des activités importantes au détournement de l'auto-observation (pause de l'application) et lève la pression. La décision reste du côté de Mme W."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "La déréflexion signifie que toute forme de réflexion sur soi devrait être évitée.",
+   "richtig": false,
+   "erklaerung": "La déréflexion est dirigée contre une auto-observation excessive qui perturbe le fonctionnement. Une réflexion sur soi appropriée – par exemple dans le deuil ou dans les décisions de conscience – fait partie d'une vie responsable et n'est pas empêchée."
+  },
+  {
+   "typ": "luecke",
+   "text": "La déréflexion associe le détournement du symptôme à {{l'orientation vers quelque chose de porteur de sens|la confrontation au symptôme|l'analyse des causes}}. Elle se fonde sur la capacité d'{{autotranscendance|autodistanciation|autocontrôle}}. Contrairement à la distraction, elle n'est pas liée au symptôme, mais {{au sens|à la détente|à la cause}}.",
+   "erklaerung": "L'orientation vers quelque chose de porteur de sens est le cœur de la déréflexion ; son fondement est l'autotranscendance. La distraction reste liée au symptôme, la déréflexion au sens. L'autodistanciation est le fondement de l'intention paradoxale."
+  },
+  {
+   "typ": "merke",
+   "text": "Déréflexion : non pas « N'y pensez pas ! », mais « Tournez-vous vers ce qui vous importe. » Le recul du symptôme est un effet secondaire du dévouement – et présuppose que les causes nécessitant un traitement ont été évaluées."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Où, dans votre champ de travail, rencontrez-vous l'hyperréflexion – par exemple sous forme d'auto-observation constante, d'optimisation de soi ou de fixation sur son état d'esprit ? Quelles manières de se tourner vers quelque chose d'important pourraient y être possibles ?",
+   "hinweis": "Questions directrices : comment distinguez-vous dans votre pratique la distraction de la déréflexion ? Comment découvrez-vous ce qui importe vraiment à une personne ?"
+  }
+ ]
+}

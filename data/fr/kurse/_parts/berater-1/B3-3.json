@@ -1,0 +1,251 @@
+{
+ "id": "B3-3",
+ "titel": "L’entretien motivationnel",
+ "dauer": 40,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Qu’est-ce que l’entretien motivationnel ?",
+   "text": "L’**entretien motivationnel (EM)**, en anglais *motivational interviewing (MI)*, en allemand **motivierende Gesprächsführung**, a été développé par **William R. Miller** et **Stephen Rollnick**. Miller en a décrit les premiers contours en 1983 dans le contexte du traitement des problèmes d’alcool ; en 1991 a paru leur ouvrage de référence commun, révisé plusieurs fois depuis. Aujourd’hui, l’EM est utilisé en addictologie, en médecine, dans le travail social, la probation, à l’école et dans de nombreux autres domaines, et il est bien étudié par de nombreuses recherches.\n\nMiller et Rollnick décrivent l’EM, pour l’essentiel, comme un **style de communication collaboratif et orienté vers un but**, qui renforce la **motivation propre** d’une personne et son **engagement envers le changement** en explorant ses propres raisons de changer – dans une atmosphère d’acceptation et de compassion.\n\nL’approche s’appuie sur l’attitude centrée sur la personne de Rogers, mais elle est **délibérément directionnelle** : l’accompagnant est particulièrement attentif aux propos qui vont dans le sens du changement et les renforce.\n\nLe point de départ est un phénomène que tout professionnel connaît : les personnes sont souvent **ambivalentes**. Elles veulent changer et, en même temps, ne le veulent pas. Quiconque est mis sous pression dans cette situation défendra généralement le côté du non-changement. Miller et Rollnick appellent **réflexe correcteur** (*righting reflex*) l’impulsion des aidants à corriger immédiatement les problèmes. Le retenir consciemment est l’une des tâches d’apprentissage les plus importantes de l’EM."
+  },
+  {
+   "typ": "text",
+   "titel": "L’esprit de l’EM",
+   "text": "Miller et Rollnick soulignent que l’EM est avant tout une **attitude**, qu’ils appellent l’**esprit** de l’EM. Dans la troisième édition de leur ouvrage de référence, ils en décrivent quatre éléments :\n\n- **Partenariat :** l’EM se fait *avec* la personne, et non *sur* elle. L’accompagnant apporte son expertise ; le client est l’expert de sa propre vie.\n- **Acceptation :** elle englobe la valeur absolue de la personne, une empathie précise, la reconnaissance de son **autonomie** – elle décide elle-même – et la **valorisation** de ses forces et de ses efforts.\n- **Compassion :** l’accompagnant promeut activement le bien-être du client et place les intérêts du client au-dessus des siens.\n- **Évocation :** la motivation n’est pas installée de l’extérieur, mais **évoquée**. On suppose que les personnes portent déjà en elles des raisons, des valeurs et des capacités de changement.\n\nCette attitude distingue clairement l’EM des approches **confrontantes** longtemps répandues en addictologie. Miller lui-même a observé qu’un style confrontant peut aller de pair avec davantage de contre-arguments et de moins bons résultats.\n\nEn même temps, l’EM n’est **pas arbitraire** : l’accompagnant a une direction en vue, par exemple un rapport plus sain à l’alcool. Il la poursuit toutefois en évoquant les raisons de la personne, et non en lui transmettant les siennes."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les éléments de l’esprit de l’EM à l’attitude correspondante de l’accompagnant.",
+   "paare": [
+    [
+     "Partenariat",
+     "« C’est vous qui connaissez le mieux votre vie – réfléchissons-y ensemble. »"
+    ],
+    [
+     "Acceptation (autonomie)",
+     "« Si vous changez quelque chose, et quoi, c’est en définitive votre décision. »"
+    ],
+    [
+     "Évocation",
+     "« Quelles seraient, pour vous-même, de bonnes raisons de changer quelque chose ? »"
+    ],
+    [
+     "Compassion",
+     "La conseillère oriente son action sur le bien-être du client, et non sur son propre sentiment de réussite."
+    ]
+   ],
+   "erklaerung": "Le partenariat souligne la collaboration, l’acceptation souligne notamment l’autonomie de la personne, l’évocation la mise au jour de ses propres raisons, et la compassion l’orientation vers le bien-être de la personne."
+  },
+  {
+   "typ": "text",
+   "titel": "Les techniques de base : OARS",
+   "text": "Les compétences de communication centrales de l’EM sont résumées en anglais par l’acronyme **OARS** :\n\n- **O – Questions ouvertes (*Open questions*) :** elles invitent à l’exploration. « Qu’est-ce qui vous préoccupe dans votre consommation d’alcool – si quelque chose vous préoccupe ? »\n- **A – Valorisation (*Affirmations*) :** reconnaissance sincère des forces, des valeurs et des efforts de la personne – pas une louange générale. « Malgré tout, vous avez réussi à venir ici aujourd’hui. Cela montre que votre famille compte pour vous. »\n- **R – Reflets (*Reflections*, écoute réflexive) :** l’outil central. On distingue les **reflets simples**, qui restituent ce qui a été dit, et les **reflets complexes**, qui ajoutent une signification, des sentiments ou des aspects non exprimés. Une forme importante est le **reflet double**, qui réunit les deux côtés d’une ambivalence : « D’un côté, fumer vous détend ; de l’autre, vous vous inquiétez pour vos poumons. »\n- **S – Résumés (*Summaries*) :** ils regroupent ce qui a été dit, mettent en relief les propos en faveur du changement et assurent les transitions. Un **résumé de collecte** peut rassembler toutes les raisons de changer évoquées par la personne.\n\nDans l’espace germanophone, ces compétences sont parfois aussi décrites par les termes allemands *offene Fragen*, *Würdigen*, *Reflektierendes Zuhören* et *Zusammenfassen*. S’y ajoute le fait d’**informer et de conseiller avec permission** : l’information professionnelle est proposée, non imposée – par exemple selon le schéma **demander – fournir – demander** (« Que savez-vous déjà de … ? Puis-je vous en dire quelque chose ? … Qu’en pensez-vous ? »)."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "À quelle technique OARS chaque énoncé correspond-il ?",
+   "kategorien": [
+    "Question ouverte",
+    "Valorisation",
+    "Reflet",
+    "Résumé"
+   ],
+   "elemente": [
+    {
+     "text": "« À quoi ressemblerait votre vie si vous buviez moins ? »",
+     "kat": 0
+    },
+    {
+     "text": "« Vous avez pris soin de vos enfants pendant une période très difficile. Cela témoigne d’un grand sens des responsabilités. »",
+     "kat": 1
+    },
+    {
+     "text": "« Vous en avez assez qu’on vous en parle sans arrêt. »",
+     "kat": 2
+    },
+    {
+     "text": "« Si je résume : vous dormez mal, votre femme s’inquiète, et vous voulez rester en forme pour vos petits-enfants. En même temps, la bière après le travail est pour vous un rituel important. Ai-je oublié quelque chose ? »",
+     "kat": 3
+    },
+    {
+     "text": "« Qu’est-ce qui vous a aidé lors de tentatives précédentes, même brièvement ? »",
+     "kat": 0
+    },
+    {
+     "text": "« D’un côté, jouer aux jeux vidéo le soir vous aide à décrocher ; de l’autre, les heures perdues vous agacent. »",
+     "kat": 2
+    }
+   ],
+   "erklaerung": "Les questions ouvertes invitent à l’exploration, les valorisations reconnaissent des forces concrètes, les reflets renvoient en miroir – le dernier sous forme de reflet double – et les résumés regroupent plusieurs aspects, souvent en mettant en relief les raisons de changer."
+  },
+  {
+   "typ": "text",
+   "titel": "Ambivalence, discours-changement et discours-maintien",
+   "text": "Dans l’EM, l’ambivalence n’est **pas un obstacle, mais une composante normale du changement**. Chez les personnes ambivalentes, deux voix s’expriment pour ainsi dire : l’une pour le changement, l’autre contre.\n\nLes propos qui vont dans le sens du changement sont appelés **discours-changement** (*change talk*). Les propos en faveur du statu quo sont appelés **discours-maintien** (*sustain talk*). Miller et Rollnick résument les formes de discours-changement par l’acronyme anglais **DARN-CAT** :\n\n**Discours-changement préparatoire (DARN) :**\n- **Désir (*Desire*) :** « J’aimerais être de nouveau plus en forme. »\n- **Capacité (*Ability*) :** « Je pourrais sans doute fumer moins. »\n- **Raisons (*Reasons*) :** « Quand je bois moins, je dors mieux. »\n- **Besoin (*Need*) :** « Il faut que je change quelque chose, ça ne peut pas continuer comme ça. »\n\n**Discours-changement mobilisateur (CAT) :**\n- **Engagement (*Commitment*) :** « À partir de lundi, je ne boirai plus d’alcool. »\n- **Activation (*Activation*) :** « Je suis prêt à essayer. »\n- **Premiers pas (*Taking steps*) :** « Cette semaine, je me suis déjà passé de bière deux fois. »\n\nLes résultats de la recherche suggèrent que c’est en particulier la force du discours-changement pendant l’entretien qui est associée au changement ultérieur. Il en découle la stratégie centrale de l’EM : **évoquer, reprendre et renforcer le discours-changement**, et refléter le discours-maintien avec respect, sans argumenter contre lui.\n\nIl faut distinguer du discours-maintien la **dysharmonie** (*discord*) dans la relation – un signe que la collaboration est perturbée, par exemple parce que l’accompagnant pousse trop. Les éditions antérieures parlaient ici de « résistance » ; Miller et Rollnick soulignent désormais que la dysharmonie est un phénomène relationnel dans lequel les deux parties sont impliquées."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "S’agit-il de discours-changement ou de discours-maintien ?",
+   "kategorien": [
+    "Discours-changement",
+    "Discours-maintien"
+   ],
+   "elemente": [
+    {
+     "text": "« Je ne veux pas que ma fille me voie comme ça. »",
+     "kat": 0
+    },
+    {
+     "text": "« Je ne supporte pas de me passer de la cigarette après le repas. »",
+     "kat": 1
+    },
+    {
+     "text": "« Hier, pour la première fois depuis des mois, je n’ai pas joué. »",
+     "kat": 0
+    },
+    {
+     "text": "« Tout le monde dans mon cercle d’amis boit autant ; c’est normal. »",
+     "kat": 1
+    },
+    {
+     "text": "« Si je fais un effort, j’arriverai peut-être à décrocher plus tôt le soir. »",
+     "kat": 0
+    },
+    {
+     "text": "« Je n’ai tout simplement pas le temps de m’occuper de ma santé. »",
+     "kat": 1
+    },
+    {
+     "text": "« La semaine prochaine, je prendrai rendez-vous au centre de consultation en addictologie. »",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Le discours-changement exprime le désir, la capacité, des raisons, un besoin, un engagement, une activation ou de premiers pas vers le changement. Le discours-maintien donne des raisons pour lesquelles tout devrait rester en l’état. Les deux formes sont normales dans l’expérience de l’ambivalence."
+  },
+  {
+   "typ": "text",
+   "titel": "Évoquer le discours-changement et le processus de l’EM",
+   "text": "Comment le discours-changement peut-il être **évoqué** ? L’EM utilise à cet effet des questions et des techniques ciblées :\n\n- **Questions évocatrices :** « De votre point de vue, qu’est-ce qui plaide en faveur d’un changement ? » – « Qu’est-ce qui serait le mieux dans ce changement ? »\n- **Échelles d’importance et de confiance :** « Sur une échelle de 0 à 10, quelle importance a pour vous le fait de changer quelque chose ? » Si la personne répond par exemple 4, la question de suivi est : « Pourquoi 4 et pas 1 ? » – La réponse contient presque toujours du discours-changement. La question inverse (« Pourquoi pas 8 ? ») évoquerait en revanche du discours-maintien.\n- **Regarder en arrière et regarder en avant :** « Comment était-ce avant que l’alcool prenne autant de place ? » – « À quoi voulez-vous que votre vie ressemble dans cinq ans ? »\n- **Explorer les valeurs :** « Qu’est-ce qui est particulièrement important pour vous dans la vie ? Comment votre consommation s’accorde-t-elle avec cela ? »\n- **Interroger les extrêmes :** « Qu’est-ce qui pourrait arriver de pire si tout reste en l’état ? »\n\nMiller et Rollnick décrivent en outre quatre **processus** qui s’appuient les uns sur les autres et se chevauchent :\n\n1. **Engager :** établir une relation de travail solide\n2. **Focaliser :** trouver une direction commune\n3. **Évoquer :** faire émerger les propres raisons de changer de la personne\n4. **Planifier :** élaborer un plan de changement concret lorsque la disposition est suffisante\n\nSi la planification commence trop tôt, avant que l’ambivalence n’ait été suffisamment travaillée, du discours-maintien apparaît souvent. Les signes d’une disposition à planifier comprennent un discours-changement mobilisateur croissant, des questions portant sur le comment et une diminution du discours-maintien."
+  },
+  {
+   "typ": "mc",
+   "frage": "Un client évalue l’importance d’arrêter de fumer à 3 sur 10. Quelle question de suivi est la plus susceptible d’évoquer du discours-changement ?",
+   "optionen": [
+    "« Pourquoi seulement 3 et pas 8 ? »",
+    "« Que faudrait-il qu’il se passe pour que vous arriviez à 10 ? »",
+    "« Qu’est-ce qui fait que vous êtes à 3 et pas à 0 ? »",
+    "« Ne trouvez-vous pas que 3, c’est un peu bas, vu les risques pour la santé ? »"
+   ],
+   "richtig": 2,
+   "erklaerung": "La question sur l’écart par rapport à la valeur inférieure amène le client à nommer ses propres raisons de changer. La question sur une valeur plus élevée l’invite à énumérer des raisons contre le changement. Un saut jusqu’à 10 submerge, et l’option 4 est une confrontation qui crée de la dysharmonie."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Classez les quatre processus de l’entretien motivationnel dans leur ordre typique.",
+   "elemente": [
+    "Engager",
+    "Focaliser",
+    "Évoquer",
+    "Planifier"
+   ],
+   "erklaerung": "Les processus s’appuient les uns sur les autres : sans relation, pas de focalisation commune ; sans focalisation, pas d’évocation ciblée ; et sans disposition suffisante au changement, pas de planification durable. Dans la pratique, on fait souvent des allers-retours entre les processus."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Ambivalence face à l’alcool",
+   "einleitung": "Situation construite : M. F., 45 ans, vient en accompagnement à l’insistance de sa compagne. De son propre aveu, il boit plusieurs bouteilles de bière chaque soir.",
+   "runden": [
+    {
+     "klient": "« Ma femme exagère. Je ne bois pas plus que mes collègues. Je ne suis là que pour qu’elle me laisse tranquille. »",
+     "antworten": [
+      {
+       "text": "« Mais plusieurs bouteilles chaque soir, c’est bien au-dessus des limites recommandées. Vous avez un problème d’alcool. »",
+       "gut": false,
+       "feedback": "La confrontation et l’étiquetage provoquent généralement une opposition. M. F. aura désormais tendance à argumenter pour montrer qu’il n’a pas de problème."
+      },
+      {
+       "text": "« Vous êtes ici parce que votre femme le voulait, et de votre point de vue, votre consommation est tout à fait normale. »",
+       "gut": true,
+       "feedback": "Le reflet simple prend son point de vue au sérieux, sans l’approuver ni le contredire. Cela réduit la dysharmonie et l’invite à continuer de parler."
+      },
+      {
+       "text": "« Pourquoi pensez-vous que votre femme exagère ? »",
+       "gut": false,
+       "feedback": "La question en « pourquoi » l’invite à justifier davantage la position du non-changement – c’est-à-dire à produire du discours-maintien."
+      }
+     ]
+    },
+    {
+     "klient": "« Exactement. Bon … parfois je suis assez lessivé le matin. Mais c’est à cause du travail. »",
+     "antworten": [
+      {
+       "text": "« Vous voyez – ça vient de l’alcool. »",
+       "gut": false,
+       "feedback": "Le réflexe correcteur : l’accompagnant reprend à son compte l’argument en faveur du changement – M. F. défendra l’autre côté."
+      },
+      {
+       "text": "« Combien d’heures par semaine travaillez-vous, au juste ? »",
+       "gut": false,
+       "feedback": "La question factuelle passe à côté du discours-changement naissant et oriente vers le travail comme explication."
+      },
+      {
+       "text": "« Vous n’aimez pas être lessivé le matin. Que remarquez-vous d’autre à ce moment-là ? »",
+       "gut": true,
+       "feedback": "La réponse reprend de manière sélective le discours-changement (insatisfaction face à l’épuisement matinal) et invite, par une question ouverte, à approfondir l’exploration."
+      }
+     ]
+    },
+    {
+     "klient": "« Je n’arrive pas à me concentrer. Et je ne joue presque plus au football avec mon fils le week-end parce que je suis tellement à plat. Avant, on le faisait toujours. »",
+     "antworten": [
+      {
+       "text": "« Le temps passé avec votre fils compte beaucoup pour vous, et les parties de football ensemble vous manquent. »",
+       "gut": true,
+       "feedback": "Le reflet complexe met en relief la valeur derrière le propos – une raison personnelle forte de changer."
+      },
+      {
+       "text": "« Alors vous devriez simplement boire moins en semaine. »",
+       "gut": false,
+       "feedback": "Un conseil prématuré fait l’impasse sur l’évocation. M. F. n’a pas encore formulé pour lui-même ce qu’il veut changer."
+      },
+      {
+       "text": "« Beaucoup de pères ont peu de temps pour leurs enfants ; c’est normal. »",
+       "gut": false,
+       "feedback": "La normalisation dévalorise son discours-changement et lui retire une raison importante de changer."
+      }
+     ]
+    },
+    {
+     "klient": "« Oui. Ça me manque vraiment. Peut-être que je devrais voir si j’arrive à passer quelques soirs par semaine sans bière. »",
+     "antworten": [
+      {
+       "text": "« Super – alors établissons tout de suite un plan d’abstinence strict pour les trois prochains mois. »",
+       "gut": false,
+       "feedback": "C’est trop exigeant et cela passe outre son autonomie. Un plan devrait être élaboré ensemble et au rythme de M. F."
+      },
+      {
+       "text": "« Vous envisagez d’essayer quelques soirs sans bière – notamment pour être de nouveau plus en forme pour votre fils. À quoi pourrait ressembler une première étape tout à fait réalisable pour vous ? »",
+       "gut": true,
+       "feedback": "Le résumé relie le discours-changement à sa valeur et conduit en douceur vers la planification – dans le respect de sa décision."
+      },
+      {
+       "text": "« Eh bien, est-ce que ça va marcher ? Vous n’y êtes pas arrivé jusqu’ici, après tout. »",
+       "gut": false,
+       "feedback": "Les doutes sur sa capacité affaiblissent sa confiance et donc sa disposition au changement."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Dans l’entretien motivationnel, il revient à l’accompagnant de présenter les arguments les plus convaincants possibles en faveur du changement.",
+   "richtig": false,
+   "erklaerung": "L’EM vise à évoquer les propres raisons de la personne. Si l’accompagnant argumente en faveur du changement, la personne ambivalente prend souvent le parti opposé (réflexe correcteur). L’information professionnelle est proposée avec permission, et non utilisée comme moyen de persuasion."
+  },
+  {
+   "typ": "merke",
+   "text": "Les personnes sont plus facilement convaincues par ce qu’elles disent elles-mêmes que par ce que d’autres leur disent. C’est pourquoi l’EM est particulièrement attentif au discours-changement – et retient le réflexe correcteur."
+  }
+ ]
+}

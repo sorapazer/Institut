@@ -1,0 +1,148 @@
+{
+ "id": "L4-4",
+ "titel": "Indications, contre-indications et comparaison avec l'exposition et la défusion cognitive",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Les indications en un coup d'œil",
+   "text": "L'intention paradoxale et la déréflexion ne sont **pas des panacées**, mais des méthodes ayant des domaines d'application spécifiques. La littérature logothérapeutique nomme surtout les indications suivantes :\n\n**Intention paradoxale**\n\n- les anxiétés anticipatoires et les phobies dans lesquelles le cercle vicieux de la peur de la peur et de l'évitement est central,\n- les symptômes végétatifs intensifiés par l'anxiété anticipatoire (rougissement, transpiration, tremblements),\n- les pensées obsédantes dans lesquelles la lutte contre la pensée l'intensifie,\n- les difficultés d'endormissement (l'intention de rester éveillé au lieu de vouloir s'endormir),\n- certaines formes de bégaiement intensifiées par l'anxiété anticipatoire.\n\n**Déréflexion**\n\n- les dysfonctionnements sexuels avec pression de performance,\n- les troubles du sommeil avec hyperintention,\n- la rumination et l'auto-observation excessive,\n- la fixation sur des plaintes chroniques après évaluation médicale,\n- de manière générale, les situations dans lesquelles une personne tourne autour d'elle-même et a perdu ses liens avec le sens.\n\nPour la **pratique du conseil** : beaucoup de ces indications concernent des troubles cliniquement pertinents dont le diagnostic et le traitement sont réservés aux médecins et aux psychothérapeutes agréés (en Allemagne, titulaires d'une Approbation, c'est-à-dire d'une autorisation d'exercer délivrée par l'État). Dans le conseil, les principes peuvent être utilisés surtout pour des problèmes **infracliniques** – comme le trac, des problèmes de sommeil occasionnels, la pression de performance ou une tendance à ruminer – et comme explication **psychoéducative** des cercles vicieux. La frontière avec la psychothérapie doit être soigneusement respectée."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Attribuez les problèmes à la méthode qui, selon Frankl, est principalement indiquée.",
+   "kategorien": [
+    "Intention paradoxale",
+    "Déréflexion"
+   ],
+   "elemente": [
+    {
+     "text": "Peur de rougir en parlant devant un public",
+     "kat": 0
+    },
+    {
+     "text": "Une pensée intrusive de ne pas avoir fermé la porte d'entrée à clé, contre laquelle la personne lutte",
+     "kat": 0
+    },
+    {
+     "text": "Peur de se mettre à transpirer en société",
+     "kat": 0
+    },
+    {
+     "text": "Problèmes d'érection sous une forte pression de performance",
+     "kat": 1
+    },
+    {
+     "text": "Analyser constamment sa propre humeur",
+     "kat": 1
+    },
+    {
+     "text": "La vie ne tourne plus qu'autour de ses propres plaintes",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "L'intention paradoxale est dirigée contre l'anxiété anticipatoire, l'évitement et la lutte contre les pensées obsédantes. La déréflexion est dirigée contre l'hyperintention (p. ex. la pression de performance dans la sexualité) et l'hyperréflexion (rumination, fixation sur les symptômes). Les deux méthodes peuvent aussi être combinées, et les troubles cliniquement pertinents relèvent d'un traitement professionnel."
+  },
+  {
+   "typ": "text",
+   "titel": "Contre-indications et règles de prudence",
+   "text": "Les **contre-indications** sont tout aussi importantes que les indications. Pour l'**intention paradoxale**, s'appliquent en particulier :\n\n- **Suicidalité et dépression sévère** : une formulation paradoxale visant ce qui est craint pourrait être mal comprise par des personnes suicidaires comme une confirmation, voire comme un encouragement. Ici, la méthode est **contre-indiquée**. Frankl lui-même l'a expressément souligné.\n- **Maladies psychotiques** : en cas de vécu délirant ou d'altération de l'épreuve de réalité, la méthode peut semer la confusion et intensifier les angoisses.\n- **Dangers réels** : l'intention paradoxale n'est dirigée que contre les peurs **névrotiques**, non contre les peurs **réalistes**. Qui a une peur fondée d'un partenaire violent a besoin de protection, non de paradoxe.\n- **Causes physiques non clarifiées** : la tachycardie, les vertiges ou une tendance à l'évanouissement doivent avoir été évalués médicalement avant d'être « commandés ».\n- **Absence de disposition à l'autodistanciation**, ou une relation dans laquelle l'humour serait vécu comme blessant.\n\nPour la **déréflexion**, s'appliquent surtout :\n\n- des **symptômes physiques non clarifiés** dont l'« ignorance » serait dangereuse,\n- une **dépression sévère**, dans laquelle l'orientation vers des valeurs submerge,\n- des situations dans lesquelles la déréflexion sert à **éviter** une confrontation nécessaire (p. ex. le deuil).\n\nUne règle de base est donc : **d'abord évaluer, ensuite appliquer** – et en cas de doute, orienter vers d'autres services."
+  },
+  {
+   "typ": "multi",
+   "frage": "Dans quelles situations l'intention paradoxale est-elle contre-indiquée ? (Plusieurs réponses sont correctes)",
+   "optionen": [
+    "Chez une personne ayant des pensées suicidaires aiguës",
+    "En cas de trac chez une personne en bonne santé physique sans autres charges",
+    "Chez une personne présentant un vécu délirant psychotique",
+    "En cas de peur réaliste d'une situation effectivement dangereuse",
+    "En cas de tachycardie dont la cause physique n'a pas encore été évaluée"
+   ],
+   "richtig": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "erklaerung": "La suicidalité, les psychoses, les dangers réels et les causes physiques non clarifiées sont des contre-indications. Le trac chez des personnes en bonne santé physique est, en revanche, un domaine d'application typique, y compris dans le conseil."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "L'intention paradoxale peut aussi être utilisée pour des peurs réalistes, par exemple d'un partenaire violent, afin de réduire la peur.",
+   "richtig": false,
+   "erklaerung": "L'intention paradoxale est dirigée exclusivement contre les peurs névrotiques, c'est-à-dire contre des appréhensions sans danger réel. En cas de menace réelle, la protection, la planification de la sécurité et l'orientation vers d'autres services ont la priorité."
+  },
+  {
+   "typ": "text",
+   "titel": "Comparaison : intention paradoxale et exposition",
+   "text": "L'intention paradoxale est souvent comparée à la **thérapie d'exposition** en thérapie comportementale. Dans l'exposition, une personne s'expose délibérément à des situations ou à des stimuli anxiogènes – dans la réalité (in vivo) ou en imagination (in sensu), de manière graduelle ou massée – sans fuir dans l'évitement ou les comportements de sécurité.\n\n**Points communs** :\n\n- Toutes deux interrompent l'**évitement** et la fuite devant la peur.\n- Toutes deux amènent la personne à **faire** l'expérience redoutée au lieu de l'éviter.\n- Toutes deux présupposent que l'appréhension ne concerne pas un danger réel.\n\n**Différences** :\n\n- **Arrière-plan théorique** : l'exposition est justifiée par la théorie de l'apprentissage, p. ex. par l'habituation ou – dans les approches plus récentes – par l'apprentissage inhibiteur, dans lequel se forment de nouvelles expériences qui contredisent la peur. L'intention paradoxale se fonde sur la capacité anthropologique d'autodistanciation.\n- **Attitude** : dans l'exposition, la peur est endurée ; dans l'intention paradoxale, ce qui est craint est **souhaité** et exagéré avec humour.\n- **Structure** : l'exposition est généralement planifiée de manière systématique (hiérarchie de peur, relevés). L'intention paradoxale est plus situationnelle et improvisée.\n- **Données probantes** : les procédés d'exposition comptent parmi les méthodes psychothérapeutiques les mieux étudiées pour les troubles anxieux. La base de preuves de l'intention paradoxale en tant que méthode indépendante est considérablement plus étroite ; elle a été étudiée le plus souvent pour les difficultés d'endormissement.\n\nD'un point de vue comportementaliste, l'intention paradoxale peut aussi être décrite comme une forme d'auto-exposition avec une attente modifiée."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les caractéristiques au procédé qui convient.",
+   "paare": [
+    [
+     "Hiérarchie de peur systématique et abandon des comportements de sécurité",
+     "Exposition"
+    ],
+    [
+     "Souhaiter avec humour ce qui est craint",
+     "Intention paradoxale"
+    ],
+    [
+     "Justification par la théorie de l'apprentissage, via l'habituation ou l'apprentissage inhibiteur",
+     "Exposition"
+    ],
+    [
+     "Justification anthropologique par l'autodistanciation",
+     "Intention paradoxale"
+    ],
+    [
+     "« J'ai la pensée que … » comme mise à distance linguistique",
+     "Défusion cognitive"
+    ]
+   ],
+   "erklaerung": "L'exposition est systématique et fondée sur la théorie de l'apprentissage. L'intention paradoxale travaille avec un renversement humoristique de l'intention et se fonde sur l'autodistanciation. La formulation « J'ai la pensée que … » est une technique de défusion typique de la thérapie d'acceptation et d'engagement."
+  },
+  {
+   "typ": "text",
+   "titel": "Comparaison : intention paradoxale et défusion cognitive",
+   "text": "La **défusion cognitive** est un processus central de la **thérapie d'acceptation et d'engagement (ACT)**, développée par Steven C. Hayes et collègues. La défusion consiste à prendre de la distance par rapport à ses propres pensées : les pensées sont vues comme des **pensées**, non comme des vérités ou des ordres. Les exercices typiques sont :\n\n- la formulation « J'ai la pensée que j'échoue » au lieu de « J'échoue »,\n- la répétition rapide et à voix haute d'un mot jusqu'à ce qu'il perde son sens,\n- chanter une pensée pénible ou la prononcer avec une voix comique.\n\n**Points communs avec l'intention paradoxale** :\n\n- Toutes deux favorisent une **distance** par rapport à son propre vécu ; la défusion et l'autodistanciation sont des concepts apparentés.\n- Toutes deux utilisent souvent l'**humour** et une distanciation ludique.\n- Toutes deux renoncent à la **lutte** contre les expériences intérieures.\n- Toutes deux s'inscrivent dans un cadre qui met l'accent sur les **valeurs** et le sens (dans l'ACT, comme action fondée sur les valeurs).\n\n**Différences** :\n\n- L'intention paradoxale **souhaite** activement ce qui est craint et l'exagère ; la défusion modifie la **relation** à la pensée sans la souhaiter.\n- La défusion ne vise pas d'abord la réduction des symptômes, mais la flexibilité psychologique ; l'intention paradoxale cherche à rompre le cercle vicieux de l'anxiété anticipatoire.\n- L'ACT se fonde sur une théorie comportementale-analytique du langage (théorie des cadres relationnels), la logothérapie sur une anthropologie phénoménologique-existentielle.\n\nLa **déréflexion**, à son tour, présente des parallèles avec l'orientation fondée sur les valeurs de l'ACT : là aussi, l'attention doit être détournée des luttes intérieures vers une action porteuse de sens."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle est une différence centrale entre l'intention paradoxale et la défusion cognitive ?",
+   "optionen": [
+    "L'intention paradoxale vise à souhaiter activement et de manière exagérée ce qui est craint ; la défusion modifie la relation à la pensée sans la souhaiter.",
+    "La défusion n'utilise jamais l'humour.",
+    "L'intention paradoxale est un procédé de la thérapie d'acceptation et d'engagement.",
+    "La défusion vise à réfuter les pensées par des arguments logiques."
+   ],
+   "richtig": 0,
+   "erklaerung": "Le renversement actif et humoristique de l'intention est la particularité de l'intention paradoxale. La défusion travaille elle aussi souvent de manière ludique, mais ne cherche ni à réfuter les pensées ni à les souhaiter, plutôt à réduire leur pouvoir sur le comportement. L'intention paradoxale provient de Frankl, non de l'ACT."
+  },
+  {
+   "typ": "fall",
+   "titel": "Choix de la méthode et limites",
+   "fall": "Vignette pédagogique construite : M. F., 42 ans, vient dans un centre de conseil de vie. Depuis des mois, il souffre de graves troubles du sommeil, reste éveillé à ruminer et pense sans cesse « qu'il vaudrait mieux pour tout le monde que je ne sois plus là ». Il a lu des choses sur l'intention paradoxale dans un livre de développement personnel et veut l'essayer.",
+   "frage": "Comment la conseillère devrait-elle procéder ?",
+   "optionen": [
+    "Elle guide M. F. à décider de rester éveillé toute la nuit, puisque les difficultés d'endormissement sont une indication classique.",
+    "Elle recommande la déréflexion afin que M. F. ne pense plus à ses pensées.",
+    "Elle évalue directement et avec soin les pensées de lassitude de vivre exprimées, assure la sécurité et l'oriente vers une aide médicale ou psychothérapeutique ; les méthodes paradoxales ne sont pas indiquées ici.",
+    "Elle encourage M. F. à essayer d'abord la méthode seul et fixe un rendez-vous dans quatre semaines."
+   ],
+   "richtig": 2,
+   "erklaerung": "L'énoncé « il vaudrait mieux que je ne sois plus là » est un indice d'une possible suicidalité. L'évaluation du risque, la sécurité et l'orientation vers d'autres services ont la priorité. L'intention paradoxale est contre-indiquée en cas de suicidalité et de dépression sévère ; la déréflexion ne serait pas non plus le premier choix ici. Un intervalle de quatre semaines sans évaluation serait négligent."
+  },
+  {
+   "typ": "merke",
+   "text": "D'abord évaluer, ensuite appliquer : l'intention paradoxale est contre-indiquée en cas de suicidalité, de dépression sévère, de psychoses, de dangers réels et de causes physiques non clarifiées. Elle partage avec l'exposition l'interruption de l'évitement, avec la défusion la distance par rapport au vécu – sa particularité est le renversement humoristique de l'intention."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Quelles méthodes issues d'autres approches (p. ex. exposition, défusion, pleine conscience) connaissez-vous déjà ? Comment situeriez-vous l'intention paradoxale et la déréflexion dans votre répertoire de méthodes existant – et où se situent pour vous les frontières entre conseil et psychothérapie ?",
+   "hinweis": "Questions directrices : quelles demandes de votre pratique sont infracliniques et adaptées au conseil ? À quels signaux orientez-vous vers d'autres services ? Quels points communs entre les approches vous facilitent leur explication aux clients ?"
+  }
+ ]
+}

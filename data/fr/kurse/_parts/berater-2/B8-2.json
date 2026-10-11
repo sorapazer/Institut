@@ -1,0 +1,170 @@
+{
+ "id": "B8-2",
+ "titel": "Confidentialité et protection des données",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "La confidentialité, fondement du conseil",
+   "text": "Sans confidentialité, le conseil n’est pas possible. Les personnes qui consultent doivent pouvoir avoir confiance que ce qui est dit ne sort pas. La confidentialité protège leur vie privée, leur dignité et souvent aussi leur position sociale et professionnelle.\n\nEn Allemagne, l’obligation légale de confidentialité découle de différentes sources :\n\n- **Sur le plan pénal**, le **§ 203 StGB (Code pénal allemand)** érige en infraction la violation de secrets privés par certains groupes professionnels. En font partie notamment les médecins, les psychologues titulaires d’un diplôme universitaire de fin d’études reconnu par l’État, les psychothérapeutes, les travailleurs sociaux et éducateurs sociaux reconnus par l’État, ainsi que les conseillers de certains services de conseil reconnus, par exemple pour les questions conjugales, familiales, éducatives ou de jeunesse, les questions d’addiction ou les conflits liés à la grossesse.\n- **Sur le plan contractuel**, la confidentialité est régulièrement convenue dans le contrat de conseil en pratique indépendante, et elle découle aussi, en tant qu’obligation accessoire, de la relation contractuelle.\n- **Sur le plan de la protection des données**, le **RGPD (en allemand DSGVO)** protège les données à caractère personnel, en particulier les données de santé.\n- **Sur le plan de l’éthique professionnelle**, la confidentialité est ancrée dans toutes les lignes directrices éthiques.\n\nLe fait qu’un conseiller relève ou non du § 203 StGB dépend de sa qualification et du cadre de son activité. Indépendamment de cela, la règle suivante s’applique toutefois dans la pratique : quiconque exerce le conseil psychologique traite tout ce qui lui est confié **comme si une obligation de confidentialité pénalement sanctionnée s’appliquait**. Cela couvre déjà le fait même que quelqu’un soit en conseil."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "La confidentialité couvre non seulement le contenu des entretiens, mais déjà le fait qu’une personne soit en conseil.",
+   "richtig": true,
+   "erklaerung": "Exact. Même l’information selon laquelle quelqu’un a recours à un conseil est un secret digne de protection. Elle ne peut pas non plus être divulguée sans consentement à des proches, à des employeurs ou à des autorités."
+  },
+  {
+   "typ": "text",
+   "titel": "Quand la confidentialité peut ou doit être rompue",
+   "text": "La confidentialité ne s’applique pas de manière absolue. Dans certaines situations, une divulgation est permise, voire requise. Pour l’essentiel, on peut distinguer les configurations suivantes en droit allemand :\n\n- **Consentement (levée du secret professionnel)** : la personne qui consulte autorise la transmission de certaines informations à certaines personnes ou à certains services. La levée doit être **écrite**, **précise** (qui, quoi, dans quel but, pour combien de temps) et **volontaire**, et elle peut être révoquée à tout moment.\n- **État de nécessité justificatif (§ 34 StGB)** : en cas de danger actuel pour la vie, l’intégrité physique ou d’autres biens juridiques de premier rang qui ne peut être écarté autrement, la confidentialité peut être rompue si l’intérêt protégé l’emporte nettement sur l’intérêt à la confidentialité – par exemple en cas de danger suicidaire aigu ou de danger grave pour des tiers.\n- **Obligation de dénoncer des crimes graves projetés (§ 138 StGB)** : quiconque a connaissance de manière crédible du projet de commettre certains crimes graves, comme un meurtre ou un homicide, à un moment où leur commission peut encore être évitée, doit en informer à temps les autorités ou la personne menacée. Cette obligation ne s’applique pas aux crimes déjà commis.\n- **Protection de l’enfance** : selon le **§ 4 de la loi allemande sur la coopération et l’information en matière de protection de l’enfance (KKG)**, certains détenteurs de secrets professionnels qui disposent d’indices sérieux d’une mise en danger du bien-être d’un enfant doivent d’abord en parler avec les personnes concernées et œuvrer à la mise en place d’une aide ; ils ont droit aux conseils d’un professionnel expérimenté et sont autorisés à informer le Jugendamt (office de la jeunesse) si cela est nécessaire. Pour les prestataires de l’aide à l’enfance et à la jeunesse, le § 8a SGB VIII (livre VIII du Code social allemand) s’applique en outre.\n\nDans tous les cas : **ne divulguer que ce qui est nécessaire**, informer au préalable la personne concernée lorsque c’est possible et documenter soigneusement la démarche. Dans les cas incertains, il convient d’obtenir un conseil juridique."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "La transmission d’informations est-elle admissible sans autre formalité, ou non ?",
+   "kategorien": [
+    "Transmission admissible ou requise",
+    "Transmission non admissible"
+   ],
+   "elemente": [
+    {
+     "text": "La cliente vous a autorisé par écrit à échanger avec son médecin de famille au sujet de ses troubles du sommeil.",
+     "kat": 0
+    },
+    {
+     "text": "L’employeur d’un client demande s’il vient régulièrement vous voir.",
+     "kat": 1
+    },
+    {
+     "text": "Un client annonce de manière crédible qu’il va tuer son ancienne compagne ce soir.",
+     "kat": 0
+    },
+    {
+     "text": "La mère d’une cliente majeure demande un compte rendu de ses progrès.",
+     "kat": 1
+    },
+    {
+     "text": "Une cliente est en danger suicidaire aigu et refuse toute aide.",
+     "kat": 0
+    },
+    {
+     "text": "Vous voulez discuter d’un cas avec le nom complet sur un forum professionnel public.",
+     "kat": 1
+    },
+    {
+     "text": "Un collègue demande en passant, dans la cuisine du personnel, quels problèmes avait votre dernière cliente.",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "La transmission est admissible avec un consentement précis, en cas de danger actuel pour la vie (état de nécessité) ou en cas de crimes graves projetés (obligation de dénonciation). Les informations données sans consentement à des employeurs, à des proches ou à des collègues, ainsi que les descriptions de cas identifiables en public, ne sont pas admissibles. Les discussions de cas en supervision ont lieu sous forme anonymisée."
+  },
+  {
+   "typ": "text",
+   "titel": "La protection des données selon le RGPD : principes",
+   "text": "Le **Règlement général sur la protection des données** (RGPD ; en allemand DSGVO) s’applique dans toute l’Union européenne depuis mai 2018. Il s’applique aussi aux conseillers indépendants dès lors qu’ils traitent des données à caractère personnel de manière automatisée ou les conservent dans un fichier – c’est-à-dire pratiquement toujours, par exemple via des agendas de rendez-vous, des e-mails, des factures ou des notes.\n\nL’**art. 5 RGPD** fixe des principes pour tout traitement de données à caractère personnel :\n\n- **Licéité, loyauté et transparence** : une base juridique est nécessaire, et les personnes concernées doivent être informées.\n- **Limitation des finalités** : les données ne sont collectées que pour des finalités déterminées et explicites.\n- **Minimisation des données** : seulement autant de données que nécessaire.\n- **Exactitude** : les données doivent être exactes.\n- **Limitation de la conservation** : les données ne sont conservées que le temps nécessaire à la finalité.\n- **Intégrité et confidentialité** : une sécurité appropriée grâce à des mesures techniques et organisationnelles.\n- **Responsabilité** : le responsable du traitement doit être en mesure de démontrer le respect de ces principes.\n\nParticulièrement important pour le conseil est l’**art. 9 RGPD** : les **données de santé** – et les informations sur le bien-être psychique en font partie – appartiennent aux **catégories particulières de données à caractère personnel**. Leur traitement est en principe interdit, sauf si l’une des exceptions qui y sont énumérées s’applique. Dans la pratique du conseil indépendant, il s’agit généralement du **consentement explicite** de la personne concernée."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les exemples pratiques au principe du RGPD qu’ils mettent principalement en œuvre.",
+   "paare": [
+    [
+     "Le formulaire d’inscription ne demande pas l’appartenance religieuse, car elle n’est pas nécessaire au conseil.",
+     "Minimisation des données"
+    ],
+    [
+     "Les données issues du conseil ne sont pas utilisées pour une lettre d’information.",
+     "Limitation des finalités"
+    ],
+    [
+     "À l’expiration de la durée de conservation fixée, les notes sont supprimées.",
+     "Limitation de la conservation"
+    ],
+    [
+     "L’ordinateur portable contenant les notes de conseil est chiffré et protégé par un mot de passe.",
+     "Intégrité et confidentialité"
+    ],
+    [
+     "Les personnes qui consultent reçoivent dès le début une notice d’information compréhensible sur la protection des données.",
+     "Transparence"
+    ]
+   ],
+   "erklaerung": "Les principes de l’art. 5 RGPD peuvent être traduits en routines concrètes. Ils devraient être consignés dans un concept écrit de protection des données afin de satisfaire à l’obligation de responsabilité."
+  },
+  {
+   "typ": "text",
+   "titel": "Mettre en œuvre la protection des données dans la pratique du conseil",
+   "text": "Plusieurs éléments sont essentiels pour une pratique de conseil conforme au RGPD :\n\n- **Obligations d’information (art. 13 RGPD)** : les personnes qui consultent sont informées lors de la collecte des données – sur le responsable du traitement, les finalités, les bases juridiques, la durée de conservation, les destinataires et leurs droits.\n- **Consentement** : pour le traitement des données de santé, un consentement explicite, éclairé et volontaire est obtenu et documenté. Il peut être révoqué à tout moment.\n- **Droits des personnes concernées** : les personnes qui consultent disposent notamment d’un droit d’**accès** (art. 15), de **rectification** (art. 16) et d’**effacement** (art. 17), même si des obligations légales de conservation peuvent s’opposer à l’effacement.\n- **Registre des activités de traitement (art. 30)** : un aperçu des données traitées, de leur finalité et des modalités de traitement.\n- **Mesures techniques et organisationnelles (art. 32)** : appareils chiffrés, mots de passe sûrs, armoires verrouillables, verrouillage de l’écran, pas d’entretiens à portée de voix de tiers.\n- **Traitement pour le compte d’un responsable (art. 28)** : si des services externes sont utilisés – par exemple un stockage en nuage, une prise de rendez-vous en ligne ou des plateformes vidéo –, un contrat de sous-traitance est nécessaire. Pour les prestataires situés hors de l’UE, des exigences supplémentaires relatives au transfert de données doivent être respectées.\n- **Violations de données (art. 33 et 34)** : si, par exemple, un ordinateur portable non chiffré est volé, la violation doit en règle générale être notifiée à l’autorité de contrôle compétente dans un délai de **72 heures** si elle est susceptible d’engendrer un risque pour les personnes concernées ; en cas de risque élevé, les personnes concernées doivent également être informées.\n\nPour la communication : les e-mails non chiffrés et les messageries courantes posent problème pour les contenus sensibles. Un conseil sur le fond par e-mail ne devrait avoir lieu que par des canaux sécurisés et avec une information appropriée."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels énoncés sur le RGPD dans la pratique du conseil sont exacts ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Les informations sur le bien-être psychique relèvent des données de santé et donc des catégories particulières au sens de l’art. 9 RGPD.",
+    "Aucun contrat n’est nécessaire pour utiliser un service externe de stockage en nuage pour les notes de conseil si le prestataire est bien connu.",
+    "Les personnes qui consultent disposent d’un droit d’accès aux données conservées à leur sujet.",
+    "Une violation de données présentant un risque pour les personnes concernées doit en règle générale être notifiée à l’autorité de contrôle dans un délai de 72 heures.",
+    "Les petites structures de conseil composées d’une seule personne sont exemptées du RGPD."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Le bien-être psychique relève des données de santé, les personnes concernées disposent d’un droit d’accès, et les violations de données doivent être notifiées dans les 72 heures en cas de risque. Pour les prestataires externes, un contrat de sous-traitance est nécessaire, quelle que soit leur notoriété. Les personnes exerçant seules en pratique indépendante sont également soumises au RGPD."
+  },
+  {
+   "typ": "fall",
+   "titel": "Une voie commode ?",
+   "fall": "Vignette pédagogique construite : une conseillère en pratique indépendante veut faciliter la prise de contact pour ses clients. Elle propose de gérer les rendez-vous et de brèves questions de fond via une messagerie très répandue sur son téléphone portable privé, sur lequel sa famille a aussi accès aux photos. Une cliente lui envoie alors un long message vocal sur ses attaques de panique.",
+   "frage": "Comment évaluer au mieux la situation sur le plan de la protection des données et de l’éthique ?",
+   "optionen": [
+    "Sans problème, puisque la cliente a envoyé le message volontairement.",
+    "Sans problème, tant que la conseillère supprime le message après l’avoir écouté.",
+    "Problématique : des données de santé sont traitées via un canal non vérifié à cette fin, sur un appareil partagé à usage privé ; il faut un canal de communication sécurisé, une séparation d’avec les données privées, une information et un consentement.",
+    "Problématique uniquement parce que les messages vocaux ne peuvent en principe pas être conservés."
+   ],
+   "richtig": 2,
+   "erklaerung": "Les données de santé exigent des mesures de protection particulières. Un appareil partagé à usage privé et un canal non vérifié mettent en péril la confidentialité et l’intégrité. Le caractère volontaire de la démarche de la cliente ne remplace pas un consentement éclairé à un canal de communication sécurisé. La seule suppression ne remédie pas au problème structurel."
+  },
+  {
+   "typ": "luecke",
+   "text": "Une levée du secret professionnel doit être écrite, {{précise|illimitée dans le temps|générale}} et volontaire. En cas de danger actuel pour la vie qui ne peut être écarté autrement, l’état de nécessité justificatif s’applique selon le {{§ 34 StGB|§ 203 StGB|§ 1 HeilprG}}. Selon l’{{art. 9|art. 28|art. 33}} RGPD, les données de santé font partie des catégories particulières de données à caractère personnel.",
+   "erklaerung": "Une levée doit indiquer précisément qui apprend quoi et dans quel but. Le § 34 StGB régit l’état de nécessité justificatif, le § 203 StGB la violation de secrets privés. L’art. 9 RGPD concerne les catégories particulières, l’art. 28 le traitement pour le compte d’un responsable, l’art. 33 la notification des violations de données."
+  },
+  {
+   "typ": "karten",
+   "titel": "Confidentialité et protection des données",
+   "karten": [
+    {
+     "vorne": "§ 203 StGB",
+     "hinten": "Responsabilité pénale pour violation de secrets privés par certains groupes professionnels, dont les psychologues titulaires d’un diplôme de fin d’études reconnu par l’État et les conseillers de services de conseil reconnus."
+    },
+    {
+     "vorne": "Levée du secret professionnel",
+     "hinten": "Écrite, précise (qui, quoi, dans quel but, pour combien de temps), volontaire, révocable à tout moment."
+    },
+    {
+     "vorne": "§ 138 StGB",
+     "hinten": "Obligation de dénonciation en cas de connaissance crédible de crimes graves projetés, tant qu’ils peuvent encore être évités."
+    },
+    {
+     "vorne": "§ 4 KKG",
+     "hinten": "Procédure applicable aux détenteurs de secrets professionnels en cas d’indices sérieux d’une mise en danger du bien-être d’un enfant, avec autorisation d’informer le Jugendamt (office de la jeunesse)."
+    },
+    {
+     "vorne": "Art. 5 RGPD",
+     "hinten": "Principes : licéité/transparence, limitation des finalités, minimisation des données, exactitude, limitation de la conservation, intégrité/confidentialité, responsabilité."
+    },
+    {
+     "vorne": "Art. 28 RGPD",
+     "hinten": "Traitement pour le compte d’un responsable : contrat avec les prestataires externes tels que les fournisseurs de stockage en nuage ou de vidéo."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Examinez votre propre manière de travailler : par quels canaux communiquez-vous avec les personnes qui consultent, et où leurs données sont-elles conservées ? Où voyez-vous un besoin d’amélioration ?",
+   "hinweis": "Questions directrices : quels appareils et quels programmes est-ce que j’utilise ? Sont-ils chiffrés et séparés des données privées ? Ai-je une notice d’information sur la protection des données et un formulaire de consentement ? Combien de temps est-ce que je conserve les données, et comment est-ce que je les supprime ?"
+  }
+ ]
+}

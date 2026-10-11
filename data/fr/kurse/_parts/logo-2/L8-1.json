@@ -1,0 +1,152 @@
+{
+ "id": "L8-1",
+ "titel": "Accompagnement et exercice de l’art de guérir : le cadre juridique en Allemagne",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Pourquoi cette distinction est si importante",
+   "text": "En Allemagne, l’**exercice de l’art de guérir** (Ausübung der Heilkunde) est soumis à autorisation. Celui qui diagnostique, guérit ou soulage des maladies a besoin soit d’une **autorisation d’exercer délivrée par l’État (Approbation)** – par exemple en tant que médecin ou psychothérapeute –, soit d’une **autorisation au titre du Heilpraktikergesetz** (loi allemande sur les praticiens de santé non médecins). Celui qui exerce l’art de guérir sans une telle autorisation commet une infraction pénale au sens du § 5 du Heilpraktikergesetz.\n\nPour les accompagnants qualifiés en logothérapie, cette distinction revêt donc une importance centrale. De nombreux diplômés de ce cursus certifiant apportent une qualification de base – en travail social, en éducation, en soins infirmiers, en théologie ou en psychologie – qui en elle-même **n’inclut pas d’autorisation d’exercer l’art de guérir**. Le certificat lui-même n’est pas non plus une **autorisation d’exercer l’art de guérir** (Heilerlaubnis) ni une formation psychothérapeutique au sens du Psychotherapeutengesetz (loi allemande sur les psychothérapeutes).\n\nCela ne signifie pas que l’accompagnement orienté vers le sens soit juridiquement risqué. Le conseil, l’accompagnement, le coaching et le conseil de vie sont en principe **libres de toute autorisation**, tant qu’ils s’adressent à des personnes sans trouble psychique nécessitant un traitement et ne visent pas le diagnostic ou le traitement de maladies. Cela signifie toutefois que les accompagnants doivent décrire clairement leur travail, clarifier soigneusement les demandes et orienter vers d’autres professionnels en présence d’indices de maladie.\n\nRemarque : les explications suivantes donnent un aperçu de la situation juridique en Allemagne. Elles ne remplacent pas un conseil juridique ; des réglementations différentes s’appliquent en Autriche et en Suisse."
+  },
+  {
+   "typ": "text",
+   "titel": "Le Heilpraktikergesetz et la notion d’exercice de l’art de guérir",
+   "text": "Le **Heilpraktikergesetz** (HeilprG, loi allemande sur les praticiens de santé non médecins) date de 1939 et est toujours en vigueur aujourd’hui sous une forme révisée. À son § 1, il définit en substance l’exercice de l’art de guérir comme toute activité exercée à titre professionnel ou commercial visant à **diagnostiquer, guérir ou soulager des maladies, des affections ou des lésions corporelles** chez l’être humain – même si elle est exercée au service d’autrui.\n\nLa jurisprudence a précisé cette formulation large. En substance, il importe notamment\n\n- de savoir si l’activité exige des **connaissances médicales ou relevant de l’art de guérir**, et\n- si elle peut causer des **atteintes à la santé** – y compris de manière **indirecte**, par exemple lorsque les personnes concernées renoncent à un traitement médical ou psychothérapeutique nécessaire ou le retardent en raison de cette activité.\n\nL’**impression** qu’une activité suscite chez les clients peut également être déterminante : celui qui promeut par exemple le traitement de dépressions ou de troubles anxieux donne l’impression d’exercer l’art de guérir.\n\nDepuis une décision de la Cour administrative fédérale (Bundesverwaltungsgericht) de 1993, l’autorisation de Heilpraktiker peut être accordée **de manière restreinte au domaine de la psychothérapie** (souvent appelée « Heilpraktiker für Psychotherapie »). Le titre professionnel de « psychothérapeute » (Psychotherapeutin / Psychotherapeut) est en revanche réservé par le Psychotherapeutengesetz aux personnes titulaires de l’autorisation d’exercer correspondante délivrée par l’État (Approbation) et protégé par la loi."
+  },
+  {
+   "typ": "luecke",
+   "text": "Au sens du Heilpraktikergesetz, l’exercice de l’art de guérir est toute activité exercée à titre professionnel ou commercial visant à {{diagnostiquer, guérir ou soulager|conseiller, accompagner ou éduquer|promouvoir, renforcer ou développer}} des maladies, des affections ou des lésions corporelles. Celui qui exerce l’art de guérir sans autorisation d’exercer délivrée par l’État (Approbation) ni {{autorisation de Heilpraktiker|diplôme universitaire|certificat d’une association professionnelle}} agit de manière illicite. Le titre professionnel de {{psychothérapeute|conseiller|coach}} est protégé par la loi.",
+   "erklaerung": "La définition de l’exercice de l’art de guérir porte sur le diagnostic, la guérison ou le soulagement de maladies. Sont habilités les titulaires d’une autorisation d’exercer délivrée par l’État et les personnes disposant d’une autorisation de Heilpraktiker ; des diplômes universitaires ou des certificats associatifs ne suffisent pas à eux seuls. « Conseiller » et « coach » ne sont pas des titres protégés."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Classez les activités selon que, pour un accompagnant qualifié en logothérapie sans autorisation d’exercer délivrée par l’État (Approbation) ni autorisation de Heilpraktiker, elles relèvent plutôt d’un accompagnement libre de toute autorisation ou de l’exercice de l’art de guérir.",
+   "kategorien": [
+    "Plutôt accompagnement libre de toute autorisation",
+    "Exercice de l’art de guérir – soumis à autorisation"
+   ],
+   "elemente": [
+    {
+     "text": "Accompagnement d’une personne dans sa réorientation professionnelle après un licenciement",
+     "kat": 0
+    },
+    {
+     "text": "Traitement d’un trouble panique diagnostiqué par l’intention paradoxale",
+     "kat": 1
+    },
+    {
+     "text": "Groupe de parole sur les questions de sens à la retraite",
+     "kat": 0
+    },
+    {
+     "text": "Promotion de l’offre « Logothérapie contre la dépression »",
+     "kat": 1
+    },
+    {
+     "text": "Accompagnement d’endeuillés ne présentant aucun indice de maladie psychique",
+     "kat": 0
+    },
+    {
+     "text": "Déterminer si une cliente présente un trouble de deuil prolongé",
+     "kat": 1
+    },
+    {
+     "text": "Clarification des valeurs avec un étudiant hésitant entre deux filières",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "L’accompagnement portant sur des questions de vie, des transitions, le deuil et les valeurs sans rapport avec une maladie est en principe libre de toute autorisation. Le traitement ou le diagnostic de troubles psychiques – et aussi la promotion de leur traitement – relève de l’exercice de l’art de guérir. Dans chaque cas, c’est l’organisation concrète qui est déterminante."
+  },
+  {
+   "typ": "text",
+   "titel": "Le Psychotherapeutengesetz et la notion de psychothérapie",
+   "text": "Le **Psychotherapeutengesetz** (PsychThG, loi allemande sur les psychothérapeutes) régit la profession de psychothérapeute. Il définit en substance l’exercice de la psychothérapie comme toute activité exercée à titre professionnel ou commercial, au moyen de procédures ou de méthodes psychothérapeutiques scientifiquement éprouvées et reconnues, visant à diagnostiquer, guérir ou soulager des **troubles ayant une valeur pathologique** pour lesquels une psychothérapie est indiquée.\n\nUne délimitation explicite de la loi est particulièrement importante pour la pratique de l’accompagnement : l’exercice de la psychothérapie n’inclut **pas** les activités ayant pour objet l’élaboration ou le dépassement de **conflits sociaux** ou **d’autres fins extérieures à l’art de guérir**. De nombreuses formes de conseil de vie, de conseil social, de conseil éducatif et d’accompagnement pastoral en relèvent.\n\nPour l’accompagnement logothérapeutique, il en découle :\n\n- La désignation de sa propre offre devrait mettre en évidence la **fonction de conseil ou d’accompagnement**, par exemple « accompagnement logothérapeutique » ou « accompagnement orienté vers le sens ». Des termes comme « thérapie » ou « traitement » sans l’autorisation correspondante peuvent prêter à confusion et donner l’impression d’exercer l’art de guérir.\n- Les messages promotionnels ne doivent contenir aucune **promesse de guérison** et ne doivent pas mentionner de maladies comme indications.\n- Celui qui dispose en outre d’une autorisation de Heilpraktiker (restreinte à la psychothérapie) ou d’une autorisation d’exercer délivrée par l’État doit indiquer clairement dans quel rôle il agit dans chaque cas."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelles activités le Psychotherapeutengesetz exclut-il explicitement de la notion de psychothérapie ?",
+   "optionen": [
+    "Toutes les activités qui se déroulent en groupe",
+    "Toutes les activités de personnes titulaires d’un diplôme en éducation sociale",
+    "Les activités ayant pour objet l’élaboration ou le dépassement de conflits sociaux ou d’autres fins extérieures à l’art de guérir",
+    "Les activités comportant moins de dix séances"
+   ],
+   "richtig": 2,
+   "erklaerung": "Le PsychThG nomme explicitement les activités visant l’élaboration ou le dépassement de conflits sociaux et d’autres fins extérieures à l’art de guérir (C). Ni le cadre (A), ni la qualification de base (B), ni le nombre de séances (D) ne sont déterminants – ce qui compte, c’est que des troubles ayant une valeur pathologique soient traités ou non."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Le certificat « Accompagnement et conseil logothérapeutiques » autorise son titulaire à traiter de manière logothérapeutique des personnes souffrant de troubles psychiques.",
+   "richtig": false,
+   "erklaerung": "Faux. Le certificat est une qualification de formation continue, et non une autorisation d’exercer délivrée par l’État (Approbation) ni une autorisation de Heilpraktiker. Le traitement des troubles psychiques reste réservé aux personnes disposant de l’autorisation correspondante."
+  },
+  {
+   "typ": "text",
+   "titel": "La clarification de la demande et le contrat comme protection",
+   "text": "Les instruments pratiques les plus importants pour une délimitation nette sont une **clarification de la demande** soigneuse lors du premier entretien et un **contrat** transparent.\n\nLors du **premier entretien**, on clarifie :\n\n- Qu’est-ce qui amène la personne en accompagnement ? Quelle est sa demande ?\n- Existe-t-il des indices d’une maladie psychique (p. ex. symptômes dépressifs persistants, trouble anxieux, addiction, vécus psychotiques, suicidalité) ?\n- La personne est-elle en traitement médical ou psychothérapeutique ? Si oui : comment l’accompagnement s’articule-t-il avec ce traitement, et une concertation est-elle souhaitée ?\n\nDans le **contrat** – oral et idéalement écrit –, on consigne :\n\n- la nature de l’offre en tant que **conseil ou accompagnement**, explicitement **pas une psychothérapie** ni un traitement médical,\n- les objectifs, le cadre, la durée, les honoraires et les règles d’annulation,\n- la confidentialité et ses limites,\n- le traitement des données,\n- la procédure en cas de signes de maladie ou en cas de crise (orientation).\n\nImportant : une formulation dans le contrat ne protège pas à elle seule si l’activité réelle relève de l’exercice de l’art de guérir. Ce qui compte, c’est ce qui **se passe réellement** dans l’accompagnement. Si des indices de maladie apparaissent au cours de l’accompagnement, le contrat doit être rediscuté."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels contenus font partie d’un contrat d’accompagnement transparent pour un accompagnement logothérapeutique ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "La précision qu’il s’agit de conseil ou d’accompagnement et non de psychothérapie",
+    "L’assurance que l’accompagnement guérira les maladies psychiques",
+    "Des règles relatives à la confidentialité et à ses limites",
+    "La procédure en cas de signes de maladie ou en cas de crise",
+    "Le cadre, les honoraires et les règles d’annulation"
+   ],
+   "richtig": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "erklaerung": "Un contrat décrit la nature de l’offre, la confidentialité, la procédure en cas de crise et les conditions générales. Une promesse de guérison (B) est inadmissible et donnerait en outre l’impression d’exercer l’art de guérir."
+  },
+  {
+   "typ": "fall",
+   "titel": "La demande par courriel",
+   "fall": "Vignette pédagogique construite : vous recevez la demande suivante : « Depuis deux ans, j’ai une dépression récurrente diagnostiquée et j’ai déjà été hospitalisée deux fois en psychiatrie. Ma psychothérapie ambulatoire va bientôt se terminer parce que le nombre de séances accordé est épuisé. Ma thérapeute a dit que les questions de sens sont un grand sujet pour moi. Pouvez-vous continuer à me traiter par la logothérapie ? » Vous êtes travailleur social / travailleuse sociale titulaire du certificat d’accompagnement logothérapeutique, sans autorisation de Heilpraktiker.",
+   "frage": "Comment répondez-vous de manière professionnellement et juridiquement appropriée ?",
+   "optionen": [
+    "Vous acceptez et poursuivez le traitement de la dépression par des méthodes logothérapeutiques.",
+    "Vous refusez, parce que les personnes atteintes d’une maladie psychique ne peuvent en principe pas être accompagnées.",
+    "Vous répondez avec respect, indiquez clairement que vous ne pouvez pas proposer de traitement de la dépression et proposez de clarifier lors d’un premier entretien si un accompagnement complémentaire orienté vers le sens, portant sur des questions de vie et de sens – en concertation avec le traitement professionnel qui reste nécessaire –, pourrait être utile ; en même temps, vous encouragez la personne à clarifier la suite du traitement avec sa thérapeute.",
+    "Vous proposez un traitement, mais l’appelez « coaching » dans le contrat pour être juridiquement en sécurité."
+   ],
+   "richtig": 2,
+   "erklaerung": "Le traitement de la dépression relève de l’exercice de l’art de guérir (A est exclu). Les personnes atteintes de maladies psychiques peuvent tout à fait bénéficier d’un accompagnement sur des questions de vie et de sens – à condition qu’il ne remplace pas le traitement et que la prise en charge professionnelle soit assurée (B est trop catégorique). L’option D est un contournement : ce qui compte, c’est l’activité réelle, et non sa désignation. L’option C préserve le rôle, la transparence et les intérêts de la personne."
+  },
+  {
+   "typ": "karten",
+   "titel": "Cadre juridique – notions clés",
+   "karten": [
+    {
+     "vorne": "Heilpraktikergesetz (HeilprG)",
+     "hinten": "Loi allemande de 1939 sur les praticiens de santé non médecins ; l’exercice de l’art de guérir sans autorisation d’exercer délivrée par l’État (Approbation) n’est possible qu’avec une autorisation ; toute infraction est pénalement sanctionnée (§ 5 HeilprG)."
+    },
+    {
+     "vorne": "Exercice de l’art de guérir (Heilkunde)",
+     "hinten": "Diagnostic, guérison ou soulagement, à titre professionnel ou commercial, de maladies, d’affections ou de lésions corporelles."
+    },
+    {
+     "vorne": "Autorisation de Heilpraktiker sectorielle",
+     "hinten": "Autorisation au titre du HeilprG restreinte au domaine de la psychothérapie (depuis une décision de la Cour administrative fédérale de 1993)."
+    },
+    {
+     "vorne": "Psychotherapeutengesetz (PsychThG)",
+     "hinten": "Loi allemande sur les psychothérapeutes ; régit la profession de psychothérapeute ; titre protégé ; les conflits sociaux et les fins extérieures à l’art de guérir ne relèvent explicitement pas de la psychothérapie."
+    },
+    {
+     "vorne": "Atteinte indirecte à la santé",
+     "hinten": "Risque que des personnes concernées renoncent à un traitement nécessaire ou le retardent en raison d’une activité – pertinent pour la qualification en tant qu’exercice de l’art de guérir."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Comment décrivez-vous votre offre – sur votre site web, dans un dépliant ou lors du premier entretien ? Vérifiez vos formulations au regard de possibles malentendus.",
+   "hinweis": "Questions d’orientation : utilisez-vous des termes comme « thérapie », « traitement » ou « guérison » ? Mentionnez-vous des maladies comme indications ? Est-il clair pour quoi vous êtes là – et pour quoi vous ne l’êtes pas ?"
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "id": "L7-3",
+ "titel": "Tailles d’effet, méta-analyses et résultats de Vos et al. (2015)",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Qu’est-ce qu’une taille d’effet ?",
+   "text": "Un résultat **significatif** indique seulement qu’une différence observée serait improbable dans l’hypothèse où il n’existerait en réalité aucun effet. Il ne dit **rien de l’ampleur** ni de l’importance pratique de la différence. Dans de grands échantillons, même des différences minimes peuvent devenir significatives.\n\nLa **taille d’effet** répond à la question de l’ampleur. La mesure la plus courante pour les comparaisons de groupes dans la recherche en psychothérapie est le **d de Cohen** (ou sa variante légèrement corrigée, le **g de Hedges**). Il exprime la différence entre deux moyennes de groupes en unités d’écart-type :\n\n- Un d de 0,5 signifie que le groupe d’intervention se situe en moyenne un demi-écart-type au-dessus (ou au-dessous) du groupe contrôle.\n- Un d de 0 signifie : aucune différence.\n\nLe grand avantage des tailles d’effet standardisées est que les résultats d’études utilisant **différents instruments de mesure** peuvent être comparés et regroupés. Elles constituent donc la base des méta-analyses.\n\nD’autres mesures de taille d’effet sont le coefficient de corrélation r, l’odds ratio pour les critères dichotomiques ou le **nombre de sujets à traiter** (number needed to treat), qui indique combien de personnes doivent être traitées pour qu’une personne supplémentaire en bénéficie."
+  },
+  {
+   "typ": "mc",
+   "frage": "Une étude rapporte, pour un programme centré sur le sens, un effet de d = 0,5 sur le sens vécu par rapport au groupe contrôle. Qu’est-ce que cela signifie ?",
+   "optionen": [
+    "50 pour cent des participants en ont bénéficié.",
+    "Le sens vécu du groupe d’intervention se situait en moyenne un demi-écart-type au-dessus de celui du groupe contrôle.",
+    "Il y a une probabilité de 50 pour cent que le résultat soit dû au hasard.",
+    "Le sens vécu s’est amélioré de 0,5 point au questionnaire."
+   ],
+   "richtig": 1,
+   "erklaerung": "Le d de Cohen exprime la différence de moyennes en unités d’écart-type (B). Il ne s’agit ni d’une proportion de bénéficiaires (A), ni d’une probabilité (C), ni d’une différence de valeurs brutes (D)."
+  },
+  {
+   "typ": "text",
+   "titel": "Interpréter correctement les tailles d’effet",
+   "text": "Jacob Cohen a proposé des conventions selon lesquelles des valeurs de d d’environ **0,2** sont considérées comme faibles, **0,5** comme moyennes et **0,8** comme importantes. Ces repères sont très répandus – Cohen lui-même soulignait toutefois qu’ils ne sont qu’un **pis-aller** lorsqu’on ne dispose pas de meilleurs critères de comparaison.\n\nPour une interprétation pertinente, d’autres questions sont importantes :\n\n- **À quoi a-t-on comparé ?** Un effet par rapport à une liste d’attente est en général plus important que par rapport à une condition de contrôle active. Des tailles d’effet issues de comparaisons différentes ne doivent pas être simplement assimilées.\n- **Quel critère de jugement ?** Un effet important sur une mesure très proche, par son contenu, de l’intervention (p. ex. un questionnaire sur le sens après un programme centré sur le sens) doit être évalué autrement qu’un effet sur des critères plus larges comme la dépressivité ou la qualité de vie.\n- **Quelle est la précision de l’estimation ?** L’**intervalle de confiance** indique la plage dans laquelle se situe plausiblement l’effet réel. Dans les petits échantillons, il est large – un effet apparemment important peut alors aussi être très faible.\n- **L’effet est-il pratiquement significatif ?** En soins palliatifs, même un faible effet sur le désespoir peut être cliniquement pertinent ; dans d’autres contextes, un effet moyen sur une mesure secondaire dit peu de chose.\n\nLes tailles d’effet ne sont donc pas une fin en soi, mais doivent toujours être lues dans le contexte de l’étude."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles questions sont importantes pour interpréter de manière appropriée une taille d’effet rapportée ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "À quelle condition de contrôle a-t-on comparé ?",
+    "Quelle est la largeur de l’intervalle de confiance ?",
+    "L’effet est-il statistiquement significatif – il est alors automatiquement pratiquement significatif.",
+    "À quel critère de jugement l’effet se rapporte-t-il ?",
+    "Quel éditeur a publié l’étude ?"
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "La condition de contrôle, la précision (intervalle de confiance) et le critère de jugement sont centraux. La significativité ne signifie pas automatiquement une importance pratique (C). L’éditeur (E) n’est pas déterminant pour interpréter une taille d’effet ; l’évaluation par les pairs et la qualité de l’étude sont plus importantes."
+  },
+  {
+   "typ": "text",
+   "titel": "Comment fonctionne une méta-analyse",
+   "text": "Une **méta-analyse** regroupe statistiquement les résultats de plusieurs études portant sur une question de recherche. Le terme a été introduit en 1976 par Gene V. Glass. La base en est généralement une **revue systématique** : selon des critères définis à l’avance, toutes les études pertinentes sont recherchées, sélectionnées et évaluées.\n\nLa démarche dans ses grandes lignes :\n\n- définir la **question de recherche et les critères d’inclusion** (p. ex. uniquement des ECR, une population particulière, des interventions particulières),\n- **recherche documentaire systématique** dans des bases de données,\n- **sélection des études** et évaluation du risque de biais,\n- **extraction** des tailles d’effet,\n- **regroupement** : les tailles d’effet, pondérées selon leur précision, sont combinées en un effet global. Les études plus grandes et plus précises reçoivent plus de poids.\n\nNotions centrales :\n\n- **Hétérogénéité** : les résultats des différentes études diffèrent-ils davantage que ce qu’on attendrait par hasard ? Des statistiques comme I² le décrivent. Une forte hétérogénéité signifie qu’un effet global unique ne décrit la situation que de manière incomplète.\n- Les **analyses de modérateurs** examinent de quoi dépendent les différences, par exemple de la forme d’intervention ou de la population.\n- **Biais de publication** : les études ayant des résultats positifs sont publiées plus souvent. Cela peut conduire à surestimer les effets globaux.\n\nLa qualité d’une méta-analyse dépend de la qualité des études incluses – en substance : regrouper des études faibles ne produit pas de données probantes solides."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Placez les étapes de travail d’une revue systématique avec méta-analyse dans le bon ordre.",
+   "elemente": [
+    "Définir la question de recherche et les critères d’inclusion",
+    "Mener une recherche documentaire systématique",
+    "Sélectionner les études et évaluer le risque de biais",
+    "Extraire les tailles d’effet des études",
+    "Regrouper les tailles d’effet avec pondération et examiner l’hétérogénéité"
+   ],
+   "erklaerung": "Les critères définis à l’avance protègent contre une sélection ultérieure guidée par les résultats. Ce n’est qu’après la recherche systématique, la sélection et l’évaluation que les données sont extraites et regroupées."
+  },
+  {
+   "typ": "luecke",
+   "text": "Si, dans une méta-analyse, les résultats des différentes études diffèrent davantage que ce qu’on attendrait par hasard, on parle d’{{hétérogénéité|fidélité|randomisation}}. La publication préférentielle des résultats positifs est appelée {{biais de publication|régression vers la moyenne|intention de traiter}} et peut {{surestimer|sous-estimer|ne pas affecter}} l’effet global.",
+   "erklaerung": "L’hétérogénéité limite la valeur informative d’un effet global unique. Le biais de publication conduit plutôt à une surestimation, car les études sans résultat positif manquent dans la littérature."
+  },
+  {
+   "typ": "text",
+   "titel": "La méta-analyse de Vos, Craig et Cooper (2015)",
+   "text": "Une contribution intégrative importante au champ des thérapies existentielles est la méta-analyse de **Joel Vos, Megan Craig et Mick Cooper**, publiée en 2015 dans le *Journal of Consulting and Clinical Psychology*. Les auteurs ont regroupé des **essais contrôlés randomisés** portant sur diverses formes de thérapie existentielle, en distinguant plusieurs familles d’interventions, dont des approches explicitement **centrées sur le sens** et d’autres approches d’orientation existentielle.\n\nRésumés de manière qualitative, les résultats centraux sont les suivants :\n\n- Pour les **interventions structurées et centrées sur le sens**, qui comportaient souvent des éléments psychoéducatifs et abordaient explicitement les sources de sens, il y avait des indices d’**effets favorables**, en particulier sur le sens vécu et en partie aussi sur la détresse psychopathologique.\n- Pour les autres approches existentielles, les **résultats étaient moins clairs**.\n- Les études incluses étaient **hétérogènes** quant aux populations, aux interventions et aux critères de jugement. De nombreuses études portaient sur des personnes atteintes de maladies physiques, comme le cancer.\n- Les auteurs ont signalé des limites de la qualité des études et la nécessité de recherches supplémentaires.\n\nPour la logothérapie, ce travail est important parce qu’il montre que des formes structurées de travail centré sur le sens ont été testées empiriquement. Il ne démontre **pas** pour autant que toute forme de pratique logothérapeutique soit efficace – et les résultats valent d’abord et avant tout pour les interventions et les populations étudiées."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "La méta-analyse de Vos et al. (2015) a montré des effets uniformément importants pour toutes les formes de thérapie existentielle.",
+   "richtig": false,
+   "erklaerung": "Faux. Des résultats favorables sont apparus surtout pour les interventions structurées et centrées sur le sens ; pour les autres approches existentielles, les résultats étaient moins clairs. Les auteurs ont en outre souligné l’hétérogénéité des études."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle conclusion tirée de la méta-analyse de Vos et al. (2015) est la plus justifiée ?",
+   "optionen": [
+    "L’efficacité de la logothérapie classique de Frankl a été démontrée dans tous les champs d’application.",
+    "Les thérapies existentielles sont fondamentalement inefficaces.",
+    "Pour les interventions structurées et centrées sur le sens, il existe des indices d’effets favorables, l’hétérogénéité et la qualité des études appelant toutefois à une interprétation prudente.",
+    "Les interventions centrées sur le sens sont supérieures à toutes les autres approches psychothérapeutiques."
+   ],
+   "richtig": 2,
+   "erklaerung": "L’option C reflète les résultats de manière équilibrée. A généralise abusivement à toutes les formes et à tous les champs, B contredit les résultats, D avance une affirmation que la méta-analyse n’a pas examinée – elle n’a pas procédé à une comparaison avec toutes les autres approches."
+  },
+  {
+   "typ": "karten",
+   "titel": "Tailles d’effet et méta-analyses",
+   "karten": [
+    {
+     "vorne": "d de Cohen",
+     "hinten": "Différence de moyennes standardisée, exprimée en unités d’écart-type."
+    },
+    {
+     "vorne": "Conventions de Cohen",
+     "hinten": "d ≈ 0,2 faible, 0,5 moyen, 0,8 important – conçues seulement comme un pis-aller approximatif."
+    },
+    {
+     "vorne": "Intervalle de confiance",
+     "hinten": "Plage dans laquelle se situe plausiblement l’effet réel avec un degré de certitude défini ; large dans les petits échantillons."
+    },
+    {
+     "vorne": "I²",
+     "hinten": "Statistique indiquant la part de la variabilité entre les études due à des différences réelles plutôt qu’au hasard (hétérogénéité)."
+    },
+    {
+     "vorne": "Vos et al. (2015)",
+     "hinten": "Méta-analyse d’ECR sur les thérapies existentielles ; résultats les plus favorables pour les interventions structurées et centrées sur le sens ; corpus d’études hétérogène."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Comment expliqueriez-vous en deux ou trois phrases à un client intéressé ce que la recherche sait de l’efficacité des approches centrées sur le sens – et ce qu’elle ne sait pas ?",
+   "hinweis": "Questions d’orientation : comment éviter l’exagération sans minimiser les résultats ? Quels termes sont compréhensibles ? Qu’est-ce qui vous importe en matière d’honnêteté ?"
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "id": "B4-2",
+ "titel": "La question miracle, les échelles et les exceptions",
+ "dauer": 40,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "La question miracle",
+   "text": "La **question miracle** est probablement l’intervention la plus connue de l’approche orientée solutions. Elle est attribuée au cercle de de Shazer et Kim Berg et se formule, en substance, ainsi :\n\n*« J’aimerais vous poser une question un peu inhabituelle. Supposons que vous rentriez chez vous ce soir, que vous alliez vous coucher et que vous vous endormiez. Pendant votre sommeil, un miracle se produit – et le problème qui vous a amené ici est résolu. Comme vous dormiez, vous ne savez pas que le miracle a eu lieu. Quelle serait la première chose que vous remarqueriez demain matin et qui vous indiquerait que quelque chose a changé ? »*\n\nLa question vise à obtenir une **description concrète et détaillée d’un avenir souhaité**. Points importants :\n\n- La poser **lentement et avec des pauses** – la personne a besoin de temps pour se projeter dans le scénario.\n- **Le miracle se rapporte au problème, non à l’impossible.** Si quelqu’un répond : « Mon mari décédé serait de retour », on le reconnaît avec respect, puis on demande ce qui serait alors différent et ce qui, de cela, pourrait être possible dans une petite mesure même sans lui.\n- **Interroger les différences observables :** « Que feriez-vous différemment en premier ? Qui d’autre le remarquerait ? À quoi ? »\n- **S’enquérir des interactions :** « Quand votre partenaire le remarque – comment réagirait-il ? Et que feriez-vous alors ? »\n\nLes réponses fournissent souvent des images étonnamment concrètes, qui servent d’**orientation pour les objectifs**. Il apparaît aussi souvent que des parties du « miracle » se produisent déjà occasionnellement – un pont vers les questions d’exception."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles questions de suivi après la question miracle sont utiles ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "« Que feriez-vous différemment en premier le matin après le miracle ? »",
+    "« Pourquoi le miracle ne s’est-il pas produit jusqu’à présent ? »",
+    "« Qui dans votre famille remarquerait la différence en premier – et à quoi ? »",
+    "« Quand y a-t-il déjà eu une journée où un petit morceau de ce miracle s’est produit ? »",
+    "« Croyez-vous vraiment qu’un tel miracle soit réaliste ? »"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Sont utiles les questions portant sur son propre comportement concret, sur la perception par autrui et sur des parties du miracle déjà vécues. La question en « pourquoi » ramène à l’analyse du problème ; la vérification de réalisme dévalorise le scénario imaginé et interrompt le processus."
+  },
+  {
+   "typ": "text",
+   "titel": "Les questions d’échelle",
+   "text": "Les **questions d’échelle** rendent les différences visibles et mesurables. Typiquement, on propose une échelle de **0 à 10** :\n\n*« Sur une échelle de 0 à 10, où 10 signifie que le miracle s’est produit et 0 le moment où les choses allaient le plus mal – où en êtes-vous aujourd’hui ? »*\n\nLe chiffre lui-même importe moins que les **échanges qu’il ouvre** :\n\n- **Reconnaître ce qui a été accompli :** « Vous dites 3. Qu’est-ce qui est déjà là et qui fait que c’est 3 et pas 0 ? » Cette question oriente l’attention vers les ressources existantes et ce qui a été accompli jusqu’ici.\n- **Le prochain petit pas :** « À quoi remarqueriez-vous que vous êtes à 4 ? » – et non à 10 ! De petits pas concrets sont plus faciles à imaginer et à mettre en œuvre.\n- **Clarification des objectifs :** « À quel chiffre seriez-vous suffisamment satisfait pour mettre fin à l’accompagnement ? » Les personnes ne citent souvent pas 10, mais 7 ou 8.\n- **Suivre les progrès :** lors des séances suivantes, l’échelle peut être reprise : « Où en êtes-vous aujourd’hui par rapport à la dernière fois ? »\n\nLes échelles peuvent être utilisées de multiples façons : pour la confiance (« Dans quelle mesure êtes-vous confiant que quelque chose peut changer ? »), la motivation (« Jusqu’où êtes-vous prêt à aller pour cela ? ») ou l’évaluation par autrui (« Où votre collègue dirait-il que vous en êtes ? »).\n\nAvec les enfants, les échelles peuvent être représentées par des images, des marches d’escalier ou des déplacements dans la pièce. En situation de **crise**, il faut garder à l’esprit qu’un chiffre très bas peut être une raison d’interroger avec précaution le désespoir et les pensées suicidaires (cf. module B2)."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Classez dans un ordre judicieux les étapes d’un déroulement typique du travail avec la question d’échelle.",
+   "elemente": [
+    "Expliquer l’échelle et définir les extrémités",
+    "Demander la valeur actuelle",
+    "Explorer ce qui est déjà là et empêche la valeur d’être plus basse",
+    "Interroger les caractéristiques de la valeur immédiatement supérieure",
+    "Convenir d’un petit prochain pas"
+   ],
+   "erklaerung": "On introduit d’abord l’échelle, puis on demande l’état actuel. La question sur ce qui a déjà été accompli reconnaît les ressources avant que l’attention ne se tourne vers le prochain pas, dont découle un accord concret."
+  },
+  {
+   "typ": "text",
+   "titel": "Les questions d’exception",
+   "text": "Aucun problème ne se présente **toujours** et avec la même intensité. Les **exceptions** sont les moments où le problème se manifeste de manière moins grave, moins souvent ou pas du tout – ou bien où la personne a pu mieux y faire face. L’accompagnement orienté solutions recherche systématiquement de telles exceptions, car elles contiennent déjà des **éléments de la solution**.\n\n**Questions d’exception** typiques :\n\n- « Quand le problème a-t-il été un peu moins grave récemment ? »\n- « Y a-t-il eu des jours où vous vous entendiez mieux avec votre fils ? Qu’est-ce qui était différent alors ? »\n- « Qu’avez-vous fait différemment ce jour-là ? »\n- « Qui y a contribué ? Comment y êtes-vous parvenu ? »\n\nUne fois qu’une exception a été trouvée, elle est **explorée en détail** : que s’est-il passé avant, pendant, après ? Qui était impliqué ? Qu’est-ce que la personne a elle-même apporté ? L’objectif est de reconnaître des schémas qui peuvent être **répétés** – tout à fait dans l’esprit du principe directeur « Si quelque chose fonctionne, faites-en davantage ».\n\nOn distingue les exceptions **délibérées**, qui sont nées de sa propre action, et les exceptions **fortuites**, survenues sans contribution propre discernable. Pour les exceptions délibérées, on peut encourager la personne à faire plus souvent et plus consciemment ce qui a aidé. Pour les exceptions fortuites, une **tâche d’observation ou de prédiction** convient : « D’ici la prochaine fois, faites attention aux moments où les choses vont mieux et à ce qui est différent alors. »\n\nBeaucoup de clients ne remarquent pas d’emblée les exceptions, car le problème domine leur perception. Un questionnement patient est donc souvent nécessaire."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Attribuez les questions à la technique de questionnement appropriée.",
+   "kategorien": [
+    "Question miracle",
+    "Question d’échelle",
+    "Question d’exception"
+   ],
+   "elemente": [
+    {
+     "text": "« Supposons que le problème soit résolu du jour au lendemain – à quoi le remarqueriez-vous le matin ? »",
+     "kat": 0
+    },
+    {
+     "text": "« Où en êtes-vous aujourd’hui entre 0 et 10 ? »",
+     "kat": 1
+    },
+    {
+     "text": "« Quand cela a-t-il été un peu mieux ces dernières semaines ? »",
+     "kat": 2
+    },
+    {
+     "text": "« Qu’est-ce qui serait différent à 5 par rapport à 4 maintenant ? »",
+     "kat": 1
+    },
+    {
+     "text": "« Qu’avez-vous fait différemment le soir où il n’y a pas eu de dispute ? »",
+     "kat": 2
+    },
+    {
+     "text": "« Si le miracle s’était produit – qui le remarquerait en premier ? »",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "La question miracle esquisse un avenir souhaité, la question d’échelle rend mesurables les différences et les étapes, et la question d’exception recherche les moments où le problème était plus faible et ce qui y a contribué."
+  },
+  {
+   "typ": "text",
+   "titel": "Questions de coping et compliments",
+   "text": "On ne trouve pas toujours d’exceptions, et parfois la situation est si grave que les questions miracle pourraient paraître cyniques – par exemple après un décès ou en cas de maladie grave. Pour de telles situations, l’approche orientée solutions a développé les **questions de coping** (questions sur la manière de faire face).\n\nElles reconnaissent **ce que la personne accomplit malgré tout** et rendent ainsi visibles des ressources cachées :\n\n- « Comment arrivez-vous à vous lever le matin avec tout cela ? »\n- « Qu’est-ce qui vous aide à ne pas tout abandonner ? »\n- « Comment avez-vous réussi à empêcher que les choses n’empirent encore ? »\n- « Qui ou qu’est-ce qui vous soutient en ce moment ? »\n\nLes questions de coping apportent souvent un **soulagement** : la personne fait l’expérience que sa persévérance est vue. En même temps, le message implicite est transmis qu’elle a des forces – même si elle se sent impuissante en ce moment.\n\nLes **compliments** y sont étroitement liés. Les accompagnants orientés solutions donnent souvent, à la fin d’un entretien, un bref retour qui commence par une reconnaissance sincère et débouche ensuite sur une suggestion. On distingue :\n\n- les **compliments directs :** « Je trouve impressionnant avec quelle clarté vous nommez vos objectifs. »\n- les **compliments indirects** sous forme de question : « Comment y êtes-vous parvenu ? » – ils invitent la personne à formuler ses propres forces.\n- les **autocompliments :** lorsque la personne nomme ses propres réalisations ; ils sont repris et renforcés.\n\nLes compliments indirects sont considérés comme particulièrement efficaces, car la personne exprime **elle-même** ses forces."
+  },
+  {
+   "typ": "fall",
+   "titel": "Soins et épuisement",
+   "fall": "Vignette pédagogique construite : Mme R., 59 ans, s’occupe de son mari après un accident vasculaire cérébral. Elle paraît épuisée et dit : « Rien ne va mieux. Chaque jour est aussi mauvais que le précédent. Je n’ai pas besoin d’une question miracle – mon mari ne guérira pas. »",
+   "frage": "Quelle question est la plus appropriée dans cette situation ?",
+   "optionen": [
+    "« Comment arrivez-vous à être là pour votre mari jour après jour, alors que c’est si difficile ? »",
+    "« Imaginez qu’un miracle se produise malgré tout – à quoi le remarqueriez-vous ? »",
+    "« Sur une échelle de 0 à 10 : en combien de temps aimeriez-vous être à 10 ? »",
+    "« Vous devez absolument penser davantage à vous et être plus positive. »"
+   ],
+   "richtig": 0,
+   "erklaerung": "La question de coping reconnaît ce qu’accomplit Mme R. et ouvre l’accès à ses ressources sans nier ce qui ne peut pas être changé. Elle a expressément refusé la question miracle ; la répéter passerait outre sa position. Le saut jusqu’à 10 est irréaliste, et les conseils de pensée positive paraissent dévalorisants."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Échelles et petits pas",
+   "einleitung": "Situation construite : M. P., 33 ans, éducateur de jeunes enfants, vient en accompagnement parce qu’il se sent de plus en plus dépassé au travail. Lors du premier entretien, il a répondu à la question miracle : après le miracle, il partirait au travail le matin reposé et content d’y aller.",
+   "runden": [
+    {
+     "klient": "« Si 10, c’est le miracle … alors aujourd’hui je suis peut-être à 3. »",
+     "antworten": [
+      {
+       "text": "« Seulement 3 ? C’est assez bas. »",
+       "gut": false,
+       "feedback": "Juger le chiffre « bas » renforce la focalisation sur le problème et peut décourager."
+      },
+      {
+       "text": "« Qu’est-ce qui est déjà là et qui fait que vous êtes à 3 et pas à 0 ? »",
+       "gut": true,
+       "feedback": "La question oriente l’attention vers les ressources existantes et ce qui a déjà été accompli – une étape centrale du travail avec les échelles."
+      },
+      {
+       "text": "« Que devriez-vous faire pour arriver à 10 ? »",
+       "gut": false,
+       "feedback": "Le saut jusqu’à 10 est trop grand. L’accompagnement orienté solutions interroge le prochain petit pas."
+      }
+     ]
+    },
+    {
+     "klient": "« Eh bien … j’aime vraiment les enfants de mon groupe. Et je m’entends bien avec ma collègue Anna. »",
+     "antworten": [
+      {
+       "text": "« Votre relation avec les enfants et avec Anna vous porte donc. À quoi remarqueriez-vous que vous êtes à 4 ? »",
+       "gut": true,
+       "feedback": "Les ressources sont résumées et reconnues ; vient ensuite la question sur le prochain petit pas sur l’échelle."
+      },
+      {
+       "text": "« Et avec les autres collègues ? Y a-t-il des conflits ? »",
+       "gut": false,
+       "feedback": "La question ramène à la recherche de problèmes au lieu de reprendre les ressources évoquées."
+      },
+      {
+       "text": "« C’est bien. Mais manifestement, cela ne suffit pas. »",
+       "gut": false,
+       "feedback": "Dévaloriser les ressources décourage et contredit l’attitude orientée solutions."
+      }
+     ]
+    },
+    {
+     "klient": "« À 4 … je pourrais peut-être quitter le travail à l’heure une fois par semaine, au lieu de toujours rattraper la documentation. »",
+     "antworten": [
+      {
+       "text": "« C’est trop peu ; vous devriez partir à l’heure tous les jours. »",
+       "gut": false,
+       "feedback": "L’accompagnant passe outre l’objectif atteignable que M. P. a choisi lui-même et impose sa propre norme irréaliste."
+      },
+      {
+       "text": "« Pourquoi n’y êtes-vous pas arrivé jusqu’à présent ? »",
+       "gut": false,
+       "feedback": "La question en « pourquoi » ramène à l’analyse du problème et peut créer une pression à se justifier."
+      },
+      {
+       "text": "« Y a-t-il eu récemment un jour où vous y êtes déjà arrivé ? Qu’est-ce qui était différent alors ? »",
+       "gut": true,
+       "feedback": "La question d’exception recherche des parties de l’état souhaité déjà vécues – et donc des indices sur la manière dont le pas peut réussir."
+      }
+     ]
+    },
+    {
+     "klient": "« Une fois, oui. Anna avait proposé de se charger de la réunion avec les parents, et j’ai fait la documentation le matin pendant la sieste. »",
+     "antworten": [
+      {
+       "text": "« Intéressant. Vous avez accepté un soutien et utilisé le temps de la sieste. Comment pourriez-vous reproduire un petit morceau de cela la semaine prochaine ? »",
+       "gut": true,
+       "feedback": "L’exception est reconnue avec précision ; ses propres contributions sont nommées, suivies d’une invitation à reproduire ce qui fonctionne – « en faire davantage »."
+      },
+      {
+       "text": "« C’était sûrement juste un hasard. »",
+       "gut": false,
+       "feedback": "L’exception est dévalorisée alors qu’elle contient des indices importants de solutions possibles."
+      },
+      {
+       "text": "« Mais vous ne pouvez pas toujours compter sur Anna. »",
+       "gut": false,
+       "feedback": "Le jugement oriente vers un problème possible au lieu de reconnaître le soutien comme ressource ainsi que sa propre action."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Avec la question d’échelle, il est généralement plus utile d’interroger les caractéristiques de la valeur immédiatement supérieure que ce qu’il faudrait pour atteindre 10.",
+   "richtig": true,
+   "erklaerung": "De petits pas sont plus faciles à imaginer, plus concrets et plus susceptibles d’être mis en œuvre. La question sur le 10 invite à souligner la grande distance qui sépare de l’objectif et peut décourager. En outre, beaucoup de personnes seraient déjà satisfaites d’une valeur inférieure à 10."
+  },
+  {
+   "typ": "merke",
+   "text": "Ce qui compte, ce n’est pas le chiffre sur l’échelle, mais la question de ce qui le soutient déjà – et de ce que serait le prochain petit pas."
+  },
+  {
+   "typ": "karten",
+   "titel": "Fiches : questions orientées solutions",
+   "karten": [
+    {
+     "vorne": "Question miracle",
+     "hinten": "Esquisser un avenir souhaité concret et observable : « À quoi remarqueriez-vous demain matin que le miracle s’est produit ? »"
+    },
+    {
+     "vorne": "Question d’échelle",
+     "hinten": "Échelle de 0 à 10 ; questions sur ce qui a déjà été accompli (« Pourquoi 3 et pas 0 ? ») et sur le prochain petit pas (« À quoi remarqueriez-vous le 4 ? »)."
+    },
+    {
+     "vorne": "Question d’exception",
+     "hinten": "Recherche des moments où le problème était plus faible et de ce que la personne y a apporté."
+    },
+    {
+     "vorne": "Question de coping",
+     "hinten": "Reconnaît la persévérance dans les situations difficiles : « Comment y arrivez-vous malgré tout … ? »"
+    },
+    {
+     "vorne": "Compliment indirect",
+     "hinten": "Reconnaissance sous forme de question (« Comment y êtes-vous parvenu ? ») qui laisse la personne nommer elle-même ses forces."
+    }
+   ]
+  }
+ ]
+}

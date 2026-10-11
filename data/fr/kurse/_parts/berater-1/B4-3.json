@@ -1,0 +1,209 @@
+{
+ "id": "B4-3",
+ "titel": "Questionnement circulaire et recadrage",
+ "dauer": 35,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "La pensée systémique dans l’accompagnement",
+   "text": "L’accompagnement orienté solutions est étroitement apparenté à la **pensée systémique**. Les approches systémiques ne considèrent pas les personnes isolément, mais comme parties de **systèmes relationnels** – la famille, l’équipe, la classe, l’organisation. Le comportement est compris comme un élément d’interactions réciproques, et non comme une simple caractéristique d’une personne.\n\nQuelques idées fondamentales :\n\n- **Circularité plutôt que linéarité :** au lieu de « A provoque B », on suppose que les comportements se conditionnent mutuellement. Un exemple : plus la mère contrôle, plus le fils se retire – et plus il se retire, plus elle contrôle. Savoir qui « a commencé » est souvent impossible à déterminer et sans importance pour la solution.\n- **Les symptômes ont des fonctions :** un comportement problématique peut remplir une fonction – souvent non intentionnelle – dans le système, par exemple unir des parents en conflit dans leur inquiétude pour un enfant.\n- **La réalité est construite :** chaque personne a sa propre vision de ce qui se passe. Les accompagnants ne cherchent pas la version « vraie », mais des perspectives nouvelles et plus utiles.\n- **Neutralité et multipartialité :** l’accompagnant ne prend pas parti pour certains membres d’un système, mais s’efforce de rendre justice à tous.\n\nDe cette manière de penser sont issues des techniques de questionnement qui rendent visibles les schémas relationnels et ouvrent de nouvelles perspectives. La plus connue est le **questionnement circulaire**. En Allemagne, la **thérapie systémique** est reconnue depuis 2020 comme procédé psychothérapeutique pour adultes dans le cadre de l’assurance maladie obligatoire ; les méthodes systémiques sont toutefois aussi largement répandues dans l’accompagnement et le travail social."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "La pensée systémique part du principe que, dans les conflits relationnels, on peut en général déterminer sans ambiguïté qui a provoqué le conflit.",
+   "richtig": false,
+   "erklaerung": "La pensée systémique souligne la circularité : les comportements se conditionnent mutuellement. La question du « début » conduit souvent à des attributions de faute et n’est généralement pas décisive pour la solution."
+  },
+  {
+   "typ": "text",
+   "titel": "Le questionnement circulaire",
+   "text": "Le **questionnement circulaire** a été développé en thérapie familiale par le **groupe de Milan** autour de Mara Selvini Palazzoli, Luigi Boscolo, Gianfranco Cecchin et Giuliana Prata. Dans leur article influent de 1980, ils ont décrit l’**hypothétisation, la circularité et la neutralité** comme lignes directrices de la conduite de la séance.\n\nDans le questionnement circulaire, on demande à une personne de s’exprimer **depuis la perspective d’une autre** sur des relations, des pensées ou des sentiments. Formes typiques :\n\n- **Questions sur le point de vue d’autrui :** « À votre avis – comment votre mari voit-il la situation ? »\n- **Questions triadiques :** on interroge une personne sur la relation entre deux autres : « Quand votre fille et votre mari se disputent – comment votre fils réagit-il ? »\n- **Questions de différence :** « Qui dans la famille s’inquiète le plus, qui le moins ? » – « Qu’est-ce qui est différent depuis la naissance de votre deuxième enfant ? »\n- **Questions hypothétiques :** « Supposons que votre mère arrête d’appeler – qu’est-ce qui changerait entre vous et votre partenaire ? »\n- **Questions sur les effets :** « Quand votre collègue réagit ainsi – que faites-vous alors ? Et que fait-il en retour ? »\n\nLes questions circulaires ont une **double fonction** : elles fournissent à l’accompagnant des informations sur les schémas relationnels – et elles suscitent de nouvelles perspectives chez les personnes concernées. Quiconque imagine comment la situation apparaît à l’autre élargit sa propre perspective.\n\nLes questions circulaires peuvent aussi être bien utilisées en **accompagnement individuel** : les personnes absentes sont pour ainsi dire « amenées dans la pièce » (« Que dirait votre meilleure amie si elle pouvait vous entendre maintenant ? »)."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les questions circulaires à leur forme.",
+   "paare": [
+    [
+     "« À votre avis – comment votre supérieure évalue-t-elle votre travail ? »",
+     "Question sur le point de vue d’autrui"
+    ],
+    [
+     "« Quand votre père et votre frère se disputent – que fait alors votre mère ? »",
+     "Question triadique"
+    ],
+    [
+     "« Qui dans l’équipe souffre le plus de la situation, qui le moins ? »",
+     "Question de différence"
+    ],
+    [
+     "« Supposons que vous preniez un congé parental – comment votre relation avec votre belle-mère changerait-elle ? »",
+     "Question hypothétique"
+    ]
+   ],
+   "erklaerung": "Toutes les formes invitent à penser au-delà de sa propre perspective. Les questions triadiques éclairent les relations entre tiers, les questions de différence rendent visibles les gradations, et les questions hypothétiques ouvrent des espaces de possibles."
+  },
+  {
+   "typ": "text",
+   "titel": "Le recadrage : donner un nouveau cadre",
+   "text": "Le **recadrage** (*reframing*) consiste à donner à un comportement, à une situation ou à une expérience un **nouveau cadre de signification**. Dans leur ouvrage de 1974, *Change* (édition allemande : *Lösungen*), Paul Watzlawick, John Weakland et Richard Fisch ont décrit ce procédé comme une forme de changement dans laquelle ce ne sont pas les faits, mais leur **signification** qui est modifiée.\n\nLa littérature pratique distingue fréquemment deux formes :\n\n- **Recadrage de sens :** le comportement reste le même, mais sa signification est vue autrement. « Ma fille me contredit sans arrêt » – « Votre fille apprend à défendre sa propre opinion. »\n- **Recadrage de contexte :** on se demande dans quel contexte un comportement prétendument problématique serait utile. « Je suis tellement pointilleux » – « Dans quels domaines de la vie votre précision est-elle un avantage ? »\n\nLe recadrage agit parce que les évaluations façonnent les sentiments et les actions (cf. théories de l’évaluation, module B1). Si un adolescent « têtu » est vu comme « affirmé », la manière de le traiter et la relation changent souvent elles aussi.\n\n**Conditions de réussite** importantes :\n\n- Le recadrage doit être **plausible** pour la personne et se rattacher à son point de vue.\n- Il ne doit **pas enjoliver la souffrance** ni justifier un comportement nuisible. La violence ou l’automutilation ne sont pas « réinterprétées positivement ».\n- Il devrait être formulé comme une **proposition** : « Pourrait-on aussi le voir ainsi … ? »\n- Il suppose une **relation solide** ; employé prématurément, il donne l’impression qu’on veut faire disparaître le problème par des mots.\n\nUne technique apparentée est la **connotation positive**, telle que l’utilisait le groupe de Milan : elle reconnaît la bonne intention derrière le comportement de toutes les personnes concernées."
+  },
+  {
+   "typ": "mc",
+   "frage": "Une mère se plaint : « Mon fils est tellement buté ; il ne cède jamais. » Quelle réponse est un recadrage de sens réussi ?",
+   "optionen": [
+    "« L’entêtement est quelque chose qu’il faut faire perdre aux enfants avec constance. »",
+    "« Il présente manifestement un trouble du comportement. »",
+    "« Se pourrait-il que votre fils soit très persévérant lorsque quelque chose lui tient à cœur – une capacité qui pourra aussi lui être utile plus tard ? »",
+    "« Vous vous faites sûrement des idées. »"
+   ],
+   "richtig": 2,
+   "erklaerung": "La troisième réponse propose une nouvelle signification (la persévérance) sous forme d’offre et la relie à une perspective. Les autres réponses restent dans le cadre du problème, pathologisent de manière inadmissible ou dévalorisent le vécu de la mère."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "S’agit-il d’un recadrage de sens ou d’un recadrage de contexte ?",
+   "kategorien": [
+    "Recadrage de sens",
+    "Recadrage de contexte"
+   ],
+   "elemente": [
+    {
+     "text": "« Votre partenaire appelle sans arrêt – peut-être est-ce sa manière de montrer à quel point vous comptez pour lui. »",
+     "kat": 0
+    },
+    {
+     "text": "« Dans quelle situation votre méfiance serait-elle une bonne protection ? »",
+     "kat": 1
+    },
+    {
+     "text": "« Vos ruminations pourraient aussi être le signe que vous prenez les décisions très au sérieux. »",
+     "kat": 0
+    },
+    {
+     "text": "« Où votre impatience serait-elle exactement la qualité qu’il faut ? »",
+     "kat": 1
+    },
+    {
+     "text": "« Le fait que votre équipe débatte avec autant de vivacité montre à quel point la question tient à cœur à vos collègues. »",
+     "kat": 0
+    },
+    {
+     "text": "« Dans quelle profession votre obsession du détail serait-elle recherchée ? »",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Le recadrage de sens donne une nouvelle signification au même comportement. Le recadrage de contexte cherche des situations dans lesquelles le comportement serait utile. Les deux formes élargissent les perspectives sans dévaloriser le vécu de la personne."
+  },
+  {
+   "typ": "text",
+   "titel": "Questions circulaires et recadrage dans la pratique",
+   "text": "Comment ces méthodes peuvent-elles être utilisées dans le quotidien des professionnels ? Quelques exemples d’application :\n\n- **Dans les soins :** une proche se plaint sans cesse du personnel. Une question circulaire (« À votre avis – comment votre mère vit-elle le fait que vous preniez sa défense ? ») et un recadrage (« Votre engagement montre à quel point son bien-être vous importe ») peuvent désamorcer la situation et ouvrir la voie à la coopération.\n- **À l’école :** une enseignante demande à un élève : « Qui dans ta classe remarquerait en premier que tu vas mieux ? » – et aide ainsi à rendre visibles les ressources sociales.\n- **Dans les ressources humaines :** dans les conflits d’équipe, les questions de différence (« Qui est le plus satisfait, qui le moins satisfait du nouveau planning des services ? ») aident à différencier les positions au lieu de diviser l’équipe en deux camps.\n- **Dans l’accompagnement parental :** un « enfant à problèmes » est réinterprété comme le « sismographe » de la famille, qui enregistre particulièrement tôt les tensions – une réinterprétation qui peut réduire les attributions de faute et orienter l’attention vers le système dans son ensemble.\n\nIl faut respecter des **limites** : en cas de violence dans les relations, **la multipartialité n’est pas appropriée** si elle brouille la protection et la responsabilité. En présence d’indices de mise en danger du bien-être d’un enfant ou de danger aigu, les mesures de protection priment sur les interventions systémiques. Et le recadrage ne remplace pas la reconnaissance d’une souffrance réelle : une personne doit d’abord se sentir comprise ; ensuite, une nouvelle perspective peut être utile."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Conflit dans l’équipe",
+   "einleitung": "Situation construite : Mme N., 44 ans, dirige une équipe dans un établissement d’hébergement pour personnes en situation de handicap. Elle demande un accompagnement parce qu’une collaboratrice de longue date, Mme K., bloque toute innovation.",
+   "runden": [
+    {
+     "klient": "« Mme K. est tout simplement contre tout. Quoi que je propose, elle trouve une raison pour laquelle ça ne marchera pas. Toute l’équipe en souffre. »",
+     "antworten": [
+      {
+       "text": "« À votre avis – comment Mme K. vit-elle elle-même les changements de ces derniers temps ? »",
+       "gut": true,
+       "feedback": "La question circulaire invite Mme N. à adopter la perspective de la collaboratrice. Cela peut ouvrir de nouvelles perspectives sans passer outre le vécu de Mme N."
+      },
+      {
+       "text": "« Alors vous devez lui adresser un avertissement formel. »",
+       "gut": false,
+       "feedback": "Un conseil prématuré fait l’impasse sur la clarification et réduit les possibilités d’action aux sanctions."
+      },
+      {
+       "text": "« Cela ressemble à une personnalité difficile. »",
+       "gut": false,
+       "feedback": "L’attribution d’un trait de caractère fige le problème et contredit la vision systémique des interactions."
+      }
+     ]
+    },
+    {
+     "klient": "« Hmm. Peut-être qu’elle a peur que son expérience ne compte plus. Elle est là depuis vingt ans. »",
+     "antworten": [
+      {
+       "text": "« La peur n’excuse pas son comportement. »",
+       "gut": false,
+       "feedback": "Le jugement referme la perspective qui venait de s’ouvrir et ramène l’échange dans le conflit."
+      },
+      {
+       "text": "« Pourrait-on alors voir aussi ses objections comme l’expression de son souci d’un bon accompagnement – fondé sur une grande expérience ? »",
+       "gut": true,
+       "feedback": "Le recadrage est formulé comme une proposition et s’appuie sur la propre réflexion de Mme N. Ainsi, le « blocage » peut devenir un « souci fondé sur l’expérience »."
+      },
+      {
+       "text": "« Combien de temps allez-vous encore supporter cela ? »",
+       "gut": false,
+       "feedback": "La question fait monter le conflit et détourne des nouvelles prises de conscience."
+      }
+     ]
+    },
+    {
+     "klient": "« Je ne l’avais jamais vu ainsi. C’est vrai qu’elle connaît le mieux les résidents. »",
+     "antworten": [
+      {
+       "text": "« Super, alors le problème est résolu. »",
+       "gut": false,
+       "feedback": "Une nouvelle perspective est un début, mais pas encore une solution. Il manque des étapes concrètes."
+      },
+      {
+       "text": "« Néanmoins, vous devriez poser des limites claires. »",
+       "gut": false,
+       "feedback": "La remarque arrive au mauvais moment et dévalorise la perspective qui vient d’être acquise."
+      },
+      {
+       "text": "« Supposons que vous associiez Mme K. à la prochaine innovation en tant qu’experte des résidents – qu’est-ce qui changerait dans l’équipe ? »",
+       "gut": true,
+       "feedback": "La question hypothétique transforme la nouvelle perspective en option d’action et invite Mme N. à réfléchir à ses effets sur le système."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "merke",
+   "text": "Les questions circulaires amènent d’autres perspectives dans la pièce ; le recadrage ouvre de nouvelles significations. Les deux ne fonctionnent que si la personne s’est d’abord sentie comprise – et ils ne remplacent jamais la protection dans les situations de danger."
+  },
+  {
+   "typ": "karten",
+   "titel": "Fiches : méthodes systémiques",
+   "karten": [
+    {
+     "vorne": "Circularité",
+     "hinten": "Dans les relations, les comportements se conditionnent mutuellement ; la question du « début » n’est généralement pas pertinente pour la solution."
+    },
+    {
+     "vorne": "Lignes directrices de Milan (1980)",
+     "hinten": "Hypothétisation, circularité, neutralité – décrites par Selvini Palazzoli, Boscolo, Cecchin et Prata."
+    },
+    {
+     "vorne": "Question triadique",
+     "hinten": "On interroge une personne sur la relation entre deux autres : « Quand A et B se disputent, que fait C ? »"
+    },
+    {
+     "vorne": "Recadrage de sens",
+     "hinten": "Même comportement, nouvelle signification : « contredire » comme « défendre sa propre opinion »."
+    },
+    {
+     "vorne": "Recadrage de contexte",
+     "hinten": "Se demander dans quel contexte un comportement serait utile."
+    },
+    {
+     "vorne": "Multipartialité",
+     "hinten": "S’efforcer de rendre justice à tous les membres d’un système ; s’arrête là où la protection contre la violence est prioritaire."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Quel comportement d’une personne de votre quotidien professionnel vous agace ou vous irrite régulièrement ? Essayez un recadrage de sens et un recadrage de contexte.",
+   "hinweis": "Quelle pourrait être la bonne intention derrière ce comportement ? Dans quel contexte serait-il utile ? Comment la nouvelle perspective modifie-t-elle vos sentiments et vos possibilités d’action ?"
+  }
+ ]
+}

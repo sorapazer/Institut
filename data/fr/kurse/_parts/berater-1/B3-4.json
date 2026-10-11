@@ -1,0 +1,192 @@
+{
+ "id": "B3-4",
+ "titel": "Structurer le processus d’accompagnement : phases et contrat",
+ "dauer": 35,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Pourquoi structurer ?",
+   "text": "Un bon accompagnement est **à la fois orienté vers la relation et structuré**. Sans structure, le risque existe que les entretiens tournent en rond, que les attentes restent implicites et qu’à la fin personne ne sache si quelque chose a été atteint, et quoi. La structure n’est pas un carcan rigide, mais une **orientation** qui procure de la sécurité – aux clients comme aux accompagnants.\n\nLa littérature sur l’accompagnement contient divers modèles de phases, qui se ressemblent dans leurs grandes lignes. Un schéma de base éprouvé comprend :\n\n1. **Prise de contact et construction de la relation :** accueil, orientation sur le cadre et la démarche, premiers jalons de confiance\n2. **Clarification de la demande et du mandat :** de quoi s’agit-il ? Qui veut quoi de qui ? Qu’est-ce qui devrait être différent à la fin ?\n3. **Contrat :** accord contraignant sur les objectifs, le cadre, les rôles et la démarche\n4. **Analyse de la situation, du problème et des ressources :** une compréhension précise de la situation, y compris des forces et des possibilités de soutien\n5. **Clarification des objectifs :** des objectifs concrets, atteignables et porteurs de sens pour la personne\n6. **Élaboration et mise en œuvre de solutions :** dégager des options, les évaluer, planifier de premières étapes et les expérimenter\n7. **Transfert et évaluation :** qu’est-ce qui a changé ? Qu’est-ce qui a aidé ? De quoi a-t-on encore besoin ?\n8. **Clôture :** bilan, reconnaissance, perspectives et, le cas échéant, indication d’autres offres\n\nCes phases ne se déroulent pas de manière strictement linéaire. Il apparaît souvent, par exemple lors de l’analyse, que la demande doit être clarifiée à nouveau. La structure aide alors à rendre ces **boucles de rétroaction** conscientes, au lieu de changer de sujet sans s’en apercevoir.\n\nLes **séances individuelles** peuvent elles aussi être structurées : arrivée, retour sur la période écoulée depuis le dernier rendez-vous, thème central de la séance du jour, phase de travail, synthèse et accords."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Classez les phases d’un processus d’accompagnement dans un ordre de base judicieux.",
+   "elemente": [
+    "Prise de contact et construction de la relation",
+    "Clarification de la demande et du mandat",
+    "Contrat",
+    "Analyse de la situation et des ressources",
+    "Clarification des objectifs",
+    "Élaboration et mise en œuvre de solutions",
+    "Évaluation et clôture"
+   ],
+   "erklaerung": "L’ordre représente un schéma de base. Sans relation, une clarification ouverte du mandat n’est pas possible ; sans mandat clarifié, pas de contrat solide ; et les solutions supposent une compréhension et des objectifs. Dans la pratique, il existe des boucles de rétroaction."
+  },
+  {
+   "typ": "text",
+   "titel": "Clarifier la demande et le mandat",
+   "text": "La **clarification du mandat** est l’une des phases les plus importantes et les plus souvent sous-estimées. Beaucoup de processus d’accompagnement échouent non par manque de méthode, mais en raison de **mandats flous ou contradictoires**.\n\nIl convient de distinguer :\n\n- **Motif :** qu’est-ce qui a amené la personne à venir maintenant ? (« La crèche m’a envoyée. »)\n- **Demande :** que veut la personne elle-même ? (« Je veux que mon fils retrouve le plaisir d’aller à la crèche. »)\n- **Mandat :** que doit faire concrètement l’accompagnant ? (« J’aimerais des idées pour rendre la routine du matin plus détendue. »)\n\nDans les contextes du travail social en particulier, il existe souvent **plusieurs mandants** : l’office de la jeunesse, l’école, les proches, l’employeur, le client lui-même. Pour clarifier de telles configurations, Arist von Schlippe a proposé l’image du **carrousel des mandats** (Auftragskarussell) : l’accompagnant prend conscience des attentes qui lui sont adressées de différents côtés et examine celles qu’il peut accepter.\n\nQuestions utiles pour clarifier le mandat :\n\n- « Qu’est-ce qui vous amène chez moi – et pourquoi maintenant ? »\n- « De qui venait l’idée que vous veniez ici ? »\n- « À quoi remarqueriez-vous, à la fin, que l’accompagnement en valait la peine ? »\n- « Qu’est-ce que je ne devrais surtout pas faire ? »\n\nAvec les personnes qui ne viennent **pas de leur plein gré**, il est judicieux de nommer ouvertement le contexte contraint et de rechercher ensemble, dans ce cadre, une demande propre. Cette idée est approfondie dans le module B4 avec la distinction entre visiteurs, plaignants et clients."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les propos d’une mère en accompagnement parental aux notions.",
+   "paare": [
+    [
+     "« L’enseignante a dit que je devrais me faire aider. »",
+     "Motif"
+    ],
+    [
+     "« Je veux que nous arrêtions de nous disputer constamment le soir. »",
+     "Demande"
+    ],
+    [
+     "« J’aimerais que vous me donniez des idées concrètes pour une routine du soir. »",
+     "Mandat"
+    ]
+   ],
+   "erklaerung": "Le motif est le déclencheur extérieur, la demande est le souhait de la personne, et le mandat est l’attente concrète à l’égard de l’accompagnant. Ce n’est que lorsque les trois sont clarifiés qu’un contrat solide peut naître."
+  },
+  {
+   "typ": "text",
+   "titel": "Le contrat d’accompagnement",
+   "text": "Le **contrat** (accord d’accompagnement) est l’**accord contraignant** entre l’accompagnant et le client. Il peut être conclu oralement ou par écrit ; en exercice libéral, un contrat écrit est recommandé. Sur le plan du contenu, on peut distinguer plusieurs niveaux :\n\n- **Cadre formel :** lieu, durée et fréquence des rendez-vous, nombre de séances convenues, coûts et modalités de paiement, règles en cas d’annulation, disponibilité entre les rendez-vous\n- **Confidentialité et ses limites :** qu’est-ce qui reste dans la pièce ? Quand existe-t-il une autorisation de divulguer ou une obligation d’agir, par exemple en cas de danger aigu pour soi-même ou pour autrui ou de mise en danger du bien-être d’un enfant ? Comment la documentation est-elle gérée, et qui a accès aux dossiers ?\n- **Objectifs de fond :** vers quoi travaille-t-on ? À quoi remarquera-t-on que l’accompagnement est réussi ?\n- **Rôles et démarche :** qu’est-ce que l’accompagnement – et qu’est-ce qu’il n’est pas ? Quelles méthodes sont utilisées ? Quelle responsabilité portent les deux parties ?\n- **Bilan et fin :** quand un bilan intermédiaire aura-t-il lieu ? Comment l’accompagnement peut-il être terminé par l’une ou l’autre partie ?\n\nLe contrat devrait également rendre transparent que l’accompagnement psychologique **n’est pas une psychothérapie** et qu’une orientation aura lieu en cas d’indices d’un trouble nécessitant un traitement (cf. module B2).\n\nUn contrat bien clarifié a une importante fonction de **construction de la relation** : il crée de la sécurité, répartit équitablement la responsabilité et protège les deux parties des malentendus et des déceptions. En même temps, il est une expression de la **congruence** – l’accompagnant rend visibles ses conditions et ses limites."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels points font typiquement partie d’un contrat d’accompagnement ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Durée, fréquence et coûts des rendez-vous",
+    "Le diagnostic du client selon la CIM-11",
+    "La confidentialité et ses limites",
+    "Les objectifs convenus et les dates des bilans intermédiaires",
+    "Une garantie que le problème sera résolu"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Les conditions générales, la confidentialité avec ses limites, ainsi que les objectifs et le bilan sont des éléments essentiels d’un contrat. Les diagnostics ne relèvent pas d’un accompagnement qui n’exerce pas l’art de guérir, et les garanties de succès ne sont pas professionnelles."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Structurer un premier entretien",
+   "einleitung": "Situation construite : Mme H., 38 ans, s’adresse à un cabinet d’accompagnement psychologique. C’est le premier entretien.",
+   "runden": [
+    {
+     "klient": "« Bonjour … je ne sais pas vraiment par où commencer. Tout est un peu trop en ce moment. »",
+     "antworten": [
+      {
+       "text": "« Racontez-moi tout dans l’ordre, depuis le début – votre enfance, votre famille, votre métier. »",
+       "gut": false,
+       "feedback": "Une anamnèse complète dès le départ peut submerger et passe à côté du vécu actuel."
+      },
+      {
+       "text": "« Je suis content que vous soyez là. Nous avons environ une heure aujourd’hui. J’aimerais d’abord comprendre ce qui vous amène, et à la fin nous verrons ensemble si nous continuons à travailler ensemble, et comment. Qu’est-ce qui est le plus « trop » en ce moment ? »",
+       "gut": true,
+       "feedback": "La réponse donne une orientation sur le temps et la démarche (structure), invite par une question ouverte et focalisante, et laisse à Mme H. le choix de l’endroit où commencer."
+      },
+      {
+       "text": "« Vous êtes exactement au bon endroit ; nous allons régler cela. »",
+       "gut": false,
+       "feedback": "Une promesse de salut avant toute clarification n’est pas professionnelle et peut conduire à des déceptions ultérieures."
+      }
+     ]
+    },
+    {
+     "klient": "« Surtout le travail. Je suis devenue cheffe d’équipe et j’ai le sentiment de ne pouvoir satisfaire personne. Mon médecin traitant a pensé qu’un accompagnement pourrait m’aider. »",
+     "antworten": [
+      {
+       "text": "« Vous avez un nouveau rôle de direction et vous êtes sous une forte pression pour satisfaire tout le monde. Votre médecin vous a suggéré un accompagnement – qu’en attendez-vous vous-même ? »",
+       "gut": true,
+       "feedback": "La reformulation résume l’essentiel, distingue le motif (la recommandation du médecin) de sa propre demande et invite à clarifier le mandat."
+      },
+      {
+       "text": "« Vous devez apprendre à poser des limites. »",
+       "gut": false,
+       "feedback": "Un conseil prématuré remplace la clarification. On ne sait pas encore de quoi Mme H. a besoin et ce qu’elle veut."
+      },
+      {
+       "text": "« Votre médecin a-t-il posé un diagnostic ? Lequel ? »",
+       "gut": false,
+       "feedback": "Demander si un traitement médical est en cours est légitime ; en première réaction, cela éloigne cependant de la demande. La question peut être posée plus tard dans le cadre de la clarification."
+      }
+     ]
+    },
+    {
+     "klient": "« J’aimerais apprendre à gérer les conflits dans l’équipe avec plus d’assurance. Et j’aimerais pouvoir de nouveau décrocher le soir. »",
+     "antworten": [
+      {
+       "text": "« Bien, alors commençons tout de suite par un exercice sur les conflits. »",
+       "gut": false,
+       "feedback": "Avant la mise en œuvre, il n’y a pas d’accord sur le cadre, les objectifs et la démarche. Sans contrat, on ne sait pas clairement dans quoi on s’engage."
+      },
+      {
+       "text": "« Ce sont deux objectifs importants. Avant de commencer, j’aimerais discuter avec vous du cadre : combien de rendez-vous nous convenons pour commencer, ce qui reste confidentiel et où se situent les limites de cet accompagnement. Cela vous convient-il ? »",
+       "gut": true,
+       "feedback": "La réponse reconnaît les objectifs et conduit de manière transparente vers la phase du contrat – avec une demande de permission."
+      },
+      {
+       "text": "« Décrocher, c’est facile – allez vous promener le soir. »",
+       "gut": false,
+       "feedback": "Un conseil du quotidien passe outre la complexité et saute la structuration du processus."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "text",
+   "titel": "Clôture et évaluation",
+   "text": "La **clôture** d’un processus d’accompagnement mérite autant de soin que son commencement. En particulier après des processus intensifs, une fin abrupte peut déstabiliser les clients ou réveiller d’anciennes expériences de perte. Une bonne clôture comprend :\n\n- **Bilan :** où la personne se situait-elle au début, et où se situe-t-elle maintenant ? Les échelles utilisées au début peuvent être reprises.\n- **Reconnaissance :** qu’est-ce que la personne a elle-même apporté au changement ? Attribuer les progrès à sa **propre réalisation** renforce l’auto-efficacité.\n- **Consolider les acquis :** qu’est-ce qui aide à maintenir les changements ? À quoi la personne remarquerait-elle tôt une rechute dans d’anciens schémas, et que pourrait-elle faire alors ?\n- **Perspectives :** quelles questions restent ouvertes ? Existe-t-il d’autres offres qui pourraient être utiles ?\n- **Prise de congé :** un au revoir conscient et personnel, le cas échéant avec la proposition d’un contact ultérieur.\n\nL’**évaluation** ne devrait pas avoir lieu seulement à la fin. La recherche en psychothérapie montre que des **retours réguliers et structurés des clients** sur la relation et les progrès peuvent aider à détecter tôt les évolutions défavorables. De simples questions à la fin de chaque séance – « Qu’est-ce qui a été utile aujourd’hui ? Qu’est-ce qui a manqué ? » – sont un bon début.\n\nEnfin, la structuration comprend aussi la **documentation** : concise, factuelle, conforme à la protection des données et formulée de telle sorte que le client puisse la comprendre s’il la consultait. Les accompagnants devraient connaître les règles de conservation et de protection des données applicables à leur champ d’activité."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle mesure à la clôture d’un accompagnement renforce particulièrement l’auto-efficacité du client ?",
+   "optionen": [
+    "L’accompagnante souligne quelles méthodes elle a utilisées avec succès.",
+    "Les progrès sont explicitement attribués aux contributions et aux capacités propres du client.",
+    "L’accompagnement est terminé sans bilan pour ne pas accabler la personne.",
+    "On propose au client de revenir immédiatement à chaque difficulté future."
+   ],
+   "richtig": 1,
+   "erklaerung": "Lorsque les changements sont attribués à ses propres contributions, la conviction grandit de pouvoir aussi faire bouger les choses à l’avenir. Mettre en avant ses propres méthodes attribue le mérite à l’accompagnante, une clôture sans bilan gaspille les acquis d’apprentissage, et une recommandation générale de revenir peut favoriser la dépendance."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Les limites de la confidentialité ne devraient être abordées qu’au moment où une situation de danger survient effectivement, afin de ne pas perturber la confiance au début.",
+   "richtig": false,
+   "erklaerung": "La transparence sur les limites de la confidentialité a sa place au début, dans le contrat. Si elles ne sont nommées qu’en situation de crise, cela peut être vécu comme un abus de confiance. L’ouverture dès le départ est une expression de la congruence et protège la relation."
+  },
+  {
+   "typ": "merke",
+   "text": "Un contrat clair n’est pas une formalité, mais le fondement de la collaboration : il crée de la sécurité, répartit la responsabilité et rend les limites transparentes dès le départ."
+  },
+  {
+   "typ": "karten",
+   "titel": "Fiches : processus et contrat",
+   "karten": [
+    {
+     "vorne": "Motif – demande – mandat",
+     "hinten": "Déclencheur extérieur – souhait propre de la personne – attente concrète à l’égard de l’accompagnant."
+    },
+    {
+     "vorne": "Carrousel des mandats",
+     "hinten": "Image proposée par Arist von Schlippe pour la multiplicité des attentes que différents mandants adressent à l’accompagnant."
+    },
+    {
+     "vorne": "Contrat",
+     "hinten": "Accord contraignant sur le cadre, la confidentialité, les objectifs, les rôles, la démarche, le bilan et la fin."
+    },
+    {
+     "vorne": "Structure d’une séance",
+     "hinten": "Arrivée – retour en arrière – thème central – phase de travail – synthèse – accords."
+    },
+    {
+     "vorne": "Bonne clôture",
+     "hinten": "Bilan, reconnaissance des contributions propres, consolidation des acquis, perspectives et prise de congé consciente."
+    }
+   ]
+  }
+ ]
+}

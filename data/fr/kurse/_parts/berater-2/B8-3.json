@@ -1,0 +1,169 @@
+{
+ "id": "B8-3",
+ "titel": "Le Heilpraktikergesetz, la frontière avec l’exercice de l’art de guérir et la documentation",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Qu’est-ce que l’exercice de l’art de guérir ?",
+   "text": "En Allemagne, l’exercice de l’art de guérir (Ausübung der Heilkunde) est **soumis à autorisation**. La base légale est le **Heilpraktikergesetz** (HeilprG, loi allemande sur les praticiens de santé non médecins). Selon le **§ 1, al. 2 HeilprG**, l’exercice de l’art de guérir est toute activité professionnelle ou commerciale visant à **constater, guérir ou soulager des maladies, des souffrances ou des lésions corporelles** chez l’être humain, même si elle est exercée au service d’autrui.\n\nSont notamment habilités à exercer l’art de guérir :\n\n- les **médecins** titulaires d’une Approbation (autorisation d’exercer délivrée par l’État),\n- les **psychothérapeutes psychologues** et les psychothérapeutes pour enfants et adolescents, ou les psychothérapeutes relevant du nouveau droit, chacun titulaire d’une Approbation selon le Psychotherapeutengesetz (loi allemande sur les psychothérapeutes), limitée à la psychothérapie,\n- les **Heilpraktiker** (praticiens de santé non médecins) titulaires d’une autorisation selon le HeilprG,\n- les personnes titulaires d’une **autorisation de Heilpraktiker limitée au domaine de la psychothérapie** (souvent appelée « Heilpraktiker sectoriel pour la psychothérapie »), délivrée après un examen par l’office de santé publique (Gesundheitsamt).\n\nQuiconque exerce l’art de guérir sans autorisation commet une infraction pénale en vertu du **§ 5 HeilprG** ; la loi prévoit une peine d’emprisonnement pouvant aller jusqu’à un an ou une amende.\n\nLe conseil psychologique sans l’une de ces autorisations n’est donc admissible que tant qu’il **ne constitue pas un exercice de l’art de guérir** – c’est-à-dire tant qu’il ne vise pas à constater, guérir ou soulager des maladies. Connaître précisément cette frontière et la respecter est indispensable pour les conseillers qui ne disposent pas d’une Heilkundeerlaubnis (autorisation d’exercer l’art de guérir)."
+  },
+  {
+   "typ": "text",
+   "titel": "Où se situe la frontière ?",
+   "text": "Tracer la frontière n’est pas toujours facile dans le cas particulier. On peut toutefois tirer de la loi et de la jurisprudence des repères clairs :\n\n**Ne constitue pas**, en règle générale, **un exercice de l’art de guérir** le conseil de **personnes en bonne santé psychique** sur des questions de vie, des décisions, des conflits, des transitions, des charges et des questions de développement personnel – par exemple la gestion du stress, la communication, la clarification des valeurs, l’accompagnement lors d’une séparation ou l’orientation professionnelle.\n\n**Il y a en revanche exercice de l’art de guérir** notamment lorsque :\n\n- des **diagnostics** de troubles mentaux sont posés (p. ex. « Vous avez une dépression », « C’est un trouble anxieux »),\n- des **maladies** mentales **doivent être traitées** (p. ex. conseil « contre la dépression », « thérapie des troubles paniques »),\n- des activités sont proposées qui, par leur nature, exigent une **expertise médicale ou psychothérapeutique** et peuvent porter atteinte à la santé.\n\nSelon la jurisprudence, il peut aussi être déterminant qu’une activité donne aux personnes qui consultent l’**impression** de viser la guérison, et qu’elle crée le **danger** qu’un traitement médical nécessaire soit retardé ou omis (ce que l’on appelle la mise en danger indirecte de la santé).\n\nIl en découle que ce qui compte n’est pas seulement ce que font les conseillers, mais aussi **la manière dont ils présentent leur activité**, à qui ils la proposent et comment ils réagissent face à des indices de maladie."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Comment faut-il qualifier les offres suivantes d’une personne ne disposant pas d’une autorisation d’exercer l’art de guérir ?",
+   "kategorien": [
+    "conseil généralement admissible",
+    "frontière avec l’art de guérir franchie"
+   ],
+   "elemente": [
+    {
+     "text": "Accompagnement dans la décision d’une reconversion professionnelle",
+     "kat": 0
+    },
+    {
+     "text": "« Je traite votre dépression par des entretiens centrés sur le sens. »",
+     "kat": 1
+    },
+    {
+     "text": "Un cours de gestion du stress pour des actifs en bonne santé",
+     "kat": 0
+    },
+    {
+     "text": "Constater qu’un client souffre d’un trouble anxieux généralisé",
+     "kat": 1
+    },
+    {
+     "text": "Clarification des valeurs dans une phase consécutive à une séparation",
+     "kat": 0
+    },
+    {
+     "text": "Offre sur un site internet : « Thérapie des attaques de panique et des compulsions »",
+     "kat": 1
+    },
+    {
+     "text": "Conseil en communication pour un couple aux conflits récurrents",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Le conseil de personnes en bonne santé sur des questions de vie, des décisions et des charges ne constitue généralement pas un exercice de l’art de guérir. Les diagnostics, le traitement de maladies mentales et une présentation publique correspondante (« thérapie de … ») franchissent la frontière. Dans le cas particulier, les circonstances concrètes sont toujours déterminantes."
+  },
+  {
+   "typ": "text",
+   "titel": "Conséquences pratiques pour les conseillers sans autorisation d’exercer l’art de guérir",
+   "text": "Pour respecter de manière fiable la frontière avec l’exercice de l’art de guérir, les procédures suivantes ont fait leurs preuves :\n\n- **Une présentation publique claire** : sur les sites internet, les dépliants et dans les entretiens, on parle de « conseil psychologique », d’« accompagnement » ou de « coaching », et non de « thérapie », de « traitement » ou de « guérison ». Aucun tableau clinique n’est annoncé comme public cible, et aucune promesse de guérison n’est faite.\n- **Une information dès le début** : les personnes qui consultent sont informées – idéalement aussi par écrit dans le contrat de conseil – que le conseil ne comprend ni le diagnostic ni le traitement de maladies psychiques ou physiques et ne remplace pas un traitement médical ou psychothérapeutique.\n- **Encourager l’évaluation** : en présence d’indices d’une maladie psychique ou physique, une évaluation médicale ou psychothérapeutique est recommandée, et cela est documenté.\n- **En cas de traitement en cours** : si une personne est en traitement, un conseil portant sur des thèmes de vie clairement délimités peut être utile en accompagnement. Il doit alors, dans la mesure du possible et avec le consentement de la personne, être coordonné avec les professionnels traitants et ne doit pas contredire le traitement.\n- **Pas de recommandations concernant les médicaments** : les questions relatives aux médicaments relèvent des médecins. Les conseillers ne conseillent ni d’arrêter ni de prendre des médicaments.\n- **Le langage dans l’entretien** : au lieu de « Vous avez une dépression », plutôt : « Ce que vous décrivez devrait être examiné par un médecin, afin que rien ne soit négligé. »\n\nQuiconque souhaite en outre exercer l’art de guérir a besoin de l’autorisation correspondante. Même dans ce cas, il convient de distinguer clairement quand on conseille et quand on traite."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle formulation sur le site internet d’une conseillère psychologique ne disposant pas d’une autorisation d’exercer l’art de guérir est la plus probablement irréprochable ?",
+   "optionen": [
+    "« Je traite le burn-out, la dépression et l’anxiété de manière holistique. »",
+    "« Je vous accompagne face au stress professionnel, aux transitions de vie et aux décisions. Mon conseil ne remplace pas un traitement médical ou psychothérapeutique. »",
+    "« Avec ma méthode, vous serez libéré de l’anxiété en cinq séances. »",
+    "« Psychothérapie sans délai d’attente – rapide et sans formalités. »"
+   ],
+   "richtig": 1,
+   "erklaerung": "La bonne formulation décrit des motifs de conseil sans référence à une maladie et informe sur la frontière. Les autres formulations promettent le traitement de maladies, font des promesses de guérison ou utilisent le terme « psychothérapie », ce qui est inadmissible sans autorisation ni Approbation."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "L’exercice de l’art de guérir sans autorisation constitue une infraction pénale en vertu du § 5 HeilprG.",
+   "richtig": true,
+   "erklaerung": "Exact. Le § 5 HeilprG prévoit une peine d’emprisonnement pouvant aller jusqu’à un an ou une amende pour l’exercice de l’art de guérir sans autorisation. Des conséquences en droit de la concurrence et en droit civil peuvent en outre en découler."
+  },
+  {
+   "typ": "luecke",
+   "text": "Le titre professionnel « Psychotherapeutin » (psychothérapeute) est protégé par {{le Psychotherapeutengesetz (loi sur les psychothérapeutes)|le Heilpraktikergesetz (loi sur les praticiens de santé non médecins)|le livre VIII du Code social}}. Quiconque exerce l’art de guérir sans autorisation commet une infraction pénale en vertu {{du § 5 HeilprG|du § 34 StGB|de l’art. 9 RGPD}}. En présence d’indices d’une maladie, les conseillers sans autorisation d’exercer l’art de guérir devraient recommander {{une évaluation médicale ou psychothérapeutique|un autodiagnostic par questionnaire|une prolongation du conseil}}.",
+   "erklaerung": "Le Psychotherapeutengesetz protège le titre professionnel, et le § 5 HeilprG fait de l’exercice non autorisé de l’art de guérir une infraction pénale. En présence d’indices de maladie, recommander une évaluation professionnelle est la bonne démarche – également pour prévenir une mise en danger indirecte de la santé."
+  },
+  {
+   "typ": "text",
+   "titel": "La documentation : pourquoi et quoi ?",
+   "text": "Même si le conseil psychologique en dehors de l’exercice de l’art de guérir n’est pas soumis aux mêmes obligations légales de documentation que le traitement médical ou psychothérapeutique, une **documentation soigneuse** est recommandée sur le plan professionnel. Elle remplit plusieurs fonctions :\n\n- **Aide-mémoire et continuité** : qu’est-ce qui a été abordé, convenu, essayé ?\n- **Assurance qualité et réflexion** : les évolutions deviennent visibles et peuvent être discutées en supervision.\n- **Preuve** : en cas de réclamations ou de litiges, on peut démontrer comment on a agi – par exemple qu’une évaluation médicale a été recommandée ou qu’un danger a été évalué.\n\nSur le fond, une structure légère a fait ses preuves :\n\n- date, durée et forme du contact,\n- motif et demande,\n- thèmes centraux et interventions sous forme de mots-clés,\n- accords et prochaines étapes,\n- recommandations (p. ex. évaluation médicale) et réaction à celles-ci,\n- en cas de crise : évaluation du danger, propos de la personne (autant que possible textuels), mesures prises, horaires, services impliqués.\n\nLes principes d’une bonne documentation sont l’**objectivité**, la **séparation entre observation et interprétation**, la **minimisation des données** et un langage respectueux. Écrivez de manière à pouvoir défendre chaque formulation devant la personne concernée – car selon le RGPD, les personnes qui consultent disposent en règle générale d’un droit d’accès aux données conservées à leur sujet. Des durées de conservation claires devraient être fixées dans un concept de suppression ; les obligations fiscales de conservation des factures s’appliquent séparément."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Classez les entrées de documentation.",
+   "kategorien": [
+    "formulée de manière appropriée",
+    "formulée de manière problématique"
+   ],
+   "elemente": [
+    {
+     "text": "« La cliente rapporte mal dormir depuis trois semaines. Évaluation médicale recommandée ; la cliente compte prendre rendez-vous chez son médecin de famille. »",
+     "kat": 0
+    },
+    {
+     "text": "« Le client a manifestement un trouble narcissique. »",
+     "kat": 1
+    },
+    {
+     "text": "« Interrogée, la cliente nie toute pensée suicidaire. Numéros d’urgence remis. Rendez-vous de suivi jeudi. »",
+     "kat": 0
+    },
+    {
+     "text": "« Femme totalement épuisante, se plaint sans arrêt. »",
+     "kat": 1
+    },
+    {
+     "text": "« Thème : conflit avec le supérieur. Jeu de rôle de l’entretien réalisé. »",
+     "kat": 0
+    },
+    {
+     "text": "Récit détaillé de détails intimes de l’enfance sans pertinence pour le conseil",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Les entrées appropriées décrivent sobrement les observations, les propos, les interventions et les accords. Les attributions diagnostiques, les formulations dévalorisantes et les détails inutiles sont problématiques sur le plan professionnel, éthique et du droit de la protection des données."
+  },
+  {
+   "typ": "fall",
+   "titel": "Un cas limite dans le conseil",
+   "fall": "Vignette pédagogique construite : un client de 34 ans vient consulter en raison de conflits au travail. Lors de la troisième séance, il rapporte que depuis des mois il ne parvient presque plus à prendre le métro à cause d’attaques de panique et qu’il arrive donc souvent en retard. Il demande : « Est-ce qu’on ne pourrait pas simplement travailler ici sur les attaques de panique ? Je ne veux pas aller chez le médecin ; il va seulement me prescrire des médicaments. »",
+   "frage": "Comment agissez-vous de manière appropriée en tant que conseiller sans autorisation d’exercer l’art de guérir ?",
+   "optionen": [
+    "Vous acceptez et travaillez sur les attaques de panique au moyen d’exercices d’exposition, puisque vous connaissez la méthode grâce à un séminaire.",
+    "Vous mettez fin immédiatement au conseil, puisqu’une maladie est suspectée.",
+    "Vous expliquez que le traitement des attaques de panique ne relève pas de votre champ d’action, prenez au sérieux ses réticences concernant les médicaments, l’informez qu’un traitement psychothérapeutique est également possible, recommandez une évaluation, le documentez et proposez de continuer à travailler sur les conflits au travail.",
+    "Vous lui conseillez de renoncer aux médicaments et d’essayer des exercices de respiration."
+   ],
+   "richtig": 2,
+   "erklaerung": "Le traitement des attaques de panique relève de l’exercice de l’art de guérir et appartient aux médecins ou aux psychothérapeutes. Il est approprié de rendre la frontière transparente, de reconnaître les réticences du client, de l’informer sur les possibilités de traitement, de recommander une évaluation, de le documenter et de poursuivre le conseil sur la demande non médicale. Une interruption brutale ou des recommandations concernant les médicaments seraient inappropriées."
+  },
+  {
+   "typ": "karten",
+   "titel": "Exercice de l’art de guérir et documentation",
+   "karten": [
+    {
+     "vorne": "§ 1, al. 2 HeilprG",
+     "hinten": "Exercice de l’art de guérir = activité professionnelle ou commerciale visant à constater, guérir ou soulager des maladies, des souffrances ou des lésions corporelles."
+    },
+    {
+     "vorne": "Autorisation d’exercer l’art de guérir",
+     "hinten": "Approbation (médecins, psychothérapeutes), autorisation de Heilpraktiker ou autorisation de Heilpraktiker limitée à la psychothérapie."
+    },
+    {
+     "vorne": "§ 5 HeilprG",
+     "hinten": "Responsabilité pénale pour l’exercice de l’art de guérir sans autorisation : emprisonnement jusqu’à un an ou amende."
+    },
+    {
+     "vorne": "Mise en danger indirecte de la santé",
+     "hinten": "Danger qu’une activité conduise à retarder ou à omettre un traitement médical nécessaire."
+    },
+    {
+     "vorne": "Bonne documentation",
+     "hinten": "Objective, séparant observation et interprétation, minimisant les données, respectueuse ; en cas de crise, consigner précisément l’évaluation et les mesures."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Rédigez un court paragraphe pour votre contrat de conseil ou votre site internet qui indique clairement ce que propose votre conseil et où se situent ses limites.",
+   "hinweis": "Questions directrices : quelles demandes est-ce que je décris ? Est-ce que j’évite les termes désignant des maladies et les promesses de guérison ? Est-ce que je précise qu’aucun diagnostic ni traitement n’a lieu ? Comment est-ce que j’invite les personnes à chercher, si nécessaire, une aide médicale ou psychothérapeutique ?"
+  }
+ ]
+}
