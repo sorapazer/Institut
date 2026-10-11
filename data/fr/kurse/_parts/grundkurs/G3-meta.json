@@ -1,0 +1,105 @@
+{
+ "titel": "Panorama des méthodes",
+ "beschreibung": "Ce module présente les méthodes centrales de la logothérapie : le dialogue socratique, la modulation des attitudes, l'intention paradoxale et la déréflexion. Pour finir, la logothérapie est comparée à d'autres approches, et l'état de la recherche ainsi que ses limites sont évalués avec sobriété. Le cours de base transmet une compréhension des méthodes, et non une qualification pour leur application thérapeutique.",
+ "lernziele": [
+  "Vous êtes capable de décrire le but, l'attitude et les questions typiques du dialogue socratique.",
+  "Vous êtes capable d'expliquer ce qu'est la modulation des attitudes et quand elle est appropriée.",
+  "Vous êtes capable de présenter le principe d'action, les indications et les contre-indications de l'intention paradoxale et de la déréflexion.",
+  "Vous êtes capable de nommer les points communs et les différences entre la logothérapie et d'autres approches psychothérapeutiques.",
+  "Vous êtes capable d'évaluer objectivement l'état de la recherche et les limites de la logothérapie."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "Qu'est-ce qui caractérise le dialogue socratique en logothérapie ?",
+   "optionen": [
+    "Le conseiller explique au client en quoi consiste le sens de sa vie.",
+    "Par des questions ouvertes, la personne est aidée à découvrir ses propres valeurs et possibilités de sens.",
+    "Le client est convaincu de ses hypothèses erronées par des arguments logiques.",
+    "L'entretien sert avant tout à l'interprétation des rêves."
+   ],
+   "richtig": 1,
+   "erklaerung": "Le dialogue socratique est une attitude de questionnement ouvert et exploratoire. Le sens n'est pas prescrit."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "La modulation des attitudes devrait aussi être utilisée là où une situation pourrait être changée par l'action, afin que la personne apprenne à l'accepter.",
+   "richtig": false,
+   "erklaerung": "Ce qui peut être changé doit être changé. La modulation des attitudes vise ce qui est immuable ou les attitudes qui bloquent l'action."
+  },
+  {
+   "typ": "mc",
+   "frage": "Contre quel mécanisme l'intention paradoxale est-elle principalement dirigée ?",
+   "optionen": [
+    "Contre l'anxiété anticipatoire",
+    "Contre le vide existentiel",
+    "Contre l'autotranscendance",
+    "Contre la volonté de sens"
+   ],
+   "richtig": 0,
+   "erklaerung": "L'intention paradoxale rompt le cercle vicieux du symptôme et de l'anxiété anticipatoire."
+  },
+  {
+   "typ": "multi",
+   "frage": "Dans quelles conditions l'intention paradoxale est-elle considérée comme contre-indiquée ?",
+   "optionen": [
+    "Dépression sévère avec suicidalité",
+    "Peur de rougir",
+    "Troubles psychotiques",
+    "Difficultés d'endormissement intensifiées par l'anxiété"
+   ],
+   "richtig": [
+    0,
+    2
+   ],
+   "erklaerung": "La méthode n'est pas indiquée en cas de dépression sévère avec suicidalité ni en cas de psychose. L'éreutophobie et les difficultés d'endormissement intensifiées par l'anxiété sont des champs d'application classiques."
+  },
+  {
+   "typ": "mc",
+   "frage": "Sur quelle capacité spirituelle repose la déréflexion ?",
+   "optionen": [
+    "L'autodistanciation",
+    "L'hyperréflexion",
+    "L'anxiété anticipatoire",
+    "L'autotranscendance"
+   ],
+   "richtig": 3,
+   "erklaerung": "La déréflexion détourne l'attention du symptôme vers quelque chose de sensé et repose ainsi sur l'autotranscendance. L'intention paradoxale repose sur l'autodistanciation."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Frankl comparait le logothérapeute à un ophtalmologue qui aide le patient à voir lui-même le monde plus clairement, et non à un peintre qui montre au patient sa propre vision du monde.",
+   "richtig": true,
+   "erklaerung": "L'image montre clairement que le sens n'est pas prescrit, mais découvert par la personne elle-même."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quel énoncé décrit le plus exactement l'état de la recherche sur la logothérapie ?",
+   "optionen": [
+    "La logothérapie en tant qu'approche globale est l'approche psychothérapeutique la mieux étudiée.",
+    "Il n'existe absolument aucune étude empirique sur les méthodes logothérapeutiques.",
+    "Certaines techniques et les programmes structurés centrés sur le sens sont comparativement bien étudiés, alors que l'approche globale l'est moins.",
+    "L'efficacité de l'intention paradoxale a été clairement réfutée par des études."
+   ],
+   "richtig": 2,
+   "erklaerung": "L'intention paradoxale et des programmes comme la Meaning-Centered Psychotherapy ont été étudiés dans des essais contrôlés ; pour la logothérapie classique en tant qu'approche globale, il existe moins d'études de haute qualité."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels parallèles existe-t-il entre la logothérapie et la thérapie d'acceptation et d'engagement (ACT) ?",
+   "optionen": [
+    "L'accent mis sur les valeurs",
+    "L'acceptation de ce qui ne peut être changé",
+    "Un fondement commun dans la théorie de l'apprentissage remontant à Frankl",
+    "La distance à l'égard de ses propres pensées et sentiments",
+    "L'interprétation des conflits infantiles inconscients comme méthode principale"
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "L'orientation vers les valeurs, l'acceptation et la distance à l'égard des états intérieurs (l'autodistanciation dans les termes de Frankl) relient les deux approches. L'ACT dispose toutefois de son propre fondement dans la théorie de l'apprentissage, qui ne remonte pas à Frankl, et elle ne travaille pas avec l'interprétation des conflits infantiles."
+  }
+ ]
+}

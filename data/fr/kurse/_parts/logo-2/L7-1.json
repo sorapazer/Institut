@@ -1,0 +1,157 @@
+{
+ "id": "L7-1",
+ "titel": "Mesurer le sens : PIL, MLQ et LeBe",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Pourquoi mesurer le sens ?",
+   "text": "Le sens de la vie est une expérience qui ne peut être observée directement. Néanmoins, depuis les années 1960, une vaste **recherche empirique sur le sens** s’est développée. Elle poursuit plusieurs objectifs :\n\n- **Recherche fondamentale** : comment le sens vécu est-il lié au bien-être, à la santé, à la personnalité et aux événements de vie ?\n- **Recherche interventionnelle** : les interventions centrées sur le sens modifient-elles le sens vécu – et cela a-t-il des effets sur d’autres critères comme la dépressivité ou la qualité de vie ?\n- **Pratique** : des questionnaires peuvent être utilisés dans l’accompagnement et le conseil comme support d’entretien, pour le suivi de l’évolution ou pour l’évaluation.\n\nLa mesure du sens soulève des questions fondamentales. Que mesure-t-on exactement – un sentiment, une évaluation, une attitude ? Le sens est-il plutôt une expérience globale (« Ma vie a du sens ») ou la somme de sources de sens particulières ? Et dans quelle mesure les mesures du sens se recoupent-elles avec des construits apparentés comme la satisfaction de vie, la dépressivité ou l’optimisme ?\n\nCes questions ne sont pas purement académiques. Celui qui utilise un instrument devrait savoir quelle conception du sens le sous-tend et quelles affirmations il permet. Pour évaluer un instrument, les **critères de qualité** classiques sont centraux : l’**objectivité** (indépendance par rapport à la personne qui l’administre), la **fidélité** (précision de la mesure) et la **validité** (l’instrument mesure-t-il ce qu’il est censé mesurer ?)."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les critères de qualité à leur signification.",
+   "paare": [
+    [
+     "Objectivité",
+     "Les résultats sont indépendants de la personne qui administre, cote et interprète le test."
+    ],
+    [
+     "Fidélité",
+     "L’instrument mesure avec précision et de manière fiable, par exemple lors de mesures répétées."
+    ],
+    [
+     "Validité",
+     "L’instrument mesure effectivement la caractéristique qu’il prétend mesurer."
+    ]
+   ],
+   "erklaerung": "Les trois critères de qualité principaux s’appuient les uns sur les autres : sans objectivité, pas de mesure fiable ; sans fidélité, pas de validité. Un instrument peut toutefois être très fidèle et mesurer néanmoins autre chose que ce qui était visé."
+  },
+  {
+   "typ": "text",
+   "titel": "Le Purpose in Life Test (PIL)",
+   "text": "Le **Purpose in Life Test** (PIL) a été développé par James C. Crumbaugh et Leonard T. Maholick et publié en 1964. Son objectif était de rendre empiriquement accessibles les concepts frankléens de **vide existentiel** et de **névrose noogène**.\n\nLa **partie A** quantitative comprend 20 items avec des échelles de réponse en sept points dont les pôles sont chacun décrits en termes de contenu. Elle est complétée par une partie de complètement de phrases (**partie B**) et une partie en texte libre (**partie C**), qui sont toutefois beaucoup moins utilisées dans la recherche.\n\nLe PIL est l’un des instruments **les plus utilisés** dans la recherche sur le sens et a été traduit dans de nombreuses langues. De nombreuses études anciennes sur la logothérapie l’ont utilisé comme critère de jugement central.\n\nLes points de discussion critique ont notamment porté sur :\n\n- la **structure factorielle** : les analyses ont abouti à des résultats différents ; le test ne semble pas saisir une dimension unique et clairement définie,\n- les **recoupements** avec des mesures de la dépressivité, de la satisfaction de vie et du bien-être, ce qui soulève des questions de **validité de construit**,\n- la formulation de certains items, qui contiennent des jugements de valeur ou abordent plusieurs aspects à la fois.\n\nLe PIL reste historiquement important et est toujours utilisé. Pour de nouvelles études, on privilégie toutefois souvent des instruments qui saisissent le sens de manière plus différenciée."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Le Purpose in Life Test a été développé pour saisir empiriquement les concepts frankléens de vide existentiel et de névrose noogène.",
+   "richtig": true,
+   "erklaerung": "Vrai. Avec le PIL, Crumbaugh et Maholick (1964) voulaient rendre mesurables les concepts de Frankl. C’est précisément ce lien étroit avec la théorie qui soulève toutefois la question de savoir si les études sur la logothérapie utilisant le PIL présentent une certaine circularité."
+  },
+  {
+   "typ": "text",
+   "titel": "Le Meaning in Life Questionnaire (MLQ) : présence et recherche",
+   "text": "Le **Meaning in Life Questionnaire** (MLQ) a été publié par Michael F. Steger et ses collègues en 2006. Il est court – dix items – et évalue deux dimensions distinctes de cinq items chacune :\n\n- **Présence de sens** : le degré auquel une personne vit sa vie comme pleine de sens.\n- **Recherche de sens** : le degré auquel une personne recherche activement du sens.\n\nCette distinction a constitué une avancée importante. Des instruments plus anciens comme le PIL traitaient le sens plutôt comme un continuum unidimensionnel allant de « beaucoup » à « peu ». Le MLQ montre en revanche que présence et recherche ne sont **pas simplement des pôles opposés**. Une personne peut vivre beaucoup de sens et continuer néanmoins à chercher ; une autre vit peu de sens et ne cherche pas non plus.\n\nDans de nombreuses études, la **présence** de sens est associée à un bien-être plus élevé et à une détresse psychique plus faible. Les résultats concernant la **recherche** sont plus contrastés : dans certains échantillons, elle est associée à un bien-être plus faible, mais sa signification semble dépendre, entre autres, de la quantité de sens déjà vécue. La recherche n’est donc pas problématique en soi.\n\nLe MLQ est largement utilisé au niveau international, bien étudié et disponible dans de nombreuses langues. Sa brièveté est un avantage dans les études, mais limite sa profondeur de contenu."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle est l’innovation conceptuelle centrale du Meaning in Life Questionnaire par rapport aux instruments plus anciens ?",
+   "optionen": [
+    "Il évalue exclusivement des sources de sens religieuses.",
+    "Il distingue la présence de sens et la recherche de sens en tant que deux dimensions indépendantes.",
+    "Il s’agit du premier test projectif d’évaluation du sens.",
+    "Il mesure le sens exclusivement par l’observation du comportement."
+   ],
+   "richtig": 1,
+   "erklaerung": "Le MLQ distingue présence et recherche comme deux dimensions (B). Il s’agit d’un questionnaire d’autoévaluation, et non d’un test projectif (C) ou d’une observation du comportement (D), et il ne se limite pas aux sources de sens religieuses (A)."
+  },
+  {
+   "typ": "text",
+   "titel": "Le LeBe : sources de sens et sens de la vie",
+   "text": "Avec le **Fragebogen zu Lebensbedeutungen und Lebenssinn** (LeBe, questionnaire sur les significations et le sens de la vie), Tatjana Schnell et Peter Becker ont présenté en 2007 un instrument qui va au-delà du sens vécu global. La version anglophone s’appelle **Sources of Meaning and Meaning in Life Questionnaire** (SoMe).\n\nLe LeBe évalue deux niveaux :\n\n- **Sources de sens** : 26 sources dont les personnes peuvent tirer du sens, comme la communauté, le soin d’autrui, la créativité, la connaissance, la tradition, la spiritualité, la proximité avec la nature ou la performance. Elles peuvent être rattachées à cinq dimensions supérieures : **autotranscendance verticale**, **autotranscendance horizontale**, **réalisation de soi**, **ordre**, ainsi que **bien-être et lien**.\n- **Sentiment de sens** et **crise de sens** en tant que deux échelles distinctes.\n\nLe développement de l’instrument s’est notamment appuyé sur des **entretiens qualitatifs** dans lesquels des personnes ont elles-mêmes décrit leurs sources de sens. Les catégories ne sont donc pas uniquement déduites de la théorie, mais tirées de l’expérience des personnes.\n\nSon apport particulier réside dans la **séparation du degré et des sources** : des questions comme « Le sens vécu dépend-il davantage de la diversité ou de l’intensité de sources de sens particulières ? » deviennent ainsi étudiables. L’évaluation séparée du sentiment de sens et de la crise de sens permet en outre d’identifier les personnes en **indifférence existentielle**.\n\nPour l’accompagnement, le LeBe est particulièrement stimulant, car le profil des sources de sens offre un bon support d’entretien. Sa longueur doit toutefois être prise en compte dans la planification."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Attribuez les sources de sens à la dimension supérieure correspondante dans le LeBe.",
+   "kategorien": [
+    "Autotranscendance verticale",
+    "Autotranscendance horizontale",
+    "Bien-être et lien"
+   ],
+   "elemente": [
+    {
+     "text": "Religiosité explicite",
+     "kat": 0
+    },
+    {
+     "text": "Spiritualité",
+     "kat": 0
+    },
+    {
+     "text": "Engagement social",
+     "kat": 1
+    },
+    {
+     "text": "Harmonie avec la nature",
+     "kat": 1
+    },
+    {
+     "text": "Communauté",
+     "kat": 2
+    },
+    {
+     "text": "Amour",
+     "kat": 2
+    },
+    {
+     "text": "Générativité",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "L’autotranscendance verticale se rapporte à une réalité surnaturelle (religiosité, spiritualité), l’autotranscendance horizontale à des préoccupations terrestres dépassant sa propre personne (engagement social, harmonie avec la nature, générativité), le bien-être et le lien à la communauté, à l’amour et au bien-être."
+  },
+  {
+   "typ": "text",
+   "titel": "Utiliser les instruments de manière responsable dans la pratique de l’accompagnement",
+   "text": "Les questionnaires sur le sens peuvent être utiles dans l’accompagnement – comme entrée en matière, pour la réflexion ou pour le suivi de l’évolution. Plusieurs principes doivent être respectés :\n\n- **Pas de diagnostic au sens clinique** : les questionnaires sur le sens ne sont pas des instruments de diagnostic des troubles psychiques. Un score faible n’est pas la preuve d’une maladie, un score élevé ne l’exclut pas.\n- **Licence et conditions d’utilisation** : certains instruments sont librement disponibles, d’autres – comme le LeBe – sont distribués par des éditeurs de tests et soumis à des conditions d’utilisation. Celles-ci doivent être respectées.\n- **Qualification** : la cotation et l’interprétation exigent une connaissance de l’instrument, de ses normes et de ses limites.\n- **Transparence** : les clients devraient savoir à quoi sert un questionnaire et ce qu’il advient des résultats. Les données doivent être traitées de manière confidentielle et conformément à la législation sur la protection des données.\n- **Dialogue plutôt qu’étiquettes** : les résultats sont des offres d’échange, non des verdicts. « Votre score montre que vous n’avez pas de sens » serait inapproprié ; « Je m’intéresse à la manière dont vous percevez vous-même le résultat » ouvre un dialogue.\n\nDans le contexte logothérapeutique en particulier : selon Frankl, le sens est unique et propre à chaque situation. Aucun questionnaire ne peut le saisir entièrement. Les instruments saisissent des aspects du sens vécu, non le sens d’une vie."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels principes s’appliquent à l’utilisation de questionnaires sur le sens dans l’accompagnement ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Les résultats sont utilisés comme offres d’échange, non comme verdicts.",
+    "Un score faible à un questionnaire sur le sens peut servir de diagnostic de dépression.",
+    "Les conditions d’utilisation et de licence des instruments doivent être respectées.",
+    "Les clients sont informés de l’objectif du questionnaire et du traitement des résultats.",
+    "Les questionnaires peuvent saisir entièrement le sens individuel d’une vie."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "A, C et D sont des principes d’une utilisation responsable. Les questionnaires sur le sens ne sont pas des instruments de diagnostic des troubles psychiques (B) et ne saisissent que des aspects du sens vécu, non le sens unique d’une vie (E)."
+  },
+  {
+   "typ": "karten",
+   "titel": "Instruments de mesure de la recherche sur le sens",
+   "karten": [
+    {
+     "vorne": "PIL",
+     "hinten": "Purpose in Life Test (Crumbaugh & Maholick, 1964) ; 20 items dans la partie A ; opérationnalise le vide existentiel de Frankl ; critiques portant sur la structure factorielle et le recoupement avec la dépressivité."
+    },
+    {
+     "vorne": "MLQ",
+     "hinten": "Meaning in Life Questionnaire (Steger et al., 2006) ; dix items ; échelles de présence de sens et de recherche de sens."
+    },
+    {
+     "vorne": "LeBe / SoMe",
+     "hinten": "Questionnaire sur les sources de sens et le sens de la vie (Schnell & Becker, 2007) ; 26 sources de sens réparties en cinq dimensions, plus sentiment de sens et crise de sens."
+    },
+    {
+     "vorne": "Indifférence existentielle",
+     "hinten": "Faible sentiment de sens sans crise de sens ; identifiable grâce à l’évaluation séparée dans le LeBe."
+    },
+    {
+     "vorne": "Validité de construit",
+     "hinten": "Question de savoir si un instrument saisit le construit théorique et se distingue des construits apparentés."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Utiliseriez-vous un questionnaire sur le sens dans votre pratique d’accompagnement ? Si oui, dans quel but et de quelle manière – si non, pourquoi pas ?",
+   "hinweis": "Questions d’orientation : quel bénéfice voyez-vous pour les clients ? Quels risques existent, comme la réduction à des chiffres ? Comment discuteriez-vous des résultats ?"
+  }
+ ]
+}

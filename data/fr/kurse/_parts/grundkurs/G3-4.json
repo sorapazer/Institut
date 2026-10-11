@@ -1,0 +1,169 @@
+{
+ "id": "G3-4",
+ "titel": "La logothérapie aujourd'hui : comparaison, état de la recherche et limites",
+ "dauer": 24,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Diffusion et développements ultérieurs",
+   "text": "Depuis la mort de Frankl, la logothérapie s'est développée dans de nombreuses directions. Il existe dans le monde entier des instituts, des sociétés professionnelles et des programmes de formation. Outre la psychothérapie au sens strict, elle est appliquée dans le **conseil psychologique, l'accompagnement spirituel, l'éducation, les soins infirmiers, les soins palliatifs, le coaching et le travail social**.\n\nAu sein de la tradition, différents courants sont apparus. **Elisabeth Lukas** a élaboré la logothérapie de manière orientée vers la pratique, surtout pour le conseil et le travail auprès des familles. **Alfred Längle** et la Société de logothérapie et d'analyse existentielle (GLE) ont développé l'**analyse existentielle** en une approche psychothérapeutique autonome qui se distingue de Frankl sur des points importants, par exemple par une plus grande importance accordée aux sentiments et aux motivations fondamentales.\n\nSur le statut juridique : en **Autriche**, l'analyse existentielle ainsi que l'analyse existentielle et logothérapie sont des méthodes psychothérapeutiques reconnues par l'État. En **Allemagne**, la logothérapie ne fait pas partie des Richtlinienverfahren (procédures remboursées par l'assurance maladie obligatoire). La psychothérapie en tant qu'exercice de l'art de guérir ne peut y être pratiquée que par des personnes disposant de l'autorisation correspondante (comme l'Approbation, c'est-à-dire l'autorisation d'exercer délivrée par l'État, ou une autorisation au titre du Heilpraktikergesetz, loi allemande sur les praticiens de santé non médecins). Un conseil d'orientation logothérapeutique sans une telle autorisation doit donc se limiter à un conseil non thérapeutique."
+  },
+  {
+   "typ": "text",
+   "titel": "En comparaison : psychanalyse et approches humanistes",
+   "text": "Une comparaison avec d'autres approches aide à reconnaître le profil de la logothérapie. Il s'agit de points d'accent, non de jugements de valeur.\n\nLa **psychanalyse et les approches psychodynamiques** s'interrogent avant tout sur les conflits inconscients et leurs origines dans l'histoire de vie. La logothérapie dirige davantage le regard vers l'avenir et vers les possibilités de sens. Frankl parlait d'un complément : à côté de la question « D'où ? » se tient la question « Pour quoi ? ». Les approches psychodynamiques plus récentes ont, de leur côté, davantage intégré les questions de sens et de valeurs.\n\nLes **approches humanistes**, comme la psychothérapie centrée sur la personne de Carl Rogers, partagent avec la logothérapie la confiance en la personne et l'importance d'une relation bienveillante. Une différence réside dans le concept d'**actualisation de soi** : pour Rogers, c'est une tendance centrale à la croissance ; pour Frankl, un effet secondaire de l'autotranscendance.\n\nLa logothérapie est apparentée à d'autres **approches existentielles**, par exemple celles d'Irvin Yalom ou de Rollo May, qui abordent elles aussi des thèmes comme la liberté, la mort, l'isolement et l'absence de sens."
+  },
+  {
+   "typ": "text",
+   "titel": "En comparaison : thérapie comportementale et approches plus récentes",
+   "text": "Il existe des points de contact remarquables avec la **thérapie comportementale**. L'intention paradoxale a été reprise par des thérapeutes comportementalistes et étudiée dans des études contrôlées. Son principe – se tourner vers ce qui est redouté au lieu de l'éviter – ressemble aux procédures d'exposition. La modulation des attitudes présente elle aussi des parallèles avec la restructuration cognitive.\n\nLes parallèles avec la **thérapie d'acceptation et d'engagement** (ACT) sont particulièrement frappants : l'orientation vers les valeurs, l'acceptation de ce qui ne peut être changé et la distance à l'égard de ses propres pensées rappellent les concepts de Frankl que sont la réalisation de valeurs, les valeurs d'attitude et l'autodistanciation. L'ACT dispose toutefois de son propre fondement, ancré dans la théorie de l'apprentissage.\n\nEn **psychologie positive** et dans la recherche empirique sur le sens, le sens de la vie est aujourd'hui étudié de manière intensive. Le psychologue canadien Paul T. P. Wong a développé une approche qui s'appuie explicitement sur Frankl.\n\nEn psycho-oncologie, William Breitbart et son équipe ont développé la **Meaning-Centered Psychotherapy**, un programme structuré orienté vers Frankl pour les personnes atteintes d'un cancer avancé, qui a été étudié dans des essais contrôlés randomisés."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez chaque approche à un point d'accent typique ou à un point de contact avec la logothérapie.",
+   "paare": [
+    [
+     "Psychanalyse",
+     "S'interroge avant tout sur le « d'où » des conflits inconscients"
+    ],
+    [
+     "Psychothérapie centrée sur la personne",
+     "Actualisation de soi comme tendance centrale à la croissance"
+    ],
+    [
+     "Thérapie comportementale",
+     "L'exposition comme parallèle à l'intention paradoxale"
+    ],
+    [
+     "Thérapie d'acceptation et d'engagement",
+     "Orientation vers les valeurs et acceptation de ce qui ne peut être changé"
+    ],
+    [
+     "Meaning-Centered Psychotherapy",
+     "Programme orienté vers Frankl pour les personnes atteintes d'un cancer avancé"
+    ]
+   ],
+   "erklaerung": "Les associations montrent des points d'accent et des points de contact. Ce sont des simplifications ; chaque approche est en elle-même plus diverse."
+  },
+  {
+   "typ": "mc",
+   "frage": "En quoi la conception de l'actualisation de soi chez Frankl diffère-t-elle de celle de Carl Rogers ?",
+   "optionen": [
+    "Frankl rejetait toute forme de croissance personnelle.",
+    "Pour Rogers, l'actualisation de soi est une tendance centrale à la croissance ; pour Frankl, c'est un effet secondaire du dévouement au sens.",
+    "Rogers tenait l'actualisation de soi pour impossible, Frankl pour le but suprême.",
+    "Tous deux voyaient l'actualisation de soi exclusivement comme le résultat de médicaments."
+   ],
+   "richtig": 1,
+   "erklaerung": "Rogers voyait la tendance à l'actualisation comme une force centrale. Frankl considérait l'actualisation de soi comme un effet secondaire de l'autotranscendance. Frankl ne rejetait pas la croissance personnelle."
+  },
+  {
+   "typ": "text",
+   "titel": "Que dit la recherche ?",
+   "text": "L'état de la recherche sur la logothérapie est **contrasté** et doit être considéré avec sobriété :\n\n- **Intention paradoxale :** elle a été étudiée principalement dans des études de thérapie comportementale, par exemple par Ascher et Turner (1979) pour les difficultés d'endormissement. Une méta-analyse des interventions paradoxales par Shoham-Salomon et Rosenthal (1987) a trouvé dans l'ensemble des indices d'efficacité, bien que les études aient varié considérablement.\n- **Programmes centrés sur le sens :** pour la Meaning-Centered Psychotherapy, il existe des essais contrôlés randomisés qui ont montré des améliorations, par exemple du bien-être spirituel et du vécu du sens chez des patients atteints de cancer. Une méta-analyse des thérapies existentielles (Vos, Craig et Cooper, 2015) a trouvé des indices d'effets positifs, surtout pour les approches structurées centrées sur le sens.\n- **La logothérapie classique en tant qu'approche globale :** il existe comparativement peu d'études contrôlées de haute qualité méthodologique à ce sujet. Les revues de littérature parlent de résultats prometteurs, mais méthodologiquement hétérogènes.\n\nEn même temps, la **recherche empirique sur le sens** est très active. Les associations entre le sens de la vie ressenti et la santé psychique sont bien documentées, mais reposent principalement sur des études par questionnaire qui ne permettent pas de conclusions solides sur la cause et l'effet."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Classez les énoncés : dans quelle mesure chaque hypothèse est-elle étayée empiriquement ?",
+   "kategorien": [
+    "Comparativement bien étudié empiriquement",
+    "Peu d'études contrôlées",
+    "Postulat philosophique fondamental, difficilement vérifiable empiriquement"
+   ],
+   "elemente": [
+    {
+     "text": "Intention paradoxale en cas de difficultés d'endormissement",
+     "kat": 0
+    },
+    {
+     "text": "Meaning-Centered Psychotherapy en cas de cancer avancé",
+     "kat": 0
+    },
+    {
+     "text": "Efficacité de la logothérapie classique en tant qu'approche globale",
+     "kat": 1
+    },
+    {
+     "text": "La personne spirituelle ne peut pas tomber malade",
+     "kat": 2
+    },
+    {
+     "text": "L'être humain est libre de prendre position face à ses conditions",
+     "kat": 2
+    },
+    {
+     "text": "Association entre le sens ressenti et la satisfaction de vie",
+     "kat": 0
+    },
+    {
+     "text": "Effets à long terme du conseil logothérapeutique individuel",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Certaines techniques et certains programmes structurés sont comparativement bien étudiés ; les résultats de la recherche sur le sens portant sur des associations sont nombreux, mais le plus souvent de nature corrélationnelle. L'approche globale et les effets à long terme sont moins bien étudiés. Les postulats anthropologiques fondamentaux comme la liberté de la volonté sont difficilement vérifiables empiriquement."
+  },
+  {
+   "typ": "text",
+   "titel": "Limites et critiques",
+   "text": "Une confrontation sérieuse avec la logothérapie inclut ses limites. Les points suivants, entre autres, sont soulevés dans le débat spécialisé :\n\n- **Présupposés philosophiques :** des concepts comme la dimension noétique, la liberté de la volonté ou un sens qui réside objectivement dans la situation sont des postulats relevant d'une vision du monde que tout le monde ne partage pas.\n- **Risque de moralisation :** lorsque le sens et la responsabilité sont mis en avant, un ton injonctif peut facilement apparaître, qui met les personnes concernées sous pression ou leur impute implicitement la responsabilité de leur souffrance.\n- **Réduction aux questions de sens :** tout problème psychique n'est pas un problème de sens. Traiter la dépression, les troubles liés aux traumatismes ou les psychoses avant tout comme des crises de sens peut retarder un traitement nécessaire.\n- **Lacunes empiriques :** comme on l'a vu, l'approche globale a été moins bien étudiée que d'autres approches psychothérapeutiques.\n- **Débats biographiques :** des historiens comme Timothy Pytell ont examiné de façon critique certains aspects de l'autoportrait de Frankl et de son rôle à l'époque nazie ; ces débats sont controversés.\n\nFrankl lui-même ne considérait pas la logothérapie comme une panacée, mais comme un **complément**. Cette modestie reste aujourd'hui une bonne ligne directrice."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "L'efficacité de la logothérapie classique en tant qu'approche globale est aussi bien établie, par de nombreux grands essais randomisés, que celle de la thérapie cognitivo-comportementale.",
+   "richtig": false,
+   "erklaerung": "Il existe comparativement peu d'études contrôlées de haute qualité méthodologique sur l'approche globale. Certaines techniques comme l'intention paradoxale et les programmes structurés centrés sur le sens sont mieux étudiés."
+  },
+  {
+   "typ": "multi",
+   "frage": "Lesquels des points suivants sont cités dans le débat spécialisé comme limites ou risques de la logothérapie ?",
+   "optionen": [
+    "Le risque de moralisation par l'accent mis sur la responsabilité",
+    "Le rejet complet de toute orientation vers les valeurs",
+    "Des présupposés relevant d'une vision du monde que tous ne partagent pas",
+    "Le risque de prendre des maladies psychiques graves pour de simples crises de sens",
+    "Une focalisation exclusive sur les conflits de la petite enfance"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "La moralisation, les présupposés relevant d'une vision du monde et la méconnaissance de maladies graves sont des points de critique fréquemment cités. La logothérapie ne rejette nullement l'orientation vers les valeurs et ne se focalise pas exclusivement sur les conflits de la petite enfance."
+  },
+  {
+   "typ": "karten",
+   "titel": "Fiches : la logothérapie aujourd'hui",
+   "karten": [
+    {
+     "vorne": "Analyse existentielle selon Längle",
+     "hinten": "Développement autonome de la tradition par Alfred Längle et la GLE, avec une plus grande importance accordée aux sentiments et aux motivations fondamentales."
+    },
+    {
+     "vorne": "Meaning-Centered Psychotherapy",
+     "hinten": "Programme orienté vers Frankl pour les personnes atteintes d'un cancer avancé, développé par William Breitbart et son équipe."
+    },
+    {
+     "vorne": "Ascher et Turner (1979)",
+     "hinten": "Étude contrôlée de l'intention paradoxale en cas de difficultés d'endormissement."
+    },
+    {
+     "vorne": "Statut juridique en Allemagne",
+     "hinten": "Pas un Richtlinienverfahren (procédure remboursée par l'assurance maladie obligatoire) ; psychothérapie en tant qu'exercice de l'art de guérir uniquement avec l'autorisation correspondante."
+    },
+    {
+     "vorne": "Statut juridique en Autriche",
+     "hinten": "L'analyse existentielle ainsi que l'analyse existentielle et logothérapie sont des méthodes psychothérapeutiques reconnues."
+    },
+    {
+     "vorne": "Conception de Frankl de son œuvre",
+     "hinten": "La logothérapie comme complément, et non comme substitut, aux autres psychothérapies."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Qu'est-ce qui vous a le plus convaincu(e) dans la logothérapie au cours de ce cours de base – et où avez-vous des doutes ou des questions ouvertes ?",
+   "hinweis": "Prenez les deux au sérieux. Dans quels domaines aimeriez-vous continuer à apprendre ? Comment aimeriez-vous utiliser ces idées dans votre vie privée ou professionnelle – et où situez-vous personnellement la limite entre inspiration et traitement professionnel ?"
+  }
+ ]
+}
