@@ -1,0 +1,109 @@
+{
+ "kurs": "logo",
+ "id": "L6",
+ "titel": "Champs d’application",
+ "beschreibung": "Ce module présente des champs de pratique centraux de l’accompagnement et du conseil logothérapeutiques : crises de sens, épuisement professionnel, transitions de vie et vieillesse, chômage, soins palliatifs et addiction. Pour chaque champ sont présentés les approches logothérapeutiques spécifiques, les résultats de recherche correspondants et les limites du rôle d’accompagnement.",
+ "lernziele": [
+  "Vous êtes capable de distinguer les crises de sens, l’indifférence existentielle et les troubles psychiques et d’y répondre de manière appropriée.",
+  "Vous êtes capable de situer le burnout selon la CIM-11 (QD85) comme phénomène professionnel, de le distinguer de la dépression et de décrire des perspectives logothérapeutiques à son sujet.",
+  "Vous êtes capable de relier les transitions de vie, la vieillesse, la retraite et le chômage aux concepts frankléens de névrose du dimanche et de névrose du chômage.",
+  "Vous êtes capable d’expliquer la structure, les objectifs et l’état de la recherche de la psychothérapie centrée sur le sens (Meaning-Centered Psychotherapy) de Breitbart en soins palliatifs.",
+  "Vous êtes capable de réfléchir au lien entre addiction et sens et de situer le rôle de l’accompagnement orienté vers le sens au sein du dispositif de soins en addictologie."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "Selon Schnell, en quoi l’indifférence existentielle se distingue-t-elle d’une crise de sens ?",
+   "optionen": [
+    "Dans l’indifférence existentielle, peu de sens est vécu, mais ce manque n’est pas ressenti comme éprouvant.",
+    "L’indifférence existentielle est une forme plus grave de crise de sens, ayant une valeur clinique.",
+    "Dans l’indifférence existentielle, beaucoup de sens est vécu, mais il n’est pas réfléchi.",
+    "L’indifférence existentielle ne survient qu’à un âge avancé."
+   ],
+   "richtig": 0,
+   "erklaerung": "L’indifférence existentielle désigne un faible sens vécu sans expérience de crise et sans recherche active. Elle n’est pas une maladie (B), ni un niveau élevé de sens vécu (C), et n’est liée à aucun âge particulier (D)."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Dans la CIM-11, le burnout (QD85) est classé comme maladie psychique dans le chapitre consacré aux troubles mentaux.",
+   "richtig": false,
+   "erklaerung": "Faux. Le burnout figure dans le chapitre « Facteurs influant sur l’état de santé ou motifs de recours aux services de santé » et est explicitement décrit par l’OMS comme un phénomène professionnel, et non comme une affection médicale."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles caractéristiques font partie de la description du burnout dans la CIM-11 ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Référence exclusive au contexte professionnel",
+    "Sentiment d’épuisement ou de manque d’énergie",
+    "Distance mentale ou cynisme à l’égard de son travail",
+    "Diagnostic obligatoire d’un épisode dépressif",
+    "Sentiment d’inefficacité"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "erklaerung": "La CIM-11 décrit le burnout comme un phénomène professionnel comportant les dimensions d’épuisement, de distance mentale/cynisme et d’inefficacité vécue. Un épisode dépressif n’est pas une condition préalable (D), mais doit être examiné dans le cadre du diagnostic différentiel."
+  },
+  {
+   "typ": "mc",
+   "frage": "Que décrit le terme frankléen de « névrose du dimanche » ?",
+   "optionen": [
+    "Un trouble de l’adaptation classé dans la CIM-11",
+    "Un trouble anxieux survenant lors des fêtes religieuses",
+    "L’épuisement consécutif à une semaine de travail chargée",
+    "L’émergence, pendant le temps libre, d’un vide existentiel masqué au quotidien"
+   ],
+   "richtig": 3,
+   "erklaerung": "La névrose du dimanche est une description phénoménologique, non un diagnostic (A). Elle désigne la mise en évidence d’un vide intérieur lorsque l’agitation du quotidien disparaît – et non une anxiété liée aux jours fériés (B) ou un simple épuisement (C)."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle source de sens la psychothérapie centrée sur le sens ajoute-t-elle en particulier aux trois catégories de valeurs de Frankl ?",
+   "optionen": [
+    "La source matérielle de sens que constitue la prospérité",
+    "La source historique de sens : la vie en tant qu’héritage",
+    "La source physique de sens que constitue la santé",
+    "La source cognitive de sens que constitue l’optimisation de soi"
+   ],
+   "richtig": 1,
+   "erklaerung": "Outre les valeurs créatrices, d’expérience et d’attitude, la MCP met l’accent sur la source historique de sens : la vie comme héritage reçu, vécu et à transmettre."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "La psychothérapie de groupe centrée sur le sens a également été comparée, dans un essai randomisé, à une condition de contrôle active (psychothérapie de groupe de soutien).",
+   "richtig": true,
+   "erklaerung": "Vrai. Breitbart et al. (2015) ont comparé la MCP à une psychothérapie de groupe de soutien. La comparaison avec une condition active est méthodologiquement plus exigeante que la comparaison avec une liste d’attente."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles affirmations concernant le rôle de l’accompagnement logothérapeutique dans le contexte de l’addiction sont correctes ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Il peut compléter le dispositif de soins en addictologie dans la motivation et le suivi post-cure.",
+    "Il peut remplacer un sevrage sous surveillance médicale si la motivation est élevée.",
+    "Les accompagnants ne devraient jamais conseiller un sevrage non surveillé de l’alcool ou des benzodiazépines.",
+    "Le diagnostic d’une dépendance à une substance relève de professionnels médicaux ou psychothérapeutiques."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "L’accompagnement logothérapeutique complète les services d’addictologie, mais ne remplace pas le traitement médical (B). Un sevrage non surveillé peut mettre la vie en danger ; le diagnostic est la tâche de professionnels dûment qualifiés."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle conclusion Frankl a-t-il tirée de ses observations de jeunes chômeurs à Vienne ?",
+   "optionen": [
+    "Le chômage mène inévitablement à la dépression.",
+    "La détresse matérielle est sans importance pour le bien-être psychique.",
+    "Ce qui est déterminant, c’est l’expérience d’une tâche pleine de sens ; des activités non rémunérées pouvaient atténuer les humeurs dépressives malgré la détresse.",
+    "Seul le travail rémunéré peut procurer du sens."
+   ],
+   "richtig": 2,
+   "erklaerung": "Frankl a observé que les jeunes chômeurs qui assumaient des tâches non rémunérées pleines de sens souffraient moins d’humeur dépressive. Il n’a affirmé ni un lien automatique (A) ni l’absence d’importance de la détresse matérielle (B), et il a explicitement contredit l’assimilation du sens au travail rémunéré (D)."
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "titel": "Intervention de crise",
+ "beschreibung": "Les crises psychosociales comptent parmi les situations les plus exigeantes du conseil. Ce module clarifie la notion de crise, distingue les crises traumatiques des crises de changement de vie selon Cullberg et Sonneck, et enseigne les principes fondamentaux de l’intervention de crise. Une attention particulière est portée à la manière d’aborder ouvertement la suicidalité, d’évaluer le risque, d’élaborer un plan d’urgence avec le client et de coopérer avec le réseau d’aide en Allemagne.",
+ "lernziele": [
+  "Vous savez définir la notion de crise psychosociale et la distinguer d’une urgence psychiatrique.",
+  "Vous savez décrire les crises traumatiques et les crises de changement de vie avec leurs phases typiques.",
+  "Vous savez appliquer les principes fondamentaux de l’intervention de crise, par exemple selon le schéma BELLA, à des situations de conseil.",
+  "Vous savez aborder la suicidalité de manière directe et sensible, reconnaître les facteurs de risque et les signes d’alerte, et estimer approximativement le niveau de risque.",
+  "Vous savez élaborer un plan d’urgence avec les clients et connaissez les principaux interlocuteurs du réseau d’aide allemand."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "Qu’est-ce qui caractérise principalement une crise traumatique par opposition à une crise de changement de vie ?",
+   "optionen": [
+    "Une apparition progressive dans le contexte de transitions de vie normales",
+    "Un événement soudain et imprévisible qui commence par un choc",
+    "L’absence de toute réaction émotionnelle",
+    "Le fait qu’elle aboutisse toujours à une maladie mentale"
+   ],
+   "richtig": 1,
+   "erklaerung": "Les crises traumatiques commencent par un événement soudain et imprévisible et par la phase de choc. Les crises de changement de vie se développent plutôt progressivement à partir de transitions de vie. Les crises ne sont pas des maladies et n’y conduisent pas nécessairement."
+  },
+  {
+   "typ": "mc",
+   "frage": "Selon Sonneck, dans quelle phase d’une crise de changement de vie la personne concernée est-elle particulièrement ouverte à une aide extérieure ?",
+   "optionen": [
+    "La confrontation",
+    "L’échec",
+    "La crise pleinement déclarée",
+    "La mobilisation"
+   ],
+   "richtig": 3,
+   "erklaerung": "Dans la phase de mobilisation, toutes les ressources internes et externes sont activées ; l’aide extérieure est particulièrement bien accueillie. C’est le fondement du principe d’une intervention rapide."
+  },
+  {
+   "typ": "multi",
+   "frage": "Que signifient les lettres du schéma allemand BELLA ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Établir la relation (Beziehung aufbauen)",
+    "Appréhender la situation (Erfassen der Situation)",
+    "Retravailler l’histoire de vie (Lebensgeschichte aufarbeiten)",
+    "Impliquer d’autres personnes (Leute einbeziehen)",
+    "Approche de la résolution des problèmes (Ansatz zur Problembewältigung)"
+   ],
+   "richtig": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "erklaerung": "BELLA signifie : établir la relation (Beziehung aufbauen), appréhender la situation (Erfassen der Situation), soulager les symptômes (Linderung von Symptomen), impliquer d’autres personnes (Leute einbeziehen) et approche de la résolution des problèmes (Ansatz zur Problembewältigung). Retravailler l’histoire de vie n’est pas un élément de l’intervention de crise."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Un calme et une sérénité frappants après une phase de grand désespoir peuvent être un signe d’alerte indiquant qu’une décision de suicide a été prise.",
+   "richtig": true,
+   "erklaerung": "Exact. Pöldinger décrit comment les personnes au stade de la décision paraissent parfois calmes et détendues, ce qui peut être interprété à tort comme une amélioration."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels énoncés sur la manière d’aborder la suicidalité sont exacts ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Un questionnement direct et empathique n’augmente pas le risque de suicide.",
+    "Les euphémismes comme « Vous n’allez pas faire de bêtise, n’est-ce pas ? » sont particulièrement délicats et donc recommandés.",
+    "Une démarche graduée, des questions générales vers les questions concrètes, est recommandée.",
+    "Les appels moraux aident à détourner la personne de ses pensées.",
+    "L’ambivalence de la personne est un point d’intervention important."
+   ],
+   "richtig": [
+    0,
+    2,
+    4
+   ],
+   "erklaerung": "Un questionnement direct et gradué ainsi que la reconnaissance de l’ambivalence de la personne sont requis sur le plan professionnel. Les euphémismes banalisent et suggèrent un « non » comme réponse ; les appels moraux suscitent de la honte et conduisent à la dissimulation."
+  },
+  {
+   "typ": "mc",
+   "frage": "Lequel des facteurs suivants est considéré comme l’un des facteurs de risque de suicide les plus forts connus ?",
+   "optionen": [
+    "Une tentative de suicide antérieure",
+    "Un niveau d’études élevé",
+    "La responsabilité d’enfants mineurs",
+    "Une activité physique régulière"
+   ],
+   "richtig": 0,
+   "erklaerung": "Les tentatives de suicide antérieures comptent parmi les facteurs de risque les plus forts. La responsabilité d’enfants est plutôt considérée comme un facteur de protection ; le niveau d’études et l’activité physique ne sont pas des facteurs de risque établis en ce sens."
+  },
+  {
+   "typ": "mc",
+   "frage": "Une personne décrit un plan de suicide concret pour ce soir, dispose des moyens chez elle et ne parvient pas à s’en distancier. Que faut-il faire ?",
+   "optionen": [
+    "Fixer un rendez-vous pour la semaine prochaine et donner à la personne le numéro de la TelefonSeelsorge (ligne d’écoute téléphonique allemande)",
+    "Faire signer à la personne un contrat de non-suicide et la renvoyer chez elle",
+    "Ne pas laisser la personne seule et appeler les secours médicaux d’urgence via le numéro d’urgence 112",
+    "Informer par e-mail le Sozialpsychiatrischer Dienst (service socio-psychiatrique municipal allemand)"
+   ],
+   "richtig": 2,
+   "erklaerung": "En cas de risque suicidaire aigu, la sécurité immédiate est prioritaire : ne pas laisser la personne seule et composer le 112, ou l’accompagner aux urgences psychiatriques. Des rendez-vous ultérieurs, des contrats ou des e-mails ne sont pas à la hauteur du danger aigu."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "En Allemagne, la TelefonSeelsorge (ligne d’écoute téléphonique) est joignable gratuitement 24 heures sur 24 aux numéros 0800 111 0 111 et 0800 111 0 222.",
+   "richtig": true,
+   "erklaerung": "Exact. La TelefonSeelsorge est joignable 24 heures sur 24, gratuitement et anonymement ; il existe en outre le numéro 116 123 ainsi qu’un conseil par chat et par e-mail."
+  }
+ ]
+}
