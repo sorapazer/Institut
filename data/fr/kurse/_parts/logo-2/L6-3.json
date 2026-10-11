@@ -1,0 +1,146 @@
+{
+ "id": "L6-3",
+ "titel": "Transitions de vie, vieillesse et chômage",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Les transitions de vie comme seuils de sens",
+   "text": "Les transitions du parcours de vie – fin de la scolarité, entrée dans la vie professionnelle, parentalité, séparation, départ des enfants, retraite, veuvage – sont des phases au cours desquelles la question du sens se pose souvent à nouveau. Les rôles, routines et sources de sens antérieurs ne portent plus, et de nouveaux n’ont pas encore été trouvés.\n\nLe consultant en organisation William Bridges a proposé un modèle parlant pour de telles transitions. Il distingue le **changement** extérieur (l’événement) de la **transition** intérieure (la réorientation psychique). La transition se déroule en trois phases :\n\n- une **fin**, au cours de laquelle il faut lâcher quelque chose d’ancien,\n- une **zone neutre**, un entre-deux d’incertitude qui peut en même temps être créatif,\n- un **nouveau commencement**, au cours duquel une nouvelle identité et de nouveaux objectifs prennent forme.\n\nD’un point de vue logothérapeutique, les transitions sont des **seuils de sens** : elles peuvent déclencher des crises, mais ouvrent en même temps la possibilité de réordonner les valeurs et de découvrir des possibilités jusque-là non vécues. Une question utile consiste à se demander quelles valeurs perdurent à travers la transition et quelles nouvelles tâches la situation de vie modifiée présente.\n\nL’accompagnement dans les phases de transition exige de la patience à l’égard de la « zone neutre » : celui qui pousse trop vite vers de nouveaux objectifs passe outre le temps nécessaire de l’adieu et de l’orientation."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Placez les phases d’une transition intérieure selon William Bridges dans le bon ordre.",
+   "elemente": [
+    "Fin : lâcher ce qui a été",
+    "Zone neutre : entre-deux d’incertitude et de réorientation",
+    "Nouveau commencement : émergence d’une nouvelle identité et de nouveaux objectifs"
+   ],
+   "erklaerung": "Bridges souligne que toute transition commence par une fin. La zone neutre est inconfortable, mais nécessaire ; le nouveau commencement ne peut être forcé."
+  },
+  {
+   "typ": "text",
+   "titel": "Vieillesse et retraite : le sens dans les phases tardives de la vie",
+   "text": "Dans les sociétés centrées sur la performance, la vieillesse est souvent assimilée à la perte : perte du rôle professionnel, des capacités physiques, de personnes proches. Les concepts de Frankl offrent ici une contre-perspective importante.\n\n**Le passé comme récolte** : pour Frankl, les personnes âgées n’ont aucune raison d’envier les plus jeunes. Au lieu de possibilités dans l’avenir, elles possèdent des réalités dans le passé – ce qui a été fait, aimé et souffert. Le bilan de vie et le récit biographique peuvent rendre cette récolte visible.\n\n**Valeurs d’attitude** : face aux limitations inévitables, l’attitude reste modulable.\n\n**Tâches qui demeurent** : la vieillesse comporte elle aussi des tâches : transmettre son expérience, être grand-parent, s’engager bénévolement, prodiguer des soins, façonner le soir de sa propre vie.\n\nLa psychologie du développement offre des points de rattachement. Pour la vieillesse, Erik H. Erikson a décrit la tension entre **intégrité du moi et désespoir** : l’acceptation de sa propre vie comme ayant été vécue ainsi et non autrement. Le modèle de **sélection, optimisation et compensation** de Paul et Margret Baltes décrit comment les personnes âgées, face à des ressources déclinantes, sélectionnent des objectifs, concentrent leurs forces et compensent les pertes. La **théorie de la sélectivité socio-émotionnelle** de Laura Carstensen montre que les personnes dont la perspective temporelle est limitée privilégient les relations émotionnellement significatives.\n\nToutes ces approches contredisent l’assimilation de la vieillesse à une perte de sens."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les concepts à leurs auteurs.",
+   "paare": [
+    [
+     "Intégrité du moi versus désespoir",
+     "Erik H. Erikson"
+    ],
+    [
+     "Sélection, optimisation et compensation",
+     "Paul B. Baltes et Margret M. Baltes"
+    ],
+    [
+     "Théorie de la sélectivité socio-émotionnelle",
+     "Laura L. Carstensen"
+    ],
+    [
+     "Le passé comme lieu où les valeurs sont conservées en sécurité et ne peuvent être perdues",
+     "Viktor E. Frankl"
+    ]
+   ],
+   "erklaerung": "Les concepts de psychologie du développement d’Erikson, de Baltes et de Carstensen complètent la perspective existentielle de Frankl sur la vieillesse et peuvent être bien combinés dans l’accompagnement."
+  },
+  {
+   "typ": "text",
+   "titel": "La névrose du dimanche",
+   "text": "Par le terme de **névrose du dimanche**, Frankl a décrit une forme du vide existentiel qui ne devient visible que lorsque l’activité quotidienne s’apaise. Pendant la semaine, le travail, les rendez-vous et les routines masquent le vide intérieur. Le week-end, en vacances ou après le départ à la retraite, il apparaît clairement : ennui, agitation, irritabilité, sentiment de ne pas savoir « quoi faire » de son temps libre.\n\nLa névrose du dimanche n’est **pas un terme diagnostique**, mais la description phénoménologique d’une expérience répandue. Elle illustre une idée centrale : **être occupé n’est pas la même chose qu’accomplir du sens.** Celui qui remplit son quotidien d’activités peut néanmoins rester existentiellement vide.\n\nDans la pratique, la névrose du dimanche est particulièrement pertinente en lien avec le **départ à la retraite**. Beaucoup de personnes vivent les premiers mois après la fin de leur vie professionnelle comme libérateurs ; chez certaines, toutefois, un sentiment de vide et d’inutilité apparaît au bout d’un certain temps, surtout si le sens était auparavant tiré presque exclusivement du travail.\n\nL’accompagnement peut ici intervenir de manière préventive, par exemple dans le cadre de programmes de préparation à la retraite au cours desquels on explore les valeurs, les centres d’intérêt et les tâches possibles au-delà de la profession. L’objectif n’est pas de remplir l’agenda, mais de trouver des activités et des relations vécues comme **pleines de sens**."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle idée centrale le terme frankléen de « névrose du dimanche » illustre-t-il ?",
+   "optionen": [
+    "Que les gens tombent plus souvent malades psychiquement le week-end",
+    "Qu’être occupé ne signifie pas encore accomplir du sens, et qu’un vide existentiel masqué peut apparaître pendant le temps libre",
+    "Que les fêtes religieuses entraînent des sentiments de culpabilité",
+    "Que les pauses de repos sont fondamentalement nuisibles"
+   ],
+   "richtig": 1,
+   "erklaerung": "La névrose du dimanche décrit l’émergence d’un vide existentiel qui était masqué au quotidien par l’activité (B). Il ne s’agit ni d’un diagnostic ni d’une affirmation épidémiologique (A), elle n’a pas de référence spécifiquement religieuse (C) et n’affirme pas que le repos est nuisible (D)."
+  },
+  {
+   "typ": "text",
+   "titel": "Le chômage : les observations de Frankl et l’étude de Marienthal",
+   "text": "Dans les années 1920 et 1930, Frankl a travaillé dans le conseil aux jeunes à Vienne, à une époque de chômage élevé. Dans ce contexte, il a décrit une **névrose du chômage** : beaucoup de jeunes chômeurs souffraient non seulement de la détresse matérielle, mais surtout du sentiment d’être **inutiles**. Ils assimilaient le chômage à l’absence de sens de la vie.\n\nFrankl rapportait que la situation de nombreux jeunes changeait lorsqu’ils assumaient des tâches non rémunérées – par exemple dans des organisations de jeunesse, des établissements d’éducation des adultes ou des bibliothèques. Malgré une détresse matérielle persistante, leur humeur dépressive reculait, parce qu’ils avaient de nouveau quelque chose à faire qu’ils vivaient comme plein de sens. Sa conclusion : ce n’est pas l’emploi rémunéré en lui-même qui procure du sens, mais l’expérience d’avoir une tâche et d’être utile à quelqu’un.\n\nÀ la même époque, Marie Jahoda, Paul F. Lazarsfeld et Hans Zeisel ont étudié les conséquences du chômage de masse dans le village autrichien de **Marienthal** (publication en 1933). Ils ont décrit une « communauté lasse », la désagrégation de la structure temporelle et la résignation. Jahoda a ensuite développé le modèle des **fonctions latentes** de l’emploi : structure temporelle, contacts sociaux en dehors de la famille, participation à des objectifs collectifs, statut et identité, ainsi qu’activité régulière.\n\nLes deux perspectives se complètent : le chômage est une charge matérielle et existentielle. L’accompagnement doit garder les deux niveaux en vue."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles fonctions latentes de l’emploi Marie Jahoda a-t-elle décrites ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "La structure temporelle",
+    "Les contacts sociaux en dehors de la famille",
+    "Une réalisation de soi garantie",
+    "La participation à des objectifs collectifs",
+    "Le statut et l’identité"
+   ],
+   "richtig": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "erklaerung": "Jahoda a nommé la structure temporelle, les contacts sociaux, la participation à des objectifs collectifs, le statut et l’identité, ainsi que l’activité régulière. Une réalisation de soi garantie (C) n’en fait pas partie – l’emploi peut aussi être aliénant."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "De ses observations dans le conseil aux jeunes, Frankl a conclu que ce n’est pas l’emploi rémunéré en lui-même, mais l’expérience d’avoir une tâche pleine de sens qui remplit la fonction protectrice décisive.",
+   "richtig": true,
+   "erklaerung": "Vrai. Frankl a observé que les jeunes chômeurs qui assumaient des tâches non rémunérées pleines de sens souffraient moins d’humeur dépressive malgré la détresse matérielle. Il n’en découle toutefois pas que la sécurité matérielle soit sans importance."
+  },
+  {
+   "typ": "text",
+   "titel": "L’accompagnement en situation de chômage : possibilités et limites",
+   "text": "Un accompagnement orienté vers le sens peut soutenir les personnes au chômage à plusieurs niveaux :\n\n- **Découpler emploi et estime de soi** : l’équation « chômeur = inutile » est remise en question avec précaution. Quelles tâches, relations et valeurs portent la vie même maintenant ?\n- **Structure temporelle et tâches** : une structure quotidienne choisie, le bénévolat, la formation continue ou des tâches de soin peuvent ouvrir des sources de sens.\n- **Valeurs d’attitude** : face à un chômage dont on n’est pas responsable, l’attitude reste modulable – sans minimiser la charge.\n- **Réorientation professionnelle** : la clarification des valeurs peut aider à trouver une direction pour son avenir professionnel.\n\nEn même temps, les **limites** doivent être clairement nommées :\n\n- Le chômage est souvent associé à une **détresse matérielle**. Le conseil en droit social, le conseil en surendettement et l’aide aux démarches de candidature priment sur les questions de sens lorsque les moyens de subsistance sont menacés.\n- Le chômage de longue durée est associé à un risque accru de souffrance psychique. En présence de signes de dépression, d’une addiction en cours d’installation ou de suicidalité, une évaluation professionnelle est indiquée.\n- Le chômage est un **problème de société**. L’individualiser au sens de « Vous devez simplement changer d’attitude » serait inapproprié.\n\nLa logothérapie n’offre ici aucun substitut au travail, mais une perspective qui renforce la dignité et la capacité d’agir même dans une situation difficile."
+  },
+  {
+   "typ": "fall",
+   "titel": "Après la perte d’emploi",
+   "fall": "Vignette pédagogique construite : M. S., 56 ans, a travaillé pendant 30 ans comme ouvrier qualifié dans la même entreprise, jusqu’à la fermeture de l’usine. Il est au chômage depuis huit mois. Il dit avoir honte devant les voisins, ne quitte presque plus la maison et a le sentiment de « ne plus être bon à rien ». Sa famille est inquiète parce qu’il boit davantage le soir qu’auparavant. Financièrement, c’est « serré, mais gérable ».",
+   "frage": "Quelle première démarche est la plus appropriée ?",
+   "optionen": [
+    "Commencer immédiatement par la question de savoir quelle activité bénévole pourrait lui donner du sens.",
+    "Lui expliquer que le chômage n’est pas un échec personnel et en rester là pour l’entretien.",
+    "Ignorer l’augmentation de la consommation d’alcool, puisqu’il ne s’agit pas d’un thème de l’accompagnement orienté vers le sens.",
+    "Reconnaître sa honte et son sentiment d’inutilité et, en même temps, lui demander avec délicatesse comment il va avec l’alcool et avec son humeur en général, afin d’évaluer si une évaluation plus poussée est nécessaire."
+   ],
+   "richtig": 3,
+   "erklaerung": "Il faut d’abord une reconnaissance et une estimation des risques possibles : le retrait, les sentiments de dévalorisation et la consommation croissante d’alcool peuvent indiquer une dépression ou un problème d’addiction naissant (D). Le bénévolat (A) pourra jouer un rôle plus tard, mais vient trop tôt. L’option B est trop brève et le laisse seul ; l’option C néglige un signal d’alerte important."
+  },
+  {
+   "typ": "karten",
+   "titel": "Transitions, vieillesse et chômage",
+   "karten": [
+    {
+     "vorne": "Névrose du dimanche",
+     "hinten": "Émergence, pendant le temps libre, d’un vide existentiel masqué au quotidien ; non un diagnostic, mais une description phénoménologique."
+    },
+    {
+     "vorne": "Névrose du chômage (Frankl)",
+     "hinten": "Assimilation du chômage à l’inutilité et à l’absence de sens ; améliorée chez beaucoup par des tâches non rémunérées pleines de sens."
+    },
+    {
+     "vorne": "Étude de Marienthal",
+     "hinten": "Jahoda, Lazarsfeld et Zeisel (1933) : étude des conséquences psychosociales du chômage de masse dans un village autrichien."
+    },
+    {
+     "vorne": "Zone neutre (Bridges)",
+     "hinten": "Entre-deux d’une transition, entre la fin et le nouveau commencement – déstabilisant, mais potentiellement créatif."
+    },
+    {
+     "vorne": "Intégrité du moi (Erikson)",
+     "hinten": "Acceptation de sa propre vie vécue à un âge avancé ; le pôle opposé est le désespoir."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Quelles transitions de vie avez-vous vécues vous-même, et comment votre expérience du sens a-t-elle évolué au cours de celles-ci ?",
+   "hinweis": "Questions d’orientation : y a-t-il eu une « zone neutre » ? Qu’est-ce qui vous a aidé(e) à trouver un nouveau commencement ? Quelles valeurs sont restées à travers la transition ?"
+  }
+ ]
+}
