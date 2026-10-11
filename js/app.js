@@ -5,7 +5,8 @@
   var VIEWS = ["start", "institut", "logotherapie", "verfahren", "journal", "lexikon", "weiterbildung"];
   var I = window.I18N;
   var T = function (de, en) { return I.t(de, en); };
-  var EN = window.EN || {};
+  var P = function (o) { return I.pick(o); };
+  var EN = window.EN || {}, FR = window.FR || {};
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
@@ -44,8 +45,18 @@
   var LEX_BY_KEY = {};
   LEX.forEach(function (e) { e.id = slug(e.begriff); LEX_BY_KEY[sortKey(e.begriff)] = e; });
   function findLex(name) { return LEX_BY_KEY[sortKey(name)]; }
-  var LEX_EN = {};
-  (EN.lexikon || []).forEach(function (x) { LEX_EN[x.key] = x; });
+  var LEXM = { en: {}, fr: {} };
+  (EN.lexikon || []).forEach(function (x) { LEXM.en[x.key] = x; });
+  (FR.lexikon || []).forEach(function (x) { LEXM.fr[x.key] = x; });
+  var KAT_FR = {
+    "Logotherapie & Existenzanalyse": "Logothérapie et analyse existentielle",
+    "Personen": "Personnes",
+    "Beratung & Gesprächsführung": "Conseil et conduite d'entretien",
+    "Therapieverfahren & Methoden": "Psychothérapies et méthodes",
+    "Psychologische Grundbegriffe": "Notions fondamentales de psychologie",
+    "Klinische Psychologie & Störungsbilder": "Psychologie clinique et troubles",
+    "Forschung, Diagnostik & Methodik": "Recherche, évaluation et méthodes"
+  };
   var KAT_EN = {
     "Logotherapie & Existenzanalyse": "Logotherapy & Existential Analysis",
     "Personen": "People",
@@ -57,12 +68,12 @@
   };
   // Anzeige eines Lexikoneintrags in der aktuellen Sprache
   function lx(e) {
-    var en = I.lang === "en" && LEX_EN[e.begriff];
+    var en = I.lang !== "de" && ((LEXM[I.lang] || {})[e.begriff] || LEXM.en[e.begriff]);
     return {
       begriff: en ? en.begriff : e.begriff,
       kurz: en ? en.kurz : e.kurz,
       text: en ? en.text : e.text,
-      kategorie: I.lang === "en" ? (KAT_EN[e.kategorie] || e.kategorie) : e.kategorie
+      kategorie: P({ de: e.kategorie, en: KAT_EN[e.kategorie] || e.kategorie, fr: KAT_FR[e.kategorie] || e.kategorie })
     };
   }
   function lexSorted() {
@@ -71,25 +82,33 @@
 
   var J = window.JOURNAL || { titel: "Zeitschrift für Sinnzentrierte Psychologie", ausgaben: [], artikel: [] };
   var JEN = EN.journal || { artikel: {}, ausgaben: {} };
+  var JFR = FR.journal || { artikel: {}, ausgaben: {} };
+  function JL() { return I.lang === "fr" ? JFR : JEN; }
   var ART_BY_ID = {};
   J.artikel.forEach(function (a) { ART_BY_ID[a.id] = a; });
   var RUBRIK_EN = { "Editorial": "Editorial", "Übersichtsarbeit": "Review", "Originalarbeit": "Original article", "Theoretischer Beitrag": "Theoretical article", "Methodenbeitrag": "Methods article", "Praxis und Lehre": "Practice and teaching", "Rezension": "Book review" };
   var MONAT_EN = { "Januar": "January", "Februar": "February", "März": "March", "April": "April", "Mai": "May", "Juni": "June", "Juli": "July", "August": "August", "September": "September", "Oktober": "October", "November": "November", "Dezember": "December" };
-  function jTitel() { return T(J.titel, JEN.titel || "Journal of Meaning-Centered Psychology"); }
+  var RUBRIK_FR = { "Editorial": "Éditorial", "Übersichtsarbeit": "Article de synthèse", "Originalarbeit": "Article original", "Theoretischer Beitrag": "Article théorique", "Methodenbeitrag": "Article méthodologique", "Praxis und Lehre": "Pratique et enseignement", "Rezension": "Compte rendu" };
+  var MONAT_FR = { "April": "avril", "Oktober": "octobre" };
+  function jTitel() { return P({ de: J.titel, en: JEN.titel || "Journal of Meaning-Centered Psychology", fr: JFR.titel || "Revue de psychologie centrée sur le sens" }); }
   function hasEn(a) { return !!(JEN.artikel && JEN.artikel[a.id]); }
+  function hasLoc(a, l) { return l === "de" || !!((l === "fr" ? JFR : JEN).artikel || {})[a.id]; }
   function art(a) {
-    var en = I.lang === "en" && JEN.artikel && JEN.artikel[a.id];
+    var tr = I.lang !== "de" && ((JL().artikel || {})[a.id] || (JEN.artikel || {})[a.id]);
     return {
-      titel: en ? en.titel : a.titel,
-      untertitel: en ? en.untertitel : a.untertitel,
-      abschnitte: en ? en.abschnitte : a.abschnitte,
-      rubrik: I.lang === "en" ? (RUBRIK_EN[a.rubrik] || a.rubrik) : a.rubrik
+      titel: tr ? tr.titel : a.titel,
+      untertitel: tr ? tr.untertitel : a.untertitel,
+      abschnitte: tr ? tr.abschnitte : a.abschnitte,
+      rubrik: P({ de: a.rubrik, en: RUBRIK_EN[a.rubrik] || a.rubrik, fr: RUBRIK_FR[a.rubrik] || a.rubrik })
     };
   }
+  function autorenL(a) { return a.autoren.replace(" und ", P({ de: " und ", en: " and ", fr: " et " })); }
+  // Englische Originalfassung (Version of Record)
+  function enTitel(a) { var e = (JEN.artikel || {})[a.id]; return e ? e.titel + (e.untertitel ? ": " + e.untertitel : "") : a.titel + (a.untertitel ? ": " + a.untertitel : ""); }
   function iss(a) { return J.ausgaben.filter(function (x) { return x.id === a.ausgabe; })[0] || {}; }
   function issView(i) {
-    var en = I.lang === "en" && JEN.ausgaben && JEN.ausgaben[i.id];
-    return { monat: I.lang === "en" ? (MONAT_EN[i.monat] || i.monat) : i.monat, schwerpunkt: en ? en.schwerpunkt : i.schwerpunkt };
+    var tr = I.lang !== "de" && ((JL().ausgaben || {})[i.id] || (JEN.ausgaben || {})[i.id]);
+    return { monat: P({ de: i.monat, en: MONAT_EN[i.monat] || i.monat, fr: MONAT_FR[i.monat] || i.monat }), schwerpunkt: tr ? tr.schwerpunkt : i.schwerpunkt };
   }
 
   /* ---------- Navigation ---------- */
@@ -138,7 +157,8 @@
       var block = el.closest("[data-lang]");
       // Anker der anderen Sprachfassung auf das Gegenstück umlenken
       if (block && block.getAttribute("data-lang") !== I.lang) {
-        var alt = document.getElementById(I.lang === "en" ? "en-" + h : h.replace(/^en-/, ""));
+        var base = h.replace(/^(en|fr)-/, "");
+        var alt = document.getElementById(I.lang === "de" ? base : I.lang + "-" + base);
         if (alt) el = alt;
       }
       var v = el.closest(".view");
@@ -159,8 +179,8 @@
   var vfCurrent = 0;
   function renderVerfahren() {
     var de = window.VERFAHREN || [];
-    var data = I.lang === "en" && EN.verfahren && EN.verfahren.length === de.length
-      ? EN.verfahren.map(function (v, i) { return Object.assign({}, de[i], v); }) : de;
+    var loc = I.data(), lv = loc && loc.verfahren && loc.verfahren.length === de.length ? loc.verfahren : (I.lang !== "de" && EN.verfahren && EN.verfahren.length === de.length ? EN.verfahren : null);
+    var data = lv ? lv.map(function (v, i) { return Object.assign({}, de[i], v); }) : de;
     var fams = [T("Alle", "All")];
     data.forEach(function (v) { if (fams.indexOf(v.familie) < 0) fams.push(v.familie); });
     if (vfCurrent >= fams.length) vfCurrent = 0;
@@ -185,24 +205,19 @@
   /* ---------- Zeitschrift ---------- */
   function apa(a) {
     var i = iss(a);
-    var head = (a.autorenApa || a.autoren) + " (" + i.jahr + "). " + a.titel + (a.untertitel ? ": " + a.untertitel : "");
-    if (I.lang === "en" && hasEn(a)) {
-      var e = JEN.artikel[a.id];
-      head += " [" + e.titel + (e.untertitel ? ": " + e.untertitel : "") + "]";
-    }
-    return head + ". " + J.titel + ", " + i.jahrgang + "(" + i.heft + "), " + a.seiten + ".";
+    return (a.autorenApa || a.autoren) + " (" + i.jahr + "). " + enTitel(a) + ". Journal of Meaning-Centered Psychology, " + i.jahrgang + "(" + i.heft + "), " + a.seiten + ".";
   }
-  function pdfOf(a) { return (I.lang === "en" && hasEn(a) ? "pdf/en/" : "pdf/") + a.id + ".pdf"; }
-  function heftPdf(i) { return (I.lang === "en" ? "pdf/en/" : "pdf/") + "zsp-" + i.jahr + "-" + i.heft + "-gesamt.pdf"; }
+  function pdfOf(a, l) { l = l || I.lang; if (!hasLoc(a, l)) l = "en"; return "pdf/" + l + "/" + a.id + ".pdf"; }
+  function heftPdf(i) { return "pdf/" + I.lang + "/zsp-" + i.jahr + "-" + i.heft + "-gesamt.pdf"; }
   function issueLabel(i) { var v = issView(i); return T("Jahrgang ", "Volume ") + i.jahrgang + T(" · Heft ", " · Issue ") + i.heft + " · " + v.monat + " " + i.jahr; }
   function pg() { return T("S. ", "pp. "); }
 
   function journalMast() {
     return '<header class="page-head"><div class="journal-mast"><div><p class="eyebrow">' + T("Fachzeitschrift des Instituts", "The Institute's scholarly journal") + "</p><h1>" + esc(jTitel()) + "</h1>" +
-      (I.lang === "en" ? '<p class="muted small">Zeitschrift für Sinnzentrierte Psychologie (ZSP)</p>' : "") + "</div>" +
+      (I.lang !== "en" ? '<p class="muted small">Journal of Meaning-Centered Psychology (ZSP)</p>' : "") + "</div>" +
       '<p class="mono muted">' + T("Erscheint halbjährlich<br>Begutachtet · Open Access", "Published twice a year<br>Peer-reviewed · Open access") + "</p></div>" +
-      '<p class="lead">' + T("Die Zeitschrift veröffentlicht Übersichtsarbeiten, theoretische Beiträge, Methodenbeiträge und Rezensionen zu Logotherapie, Existenzpsychologie, Sinnforschung und vergleichender Psychotherapieforschung.",
-        "The journal publishes reviews, theoretical articles, methods articles and book reviews on logotherapy, existential psychology, research on meaning and comparative psychotherapy research. Articles appear in German; English translations are provided for all contributions.") + "</p></header>";
+      '<p class="lead">' + T("Die Zeitschrift veröffentlicht Übersichtsarbeiten, theoretische Beiträge, Methodenbeiträge und Rezensionen zu Logotherapie, Existenzpsychologie, Sinnforschung und vergleichender Psychotherapieforschung. Die Beiträge erscheinen auf Englisch; deutsche und französische Übersetzungen werden zu allen Beiträgen bereitgestellt.",
+        "The journal publishes reviews, theoretical articles, methods articles and book reviews on logotherapy, existential psychology, research on meaning and comparative psychotherapy research. Articles are published in English; German and French translations are provided for all contributions.") + "</p>" + aiNote() + "</header>";
   }
 
   function renderJournalIndex() {
@@ -218,7 +233,7 @@
         var x = art(a);
         html += '<li><div><span class="tag">' + esc(x.rubrik) + '</span><br><a class="t" href="#' + a.id + '">' + esc(x.titel) + "</a>" +
           (x.untertitel ? '<div class="small muted">' + esc(x.untertitel) + "</div>" : "") +
-          '<div class="small muted">' + esc(a.autoren.replace(" und ", I.lang === "en" ? " and " : " und ")) + '</div></div><span class="toc-side"><span class="mono muted">' + pg() + esc(a.seiten) + '</span><a class="pdf-link" href="' + pdfOf(a) + '" download aria-label="PDF: ' + esc(x.titel) + '">PDF</a></span></li>';
+          '<div class="small muted">' + esc(autorenL(a)) + '</div></div><span class="toc-side"><span class="mono muted">' + pg() + esc(a.seiten) + '</span><a class="pdf-link" href="' + pdfOf(a) + '" download aria-label="PDF: ' + esc(x.titel) + '">PDF</a></span></li>';
       });
       html += "</ul></div>";
     });
@@ -244,8 +259,7 @@
   }
 
   function renderEinreichung() {
-    var rub = I.lang === "en" ? ["Review", "Original article", "Theoretical article", "Methods article", "Practice and teaching", "Book review"]
-      : ["Übersichtsarbeit", "Originalarbeit", "Theoretischer Beitrag", "Methodenbeitrag", "Praxis und Lehre", "Rezension"];
+    var rub = ["Übersichtsarbeit", "Originalarbeit", "Theoretischer Beitrag", "Methodenbeitrag", "Praxis und Lehre", "Rezension"].map(function (r) { return P({ de: r, en: RUBRIK_EN[r], fr: RUBRIK_FR[r] }); });
     var html = '<div class="page-head"><p class="mono muted"><a href="#journal">' + esc(jTitel()) + "</a></p><h1>" + T("Manuskript einreichen", "Submit a manuscript") + "</h1>" +
       '<p class="lead">' + T("Reichen Sie Ihren Beitrag in drei Schritten ein: Manuskriptvorlage verwenden, Formular ausfüllen, Unterlagen an die Redaktion senden.", "Submit your article in three steps: use the manuscript template, complete the form and send your documents to the editorial office.") + "</p></div>";
     html += '<div class="article"><div>';
@@ -256,13 +270,13 @@
       '<li><strong>Use the template.</strong> Download the <a href="vorlagen/ZSP-Manuskriptvorlage.docx" download>manuscript template</a> (Word, Arial 11 pt, line spacing 1.5) and write your manuscript in it. It must not contain any information that identifies the authors.</li>' +
       "<li><strong>Complete the form.</strong> Your details are turned into a complete cover letter with a submission number.</li>" +
       '<li><strong>Send your documents.</strong> Send the letter together with the anonymized manuscript and a separate title page to <span class="mono">' + esc(KONTAKT) + "</span>. The editorial office confirms receipt within five working days.</li>") + "</ol>";
-    var checks = I.lang === "en" ? [
+    var checks = I.lang !== "de" ? [
       "The manuscript is unpublished and is not currently under review with another journal.",
       "For research involving humans, ethics approval has been obtained and all participants gave informed consent, or the article contains no such research.",
       "Funding and conflicts of interest are disclosed in the “Statements” section of the manuscript.",
       "The use of generative AI tools is disclosed.",
       "I agree that, if accepted, the article will be published open access under the CC BY 4.0 license."
-    ] : [
+    ].map(function (c) { return T(c, c); }) : [
       "Das Manuskript ist unveröffentlicht und wird derzeit keiner anderen Zeitschrift zur Begutachtung vorgelegt.",
       "Bei Forschung mit Menschen liegt ein Ethikvotum vor und alle Teilnehmenden haben informiert eingewilligt, oder der Beitrag enthält keine solche Forschung.",
       "Finanzierung und Interessenkonflikte sind im Abschnitt „Erklärungen“ des Manuskripts offengelegt.",
@@ -319,7 +333,15 @@
       $("#sub-err").hidden = !err.length; $("#sub-err").textContent = err.join(" ");
       if (err.length) return;
       var d = new Date(), nr = "ZSP-E-" + d.getFullYear() + "-" + (Math.abs(((d.getTime() / 1000) | 0) ^ v("s-titel").length * 7919) % 100000).toString().padStart(5, "0");
-      var txt = I.lang === "en"
+      var txt = I.lang === "fr"
+        ? "Objet : Soumission " + nr + " – " + v("s-titel") + "\n\nMadame, Monsieur,\n\nJe soumets par la présente le manuscrit suivant pour évaluation à la " + jTitel() + " (Journal of Meaning-Centered Psychology).\n\n" +
+          "Numéro de soumission : " + nr + "\nType d'article : " + v("s-rubrik") + "\nLangue : " + v("s-sprache") + "\nTitre : " + v("s-titel") + (v("s-unter") ? "\nSous-titre : " + v("s-unter") : "") +
+          (v("s-worte") ? "\nNombre de mots : " + v("s-worte") : "") + (v("s-kw") ? "\nMots-clés : " + v("s-kw") : "") + (f ? "\nFichier du manuscrit : " + f.name : "") +
+          "\n\nRésumé :\n" + v("s-abstract") +
+          "\n\nAuteur correspondant : " + v("s-name") + (v("s-inst") ? ", " + v("s-inst") : "") + "\nCourriel : " + v("s-mail") +
+          (v("s-ko") ? "\nCo-auteurs :\n" + v("s-ko") : "") +
+          "\n\nJe confirme que le manuscrit est inédit et n'est pas en cours d'évaluation ailleurs, que les exigences éthiques sont respectées, que le financement, les conflits d'intérêts et l'utilisation de l'IA générative sont déclarés, et que l'article peut être publié sous licence CC BY 4.0 s'il est accepté.\n\nVeuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n" + v("s-name")
+        : I.lang === "en"
         ? "Subject: Submission " + nr + " – " + v("s-titel") + "\n\nDear Editors,\n\nI hereby submit the following manuscript for review in the " + jTitel() + " (Zeitschrift für Sinnzentrierte Psychologie).\n\n" +
           "Submission number: " + nr + "\nArticle type: " + v("s-rubrik") + "\nLanguage: " + v("s-sprache") + "\nTitle: " + v("s-titel") + (v("s-unter") ? "\nSubtitle: " + v("s-unter") : "") +
           (v("s-worte") ? "\nWord count: " + v("s-worte") : "") + (v("s-kw") ? "\nKeywords: " + v("s-kw") : "") + (f ? "\nManuscript file: " + f.name : "") +
@@ -341,30 +363,34 @@
   }
 
   function renderArticle(a) {
-    var i = iss(a), x = art(a), en = I.lang === "en";
+    var i = iss(a), x = art(a), en = I.lang !== "de", L = I.lang;
     var idx = J.artikel.indexOf(a);
     var prev = J.artikel[idx - 1], next = J.artikel[idx + 1];
-    var autoren = en ? a.autoren.replace(" und ", " and ") : a.autoren;
+    var autoren = autorenL(a);
     var html = '<div class="page-head"><p class="mono muted"><a href="#journal">' + esc(jTitel()) + "</a> · " + esc(issueLabel(i)) + " · " + pg() + esc(a.seiten) + "</p>" +
       '<span class="tag">' + esc(x.rubrik) + "</span><h1>" + esc(x.titel) + "</h1>" +
       (x.untertitel ? '<p class="lead">' + esc(x.untertitel) + "</p>" : "") +
       '<p class="muted">' + esc(autoren) + '<br><span class="small">' + esc(INST()) + "</span></p>" +
-      (en && hasEn(a) ? '<p class="small muted lang-note">English translation. The German original is the version of record.</p>' : "") +
+      (L !== "en" ? '<p class="small muted lang-note">' + P({ de: "Deutsche Übersetzung. Maßgeblich ist die englische Originalfassung.", fr: "Traduction française. La version originale anglaise fait foi." }) + "</p>" : "") +
       '<div class="actions"><a class="btn btn-primary" href="' + pdfOf(a) + '" download>' + T("PDF herunterladen", "Download PDF") + '</a><a class="btn btn-ghost" href="' + pdfOf(a) + '" target="_blank" rel="noopener">' + T("PDF ansehen", "View PDF") + "</a>" +
-      (en && hasEn(a) ? '<a class="btn btn-ghost" href="pdf/' + a.id + '.pdf" download>German original (PDF)</a>' : "") + "</div></div>";
+      (L !== "en" ? '<a class="btn btn-ghost" href="' + pdfOf(a, "en") + '" download>' + P({ de: "Englisches Original (PDF)", fr: "Original anglais (PDF)" }) + "</a>" : "") + "</div></div>";
     html += '<div class="article"><div class="article-body">';
     var deAbs = a.abstract ? '<section class="abstract" lang="de"><h2 style="margin:0;font-size:1.05rem;font-family:var(--sans);font-weight:600">Zusammenfassung</h2>' + paras(a.abstract) +
       (a.schluesselwoerter ? '<p class="small"><strong>Schlüsselwörter:</strong> ' + esc(a.schluesselwoerter.join(", ")) + "</p>" : "") + "</section>" : "";
     var enAbs = a.abstractEn ? '<section class="abstract" lang="en"><h2 style="margin:0;font-size:1.05rem;font-family:var(--sans);font-weight:600">Abstract</h2>' + paras(a.abstractEn) +
       (a.keywords ? '<p class="small"><strong>Keywords:</strong> ' + esc(a.keywords.join(", ")) + "</p>" : "") + "</section>" : "";
-    html += en ? enAbs : deAbs + enAbs;
+    var fa = (JFR.artikel || {})[a.id];
+    var frAbs = fa && fa.abstract ? '<section class="abstract" lang="fr"><h2 style="margin:0;font-size:1.05rem;font-family:var(--sans);font-weight:600">Résumé</h2>' + paras(fa.abstract) +
+      (fa.keywords ? '<p class="small"><strong>Mots-clés :</strong> ' + esc(fa.keywords.join(", ")) + "</p>" : "") + "</section>" : "";
+    html += P({ en: enAbs, de: deAbs + enAbs, fr: (frAbs || "") + enAbs });
     (x.abschnitte || []).forEach(function (s) {
       html += "<h2>" + esc(s.titel) + "</h2>" + (s.absaetze || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("");
     });
     if (a.literatur && a.literatur.length) {
       html += "<h2>" + T("Literatur", "References") + '</h2><ul class="refs">' + a.literatur.map(function (r) { return "<li>" + esc(r) + "</li>"; }).join("") + "</ul>";
     }
-    html += '</div><aside class="article-aside"><a class="pdf-card" href="' + pdfOf(a) + '" download><span class="pdf-ico" aria-hidden="true">PDF</span><span><strong>' + T("Beitrag als PDF", "Article as PDF") + '</strong><br><span class="small muted">' + T("Satzfassung mit Seitenzahlen ", "Typeset English version") + (en ? "" : esc(a.seiten)) + "</span></span></a>" +
+    html += '<h2>' + T("Erklärung zum Einsatz generativer KI", "Statement on the use of generative AI") + "</h2><p>" + T("Dieser Beitrag wurde mit Unterstützung generativer KI verfasst und von den Autorinnen und Autoren geprüft und verantwortet. Die englische Fassung ist das Original; die deutsche und die französische Fassung sind Übersetzungen.", "This article was written with the assistance of generative AI and was reviewed by the authors, who take full responsibility for its content. The English version is the original; the German and French versions are translations.") + "</p>";
+    html += '</div><aside class="article-aside"><a class="pdf-card" href="' + pdfOf(a) + '" download><span class="pdf-ico" aria-hidden="true">PDF</span><span><strong>' + T("Beitrag als PDF", "Article as PDF") + '</strong><br><span class="small muted">' + (L === "en" ? "Typeset original, pp. " + esc(a.seiten) : T("Satzfassung der deutschen Übersetzung", "Typeset translation")) + "</span></span></a>" +
       '<div class="panel"><p class="eyebrow">' + T("Zitiervorschlag", "How to cite") + '</p><div class="cite-box" id="cite-text">' + esc(apa(a)) + '</div><button type="button" class="btn btn-ghost" id="cite-copy">' + T("Zitation kopieren", "Copy citation") + "</button></div>" +
       '<div class="panel"><p class="eyebrow">' + T("Angaben", "Details") + '</p><dl class="facts"><div><dt>' + T("Rubrik", "Article type") + "</dt><dd>" + esc(x.rubrik) + "</dd></div><div><dt>" + T("Heft", "Issue") + "</dt><dd>" + esc(i.heft + "/" + i.jahr) + "</dd></div><div><dt>" + T("Seiten", "Pages") + "</dt><dd>" + esc(a.seiten) + "</dd></div><div><dt>" + T("Lizenz", "License") + "</dt><dd>CC BY 4.0</dd></div></dl></div>" +
       '<nav class="panel" aria-label="' + T("Weitere Beiträge", "More articles") + '">' + (prev ? '<a href="#' + prev.id + '">← ' + esc(art(prev).titel) + "</a>" : "") + (next ? '<a href="#' + next.id + '">' + esc(art(next).titel) + " →</a>" : "") + '<a href="#journal">' + T("Alle Ausgaben", "All issues") + "</a></nav></aside></div>";
@@ -397,7 +423,7 @@
     $("#lex-cats").setAttribute("aria-label", T("Kategorie", "Category"));
     $("#lex-cats").innerHTML = cats.map(function (c) {
       var n = !c ? LEX.length : LEX.filter(function (e) { return e.kategorie === c; }).length;
-      var label = !c ? T("Alle", "All") : (I.lang === "en" ? KAT_EN[c] || c : c);
+      var label = !c ? T("Alle", "All") : P({ de: c, en: KAT_EN[c] || c, fr: KAT_FR[c] || c });
       return '<button type="button" class="chip" data-c="' + esc(c) + '" aria-pressed="' + (c === lexState.cat) + '">' + esc(label) + ' <span class="mono">' + n + "</span></button>";
     }).join("");
     var letters = {};
@@ -428,13 +454,13 @@
       return t ? '<a href="#' + t.id + '">' + esc(lx(t).begriff) + "</a>" : null;
     }).filter(Boolean);
     var html = '<span class="tag">' + esc(d.kategorie) + "</span>" + (compact ? "<h3>" : "<h2>") + esc(d.begriff) + (compact ? "</h3>" : "</h2>");
-    if (I.lang === "en" && d.begriff !== e.begriff && !compact) html += '<p class="small muted" lang="de">German: ' + esc(e.begriff) + "</p>";
+    if (I.lang !== "de" && d.begriff !== e.begriff && !compact) html += '<p class="small muted">' + T("Deutsch: ", "German term: ") + '<span lang="de">' + esc(e.begriff) + "</span></p>";
     if (d.kurz) html += '<p class="kurz">' + esc(d.kurz) + "</p>";
     if (compact) return html + '<a href="#' + e.id + '">' + T("Eintrag lesen", "Read entry") + "</a>";
     html += '<div class="text">' + paras(d.text) + "</div>";
     if (refs.length) html += "<p><strong>" + T("Siehe auch:", "See also:") + "</strong> " + refs.join(", ") + "</p>";
     if (e.literatur && e.literatur.length) html += '<div><p class="eyebrow" style="margin-bottom:8px">' + T("Literatur", "References") + '</p><ul class="refs">' + e.literatur.map(function (r) { return "<li>" + esc(r) + "</li>"; }).join("") + "</ul></div>";
-    html += '<p class="small muted">' + T("Zitiervorschlag: Institut für Sinnzentrierte Psychologie (2026). ", "How to cite: Institute for Meaning-Centered Psychology (2026). ") + esc(d.begriff) + ". In <em>" + T("Lexikon der Sinnzentrierten Psychologie und Psychotherapie", "Encyclopedia of Meaning-Centered Psychology and Psychotherapy") + "</em>.</p>";
+    html += '<p class="small muted">' + T("Zitiervorschlag: Institut für Sinnzentrierte Psychologie (2026). ", "How to cite: Institute for Meaning-Centered Psychology (2026). ") + esc(d.begriff) + ". In <em>" + T("Lexikon der Sinnzentrierten Psychologie und Psychotherapie", "Encyclopedia of Meaning-Centered Psychology and Psychotherapy") + "</em>.</p>" + aiNote();
     return html;
   }
   function showEntry(e, fromRoute) {
@@ -500,6 +526,9 @@
   });
 
   /* ---------- Hilfen ---------- */
+  function aiNote() {
+    return '<p class="ai-note">' + T("Mit Unterstützung generativer KI verfasst und von den Autorinnen und Autoren geprüft. Originalsprache ist Englisch; die deutsche und die französische Fassung sind Übersetzungen.", "Written with the assistance of generative AI and reviewed by the authors. English is the original language; the German and French versions are translations.") + "</p>";
+  }
   function copyText(text, btn, selectEl) {
     var done = function () { var o = btn.textContent; btn.textContent = T("Kopiert", "Copied"); setTimeout(function () { btn.textContent = o; }, 1800); };
     var fallback = function () {
@@ -554,5 +583,5 @@
   initFooter();
   initTheme();
   renderAll();
-  window.ISP = { setView: setView, copyText: copyText, esc: esc, paras: paras, KONTAKT: KONTAKT, findLex: findLex, T: T, route: route };
+  window.ISP = { aiNote: aiNote, setView: setView, copyText: copyText, esc: esc, paras: paras, KONTAKT: KONTAKT, findLex: findLex, T: T, route: route };
 })();

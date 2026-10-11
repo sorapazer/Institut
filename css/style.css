@@ -423,7 +423,8 @@ form.apply { display: grid; gap: 18px; max-width: 760px; }
 
 
 /* Sprachumschaltung */
-html[lang="en"] [data-lang="de"], html[lang="de"] [data-lang="en"] { display: none !important; }
+html[lang="en"] [data-lang]:not([data-lang="en"]), html[lang="de"] [data-lang]:not([data-lang="de"]), html[lang="fr"] [data-lang]:not([data-lang="fr"]) { display: none !important; }
+.ai-note { font-size: .82rem; color: var(--ink-soft); line-height: 1.5; }
 .lang-switch { display: inline-flex; border: 1px solid var(--line); border-radius: 3px; overflow: hidden; order: 3; }
 .lang-switch button { font: 600 .78rem/1 var(--sans); letter-spacing: .08em; padding: 7px 10px; background: transparent; color: var(--ink-soft); border: 0; cursor: pointer; }
 .lang-switch button + button { border-left: 1px solid var(--line); }

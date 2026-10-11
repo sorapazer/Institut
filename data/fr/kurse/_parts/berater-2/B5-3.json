@@ -1,0 +1,164 @@
+{
+ "id": "B5-3",
+ "titel": "Burn-out et dépression : repérage et différenciation",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Origine et signification du concept de burn-out",
+   "text": "Le terme **burn-out** s’est largement diffusé dans les années 1970 grâce au psychanalyste **Herbert Freudenberger**, qui avait décrit chez lui-même et chez des collaborateurs d’institutions d’aide un état d’épuisement, de désillusion et d’engagement déclinant. Le burn-out a été étudié de manière systématique surtout par la psychologue sociale **Christina Maslach**, qui a développé avec Susan Jackson le **Maslach Burnout Inventory** (MBI).\n\nMaslach décrit le burn-out comme une réponse à des **stresseurs interpersonnels et professionnels chroniques**, avec trois dimensions :\n\n- **Épuisement émotionnel** : le sentiment d’être vidé et émotionnellement surmené ; l’énergie ne suffit plus.\n- **Dépersonnalisation ou cynisme** : une attitude détachée, indifférente ou dénigrante envers les personnes avec lesquelles on travaille ou envers le travail dans son ensemble.\n- **Diminution de l’accomplissement personnel** (plus tard aussi : diminution de l’efficacité) : le sentiment de ne plus rien accomplir et de ne plus être à la hauteur de ses propres exigences.\n\nMaslach et Michael Leiter soulignent que le burn-out n’est pas uniquement un problème individuel. Ils décrivent six domaines dans lesquels un défaut d’adéquation entre la personne et le poste de travail favorise le burn-out : **charge de travail, contrôle, reconnaissance, collectif, équité et valeurs**. Pour le conseil, cela signifie que la prévention du burn-out relève aussi des conditions de travail et du management, et pas seulement de la résistance individuelle."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les énoncés aux trois dimensions du burn-out selon Maslach.",
+   "paare": [
+    [
+     "« Après mon service, je suis complètement vide ; même le week-end, je ne récupère pas. »",
+     "épuisement émotionnel"
+    ],
+    [
+     "« Les résidents ne sont plus que des numéros pour moi ; honnêtement, leur état m’est égal. »",
+     "dépersonnalisation / cynisme"
+    ],
+    [
+     "« Quoi que je fasse, cela ne change rien. Je ne suis tout simplement plus bon dans mon travail. »",
+     "diminution de l’accomplissement / de l’efficacité"
+    ]
+   ],
+   "erklaerung": "Les trois dimensions décrivent l’épuisement, la distance intérieure ou le cynisme, et le sentiment d’une efficacité réduite. Elles surviennent fréquemment ensemble, mais leur intensité peut varier."
+  },
+  {
+   "typ": "text",
+   "titel": "Le burn-out dans la CIM-11 : QD85",
+   "text": "Dans la **CIM-11**, adoptée par l’Organisation mondiale de la santé et en vigueur depuis 2022, le burn-out figure sous le code **QD85**. L’emplacement de cette classification est décisif : le burn-out apparaît dans le chapitre « Facteurs influant sur l’état de santé ou motifs de recours aux services de santé », plus précisément dans la section consacrée aux problèmes liés à l’emploi ou au chômage. Le burn-out n’est donc explicitement **pas classé comme une maladie ou un trouble mental**, mais comme un **phénomène lié au travail**.\n\nLa CIM-11 décrit le burn-out comme un syndrome résultant d’un **stress chronique au travail** qui **n’a pas été géré avec succès**. Il se caractérise par trois dimensions qui s’appuient clairement sur Maslach :\n\n- un sentiment de perte d’énergie ou d’épuisement,\n- une distance mentale accrue vis-à-vis de son travail, ou des sentiments de négativisme ou de cynisme liés à son travail,\n- une diminution de l’efficacité professionnelle.\n\nDeux précisions sont importantes : le terme se rapporte **exclusivement au contexte professionnel** et ne doit pas être appliqué à des expériences vécues dans d’autres domaines de la vie. Et avant de le retenir, il convient d’**exclure** les troubles de l’adaptation, les troubles anxieux ou liés à la peur et les troubles de l’humeur.\n\nPour la pratique du conseil, cela signifie : le « burn-out » n’est pas un diagnostic que l’on pose, ni une étiquette pour toute forme d’épuisement. L’épuisement lié à la prise en charge d’un proche ou à des charges multiples dans la famille doit être pris au sérieux, mais il ne relève pas du code QD85 selon la CIM-11."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Dans la CIM-11, le burn-out (QD85) est classé comme trouble mental dans le chapitre des troubles mentaux, comportementaux ou neurodéveloppementaux.",
+   "richtig": false,
+   "erklaerung": "Faux. Le code QD85 se situe dans le chapitre des facteurs influant sur l’état de santé ou des motifs de recours aux services de santé. Le burn-out y est décrit comme un phénomène lié au travail, et non comme une maladie ou un trouble mental."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles caractéristiques font partie de la description du burn-out dans la CIM-11 ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Sentiment de perte d’énergie ou d’épuisement",
+    "Référence exclusive au contexte professionnel",
+    "Applicabilité à l’épuisement résultant de responsabilités de soins familiaux",
+    "Distance mentale accrue vis-à-vis de son travail, ou cynisme à son égard",
+    "Une durée minimale de six mois comme critère fixe",
+    "Diminution de l’efficacité professionnelle"
+   ],
+   "richtig": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "erklaerung": "La CIM-11 mentionne l’épuisement, la distance mentale/le cynisme et la diminution de l’efficacité, et restreint le terme au contexte professionnel. L’épuisement lié aux soins familiaux est explicitement exclu. Une durée minimale fixe de six mois ne fait pas partie de la description ; ce qui est requis, c’est un stress chronique au travail qui n’a pas été géré avec succès."
+  },
+  {
+   "typ": "text",
+   "titel": "Différenciation d’avec la dépression",
+   "text": "Le burn-out et la dépression se recoupent considérablement : épuisement, manque d’élan, difficultés de concentration, troubles du sommeil et repli sur soi se rencontrent dans les deux cas. La recherche débat de manière controversée de la netteté avec laquelle les deux concepts peuvent être distingués. Pour le conseil, une position claire est importante : **la différenciation est une tâche diagnostique réservée aux médecins et aux psychothérapeutes.** Les conseillers doivent toutefois reconnaître les signes qui rendent une évaluation urgente.\n\nUn **épisode dépressif** est une maladie mentale qui nécessite un traitement. Selon la CIM-11, ses symptômes centraux comprennent une **humeur dépressive** ou une **diminution marquée de l’intérêt ou du plaisir** pour les activités, présente presque tous les jours pendant au moins **deux semaines**. D’autres symptômes s’y ajoutent, tels que des difficultés de concentration, des sentiments de dévalorisation ou une culpabilité excessive, du désespoir, des pensées récurrentes de mort ou de suicide, des modifications du sommeil et de l’appétit, des modifications psychomotrices et une baisse d’énergie.\n\nLes différences suivantes sont souvent citées à titre d’orientation :\n\n- Le burn-out se rapporte au **contexte de travail** ; dans la dépression, le vécu est le plus souvent **généralisé** et touche tous les domaines de la vie.\n- En cas d’épuisement prédominant, le plaisir pris aux loisirs, aux vacances ou à la famille peut souvent encore être ressenti ; dans la dépression, il est fréquemment altéré en profondeur.\n- Des **sentiments marqués de culpabilité, de dévalorisation, de désespoir** et des **pensées suicidaires** sont des signes d’alerte pouvant indiquer une dépression.\n\nUn épuisement persistant peut évoluer vers une dépression. La règle est donc : en cas de doute, toujours orienter le client vers une évaluation médicale ou psychothérapeutique."
+  },
+  {
+   "typ": "merke",
+   "text": "Les conseillers ne posent pas de diagnostic. Ils sont attentifs aux signes d’alerte – anhédonie généralisée, désespoir, dévalorisation, pensées suicidaires, altération fonctionnelle sévère – et orientent alors rapidement le client vers un médecin généraliste, un médecin spécialiste ou un cabinet de psychothérapie."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Quels signes indiquent qu’au-delà du conseil, une évaluation médicale ou psychothérapeutique devrait avoir lieu en urgence ?",
+   "kategorien": [
+    "Recommander d’urgence une évaluation",
+    "Peut d’abord être abordé dans le conseil"
+   ],
+   "elemente": [
+    {
+     "text": "Depuis des semaines, la personne ne peut plus se réjouir de rien, pas même de ses petits-enfants.",
+     "kat": 0
+    },
+    {
+     "text": "La personne dit : « Parfois, je pense qu’il vaudrait mieux que je ne sois plus là. »",
+     "kat": 0
+    },
+    {
+     "text": "La personne aimerait apprendre à dire non plus clairement au sein de l’équipe.",
+     "kat": 1
+    },
+    {
+     "text": "Perte de poids et d’appétit marquée, sans cause connue",
+     "kat": 0
+    },
+    {
+     "text": "La personne cherche des idées pour mieux séparer ses loisirs de son travail.",
+     "kat": 1
+    },
+    {
+     "text": "La personne se sent sans valeur et se reproche tout.",
+     "kat": 0
+    },
+    {
+     "text": "La personne se demande si elle doit réduire son temps de travail.",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "L’anhédonie généralisée, les pensées suicidaires, les modifications physiques marquées et les sentiments de dévalorisation et de culpabilité peuvent indiquer une maladie nécessitant un traitement. En cas de pensées suicidaires, une évaluation du risque doit en outre avoir lieu immédiatement (module B6). Les demandes concernant la pose de limites, l’organisation du travail et la prise de décision sont des thèmes de conseil habituels – conseil et traitement peuvent aussi se dérouler en parallèle."
+  },
+  {
+   "typ": "text",
+   "titel": "Comment le conseil peut aider en cas d’épuisement",
+   "text": "Avec des clients épuisés, le rôle du conseil doit être clairement défini. Il ne peut pas remplacer un traitement médical ou psychothérapeutique, mais il peut accomplir beaucoup – à titre préventif, en accompagnement d’un traitement ou après celui-ci :\n\n- **Soulagement et compréhension** : écouter, reconnaître la charge, réduire la honte. Beaucoup de personnes concernées vivent leur épuisement comme un échec personnel.\n- **Psychoéducation** : expliquer de manière compréhensible le modèle du stress et l’importance de la récupération, aborder les signes d’alerte.\n- **Analyse des facteurs de stress** : quels stresseurs, quels amplificateurs personnels, quels problèmes d’adéquation dans les six domaines selon Maslach et Leiter (charge de travail, contrôle, reconnaissance, collectif, équité, valeurs) ?\n- **Structurer la récupération** : pauses, hygiène du sommeil, activité physique, contacts sociaux et activités agréables. La recherche sur la récupération souligne notamment l’importance de se déconnecter mentalement du travail (*psychological detachment*).\n- **Élargir la marge de manœuvre** : préparer les entretiens avec les supérieurs, formuler des limites, connaître les dispositifs de soutien tels que le service social d’entreprise, le médecin du travail ou le betriebliches Eingliederungsmanagement (dispositif allemand de gestion de la réintégration professionnelle en entreprise).\n- **Questions de valeurs et de sens** : l’épuisement est fréquemment lié à un conflit de valeurs – par exemple lorsqu’une infirmière ne peut pas satisfaire, dans les conditions existantes, à son exigence de soins de qualité.\n\nIl est important de ne pas créer d’exigences de performance supplémentaires. Une personne épuisée n’a pas besoin d’une liste exigeante d’exercices d’optimisation de soi, mais de petits pas réalistes."
+  },
+  {
+   "typ": "fall",
+   "titel": "Épuisement ou davantage ?",
+   "fall": "Vignette pédagogique construite : Mme M., 52 ans, travailleuse sociale à l’aide sociale à l’enfance, rapporte un épuisement croissant au cours de l’année écoulée. Ces trois dernières semaines, quelque chose a changé : elle ne parvient plus à se réjouir même de son jardin, se réveille chaque matin à quatre heures, se sent « complètement nulle » et n’a presque plus d’appétit. Elle dit : « Je crois que j’ai simplement un burn-out. Pouvez-vous me donner quelques conseils de relaxation ? »",
+   "frage": "Quelle est la manière de procéder la plus appropriée ?",
+   "optionen": [
+    "Vous confirmez le burn-out et commencez par la relaxation musculaire progressive.",
+    "Vous expliquez qu’il s’agit d’une dépression et mettez fin au conseil.",
+    "Vous prenez la charge au sérieux, interrogez avec précaution également sur le désespoir et les pensées suicidaires, et recommandez une évaluation médicale ou psychothérapeutique rapide ; le conseil peut se poursuivre en parallèle.",
+    "Vous recommandez d’abord de longues vacances et fixez un rendez-vous de suivi dans six semaines."
+   ],
+   "richtig": 2,
+   "erklaerung": "Le récit contient plusieurs signes d’alerte qui vont au-delà de l’épuisement professionnel : anhédonie généralisée, réveil matinal précoce, sentiments de dévalorisation et perte d’appétit depuis plusieurs semaines. Les conseillers ne sont pas habilités à poser un diagnostic – ni « burn-out » ni « dépression ». Il est approprié d’interroger prudemment sur le risque et de recommander une évaluation rapide. Des vacances seules ou des exercices de relaxation ne sont pas à la hauteur de la situation."
+  },
+  {
+   "typ": "luecke",
+   "text": "La psychologue sociale {{Christina Maslach|Susan Folkman|Hannah Arendt}} décrit le burn-out selon trois dimensions. Dans la CIM-11, le burn-out porte le code {{QD85|6A70|F43.2}} et se rapporte exclusivement au contexte {{professionnel|familial|de la vie entière}}.",
+   "erklaerung": "Christina Maslach a marqué de manière décisive la recherche sur le burn-out. Dans la CIM-11, 6A70 est le code de l’épisode dépressif unique ; F43.2 est le code CIM-10 des troubles de l’adaptation. Le code QD85 ne s’applique qu’au contexte de travail."
+  },
+  {
+   "typ": "karten",
+   "titel": "Burn-out et dépression – connaissances essentielles",
+   "karten": [
+    {
+     "vorne": "Les trois dimensions de Maslach",
+     "hinten": "Épuisement émotionnel, dépersonnalisation/cynisme, diminution de l’accomplissement personnel ou de l’efficacité."
+    },
+    {
+     "vorne": "CIM-11 QD85",
+     "hinten": "Le burn-out comme phénomène lié au travail, résultant d’un stress chronique au travail qui n’a pas été géré avec succès ; pas une maladie, ne s’applique qu’au contexte professionnel."
+    },
+    {
+     "vorne": "Les six domaines selon Maslach et Leiter",
+     "hinten": "Charge de travail, contrôle, reconnaissance, collectif, équité, valeurs – les défauts d’adéquation favorisent le burn-out."
+    },
+    {
+     "vorne": "Symptômes centraux d’un épisode dépressif",
+     "hinten": "Humeur dépressive ou diminution marquée de l’intérêt ou du plaisir, presque tous les jours pendant au moins deux semaines, accompagnée d’autres symptômes."
+    },
+    {
+     "vorne": "Signes d’alerte exigeant une évaluation urgente",
+     "hinten": "Anhédonie généralisée, désespoir, dévalorisation, pensées suicidaires, modifications physiques marquées, altération fonctionnelle importante."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Comment expliqueriez-vous avec respect à un client qui s’est lui-même diagnostiqué un « burn-out » pourquoi vous lui recommandez une évaluation médicale ?",
+   "hinweis": "Questions directrices : comment puis-je reconnaître l’autodescription sans la confirmer ? Quels mots évitent de blesser ou d’effrayer ? Comment faire comprendre que je ne « refile » pas la personne, mais que je peux poursuivre le conseil ? Quels interlocuteurs est-ce que je connais dans ma région ?"
+  }
+ ]
+}

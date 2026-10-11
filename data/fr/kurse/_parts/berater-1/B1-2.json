@@ -1,0 +1,144 @@
+{
+ "id": "B1-2",
+ "titel": "Motivation et autodétermination",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Ce qui pousse les êtres humains à agir",
+   "text": "En psychologie, la **motivation** désigne les processus qui **déclenchent, orientent et maintiennent** le comportement. Elle explique pourquoi quelqu’un poursuit un objectif, avec quelle intensité il s’investit et combien de temps il persévère.\n\nTraditionnellement, on distingue les **motifs**, en tant que dispositions relativement durables – par exemple les motifs d’accomplissement, de pouvoir ou d’affiliation tels que les a décrits David McClelland –, et la **motivation** actuelle dans une situation concrète. Cette dernière résulte de l’interaction entre la personne et la situation.\n\nUn modèle explicatif classique est le **principe attente-valeur** : les personnes s’investissent particulièrement lorsqu’elles s’attendent à pouvoir atteindre un objectif (attente) et lorsque cet objectif leur importe (valeur). Si l’un des deux facteurs fait défaut, la motivation chute fortement – même un objectif très valorisé n’est pas poursuivi s’il est jugé inaccessible.\n\nOn distingue en outre la **motivation d’approche** (vers quelque chose de désiré) et la **motivation d’évitement** (pour s’éloigner de quelque chose de non désiré). Les objectifs d’évitement tels que « ne plus être aussi stressé » guident souvent l’action moins efficacement que des objectifs d’approche tels que « passer deux soirées tranquilles par semaine pour moi ».\n\nDans l’accompagnement, la motivation apparaît rarement comme simplement « présente » ou « absente ». Plus souvent se dessine une structure à plusieurs niveaux faite de souhaits, de craintes, d’attentes et de valeurs – et c’est avec elle que l’on peut travailler."
+  },
+  {
+   "typ": "mc",
+   "frage": "Un client souhaite vivement obtenir son diplôme de fin d’études secondaires à l’âge adulte, mais ne s’inscrit pas au cours. Il dit : « Je n’y suis pas arrivé à l’époque non plus, ça ne marchera pas cette fois-ci. » Quel facteur du principe attente-valeur est ici principalement altéré ?",
+   "optionen": [
+    "La valeur, car le diplôme lui est apparemment indifférent",
+    "La motivation d’approche, car il n’a que des objectifs d’évitement",
+    "L’attente, car il ne croit pas au succès",
+    "Le motif d’affiliation, car il manque de contacts sociaux"
+   ],
+   "richtig": 2,
+   "erklaerung": "Le diplôme lui importe (valeur élevée), mais son attente de réussite est faible. Selon le principe multiplicatif, un seul facteur faible suffit à abaisser la motivation dans son ensemble. L’accompagnement commencerait ici par l’attente, par exemple au moyen de petites expériences de réussite et de soutien."
+  },
+  {
+   "typ": "text",
+   "titel": "La théorie de l’autodétermination de Deci et Ryan",
+   "text": "La **théorie de l’autodétermination** (*self-determination theory*, SDT) a été développée par Edward Deci et Richard Ryan à partir des années 1980 et compte aujourd’hui parmi les théories de la motivation les mieux étudiées. Elle postule que les êtres humains ont une tendance naturelle à la croissance, à l’intégration et au développement – à condition que leurs **trois besoins psychologiques fondamentaux** soient satisfaits :\n\n- **Autonomie :** l’expérience de déterminer ses propres actions et de les assumer. L’autonomie ne signifie pas l’indépendance à l’égard d’autrui, mais la volition et l’adhésion intérieure.\n- **Compétence :** l’expérience d’être efficace et capable de relever des défis.\n- **Affiliation :** l’expérience d’être lié aux autres et de se sentir appartenir et être accepté.\n\nSelon la SDT, ces besoins sont **universels**, même s’ils s’expriment et se satisfont différemment selon les cultures. Lorsqu’ils sont soutenus dans la famille, à l’école, au travail ou dans l’accompagnement, cela favorise le bien-être, la persévérance et la qualité de l’engagement. Lorsqu’ils sont durablement frustrés – par le contrôle, la dévalorisation ou le rejet –, le risque de retrait, de résistance et de détresse psychologique augmente.\n\nCela concerne directement l’accompagnement : une posture d’accompagnement qui laisse **une marge de choix**, rend **les progrès visibles** et offre **une relation stable** répond aux trois besoins."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Quel besoin fondamental selon la théorie de l’autodétermination chaque intervention de l’accompagnant sollicite-t-elle particulièrement ?",
+   "paare": [
+    [
+     "« Laquelle des deux options vous convient le mieux ? »",
+     "Autonomie"
+    ],
+    [
+     "« Vous avez réussi à vous coucher plus tôt trois fois cette semaine – comment y êtes-vous parvenu ? »",
+     "Compétence"
+    ],
+    [
+     "« Je suis content que vous soyez venu aujourd’hui, et je vous accompagne volontiers dans cette démarche. »",
+     "Affiliation"
+    ]
+   ],
+   "erklaerung": "Les possibilités de choix renforcent l’expérience d’autonomie, la mise en évidence de ses propres réussites renforce l’expérience de compétence, et une relation bienveillante et attentive renforce l’affiliation. Un bon accompagnement répond généralement aux trois besoins à la fois."
+  },
+  {
+   "typ": "text",
+   "titel": "Intrinsèque, extrinsèque – et entre les deux",
+   "text": "La motivation est souvent divisée en **intrinsèque** (par plaisir de l’activité elle-même) et **extrinsèque** (en raison de conséquences externes). La théorie de l’autodétermination différencie plus finement. Elle décrit un **continuum de la régulation du comportement** allant de l’hétérodétermination à l’autodétermination :\n\n- **Amotivation :** aucune intention d’agir, souvent associée au sentiment de ne pouvoir de toute façon rien obtenir.\n- **Régulation externe :** agir en raison d’une récompense ou d’une sanction (« Je viens à l’accompagnement parce que le Jobcenter l’exige. »).\n- **Régulation introjectée :** agir par pression intérieure, culpabilité ou fierté (« Je dois y arriver, sinon je suis un raté. »).\n- **Régulation identifiée :** agir parce que l’on reconnaît la valeur de la chose pour soi-même (« L’activité physique est importante pour ma santé. »).\n- **Régulation intégrée :** le comportement est relié de manière cohérente à ses propres valeurs et à l’image de soi.\n- **Motivation intrinsèque :** agir par intérêt et par plaisir pour l’activité elle-même.\n\nPoint important : la motivation extrinsèque peut, elle aussi, être **largement autodéterminée** lorsqu’une personne s’identifie à l’objectif. Beaucoup d’activités nécessaires – prendre des médicaments, rédiger des candidatures, aborder des conflits – ne sont pas plaisantes, mais peuvent être vécues comme personnellement importantes.\n\nLa SDT appelle **intériorisation** le processus par lequel des exigences externes deviennent les siennes. L’accompagnement peut la soutenir en interrogeant les **raisons personnelles** plutôt qu’en prescrivant des raisons."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Classez les formes de régulation du comportement selon la théorie de l’autodétermination, de la « moins » à la « plus autodéterminée ».",
+   "elemente": [
+    "Amotivation",
+    "Régulation externe",
+    "Régulation introjectée",
+    "Régulation identifiée",
+    "Régulation intégrée",
+    "Motivation intrinsèque"
+   ],
+   "erklaerung": "Le continuum s’étend de l’absence d’intention d’agir, en passant par la régulation par des conséquences externes et par une pression intérieure, jusqu’aux formes dans lesquelles le comportement est vécu comme personnellement important, intégré au soi ou accompli pour lui-même."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Attribuez les déclarations des clients à la forme de régulation appropriée.",
+   "kategorien": [
+    "Régulation externe",
+    "Régulation introjectée",
+    "Régulation identifiée"
+   ],
+   "elemente": [
+    {
+     "text": "« Je ne viens que parce que le tribunal l’a ordonné. »",
+     "kat": 0
+    },
+    {
+     "text": "« Si je ne perds pas de poids, la caisse d’assurance maladie supprimera ma subvention. »",
+     "kat": 0
+    },
+    {
+     "text": "« J’aurais honte si mes parents apprenaient que j’ai abandonné. »",
+     "kat": 1
+    },
+    {
+     "text": "« Une bonne mère doit tout simplement supporter cela. »",
+     "kat": 1
+    },
+    {
+     "text": "« Je veux arrêter de boire parce que je veux voir grandir mes petits-enfants. »",
+     "kat": 2
+    },
+    {
+     "text": "« La formation continue est épuisante, mais elle me rapproche de mon objectif professionnel. »",
+     "kat": 2
+    }
+   ],
+   "erklaerung": "Le comportement est régulé de manière externe lorsqu’il est lié à des conséquences externes. Il est introjecté lorsqu’une pression intérieure, la honte ou un « il faut » le motive. Il est identifié lorsque la personne énonce une raison propre qu’elle approuve – c’est la plus stable des trois formes."
+  },
+  {
+   "typ": "text",
+   "titel": "Saper et favoriser la motivation",
+   "text": "Une observation précoce et largement remarquée des recherches de Deci est ce que l’on appelle l’**effet de sape** (*undermining effect*) : dans certaines conditions, une récompense liée à une activité et vécue comme **contrôlante** peut réduire la motivation intrinsèque pour une activité auparavant intéressante. Les récompenses ne sont donc pas nuisibles par principe – cela devient problématique lorsqu’elles déplacent l’expérience de « Je fais cela parce que cela m’intéresse » vers « Je fais cela parce que j’obtiens quelque chose en échange ». Un retour informatif et honnête sur la compétence peut, en revanche, être motivant.\n\nDe la SDT, on peut dériver les caractéristiques d’un **style favorable à l’autonomie**, qui ont fait leurs preuves dans l’éducation, à l’école, dans le management et dans les soins de santé :\n\n- prendre au sérieux la perspective de l’autre\n- proposer des choix là où ils existent\n- donner des raisons lorsque quelque chose n’est pas négociable\n- éviter un langage contrôlant (« Vous devez … », « Vous devriez … »)\n- reconnaître les sentiments négatifs à l’égard des exigences\n\nDans l’accompagnement, cela signifie que même dans un **contexte contraint** – par exemple un accompagnement ordonné par un tribunal – il est possible de trouver des espaces d’autodétermination. La question « Puisque vous devez être ici de toute façon : qu’est-ce qui pourrait rendre ce temps utile pour vous ? » en est un exemple."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Selon la théorie de l’autodétermination, l’autonomie signifie agir de la manière la plus indépendante possible des autres personnes.",
+   "richtig": false,
+   "erklaerung": "Dans la SDT, l’autonomie désigne l’expérience de la volition et de l’adhésion intérieure à ses propres actions. On peut agir de manière très autonome tout en dépendant d’autrui ou en s’orientant délibérément sur les autres. Autonomie et affiliation se complètent."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles formulations correspondent à un style d’accompagnement favorable à l’autonomie ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "« Vous devriez vraiment arrêter de fumer une bonne fois pour toutes. »",
+    "« Quelle serait pour vous une bonne raison de changer quelque chose – s’il y en a une ? »",
+    "« Je comprends que cette obligation vous agace. La participation est une condition préalable à votre retour au travail. »",
+    "« Si vous ne coopérez pas, je ne peux pas vous aider non plus. »",
+    "« Il existe plusieurs voies – souhaitez-vous que je vous en présente quelques-unes ? »"
+   ],
+   "richtig": [
+    1,
+    2,
+    4
+   ],
+   "erklaerung": "Sont favorables à l’autonomie les questions portant sur les raisons propres, la reconnaissance des sentiments négatifs associée à une justification des exigences non négociables, et la proposition de choix accompagnée d’une demande de permission. « Vous devriez … » relève d’un langage contrôlant ; la menace de retirer l’aide exerce une pression au lieu de favoriser la motivation."
+  },
+  {
+   "typ": "text",
+   "titel": "Motivation, sens et valeurs",
+   "text": "La théorie de l’autodétermination rejoint les approches centrées sur le sens sur un point important : les formes de motivation les plus stables sont celles dans lesquelles une personne reconnaît des **valeurs** qu’elle approuve elle-même. Viktor Frankl a mis en avant la **volonté de sens** comme motivation humaine fondamentale – l’aspiration à réaliser quelque chose de sensé dans sa propre vie. Bien que la SDT et la logothérapie soient des traditions théoriques différentes, elles convergent dans l’observation que les êtres humains ne sont pas mus seulement par le plaisir et le déplaisir ou par des incitations externes, mais par le **sens**.\n\nDans la recherche sur les **buts de vie**, Ryan et ses collègues distinguent les buts intrinsèques (tels que la croissance personnelle, les relations, la contribution à la communauté) des buts extrinsèques (tels que la richesse, la célébrité, l’apparence physique). Une forte priorité accordée aux buts de vie extrinsèques tend, dans les études, à être associée à un bien-être moindre.\n\nPour l’accompagnement, cela signifie :\n\n- interroger le **pour quoi**, et pas seulement le quoi\n- explorer les valeurs derrière les objectifs (« Qu’est-ce qui serait différent alors ? Qu’est-ce qui serait important pour vous dans cela ? »)\n- prendre l’ambivalence au sérieux : plusieurs valeurs approuvées entrent souvent en concurrence\n\nCette perspective est approfondie de manière pratique dans le module B3 (entretien motivationnel) et le module B4 (clarification des objectifs)."
+  },
+  {
+   "typ": "merke",
+   "text": "La motivation ne peut pas être « implantée » de l’extérieur. L’accompagnement peut toutefois créer des conditions dans lesquelles les personnes découvrent leurs propres raisons : liberté de choix, expériences de compétence et relation stable."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Pensez à un changement que vous avez vous-même mis en œuvre avec succès. Quelle forme de régulation était présente au début, et laquelle à la fin ?",
+   "hinweis": "Le changement a-t-il d’abord été suscité de l’extérieur ? Quand et par quoi est-il devenu le vôtre ? Quel rôle l’autonomie, la compétence et l’affiliation ont-elles joué ?"
+  }
+ ]
+}

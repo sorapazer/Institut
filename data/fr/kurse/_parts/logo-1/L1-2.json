@@ -1,0 +1,159 @@
+{
+ "id": "L1-2",
+ "titel": "Troisième école viennoise et ontologie dimensionnelle",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "La « troisième école viennoise de psychothérapie »",
+   "text": "La logothérapie est souvent désignée comme la **« troisième école viennoise de psychothérapie »**. La formule la situe après la **psychanalyse de Sigmund Freud** et la **psychologie individuelle d'Alfred Adler** ; elle ne provient pas de Frankl lui-même, mais de la réception de son œuvre après la guerre.\n\nLa distinction peut être illustrée par la motivation première que chaque école présuppose :\n\n- Chez Freud, le **principe de plaisir** est au premier plan – Frankl parle de manière pointue de la « volonté de plaisir ».\n- Chez Adler, la **recherche de supériorité** et le dépassement des sentiments d'infériorité jouent un rôle central – ce que Frankl résume par la « volonté de puissance ».\n- Frankl pose la **« volonté de sens »** comme motivation première.\n\nCette juxtaposition est une simplification didactique qui ne rend pas justice aux deux écoles plus anciennes dans tous leurs détails. Elle clarifie toutefois la préoccupation fondamentale de Frankl : la psychothérapie et le conseil ne devraient pas seulement demander *d'où* vient un comportement (pulsions, compensation), mais aussi *pour quoi* une personne vit et de quoi elle assume la responsabilité.\n\nFrankl ne concevait pas son approche comme un contre-modèle qui annulerait les connaissances antérieures. Il parlait d'un **complément** : la perspective psychodynamique des profondeurs est élargie par une « perspective des hauteurs » qui inclut la dimension spirituelle de l'être humain. De là découle aussi la critique par Frankl du **réductionnisme**, qui ramène les phénomènes humains à « rien d'autre que » des mécanismes biologiques ou psychologiques."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les écoles viennoises à la motivation fondamentale mise en avant pour chacune dans la juxtaposition de Frankl.",
+   "paare": [
+    [
+     "Psychanalyse (Freud)",
+     "Volonté de plaisir"
+    ],
+    [
+     "Psychologie individuelle (Adler)",
+     "Volonté de puissance"
+    ],
+    [
+     "Logothérapie (Frankl)",
+     "Volonté de sens"
+    ]
+   ],
+   "erklaerung": "Sous une forme simplifiée, Frankl opposait le principe de plaisir de Freud (« volonté de plaisir ») et la recherche de supériorité d'Adler (« volonté de puissance ») à la volonté de sens qu'il posait. La formule « volonté de puissance » vient à l'origine de Nietzsche ; Frankl l'utilisait comme raccourci pour l'approche d'Adler."
+  },
+  {
+   "typ": "text",
+   "titel": "Trois dimensions de l'être humain",
+   "text": "Le fondement de la conception logothérapeutique de l'être humain est la distinction de trois **dimensions** :\n\n- **Dimension somatique** : le corps avec ses données biologiques, physiologiques et génétiques.\n- **Dimension psychique** : sentiments, humeurs, pulsions, habitudes, conditionnements, schémas cognitifs.\n- **Dimension noétique (spirituelle)** : ce qui est spécifiquement humain – la capacité de prendre position, de percevoir des valeurs, d'assumer des responsabilités, de chercher un sens, d'aller au-delà de soi-même.\n\nPour Frankl, « spirituel » ne signifie expressément **pas « religieux »**, ni d'abord « intellectuel ». Il s'agit de la dimension de la personne qui peut se rapporter aux conditions psychophysiques. Frankl parle ici aussi de la **personne** au sens étroit, qui « a » un organisme mais ne lui est pas identique.\n\nImportant pour la pratique : selon Frankl, la personne spirituelle **ne peut pas tomber malade**. C'est l'organisme psychophysique qui tombe malade ; la personne peut de ce fait être massivement restreinte ou occultée dans ses possibilités d'expression. Dans ce contexte, Frankl parlait du **« credo psychiatrique »** : la foi en la personne spirituelle derrière la maladie. Pour les conseillers, cela signifie une attitude qui prend l'autre au sérieux comme une personne digne et à laquelle on peut s'adresser, même dans les crises graves – sans banaliser la maladie ni déclarer superflu le traitement de l'organisme psychophysique."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Attribuez les phénomènes à la dimension à laquelle ils appartiennent principalement dans le modèle logothérapeutique.",
+   "kategorien": [
+    "Somatique",
+    "Psychique",
+    "Noétique (spirituelle)"
+   ],
+   "elemente": [
+    {
+     "text": "Une tension artérielle élevée sous l'effet du stress",
+     "kat": 0
+    },
+    {
+     "text": "Une prédisposition génétique",
+     "kat": 0
+    },
+    {
+     "text": "Une impulsion d'évitement apprise",
+     "kat": 1
+    },
+    {
+     "text": "Une humeur maussade le matin",
+     "kat": 1
+    },
+    {
+     "text": "Percevoir qu'une situation appelle une contribution",
+     "kat": 2
+    },
+    {
+     "text": "La décision de tenir une promesse malgré la peur",
+     "kat": 2
+    },
+    {
+     "text": "La conscience qui pressent une valeur dans la situation",
+     "kat": 2
+    },
+    {
+     "text": "Un sentiment de dégoût façonné par le conditionnement",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Les processus corporels relèvent de la dimension somatique. Les humeurs, les impulsions et les réactions conditionnées sont psychiques. Sont noétiques la prise de position, la décision, la perception des valeurs et la conscience – c'est-à-dire ce par quoi une personne se rapporte au psychisme et au corps. Dans la réalité, toutes les dimensions agissent ensemble ; l'attribution désigne l'accent principal."
+  },
+  {
+   "typ": "text",
+   "titel": "La première loi de l'ontologie dimensionnelle",
+   "text": "Pour expliquer comment l'être humain peut être à la fois unité et multiplicité, Frankl a développé l'**ontologie dimensionnelle**. Il s'est appuyé pour cela sur une image géométrique.\n\n**Première loi :** une seule et même chose, projetée hors de sa propre dimension dans différentes dimensions inférieures à la sienne, s'y représente de telle sorte que les images se **contredisent**.\n\nExemple : un **cylindre** projeté d'en haut sur le plan de base donne un **cercle** ; projeté de côté sur un mur, il donne un **rectangle**. Le cercle et le rectangle se contredisent – un cercle n'est pas un rectangle. Ce n'est que dans la vue supérieure, tridimensionnelle, que la contradiction se résout : tous deux sont des images du même cylindre.\n\nAppliqué à l'être humain : si l'être humain est « projeté » hors de sa dimension spirituelle sur les plans biologique et psychologique, il apparaît une fois comme un **organisme** doté de réflexes physiologiques et une fois comme un **système psychique** doté de motifs et de processus d'apprentissage. Les deux descriptions peuvent sembler contradictoires (p. ex. un système biologique « fermé » face à un psychisme qui fait l'expérience du sens). La contradiction n'abolit cependant pas l'**unité de l'être humain**.\n\nPour la science, il s'ensuit que les sciences particulières peuvent et doivent méthodologiquement projeter l'être humain sur leur propre dimension. Cela ne devient problématique que lorsqu'une projection est prise pour le tout – par exemple lorsqu'on affirme que l'être humain n'est « rien d'autre qu' » un faisceau de processus neuronaux."
+  },
+  {
+   "typ": "text",
+   "titel": "La deuxième loi de l'ontologie dimensionnelle",
+   "text": "**Deuxième loi :** des choses différentes, projetées hors de leur propre dimension dans une seule et même dimension inférieure à la leur, s'y représentent de telle sorte que les images sont **ambiguës**.\n\nExemple : un **cylindre**, un **cône** et une **sphère** – projetés d'en haut sur un plan – projettent chacun un **cercle** comme ombre. À partir de l'ombre seule, on ne peut pas dire de quel corps il s'agit.\n\nAppliqué à l'être humain : des phénomènes différents peuvent paraître identiques dans la projection psychologique ou biologique. Frankl a délibérément choisi des exemples provocateurs à cet égard : les figures d'un visionnaire religieux et d'une personne atteinte d'une maladie psychotique peuvent présenter des symptômes semblables sur le plan psychopathologique. Qu'une expérience soit vraie ou fausse, précieuse ou sans valeur, cela ne peut pas être tranché à ce niveau.\n\nConséquence pratique pour les conseillers : un seul et même tableau extérieur – tel que l'abattement, le retrait, la rumination – peut avoir des arrière-plans très différents : une maladie somatique, un trouble psychique, une **crise existentielle de sens** ou une réaction de deuil appropriée. La projection sur le plan des symptômes est **ambiguë**. Il en découle la nécessité d'une évaluation soigneuse et multidimensionnelle – y compris l'orientation vers des services médicaux ou psychothérapeutiques lorsque des causes somatiques ou psychiques sont en question."
+  },
+  {
+   "typ": "mc",
+   "frage": "Un client paraît apathique, dort mal et se retire. Quelle conséquence découle de la deuxième loi de l'ontologie dimensionnelle ?",
+   "optionen": [
+    "Puisque le tableau clinique est univoque, on peut en déduire directement une crise de sens.",
+    "Les symptômes psychiques sont fondamentalement l'expression d'une maladie spirituelle de la personne.",
+    "Le tableau symptomatique est ambigu ; il faut distinguer les arrière-plans somatiques, psychiques et noétiques.",
+    "La dimension spirituelle ne joue aucun rôle tant que des symptômes psychiques sont présents."
+   ],
+   "richtig": 2,
+   "erklaerung": "La deuxième loi énonce que des choses différentes peuvent paraître identiques dans la même projection. L'apathie peut avoir des causes somatiques, psychiques ou existentielles – d'où la nécessité d'une évaluation multidimensionnelle. Selon Frankl, la personne en tant que telle ne tombe pas malade ; et la dimension spirituelle est pertinente même en présence de symptômes psychiques, par exemple comme possibilité de prendre position."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez correctement les images et les notions de l'ontologie dimensionnelle.",
+   "paare": [
+    [
+     "Le cylindre donne un cercle et un rectangle",
+     "Première loi : images contradictoires d'une même chose"
+    ],
+    [
+     "Le cylindre, le cône et la sphère donnent chacun un cercle",
+     "Deuxième loi : images ambiguës de choses différentes"
+    ],
+    [
+     "« L'être humain n'est rien d'autre que … »",
+     "Réductionnisme"
+    ],
+    [
+     "Unité malgré la multiplicité",
+     "Unité ontologique de l'être humain à travers les dimensions"
+    ]
+   ],
+   "erklaerung": "L'image du cylindre avec le cercle et le rectangle illustre la première loi ; les ombres circulaires identiques de corps différents illustrent la deuxième. La formule « rien d'autre que » caractérise le réductionnisme critiqué par Frankl. L'ontologie dimensionnelle cherche précisément à fonder l'unité de l'être humain malgré la multiplicité des descriptions scientifiques."
+  },
+  {
+   "typ": "text",
+   "titel": "L'antagonisme noo-psychique et le « pouvoir d'opposition de l'esprit »",
+   "text": "De la distinction des dimensions découle un concept pratique central : la capacité de la personne spirituelle à **s'opposer** à ses conditions psychophysiques.\n\nFrankl distingue :\n\n- Le **parallélisme psychophysique** : le corps et le psychisme agissent étroitement ensemble ; les changements dans une dimension se reflètent dans l'autre.\n- L'**antagonisme noo-psychique** : la personne spirituelle peut prendre ses distances par rapport au psychique et lui opposer quelque chose. Frankl parlait ici du **« pouvoir d'opposition de l'esprit »**.\n\nExemple : une personne souffrant du vertige ressent la peur (psychique) et l'excitation corporelle (somatique). Elle peut néanmoins décider de monter à la tour d'observation parce qu'elle veut montrer quelque chose à son enfant. La peur ne disparaît pas nécessairement, mais elle n'a pas le dernier mot.\n\nLimites importantes pour le conseil :\n\n- Le pouvoir d'opposition n'est **pas un effort de volonté contre les symptômes** au sens de « ressaisis-toi ». Il se manifeste plutôt dans la prise de position, dans l'attitude et dans le rapport aux valeurs.\n- En cas de maladie psychique ou somatique grave, la marge d'action peut être très étroite. La logothérapie ne prétend pas que tout puisse être surmonté par l'attitude spirituelle.\n- On **fait appel** au pouvoir d'opposition, **on ne l'exige pas** : les conseillers invitent la personne à prendre position, mais ne lui reprochent rien si cela ne réussit pas (encore)."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Le « pouvoir d'opposition de l'esprit » signifie qu'une personne peut et doit éliminer les symptômes psychiques par un pur effort de volonté.",
+   "richtig": false,
+   "erklaerung": "Le pouvoir d'opposition désigne la capacité de prendre position face aux états psychophysiques et de ne pas être entièrement déterminé par eux. Ce n'est ni un appel à se vaincre soi-même à tout prix ni une promesse d'éliminer les symptômes. Frankl a souligné les limites en cas de maladie grave et la nécessité d'un traitement somatique et psychique."
+  },
+  {
+   "typ": "fall",
+   "titel": "Deuil après la perte d'un emploi",
+   "fall": "Vignette pédagogique construite : M. D., 52 ans, a perdu son emploi de contremaître après 28 ans. Depuis trois mois, il dort mal, a perdu cinq kilogrammes et dit : « Je ne vaux plus rien. Pourquoi est-ce que je me lève encore ? » Il vient dans un centre de conseil parce que sa femme l'y a poussé.",
+   "frage": "Quelle démarche correspond le mieux à une attitude fondée sur l'ontologie dimensionnelle ?",
+   "optionen": [
+    "Le conseil se concentre immédiatement sur la question du sens, puisque M. D. demande explicitement « pour quoi ».",
+    "La conseillère oriente M. D. exclusivement vers un psychiatre, puisque la perte de poids et les troubles du sommeil indiquent une dépression.",
+    "La conseillère prend au sérieux la question du sens, évalue en même temps les signes de charge somatique et psychique ainsi que la suicidalité, et recommande si nécessaire un examen médical.",
+    "La conseillère explique à M. D. qu'en tant que personne spirituelle il reste intact et que ses symptômes ne sont donc pas si importants."
+   ],
+   "richtig": 2,
+   "erklaerung": "Le tableau symptomatique est ambigu (deuxième loi) : il peut s'agir d'une crise de sens, d'un épisode dépressif, ou des deux. Un conseil responsable garde la question du sens ouverte, mais vérifie aussi la suicidalité et les signes physiques et psychiques et oriente vers d'autres services si nécessaire. Se concentrer exclusivement sur le sens néglige une maladie possible ; une orientation exclusive contourne la question existentielle ; renvoyer à la « personne intacte » serait cynique et manquerait la préoccupation de Frankl."
+  },
+  {
+   "typ": "merke",
+   "text": "L'ontologie dimensionnelle défend l'unité de l'être humain contre le réductionnisme : les descriptions biologiques et psychologiques sont des projections légitimes mais incomplètes. Le tableau symptomatique seul ne révèle pas si une crise est d'origine somatique, psychique ou noétique."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Pensez à une situation de votre pratique dans laquelle quelqu'un, malgré des sentiments forts ou des limitations physiques, s'est décidé pour quelque chose qui lui importait. Comment cette situation peut-elle être décrite à l'aide des notions de parallélisme psychophysique et d'antagonisme noo-psychique ?",
+   "hinweis": "Questions directrices : qu'est-ce qui était donné sur le plan somatique, qu'est-ce qui l'était sur le plan psychique ? Où une prise de position est-elle devenue visible ? Où se trouvaient les limites du possible – et comment ont-elles été respectées ?"
+  }
+ ]
+}

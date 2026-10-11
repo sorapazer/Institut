@@ -1,0 +1,107 @@
+{
+ "kurs": "logo",
+ "id": "L5",
+ "titel": "Situations limites : souffrance, culpabilité et mort",
+ "beschreibung": "Selon Frankl, la souffrance, la culpabilité et la mort sont des composantes inéluctables de la vie humaine – il les a réunies sous le nom de « triade tragique ». Ce module montre comment la logothérapie aborde ces situations limites avec un « optimisme tragique », quel rôle jouent les valeurs d’attitude et comment l’accompagnement du deuil orienté vers le sens doit être distingué, sur le plan professionnel, du traitement d’un trouble de deuil prolongé.",
+ "lernziele": [
+  "Vous êtes capable d’expliquer avec précision la triade tragique et le concept d’optimisme tragique, et de les distinguer des malentendus courants.",
+  "Vous êtes capable d’expliquer le concept frankléen d’homo patiens ainsi que la réalisation des valeurs d’attitude face à une souffrance inévitable, et de les transposer de manière responsable dans l’accompagnement.",
+  "Vous êtes capable de distinguer la culpabilité existentielle des sentiments de culpabilité et de décrire les voies de la prise de responsabilité, du repentir et de la réparation.",
+  "Vous êtes capable d’interpréter la finitude dans une perspective logothérapeutique et d’y recourir dans l’accompagnement des mourants et des endeuillés.",
+  "Vous êtes capable de distinguer le deuil normal d’un trouble de deuil prolongé selon la CIM-11 et de reconnaître quand une orientation vers un autre professionnel est indiquée."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "Quels sont les trois éléments qui composent la « triade tragique » de Frankl ?",
+   "optionen": [
+    "L’angoisse, la culpabilité et la solitude",
+    "La souffrance, la culpabilité et la mort",
+    "La liberté, la responsabilité et le sens",
+    "La maladie, la perte et le deuil"
+   ],
+   "richtig": 1,
+   "erklaerung": "La triade tragique se compose de la souffrance, de la culpabilité et de la mort. La liberté, la responsabilité et le sens (C) font partie des concepts anthropologiques fondamentaux de Frankl, mais ne constituent pas la triade tragique."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Selon Frankl, il est sensé d’accepter même une souffrance évitable afin de réaliser des valeurs d’attitude.",
+   "richtig": false,
+   "erklaerung": "Faux. La souffrance évitable doit être supprimée. Les valeurs d’attitude n’entrent en jeu que face à une souffrance immuable ; Frankl qualifiait la souffrance inutile de masochisme, et non d’héroïsme."
+  },
+  {
+   "typ": "mc",
+   "frage": "Que décrit Frankl par l’orthogonalité des axes « succès – échec » et « accomplissement – désespoir » ?",
+   "optionen": [
+    "Que l’accomplissement ne peut être atteint que par le succès",
+    "Que le désespoir est un préalable nécessaire à l’accomplissement",
+    "Que les deux dimensions sont indépendantes l’une de l’autre et qu’une personne peut trouver l’accomplissement malgré l’échec",
+    "Que l’homo patiens est moralement supérieur à l’homo faber"
+   ],
+   "richtig": 2,
+   "erklaerung": "Orthogonal signifie indépendant. Frankl souligne que l’échec ne signifie pas nécessairement le désespoir et que le succès ne signifie pas nécessairement l’accomplissement. Aucune hiérarchie morale (D) n’est affirmée par là."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles affirmations concernant la prise en compte de la culpabilité dans l’accompagnement logothérapeutique sont correctes ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "La culpabilité réelle et les sentiments de culpabilité inappropriés doivent être soigneusement distingués.",
+    "Les accompagnants peuvent absoudre les clients de leur culpabilité.",
+    "Lorsqu’une réparation directe n’est pas possible, une réparation par substitution peut avoir du sens.",
+    "Des sentiments de culpabilité marqués et non corrigibles peuvent indiquer une maladie psychique."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "A, C et D sont correctes. Les accompagnants n’absolvent personne (B) : le pardon ne peut être accordé que par les personnes lésées ou – dans une compréhension religieuse – par Dieu."
+  },
+  {
+   "typ": "mc",
+   "frage": "Comment Frankl comprend-il la finitude (le caractère passager) de la vie ?",
+   "optionen": [
+    "Seules les possibilités sont passagères ; ce qui a été réalisé est conservé dans le passé et ne peut être perdu.",
+    "Puisque tout passe, le sens ne peut être vécu que dans l’instant.",
+    "La finitude est une illusion que la foi religieuse permet de surmonter.",
+    "La finitude rend l’action responsable superflue."
+   ],
+   "richtig": 0,
+   "erklaerung": "Selon Frankl, ce qui a été réalisé est « sauvé » dans le passé. La finitude devient ainsi une incitation à agir de manière responsable – et non un argument contre l’action responsable (D). Sa conception est fondée philosophiquement et n’est pas liée à une religion particulière (C)."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Selon la CIM-11, un trouble de deuil prolongé peut être diagnostiqué au plus tôt six mois après la perte ; le DSM-5-TR exige au moins douze mois.",
+   "richtig": true,
+   "erklaerung": "Vrai. La CIM-11 (6B42) fixe au moins six mois, le DSM-5-TR (depuis 2022) douze mois. Dans les deux cas, la réaction doit en outre dépasser nettement les normes culturelles et entraîner une altération significative du fonctionnement."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles affirmations sur le deuil reflètent l’état actuel de la recherche ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Le deuil se déroule chez tout le monde selon cinq phases fixes.",
+    "Un lien intérieur maintenu avec la personne décédée peut être aidant.",
+    "De nombreux endeuillés font preuve d’une grande résilience et n’ont pas besoin de soutien professionnel.",
+    "Un deuil sain oscille entre la confrontation à la perte et l’orientation vers de nouvelles tâches."
+   ],
+   "richtig": [
+    1,
+    2,
+    3
+   ],
+   "erklaerung": "Les liens maintenus (continuing bonds), la résilience de nombreux endeuillés et l’oscillation au sens du modèle du double processus (Dual Process Model) reflètent l’état de la recherche. Une succession fixe de phases (A) n’est pas étayée empiriquement ; de plus, le modèle de Kübler-Ross a été formulé à l’origine pour les mourants."
+  },
+  {
+   "typ": "mc",
+   "frage": "Qu’entend-on par « optimisme tragique » ?",
+   "optionen": [
+    "La conviction que toute souffrance mène finalement à quelque chose de bon",
+    "Une technique que les accompagnants devraient utiliser pour insuffler de l’espoir aux clients",
+    "Le postulat pessimiste selon lequel la vie est avant tout souffrance",
+    "Une attitude qui, face à la souffrance, à la culpabilité et à la mort, affirme la possibilité d’une prise de position pleine de sens, sans édulcorer le tragique"
+   ],
+   "richtig": 3,
+   "erklaerung": "L’optimisme tragique n’édulcore rien (A), ne peut être prescrit ni transmis comme une technique (B) et n’est précisément pas un pessimisme (C). Il affirme la possibilité d’une prise de position pleine de sens, même dans le tragique."
+  }
+ ]
+}

@@ -3,7 +3,8 @@
 
   var ISP = window.ISP;
   var esc = ISP.esc;
-  var I = window.I18N, T = ISP.T, EN = window.EN || {};
+  var I = window.I18N, T = ISP.T, EN = window.EN || {}, FR = window.FR || {};
+  var P = function (o) { return I.pick(o); };
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
 
@@ -12,13 +13,21 @@
   var KURS = {}; KURSE.forEach(function (k) { KURS[k.id] = k; });
   var MOD = {};
   (window.KURS_MODULE || []).forEach(function (m) { MOD[m.kurs + ":" + m.id] = m; });
-  var MOD_EN = {};
-  (EN.kursModule || []).forEach(function (m) { MOD_EN[m.kurs + ":" + m.id] = m; });
+  var MODL = { en: {}, fr: {} };
+  (EN.kursModule || []).forEach(function (m) { MODL.en[m.kurs + ":" + m.id] = m; });
+  (FR.kursModule || []).forEach(function (m) { MODL.fr[m.kurs + ":" + m.id] = m; });
 
   // Kurs in der aktuellen Sprache (Texte aus data/en/kurse.js, Zahlen und IDs aus data/kurse/kurse.js)
-  function kv(k) { return I.lang === "en" && EN.kurse && EN.kurse[k.id] ? Object.assign({}, k, EN.kurse[k.id]) : k; }
+  function kv(k) {
+    if (I.lang === "de") return k;
+    var t = (I.lang === "fr" && FR.kurse && FR.kurse[k.id]) || (EN.kurse && EN.kurse[k.id]);
+    return t ? Object.assign({}, k, t) : k;
+  }
   function moduleOf(k) {
-    return k.module.map(function (id) { return (I.lang === "en" && MOD_EN[k.id + ":" + id]) || MOD[k.id + ":" + id]; }).filter(Boolean);
+    return k.module.map(function (id) {
+      var key = k.id + ":" + id;
+      return (I.lang !== "de" && ((MODL[I.lang] || {})[key] || MODL.en[key])) || MOD[key];
+    }).filter(Boolean);
   }
   function lessonsOf(k) {
     var out = [];
@@ -32,11 +41,11 @@
   }
   function minutes(k) { return lessonsOf(k).reduce(function (s, x) { return s + (x.lektion.dauer || 0); }, 0); }
   function stepCount(k) { return lessonsOf(k).reduce(function (s, x) { return s + x.lektion.schritte.length; }, 0); }
-  function euro(n) { return I.lang === "en" ? "€" + n.toLocaleString("en-GB") : n.toLocaleString("de-DE") + " €"; }
+  function euro(n) { return I.lang === "en" ? "€" + n.toLocaleString("en-GB") : n.toLocaleString(I.locale()) + " €"; }
   function hours(min) { var h = Math.round(min / 6) / 10; return h.toLocaleString(I.locale()) + T(" Std.", " hrs"); }
   function weg(w) {
-    if (I.lang !== "en") return w;
-    return { "Gutschein, kostenfrei": "voucher, free of charge", "Gutschein": "voucher" }[w] || w;
+    if (I.lang === "de") return w;
+    return (I.lang === "fr" ? { "Gutschein, kostenfrei": "bon, gratuit", "Gutschein": "bon" } : { "Gutschein, kostenfrei": "voucher, free of charge", "Gutschein": "voucher" })[w] || w;
   }
   function fmtDate(iso, fallback) {
     if (!iso) return fallback || "";
@@ -205,7 +214,7 @@
         "</div>";
       if (all[0]) html += '<div class="panel"><p class="eyebrow">' + T("Probelektion", "Trial lesson") + "</p><p>" + esc(all[0].lektion.titel) + '</p><a class="btn btn-ghost" href="#lektion-' + k.id + "-" + all[0].lektion.id + '">' + T("Kostenlos testen", "Try for free") + "</a></div>";
     }
-    html += '<div class="panel"><p class="eyebrow">' + T("Auf einen Blick", "At a glance") + '</p><dl class="facts"><div><dt>' + T("Umfang", "Scope") + "</dt><dd>" + k.ue + T(" Unterrichtseinheiten", " teaching units") + "</dd></div><div><dt>" + T("Lernzeit in Lektionen", "Study time in lessons") + "</dt><dd>" + hours(minutes(k)) + "</dd></div><div><dt>" + T("Empfohlene Dauer", "Recommended duration") + "</dt><dd>" + esc(k.empfohleneDauer) + "</dd></div><div><dt>" + T("Abschluss", "Qualification") + "</dt><dd>" + T("Zertifikat des Instituts", "Institute certificate") + "</dd></div></dl></div>";
+    html += '<div class="panel"><p class="eyebrow">' + T("Auf einen Blick", "At a glance") + '</p><dl class="facts"><div><dt>' + T("Umfang", "Scope") + "</dt><dd>" + k.ue + T(" Unterrichtseinheiten", " teaching units") + "</dd></div><div><dt>" + T("Lernzeit in Lektionen", "Study time in lessons") + "</dt><dd>" + hours(minutes(k)) + "</dd></div><div><dt>" + T("Empfohlene Dauer", "Recommended duration") + "</dt><dd>" + esc(k.empfohleneDauer) + "</dd></div><div><dt>" + T("Abschluss", "Qualification") + "</dt><dd>" + T("Zertifikat des Instituts", "Institute certificate") + "</dd></div></dl></div>" + ISP.aiNote();
     html += "</aside></div>";
     show(html);
 
@@ -231,7 +240,9 @@
         if (!$("#b-agb").checked) e.push(T("Bitte bestätigen Sie den Hinweis zum rechtlichen Rahmen.", "Please confirm the legal notice."));
         $("#b-err").hidden = !e.length; $("#b-err").textContent = e.join(" ");
         if (e.length) return;
-        $("#b-text").textContent = I.lang === "en"
+        $("#b-text").textContent = I.lang === "fr"
+          ? "Objet : Réservation d'un cours en ligne – " + k.titel + "\n\nJe réserve par la présente, de manière ferme, le cours en ligne « " + k.titel + " ».\n\nNom : " + name + "\nCourriel : " + mail + "\nAdresse de facturation :\n" + adr + "\nMode de paiement : " + $("#b-zahl").value + "\n\nJe prends acte que le certificat n'autorise pas l'exercice de la médecine ni de la psychothérapie.\n\nCordialement,\n" + name
+          : I.lang === "en"
           ? "Subject: Online course booking – " + k.titel + "\n\nI hereby make a binding booking for the online course “" + k.titel + "”.\n\nName: " + name + "\nEmail: " + mail + "\nBilling address:\n" + adr + "\nPayment method: " + $("#b-zahl").value + "\n\nI acknowledge that the certificate does not entitle me to practice medicine or psychotherapy.\n\nKind regards,\n" + name
           : "Betreff: Buchung Online-Kurs – " + k.titel + "\n\nHiermit buche ich verbindlich den Online-Kurs „" + k.titel + "“.\n\nName: " + name + "\nE-Mail: " + mail + "\nRechnungsanschrift:\n" + adr + "\nZahlungsweise: " + $("#b-zahl").value + "\n\nDen Hinweis, dass das Zertifikat nicht zur Ausübung der Heilkunde berechtigt, habe ich zur Kenntnis genommen.\n\nMit freundlichen Grüßen\n" + name;
         $("#b-out").hidden = false;
@@ -771,7 +782,7 @@
     spaced(T("INSTITUT FÜR SINNZENTRIERTE PSYCHOLOGIE", "INSTITUTE FOR MEANING-CENTERED PSYCHOLOGY"), W / 2, 540, "500 46px " + SANS, INK, 12);
     spaced(T("LOGOTHERAPIE · PSYCHOTHERAPIEFORSCHUNG · WEITERBILDUNG", "LOGOTHERAPY · PSYCHOTHERAPY RESEARCH · PROFESSIONAL TRAINING"), W / 2, 595, "400 30px " + SANS, "#5a6570", 8);
 
-    spaced(T("ZERTIFIKAT", "CERTIFICATE"), W / 2, 800, "500 190px " + SERIF, PETROL, I.lang === "en" ? 30 : 40);
+    spaced(P({ de: "ZERTIFIKAT", en: "CERTIFICATE", fr: "CERTIFICAT" }), W / 2, 800, "500 190px " + SERIF, PETROL, I.lang === "de" ? 40 : 30);
     x.strokeStyle = BRASS; x.lineWidth = 3;
     x.beginPath(); x.moveTo(W / 2 - 420, 865); x.lineTo(W / 2 - 40, 865); x.stroke();
     x.beginPath(); x.moveTo(W / 2 + 40, 865); x.lineTo(W / 2 + 420, 865); x.stroke();
@@ -785,12 +796,19 @@
     x.strokeStyle = "#c8c2b2"; x.lineWidth = 2; x.beginPath(); x.moveTo(W / 2 - 1000, 1180); x.lineTo(W / 2 + 1000, 1180); x.stroke();
 
     x.font = "400 50px " + SERIF; x.fillStyle = INK;
-    x.fillText(I.lang === "en" ? "has successfully completed the " + (k.id === "grundkurs" ? "introductory course" : "online certificate course") : "den " + (k.id === "grundkurs" ? "Grundkurs" : "Online-Zertifikatskurs"), W / 2, 1270);
+    x.fillText(P({
+      en: "has successfully completed the " + (k.id === "grundkurs" ? "introductory course" : "online certificate course"),
+      de: "den " + (k.id === "grundkurs" ? "Grundkurs" : "Online-Zertifikatskurs"),
+      fr: "a suivi avec succès le " + (k.id === "grundkurs" ? "cours d'introduction" : "cours certifiant en ligne")
+    }), W / 2, 1270);
     var ts = 92; x.font = "500 " + ts + "px " + SERIF;
     while (x.measureText(k.zertifikatTitel).width > W - 900 && ts > 50) { ts -= 4; x.font = "500 " + ts + "px " + SERIF; }
     x.fillStyle = PETROL; x.fillText(k.zertifikatTitel, W / 2, 1380);
     x.font = "400 50px " + SERIF; x.fillStyle = INK;
-    if (I.lang === "en") {
+    if (I.lang === "fr") {
+      x.fillText("d'une durée de " + k.ue + " unités d'enseignement et a réussi l'examen final", W / 2, 1470);
+      x.fillText("avec un résultat de " + c.score + " pour cent.", W / 2, 1535);
+    } else if (I.lang === "en") {
       x.fillText("comprising " + k.ue + " teaching units and has passed the final examination", W / 2, 1470);
       x.fillText("with a score of " + c.score + " percent.", W / 2, 1535);
     } else {

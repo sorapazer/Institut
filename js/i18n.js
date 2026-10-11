@@ -1,15 +1,14 @@
-/* Sprachumschaltung Deutsch / Englisch.
-   Statische Inhalte: Elemente mit data-lang="de" bzw. data-lang="en" (per CSS ein- und ausgeblendet).
-   Dynamische Inhalte: I18N.t(deutsch, englisch) und I18N.onChange(callback). */
+/* Sprachumschaltung Englisch (Hauptsprache) / Deutsch / Französisch.
+   Statische Inhalte: Elemente mit data-lang="en" | "de" | "fr" (per CSS ein- und ausgeblendet).
+   Dynamische Inhalte: I18N.t(deutsch, englisch) – Französisch kommt aus dem Wörterbuch window.FR_UI (Schlüssel: englischer Text).
+   I18N.pick({ en, de, fr }) wählt einen Text direkt. I18N.data() liefert die übersetzten Daten (window.EN oder window.FR). */
 (function () {
   "use strict";
   var KEY = "isp-lang";
-  var lang = "de";
+  var LANGS = ["en", "de", "fr"];
+  var lang = "";
   try { lang = localStorage.getItem(KEY) || ""; } catch (e) { lang = ""; }
-  if (lang !== "de" && lang !== "en") {
-    var nav = (navigator.languages && navigator.languages[0]) || navigator.language || "de";
-    lang = /^de\b/i.test(nav) ? "de" : (/^en\b/i.test(nav) ? "en" : "de");
-  }
+  if (LANGS.indexOf(lang) < 0) lang = "en";
   var listeners = [];
 
   function apply() {
@@ -25,10 +24,18 @@
 
   window.I18N = {
     get lang() { return lang; },
-    t: function (de, en) { return lang === "en" && en != null ? en : de; },
-    locale: function () { return lang === "en" ? "en-GB" : "de-DE"; },
+    langs: LANGS,
+    t: function (de, en) {
+      if (lang === "de") return de;
+      if (lang === "fr") { var fr = window.FR_UI && en != null ? window.FR_UI[en] : null; if (fr != null) return fr; }
+      return en != null ? en : de;
+    },
+    pick: function (o) { return o[lang] != null ? o[lang] : (o.en != null ? o.en : o.de); },
+    locale: function () { return { en: "en-GB", de: "de-DE", fr: "fr-FR" }[lang]; },
+    // übersetzte Datenquelle der aktuellen Sprache (Deutsch = Basisdaten → null)
+    data: function () { return lang === "de" ? null : (lang === "fr" ? window.FR || {} : window.EN || {}); },
     set: function (l) {
-      if (l !== "de" && l !== "en" || l === lang) return;
+      if (LANGS.indexOf(l) < 0 || l === lang) return;
       lang = l;
       try { localStorage.setItem(KEY, l); } catch (e) {}
       apply();

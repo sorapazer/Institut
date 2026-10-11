@@ -1,0 +1,130 @@
+{
+ "id": "L1-1",
+ "titel": "Viktor E. Frankl : vie et œuvre",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Origines et premières influences",
+   "text": "Viktor Emil Frankl est né à Vienne le 26 mars 1905 et y est mort le 2 septembre 1997. Il a grandi dans une famille juive de fonctionnaires dans le quartier de Leopoldstadt. Dès le lycée, il s'est intensément consacré à la philosophie et à la psychologie et a donné des conférences dans le mouvement de jeunesse socialiste.\n\nSon contact précoce avec les deux grandes écoles viennoises est remarquable : élève, il correspondait avec **Sigmund Freud**, qui fit publier en 1924 une contribution du jeune Frankl dans l'*Internationale Zeitschrift für Psychoanalyse* (Revue internationale de psychanalyse). Peu après, Frankl se tourna vers la **psychologie individuelle d'Alfred Adler**, publia dans sa revue spécialisée et prit la parole lors d'un congrès de psychologie individuelle en 1925. De plus en plus, cependant, il estima que ni le principe de plaisir ni la recherche de supériorité n'expliquent de manière satisfaisante l'essence de l'être humain. En 1927 survint la rupture : Frankl fut exclu de la Société de psychologie individuelle.\n\nC'est aussi au cours de ces années qu'apparurent les termes qui allaient marquer son œuvre. Selon ses propres dires, Frankl employait déjà l'expression **« logothérapie »** dans la seconde moitié des années 1920, et le terme **« analyse existentielle »** à partir du début des années 1930. Pour ce cours, il importe de retenir que la logothérapie n'est pas née seulement en réponse à l'expérience des camps ; ses traits fondamentaux avaient été élaborés auparavant. Pour Frankl, la période des camps devint plutôt une mise à l'épreuve existentielle de sa théorie."
+  },
+  {
+   "typ": "text",
+   "titel": "Conseil aux jeunes et pratique médicale avant 1938",
+   "text": "Après son doctorat en médecine (1930), Frankl associa travail clinique et engagement social. À partir de 1928, il organisa à Vienne et dans d'autres villes des **centres de conseil pour la jeunesse**, que les jeunes en détresse psychique pouvaient consulter gratuitement. Particulièrement connue fut une initiative menée à l'époque de la remise des bulletins scolaires, destinée spécifiquement aux élèves en crise – une forme précoce de prévention du suicide à bas seuil.\n\nAu cours des années suivantes, Frankl acheva sa formation de spécialiste en neurologie et en psychiatrie. À l'hôpital psychiatrique « Am Steinhof », il dirigea un temps le pavillon des femmes suicidaires. Il y acquit une vaste expérience auprès de personnes en crise extrême, ce qui marqua fortement sa doctrine ultérieure sur la manière d'aborder le désespoir et le sentiment d'absence de sens.\n\nAprès l'« Anschluss » (annexion) de l'Autriche en 1938, Frankl, en tant que Juif, ne fut autorisé à soigner que des patients juifs. À partir de 1940, il dirigea le service de neurologie de l'**hôpital Rothschild**. Il avait la possibilité d'obtenir un visa pour les États-Unis, mais le laissa expirer pour ne pas abandonner seuls ses parents âgés. En 1941, il épousa Tilly Grosser.\n\nPour les professionnels du conseil, un point de cette biographie est particulièrement instructif : la doctrine de Frankl ne s'enracine pas seulement dans la réflexion philosophique, mais dans de longues années de **travail pratique auprès de personnes en crise** – dans des centres de conseil, des cliniques et des services psychiatriques."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quel énoncé sur la relation de Frankl avec les écoles viennoises plus anciennes est exact ?",
+   "optionen": [
+    "Frankl était un élève de Freud et n'a fondé la logothérapie qu'après sa rupture avec la psychanalyse en 1946.",
+    "Frankl eut un contact précoce avec Freud, se tourna ensuite vers la psychologie individuelle d'Adler et fut exclu de sa société en 1927.",
+    "Frankl rejeta d'emblée la psychanalyse et la psychologie individuelle et n'eut de contact avec aucune de ces écoles.",
+    "Frankl concevait la logothérapie comme une branche de la psychologie individuelle et resta attaché à Adler toute sa vie."
+   ],
+   "richtig": 1,
+   "erklaerung": "Élève, Frankl correspondait avec Freud, qui fit publier une contribution de lui en 1924. Il s'engagea ensuite dans la psychologie individuelle jusqu'à son exclusion en 1927 en raison de divergences de vues. La logothérapie n'est pas née seulement en 1946 – ses traits fondamentaux existaient déjà avant la guerre. Elle n'est pas non plus une branche de la psychologie individuelle ; c'est une approche indépendante."
+  },
+  {
+   "typ": "text",
+   "titel": "Déportation et détention dans les camps, 1942–1945",
+   "text": "En septembre 1942, Frankl fut déporté avec sa femme et ses parents dans le ghetto de **Theresienstadt**. Son père y mourut en 1943. En octobre 1944, Frankl fut transféré à **Auschwitz**, puis de là dans des camps annexes du camp de concentration de **Dachau** (Kaufering et Türkheim), où il fut libéré en avril 1945. Sa mère et son frère furent assassinés à Auschwitz ; sa femme Tilly périt au camp de Bergen-Belsen. De sa famille proche, seule sa sœur survécut, ayant émigré à temps en Australie.\n\nFrankl avait emporté dans les camps le manuscrit de son premier livre, qui lui fut confisqué. Il décrivit plus tard la tentative de reconstituer le texte mentalement et sur des bouts de papier comme une tâche qui l'avait maintenu intérieurement debout.\n\nLe récit des camps de Frankl **ne prouve pas qu'une orientation vers le sens garantisse la survie**. Frankl lui-même a souligné que la vie et la mort dans le camp étaient souvent décidées par le hasard et l'arbitraire, et que ce sont justement les meilleurs qui, souvent, ne sont pas revenus. Ses observations portent plutôt sur la manière dont des personnes, dans des conditions extrêmes, ont pu adopter une position intérieure – et sur le fait qu'un « pourquoi » peut offrir un soutien sans maîtriser les événements extérieurs. Cette distinction est centrale pour la pratique du conseil, afin que l'orientation vers le sens ne soit pas comprise à tort comme une exigence de performance imposée aux personnes qui souffrent."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Dans son récit des camps, Frankl a avancé la thèse selon laquelle les détenus dotés d'un fort sentiment de sens survivaient généralement, contrairement aux autres.",
+   "richtig": false,
+   "erklaerung": "Frankl a expressément souligné que la survie dans le camp dépendait largement du hasard et de l'arbitraire. Il décrit comment un lien au sens pouvait offrir un soutien intérieur, mais il ne prétend à aucune garantie de survie. Quiconque néglige cette distinction risque de tenir implicitement les personnes qui souffrent pour responsables de leur sort."
+  },
+  {
+   "typ": "text",
+   "titel": "L'œuvre après 1945",
+   "text": "De retour à Vienne, Frankl devint en 1946 chef de la **Polyclinique neurologique de Vienne**, poste qu'il occupa jusqu'en 1971. La même année parurent deux livres qui fondèrent son œuvre :\n\n- ***Ärztliche Seelsorge*** (1946 ; *Le médecin et l'âme*), version reconstituée et augmentée du manuscrit perdu, dans laquelle il exposa systématiquement les fondements de la logothérapie et de l'analyse existentielle.\n- ***Ein Psycholog erlebt das Konzentrationslager*** (1946 ; Un psychologue vit le camp de concentration), connu plus tard sous le titre ***… trotzdem Ja zum Leben sagen*** (Dire oui à la vie malgré tout). L'édition anglaise, intitulée plus tard *Man's Search for Meaning* (en français : *Découvrir un sens à sa vie*), devint l'un des livres de psychologie les plus lus du XXe siècle.\n\nEn 1947, Frankl épousa Eleonore Schwindt, qui l'accompagna jusqu'à sa mort. En 1948, il obtint son habilitation avec le traité ***Der unbewußte Gott*** (*Le Dieu inconscient*) et enseigna comme professeur de neurologie et de psychiatrie à l'Université de Vienne. De nombreuses chaires invitées, notamment aux États-Unis, et de nombreux doctorats honoris causa firent connaître la logothérapie à l'échelle internationale.\n\nParmi ses autres ouvrages importants figurent ***Theorie und Therapie der Neurosen*** (Théorie et thérapie des névroses), ***Der Mensch vor der Frage nach dem Sinn*** (L'homme face à la question du sens) et ***Das Leiden am sinnlosen Leben*** (La souffrance d'une vie dénuée de sens). Les thèmes récurrents sont la critique du réductionnisme et du pandéterminisme, la doctrine du vide existentiel ainsi que les méthodes de l'intention paradoxale et de la déréflexion. Frankl concevait expressément la logothérapie comme un **complément**, et non comme un substitut, aux autres formes de psychothérapie."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Placez les étapes de la biographie de Frankl dans l'ordre chronologique correct.",
+   "elemente": [
+    "Publication d'une contribution dans la revue de Freud",
+    "Exclusion de la Société de psychologie individuelle",
+    "Création de centres de conseil pour la jeunesse à Vienne",
+    "Direction du service de neurologie de l'hôpital Rothschild",
+    "Déportation à Theresienstadt",
+    "Publication d'*Ärztliche Seelsorge* (Le médecin et l'âme)"
+   ],
+   "erklaerung": "La contribution parut dans la revue de psychanalyse en 1924 ; l'exclusion du cercle d'Adler suivit en 1927 ; à partir de 1928, Frankl créa des centres de conseil pour la jeunesse. À partir de 1940, il dirigea la neurologie de l'hôpital Rothschild ; en septembre 1942, il fut déporté ; en 1946 parut *Ärztliche Seelsorge* (Le médecin et l'âme)."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les ouvrages de Frankl à leur thème principal.",
+   "paare": [
+    [
+     "Ärztliche Seelsorge (Le médecin et l'âme)",
+     "Fondement systématique de la logothérapie et de l'analyse existentielle"
+    ],
+    [
+     "… trotzdem Ja zum Leben sagen (Découvrir un sens à sa vie)",
+     "Récit psychologique des expériences vécues dans les camps de concentration"
+    ],
+    [
+     "Der unbewußte Gott (Le Dieu inconscient)",
+     "Thèse d'habilitation sur la conscience et la religiosité inconsciente"
+    ],
+    [
+     "Theorie und Therapie der Neurosen (Théorie et thérapie des névroses)",
+     "Présentation clinique de la théorie des névroses et des méthodes logothérapeutiques"
+    ]
+   ],
+   "erklaerung": "*Ärztliche Seelsorge* (Le médecin et l'âme) est l'ouvrage fondamental systématique. Le récit des camps est connu sous le titre *… trotzdem Ja zum Leben sagen* (en anglais *Man's Search for Meaning*). *Der unbewußte Gott* (Le Dieu inconscient) développe la thèse d'une spiritualité et d'une religiosité inconscientes, la conscience étant le phénomène clé. *Theorie und Therapie der Neurosen* est le manuel à orientation clinique."
+  },
+  {
+   "typ": "text",
+   "titel": "Logothérapie et analyse existentielle : deux termes",
+   "text": "Dans la littérature, les termes **logothérapie** et **analyse existentielle** sont tantôt employés comme synonymes, tantôt distingués. Dans l'usage propre de Frankl, ils se rapportent l'un à l'autre à peu près comme la pratique à la théorie :\n\n- L'**analyse existentielle** désigne l'analyse anthropologique de l'existence humaine sous l'angle de son être-responsable. Elle demande : qu'est-ce que l'être humain, et en quoi consistent sa liberté et sa responsabilité ?\n- La **logothérapie** désigne la pratique de traitement et de conseil qui en découle et qui s'adresse à la personne dans son orientation vers le sens. Frankl comprenait le grec *logos* au sens de « sens ».\n\nIl faut distinguer cet usage de l'**analyse existentielle** développée par **Alfred Längle** et la Gesellschaft für Logotherapie und Existenzanalyse (GLE ; Société de logothérapie et d'analyse existentielle) comme méthode psychothérapeutique indépendante dotée de son propre modèle structurel (les motivations fondamentales personnelles). Ce développement s'est en partie considérablement éloigné de Frankl. Les lecteurs de la littérature devraient donc toujours vérifier si « analyse existentielle » est entendue au sens de Frankl ou au sens du développement de Längle.\n\nEn outre, les élèves de Frankl ont élaboré la doctrine pour différents champs de pratique, par exemple **Elisabeth Lukas**, avec une présentation fortement orientée vers le conseil et l'application quotidienne. Ce programme de certificat se réfère principalement à l'œuvre fondatrice de Frankl et à sa réception dans le domaine du conseil."
+  },
+  {
+   "typ": "luecke",
+   "text": "Chez Frankl, {{l'analyse existentielle|la logothérapie|la psychologie individuelle}} se rapporte à la logothérapie comme la théorie anthropologique à la pratique. Frankl rendait le mot grec logos au sens de {{« sens »|« raison »|« parole »}}. Un développement indépendant de l'analyse existentielle, comportant des motivations fondamentales personnelles, remonte à {{Alfred Längle|Elisabeth Lukas|Alfred Adler}}.",
+   "erklaerung": "Chez Frankl, l'analyse existentielle fournit la conception de l'être humain, la logothérapie la pratique. Logos peut aussi signifier « parole » ou « raison » ; Frankl l'employait au sens de « sens ». La théorie des motivations fondamentales provient d'Alfred Längle ; Elisabeth Lukas représente l'élaboration de la logothérapie de Frankl orientée vers le conseil."
+  },
+  {
+   "typ": "merke",
+   "text": "La logothérapie s'enracine dans de longues années de travail clinique et de conseil auprès de personnes en crise. Pour Frankl, l'expérience des camps ne fut pas la cause de son émergence, mais une mise à l'épreuve existentielle d'une doctrine qu'il avait déjà élaborée."
+  },
+  {
+   "typ": "karten",
+   "titel": "Dates et ouvrages clés en un coup d'œil",
+   "karten": [
+    {
+     "vorne": "1905 / 1997",
+     "hinten": "Naissance et mort de Viktor E. Frankl à Vienne"
+    },
+    {
+     "vorne": "1927",
+     "hinten": "Exclusion de la Société de psychologie individuelle d'Alfred Adler"
+    },
+    {
+     "vorne": "à partir de 1928",
+     "hinten": "Création de centres de conseil pour la jeunesse à Vienne et dans d'autres villes"
+    },
+    {
+     "vorne": "1942–1945",
+     "hinten": "Déportation ; Theresienstadt, Auschwitz, camps annexes de Dachau ; libération en avril 1945"
+    },
+    {
+     "vorne": "1946",
+     "hinten": "Parution d'*Ärztliche Seelsorge* (Le médecin et l'âme) et du récit des camps ; Frankl devient chef de la Polyclinique neurologique de Vienne"
+    },
+    {
+     "vorne": "1948",
+     "hinten": "Habilitation avec *Der unbewußte Gott* (Le Dieu inconscient)"
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Quels aspects de la biographie de Frankl sont particulièrement significatifs pour votre propre champ professionnel – et où voyez-vous le danger d'utiliser de manière inappropriée son histoire de vie comme « modèle » dans le conseil ?",
+   "hinweis": "Questions directrices : comment réagirait une personne en détresse aiguë si on lui présentait l'expérience des camps de Frankl comme exemple ? Quels éléments (p. ex. conseil à bas seuil, prévention du suicide, lien entre théorie et pratique) sont pertinents pour vous sur le plan professionnel ?"
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "id": "B5-2",
+ "titel": "Coping : formes de coping et régulation émotionnelle",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Le coping : ce que les personnes font pour faire face aux charges",
+   "text": "Lazarus et Folkman définissent le coping comme l’ensemble des efforts cognitifs et comportementaux, en constante évolution, destinés à gérer des exigences externes ou internes spécifiques qui sont évaluées comme éprouvantes ou dépassant les ressources de la personne.\n\nCette définition comporte trois points importants :\n\n- Le coping est un **processus** : les personnes modifient leurs stratégies au cours d’une situation stressante.\n- Le coping comprend des **pensées et des actions** : la réinterprétation intérieure, la distraction ou l’acceptation en font également partie.\n- Le coping est défini **indépendamment de son succès** : une stratégie est d’abord un effort de coping, qu’elle aide ou non.\n\nIl en découle un principe central du conseil : il n’existe **pas de stratégies bonnes ou mauvaises en soi**. Qu’une stratégie soit aidante dépend de son adéquation à la situation, de la durée de son utilisation et de ses effets secondaires. La distraction peut être très soulageante dans la phase aiguë qui suit une mauvaise nouvelle ; en tant que stratégie permanente face à un problème soluble, elle empêche en revanche le changement.\n\nDans le conseil, il vaut donc la peine d’explorer soigneusement le **répertoire de coping existant** du client : qu’avez-vous déjà essayé ? Qu’est-ce qui vous a aidé, même un peu ? Quand cela n’a-t-il pas aidé ? Ces questions reconnaissent les efforts déjà fournis et apportent en même temps de la matière pour de nouvelles solutions."
+  },
+  {
+   "typ": "text",
+   "titel": "Coping centré sur le problème et coping centré sur l’émotion",
+   "text": "Lazarus et Folkman distinguent deux fonctions fondamentales du coping :\n\n- Le **coping centré sur le problème** vise à modifier la situation stressante elle-même : recueillir des informations, planifier, fixer des priorités, aborder les conflits, organiser de l’aide, réaménager les processus de travail.\n- Le **coping centré sur l’émotion** vise à réguler les sentiments déclenchés par la situation : chercher du réconfort, voir la situation sous un autre jour, se détendre, prendre de la distance, accepter ce qui ne peut être changé.\n\nLes deux formes se complètent et sont le plus souvent utilisées simultanément. Un résultat important de la recherche sur le coping concerne le lien avec la **contrôlabilité** : lorsqu’une situation peut être modifiée, le coping centré sur le problème est généralement particulièrement efficace. Lorsqu’elle ne peut pas l’être – par exemple en cas de maladie chronique d’un proche ou de décès –, les stratégies centrées sur l’émotion comme l’acceptation et la réévaluation gagnent en importance. Cette adéquation entre stratégie et situation est également appelée **flexibilité du coping**.\n\nD’autres distinctions fréquemment utilisées en recherche sont :\n\n- **coping d’approche vs coping d’évitement** : la personne se tourne-t-elle vers le stresseur ou l’évite-t-elle ?\n- **coping social** : recherche de soutien émotionnel ou pratique,\n- **coping centré sur le sens** (Folkman) : mobiliser des valeurs, des buts et des convictions afin de trouver du sens et des moments positifs même dans des circonstances difficiles.\n\nCe dernier point en particulier jette un pont vers le conseil centré sur le sens, approfondi dans le module B7."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Classez les efforts de coping.",
+   "kategorien": [
+    "centré sur le problème",
+    "centré sur l’émotion"
+   ],
+   "elemente": [
+    {
+     "text": "Fixer un entretien avec son supérieur au sujet de la planification des horaires",
+     "kat": 0
+    },
+    {
+     "text": "Appeler un ami le soir pour parler et se faire réconforter",
+     "kat": 1
+    },
+    {
+     "text": "Dresser la liste de toutes les tâches en suspens et les hiérarchiser",
+     "kat": 0
+    },
+    {
+     "text": "Se dire : « C’est agaçant, mais ce n’est pas la fin du monde. »",
+     "kat": 1
+    },
+    {
+     "text": "Se renseigner sur les aides proposées par la caisse d’assurance dépendance",
+     "kat": 0
+    },
+    {
+     "text": "Faire délibérément une promenade après un rendez-vous éprouvant pour se calmer",
+     "kat": 1
+    },
+    {
+     "text": "Suivre une formation sur le nouveau système de documentation",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Les stratégies centrées sur le problème modifient la situation ou sa propre capacité d’agir dans celle-ci. Les stratégies centrées sur l’émotion régulent le vécu. Remarque : parler avec un ami peut aussi être centré sur le problème s’il s’agit d’obtenir des conseils concrets ; ici, c’est toutefois le réconfort qui est au premier plan."
+  },
+  {
+   "typ": "mc",
+   "frage": "Une femme s’occupe de son mari, atteint d’une maladie de Parkinson à un stade avancé. La maladie est incurable. Quel énoncé sur la stratégie de coping est le plus juste ?",
+   "optionen": [
+    "Le coping centré sur le problème est utile pour organiser des services de répit ; pour ce qui ne peut être changé, l’acceptation et la réévaluation gagnent en importance.",
+    "Seul le coping centré sur le problème est utile, car le coping centré sur l’émotion est une forme de refoulement.",
+    "Le coping centré sur l’émotion est ici fondamentalement inadapté, car il prolonge le deuil.",
+    "Le choix de la stratégie importe peu ; seule la personnalité est déterminante."
+   ],
+   "richtig": 0,
+   "erklaerung": "La recherche souligne l’adéquation : les aspects modifiables (répit, services de soins à domicile, aides techniques) se prêtent au coping centré sur le problème, les aspects non modifiables (l’évolution de la maladie) plutôt aux stratégies centrées sur l’émotion comme l’acceptation. Le coping centré sur l’émotion ne doit pas être assimilé au refoulement. La personnalité joue un rôle, mais pas à elle seule."
+  },
+  {
+   "typ": "text",
+   "titel": "La régulation émotionnelle : le modèle processuel de Gross",
+   "text": "Le coping centré sur l’émotion peut être décrit plus précisément à l’aide du **modèle processuel de la régulation émotionnelle** de **James J. Gross**. La régulation émotionnelle désigne l’ensemble des processus par lesquels les personnes influencent les émotions qu’elles ont, le moment où elles les ont, ainsi que la manière dont elles les vivent et les expriment. Gross distingue cinq points d’intervention le long du processus de génération d’une émotion :\n\n- **Sélection de la situation** : rechercher ou éviter des situations (p. ex. quitter plus tôt une fête éprouvante).\n- **Modification de la situation** : changer activement la situation (p. ex. demander une pause).\n- **Déploiement attentionnel** : déplacer le focus (p. ex. distraction, concentration sur un autre aspect).\n- **Changement cognitif** : modifier la signification de la situation, en particulier par la **réévaluation**.\n- **Modulation de la réponse** : influencer la réaction une fois qu’elle est apparue (p. ex. exercice de respiration, activité physique, mais aussi **suppression** de l’expression émotionnelle).\n\nLes quatre premières stratégies interviennent **avant** que la réponse émotionnelle ne se soit pleinement déployée (centrées sur les antécédents) ; la cinquième intervient **après** (centrée sur la réponse).\n\nLa comparaison entre **réévaluation** et **suppression expressive** a été particulièrement bien étudiée. Dans de nombreuses études du groupe de recherche de Gross, la réévaluation habituelle était associée à des résultats plus favorables pour le bien-être et les relations, tandis que la suppression habituelle était associée à des résultats moins favorables. La suppression n’est cependant pas toujours nocive : dans certaines situations professionnelles, il peut être judicieux de contrôler temporairement son expression. Elle devient problématique en tant que schéma permanent."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les exemples à la stratégie correspondante du modèle processuel de Gross.",
+   "paare": [
+    [
+     "Ne se rendre à un rendez-vous avec un proche agressif qu’accompagné d’un collègue",
+     "modification de la situation"
+    ],
+    [
+     "Se concentrer entièrement sur sa propre présentation avant la réunion d’équipe plutôt que sur le collègue critique",
+     "déploiement attentionnel"
+    ],
+    [
+     "Comprendre la critique de la responsable comme un signe de la pression qu’elle subit elle-même",
+     "changement cognitif (réévaluation)"
+    ],
+    [
+     "Afficher un sourire forcé alors qu’on est intérieurement furieux",
+     "modulation de la réponse (suppression)"
+    ],
+    [
+     "Décider de ne pas assister à un événement auquel son ex-partenaire sera présent",
+     "sélection de la situation"
+    ]
+   ],
+   "erklaerung": "Les cinq stratégies suivent le déroulement temporel de la génération des émotions. La sélection et la modification de la situation interviennent le plus tôt, la modulation de la réponse le plus tard."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Selon la recherche sur la régulation émotionnelle, la suppression de l’expression émotionnelle est nocive dans toutes les situations et doit, par principe, être désapprise aux clients dans le cadre du conseil.",
+   "richtig": false,
+   "erklaerung": "Faux. La suppression habituelle est associée à des résultats moins favorables que la réévaluation habituelle. Dans des situations spécifiques, le contrôle de son expression peut toutefois être approprié et aidant, par exemple dans des rôles professionnels. Le conseil vise un répertoire flexible, et non l’interdiction générale d’une stratégie."
+  },
+  {
+   "typ": "text",
+   "titel": "Reconnaître les schémas de coping défavorables",
+   "text": "Certaines stratégies apportent un soulagement à court terme mais aggravent la charge à long terme. Dans le conseil, il importe de les aborder avec respect mais clairement. Les schémas typiques sont :\n\n- **L’évitement persistant** : reporter des conversations, ignorer le courrier, se retirer socialement. L’anxiété diminue à court terme, mais les problèmes s’accroissent et l’auto-efficacité décline.\n- **La rumination** : pensée répétitive et circulaire sur les problèmes et leurs causes, sans progression vers une solution. La rumination donne souvent l’impression de résoudre un problème, mais elle intensifie l’humeur négative et constitue un facteur de risque connu de développements dépressifs.\n- **La consommation de substances** : alcool, sédatifs ou cannabis pour se détendre ou s’endormir. Une attention particulière est nécessaire ici, car une dépendance peut s’installer insidieusement.\n- **La surcompensation** : travailler encore plus, prendre encore moins de pauses, renoncer à la récupération pour « rattraper le retard ».\n- **Le passage à l’acte** : irritabilité et agressivité envers les proches.\n\nUne **analyse fonctionnelle** est utile : quelle fonction remplit le comportement ? Quel est le bénéfice à court terme, et quel est le coût à long terme ? Ces questions évitent le jugement moral et ouvrent un espace pour des alternatives qui remplissent mieux la même fonction. Lorsqu’il existe des indices d’une consommation problématique de substances, les clients doivent être orientés vers des services spécialisés de conseil en addictologie."
+  },
+  {
+   "typ": "luecke",
+   "text": "La pensée répétitive et circulaire sans progression vers une solution s’appelle la {{rumination|réévaluation|déréflexion}}. Elle donne souvent l’impression d’une {{résolution de problème|relaxation|acceptation}}, mais elle intensifie l’humeur négative. Dans le conseil, une analyse {{fonctionnelle|morale|diagnostique}} qui interroge le bénéfice à court terme et le coût à long terme d’un comportement est utile.",
+   "erklaerung": "La rumination est un facteur de risque bien documenté de développements dépressifs. Une analyse fonctionnelle reconnaît le bénéfice à court terme d’un comportement et rend visibles ses coûts à long terme sans dévaloriser la personne."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Explorer le répertoire de coping",
+   "einleitung": "Situation construite : M. K., 44 ans, chef d’équipe dans une entreprise de logistique, vient consulter en raison d’un « stress permanent ». Vous souhaitez explorer la manière dont il a fait face jusqu’ici.",
+   "runden": [
+    {
+     "klient": "Pour être honnête, je ne suis ici que parce que ma femme a insisté. Je m’en sors ; il faut juste que je serre davantage les dents.",
+     "antworten": [
+      {
+       "text": "Alors nous devrions d’abord clarifier pourquoi il vous est si difficile d’accepter de l’aide.",
+       "gut": false,
+       "feedback": "Cette réponse interprète prématurément et peut être vécue comme un reproche. Elle met en péril l’alliance de travail dans la phase initiale."
+      },
+      {
+       "text": "On dirait que vous avez déjà accompli beaucoup de choses par vous-même. Ce qui m’intéresse, c’est ce qui vous y a aidé – et à quels moments vous sentez que cela devient plus serré.",
+       "gut": true,
+       "feedback": "Bien. Vous reconnaissez ses efforts antérieurs, prenez au sérieux son ambivalence et l’invitez à explorer ses ressources et ses limites."
+      },
+      {
+       "text": "Mais c’est justement le fait de serrer les dents qui va vous rendre malade.",
+       "gut": false,
+       "feedback": "L’avertissement est moralisateur et tend à susciter de la résistance. Il ignore en outre ce qui a soutenu le client jusqu’ici."
+      }
+     ]
+    },
+    {
+     "klient": "Ce qui m’a aidé ? Une bière ou deux le soir, après je peux décrocher. Et le week-end, je prends de l’avance sur le travail pour que le lundi soit moins pénible.",
+     "antworten": [
+      {
+       "text": "La bière et le travail le week-end – ce ne sont pas de bonnes stratégies.",
+       "gut": false,
+       "feedback": "Un jugement global sans compréhension de la fonction conduit plutôt à l’autojustification qu’à la réflexion."
+      },
+      {
+       "text": "Combien buvez-vous exactement, et depuis quand ? Cela ressemble à un problème d’alcool.",
+       "gut": false,
+       "feedback": "Interroger sur la consommation est en soi légitime, mais l’étiquetage prématuré ne l’est pas. Il peut susciter de la honte et bloquer l’entretien."
+      },
+      {
+       "text": "Les deux semblent vous soulager à court terme : pouvoir décrocher et rendre le lundi moins pénible. Que remarquez-vous lorsque vous regardez en arrière sur quelques semaines – qu’est-ce que ces façons de faire vous apportent, et qu’est-ce qu’elles vous coûtent ?",
+       "gut": true,
+       "feedback": "Bien. L’analyse fonctionnelle reconnaît le bénéfice à court terme et invite à réfléchir au coût à long terme sans moraliser. Vous pourrez interroger plus en détail, avec prudence, sa consommation d’alcool par la suite."
+      }
+     ]
+    },
+    {
+     "klient": "Ce que ça coûte … je ne suis jamais vraiment reposé. Et ma femme dit que je ne suis plus qu’irritable.",
+     "antworten": [
+      {
+       "text": "Vous remarquez donc vous-même que la récupération manque et que l’irritabilité atteint votre famille. Quel serait pour vous un premier signe que les choses vont un peu mieux ?",
+       "gut": true,
+       "feedback": "Bien. Vous reflétez la perception propre du client et orientez l’attention vers un objectif concret qu’il a lui-même défini."
+      },
+      {
+       "text": "Votre femme a raison. Vous devriez arrêter immédiatement de prendre de l’avance sur le travail.",
+       "gut": false,
+       "feedback": "Les conseils et la prise de parti court-circuitent la responsabilité propre du client. Un changement qui n’est pas choisi par soi-même dure rarement."
+      },
+      {
+       "text": "L’irritabilité est un symptôme typique du burn-out. Je soupçonne que vous souffrez d’un burn-out.",
+       "gut": false,
+       "feedback": "Les conseillers qui ne disposent pas d’une Heilkundeerlaubnis (autorisation légale allemande d’exercer l’art de guérir) ne sont pas habilités à poser un diagnostic ni à formuler une suspicion diagnostique, et ce serait ici en outre prématuré sur le plan professionnel. En présence de signes d’un épuisement grave, il convient de recommander une évaluation médicale."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels énoncés sur le coping sont exacts sur le plan professionnel ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Selon Lazarus et Folkman, le coping est défini indépendamment de son succès.",
+    "Le coping centré sur l’émotion est fondamentalement moins efficace que le coping centré sur le problème.",
+    "L’adéquation entre la stratégie et la contrôlabilité de la situation est importante.",
+    "La rumination est une forme de coping centré sur le problème et est donc généralement aidante.",
+    "Le coping centré sur le sens mobilise des valeurs et des buts."
+   ],
+   "richtig": [
+    0,
+    2,
+    4
+   ],
+   "erklaerung": "Le coping désigne les efforts pour faire face, indépendamment de leur résultat. L’efficacité dépend de l’adéquation ; le coping centré sur l’émotion n’est pas généralement inférieur, mais il est souvent particulièrement important face à des stresseurs non modifiables. La rumination ressemble à la résolution de problème mais est généralement improductive. Le coping centré sur le sens de Folkman mobilise des valeurs et des buts."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Quelles stratégies de coping utilisez-vous vous-même lorsque vous êtes fortement sollicité au travail ? Lesquelles sont plutôt centrées sur le problème, lesquelles plutôt sur l’émotion, et lesquelles apportent un bénéfice à court terme mais ont un coût à long terme ?",
+   "hinweis": "Questions directrices : que fais-je en premier lorsque cela devient serré ? À quoi est-ce que je renonce dans les phases de stress ? Quelle stratégie aimerais-je renforcer ? Comment puis-je utiliser mes propres expériences dans le conseil sans les projeter sur les autres ?"
+  }
+ ]
+}

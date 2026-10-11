@@ -1,0 +1,107 @@
+{
+ "titel": "Stress, épuisement et résilience",
+ "beschreibung": "Ce module présente le modèle transactionnel du stress de Lazarus, les principales formes de coping ainsi que l’état actuel des connaissances sur le burn-out, y compris sa classification dans la CIM-11. Vous apprendrez à distinguer l’épuisement des troubles dépressifs, à mobiliser la résilience et la salutogenèse comme perspective orientée vers les ressources, et à intégrer de manière responsable la psychoéducation et les techniques de relaxation dans le conseil.",
+ "lernziele": [
+  "Vous savez expliquer le modèle transactionnel du stress de Lazarus, y compris l’évaluation primaire, l’évaluation secondaire et la réévaluation, et l’appliquer à des demandes de conseil.",
+  "Vous savez distinguer le coping centré sur le problème du coping centré sur l’émotion et classer les stratégies de régulation émotionnelle selon le modèle processuel de Gross.",
+  "Vous savez décrire les trois dimensions du burn-out selon Maslach et la classification du burn-out sous le code QD85 dans la CIM-11, et vous savez reconnaître les signes d’alerte d’une dépression qui exigent une évaluation médicale.",
+  "Vous savez expliquer la résilience et le sentiment de cohérence d’Antonovsky en tant que concepts de ressources.",
+  "Vous savez structurer une psychoéducation et situer les techniques de relaxation, avec leurs limites et les précautions qu’elles requièrent."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "Qu’est-ce qui distingue le modèle transactionnel du stress de Lazarus des modèles du stress centrés sur le stimulus ?",
+   "optionen": [
+    "Il ne prend en compte que la réaction physique de stress.",
+    "Il mesure le stress à partir d’une liste d’événements de vie critiques.",
+    "Il conçoit le stress comme le résultat de l’évaluation d’une relation personne–environnement et des possibilités de coping perçues.",
+    "Il suppose que certains événements déclenchent un stress d’égale intensité chez tous les individus."
+   ],
+   "richtig": 2,
+   "erklaerung": "Le modèle transactionnel place au centre l’évaluation de la situation et de ses propres ressources. Les modèles centrés sur le stimulus mettent l’accent sur les événements extérieurs ; les modèles centrés sur la réaction, comme celui de Selye, sur la réaction physique."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Dans le modèle transactionnel du stress, l’appréciation « J’ai des collègues qui me soutiennent » relève de l’évaluation secondaire.",
+   "richtig": true,
+   "erklaerung": "Exact. L’évaluation secondaire porte sur les ressources internes et externes disponibles et sur les possibilités d’action, dont fait partie le soutien social."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles dimensions décrivent le burn-out selon Maslach et la CIM-11 ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Épuisement ou perte d’énergie",
+    "Idées délirantes",
+    "Distance mentale ou cynisme à l’égard de son travail",
+    "Diminution de l’efficacité professionnelle",
+    "Épisodes maniaques"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "L’épuisement, la distance ou le cynisme et la diminution de l’efficacité sont les trois dimensions centrales. Les idées délirantes et les épisodes maniaques ne font pas partie du concept de burn-out."
+  },
+  {
+   "typ": "mc",
+   "frage": "Comment le burn-out (QD85) est-il classé dans la CIM-11 ?",
+   "optionen": [
+    "Comme phénomène lié au travail, dans le chapitre des facteurs influant sur l’état de santé – et non comme une maladie",
+    "Comme sous-type de l’épisode dépressif",
+    "Comme trouble de l’adaptation concernant tous les domaines de la vie",
+    "Comme trouble mental à part entière, assorti de recommandations thérapeutiques établies"
+   ],
+   "richtig": 0,
+   "erklaerung": "Le code QD85 décrit le burn-out comme un phénomène lié au travail, résultant d’un stress chronique au travail qui n’a pas été géré avec succès. Il ne s’agit pas d’une maladie, et il ne s’applique qu’au contexte professionnel."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels signes doivent amener les conseillers à recommander une évaluation médicale ou psychothérapeutique rapide ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Une anhédonie généralisée persistant depuis plusieurs semaines",
+    "Le souhait de mieux préparer les entretiens avec son supérieur hiérarchique",
+    "Des propos de désespoir et des pensées suicidaires",
+    "Des sentiments marqués de dévalorisation et de culpabilité",
+    "Le souhait de mieux structurer son temps libre après le travail"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "L’anhédonie généralisée, le désespoir, les pensées suicidaires et les sentiments de dévalorisation et de culpabilité sont des signes d’alerte d’une possible dépression. Les pensées suicidaires exigent en outre une évaluation immédiate du risque. Les autres demandes sont des thèmes de conseil habituels."
+  },
+  {
+   "typ": "mc",
+   "frage": "Dans le modèle processuel de la régulation émotionnelle de Gross, quelle stratégie est centrée sur la réponse ?",
+   "optionen": [
+    "La sélection de la situation",
+    "La réévaluation",
+    "Le déploiement attentionnel",
+    "La suppression de l’expression émotionnelle"
+   ],
+   "richtig": 3,
+   "erklaerung": "La suppression relève de la modulation de la réponse et n’intervient qu’une fois l’émotion déjà apparue. La sélection de la situation, le déploiement attentionnel et la réévaluation sont centrés sur les antécédents."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle composante du sentiment de cohérence Antonovsky considérait-il comme la plus importante ?",
+   "optionen": [
+    "La gérabilité",
+    "La signifiance",
+    "La compréhensibilité",
+    "La prévisibilité"
+   ],
+   "richtig": 1,
+   "erklaerung": "Antonovsky considérait la signifiance comme le fondement motivationnel sans lequel on ne rechercherait guère la compréhensibilité et la gérabilité. La prévisibilité n’est pas une composante distincte."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Les techniques de relaxation comme le training autogène sont un outil recommandé dans les phases aiguës des troubles psychotiques, que les conseillers devraient utiliser de leur propre initiative.",
+   "richtig": false,
+   "erklaerung": "Faux. Les techniques suggestives, tournées vers l’intérieur, sont considérées comme inadaptées dans les phases psychotiques aiguës. La décision de les utiliser revient aux professionnels traitants ; dans de telles situations, les conseillers orientent les clients vers une aide médicale ou psychothérapeutique."
+  }
+ ]
+}

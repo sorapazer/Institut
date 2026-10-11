@@ -1,0 +1,158 @@
+{
+ "id": "B5-4",
+ "titel": "Résilience, salutogenèse et relaxation dans la pratique du conseil",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "La résilience : plus qu’un trait de caractère",
+   "text": "La **résilience** désigne la résistance psychique, c’est-à-dire la capacité à surmonter des crises et des circonstances de vie éprouvantes, et à se développer positivement malgré des conditions défavorables ou à se restabiliser après une épreuve.\n\nUne contribution influente fut l’étude longitudinale de la psychologue du développement **Emmy Werner** et de sa collègue **Ruth Smith** sur l’île hawaïenne de Kauai, qui a suivi une cohorte de naissances entière pendant des décennies. Elle a montré qu’une part considérable des enfants ayant grandi dans des conditions à haut risque étaient néanmoins devenus des adultes compétents et satisfaits. Parmi les facteurs qui se sont révélés protecteurs figuraient une figure d’attachement stable, un soutien social en dehors de la famille et des compétences personnelles.\n\nLa recherche actuelle sur la résilience souligne trois points importants pour le conseil :\n\n- La résilience n’est **pas un trait de personnalité figé**, mais un processus dynamique qui naît de l’interaction entre la personne et son environnement.\n- La résilience est **spécifique à la situation** : qui est résilient dans un domaine de la vie ne l’est pas nécessairement dans un autre.\n- La résilience naît en grande partie de **facteurs de protection**, tels que des relations porteuses, des attentes d’auto-efficacité, des compétences de résolution de problèmes, la régulation émotionnelle, un optimisme réaliste et l’expérience du sens.\n\nUne remarque critique s’impose également : la résilience ne doit pas se transformer en exigence de tout endurer. Lorsque les charges sont structurellement déraisonnables, le manque de résilience n’est pas le problème. Un conseil qui ne renforcerait que la résistance individuelle en ignorant les conditions peut involontairement contribuer à la surcharge."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Selon la conception actuelle, la résilience est un trait inné et stable que l’on possède ou non.",
+   "richtig": false,
+   "erklaerung": "Faux. La résilience est comprise comme un processus dynamique et spécifique à la situation, qui naît de facteurs de protection présents chez la personne et dans son environnement. Elle peut évoluer au cours de la vie et être influencée par les relations, les expériences et les processus d’apprentissage."
+  },
+  {
+   "typ": "text",
+   "titel": "La salutogenèse et le sentiment de cohérence d’Antonovsky",
+   "text": "Le sociologue médical **Aaron Antonovsky** a opposé à la question orientée vers la maladie « Qu’est-ce qui rend les gens malades ? » la question **salutogénique** : **qu’est-ce qui maintient les gens en bonne santé, bien qu’ils soient exposés à de multiples stresseurs ?**\n\nAntonovsky ne conçoit pas la santé et la maladie comme des opposés, mais comme les pôles d’un **continuum**. Chaque personne se situe quelque part entre ces pôles, et la question est de savoir ce qui la fait progresser vers la santé. Un rôle central est joué par les **ressources généralisées de résistance** – telles que le soutien social, les connaissances, la sécurité matérielle, l’ancrage culturel – et surtout par le **sentiment de cohérence**.\n\nLe sentiment de cohérence est une orientation fondamentale face à la vie, comportant trois composantes :\n\n- **Compréhensibilité** : les événements de la vie apparaissent ordonnés, intelligibles et explicables plutôt que chaotiques et arbitraires.\n- **Gérabilité** : on a confiance que des ressources sont disponibles pour faire face aux exigences – les siennes propres ou celles de personnes de confiance.\n- **Signifiance** : les exigences de la vie apparaissent comme des défis qui valent la peine qu’on y investisse de l’énergie.\n\nAntonovsky considérait la signifiance comme la composante la plus importante, car elle fournit la motivation même de rechercher la compréhension et la gérabilité. Une nette parenté avec l’orientation vers le sens de la logothérapie apparaît ici. Il en découle pour le conseil une perspective centrée sur les ressources : ne pas seulement analyser les problèmes, mais renforcer délibérément la compréhension, les possibilités d’action et les liens au sens du client."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les interventions de conseil à la composante du sentiment de cohérence qu’elles renforcent principalement.",
+   "paare": [
+    [
+     "Expliquer le modèle du stress afin que ses propres réactions deviennent intelligibles",
+     "compréhensibilité"
+    ],
+    [
+     "Établir ensemble une liste de personnes et de services pouvant apporter une aide concrète",
+     "gérabilité"
+    ],
+    [
+     "Demander : qu’est-ce qui fait qu’il vaut la peine pour vous de traverser cette période difficile ?",
+     "signifiance"
+    ]
+   ],
+   "erklaerung": "La psychoéducation favorise la compréhensibilité, l’accès aux ressources favorise la gérabilité, et la question du « pour quoi » favorise la signifiance. Dans la pratique, les trois s’imbriquent."
+  },
+  {
+   "typ": "text",
+   "titel": "La psychoéducation : un savoir qui soulage",
+   "text": "La **psychoéducation** désigne la transmission systématique et compréhensible de connaissances sur les charges psychiques, leur genèse et les possibilités d’y faire face. Elle favorise la compréhensibilité au sens d’Antonovsky, réduit la honte et l’autodévalorisation (« Quelque chose ne va pas chez moi ») et renforce la responsabilité propre.\n\nUne bonne psychoéducation dans le conseil suit quelques principes :\n\n- **Se rattacher plutôt que faire un exposé** : demander d’abord quel modèle explicatif la personne a, et s’appuyer sur celui-ci.\n- **Mesurée et concrète** : un modèle, quelques messages clés, en intégrant les exemples de la personne. Un schéma simple – comme les trois niveaux de Kaluza – est souvent plus utile que de longues explications.\n- **Normaliser sans banaliser** : « Beaucoup de personnes réagissent ainsi sous une charge permanente » soulage ; cela ne doit toutefois pas donner l’impression que le problème n’est pas sérieux.\n- **Vérifier de manière interactive** : demander ce qui a été compris et ce que la personne peut en retirer pour elle-même.\n- **Contenu solide** : ne transmettre que des connaissances bien établies, nommer les incertitudes et renvoyer les questions médicales à l’expertise médicale.\n- **Soutien écrit** : de courtes fiches ou des notes élaborées ensemble aident à retenir le contenu.\n\nLa psychoéducation n’est pas une fin en soi. Elle prépare des étapes de changement : qui comprend qu’un stress persistant sans récupération maintient le corps dans une tension permanente voit plus facilement pourquoi les pauses ne sont pas un luxe, mais une condition de la performance."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle démarche correspond le mieux à une bonne psychoéducation dans le conseil ?",
+   "optionen": [
+    "Faire au client un exposé détaillé sur la physiologie du stress, puis lui recommander un manuel.",
+    "Présenter le plus de modèles possible afin que la personne puisse choisir celui qui lui convient.",
+    "Faire comprendre que le stress est inoffensif afin de rassurer la personne.",
+    "Demander d’abord quel est le modèle explicatif de la personne, puis expliquer un modèle simple à partir de ses exemples et vérifier ce qu’elle en retient."
+   ],
+   "richtig": 3,
+   "erklaerung": "Une bonne psychoéducation s’appuie sur les connaissances préalables, est mesurée, utilise les exemples de la personne et vérifie la compréhension. Les longs exposés et la multiplication des modèles submergent ; banaliser serait professionnellement erroné et ne prendrait pas au sérieux le vécu de la personne."
+  },
+  {
+   "typ": "text",
+   "titel": "Techniques de relaxation : relaxation musculaire progressive et training autogène",
+   "text": "Les techniques de relaxation agissent sur la réaction de stress (gestion régénératrice du stress). Elles visent une **réponse de relaxation** : diminution du tonus musculaire, de la fréquence cardiaque et de la fréquence respiratoire, accompagnée d’un sentiment de calme. Leur effet se déploie surtout par une **pratique régulière** sur plusieurs semaines.\n\n- La **relaxation musculaire progressive** (RMP) a été développée par le médecin américain **Edmund Jacobson**. Des groupes musculaires sont brièvement contractés l’un après l’autre, puis délibérément relâchés. Le contraste entraîne la perception de la tension et de la détente. La RMP est considérée comme facile à apprendre, même pour les personnes qui ont du mal à rester immobiles, et elle est souvent proposée sous des formes abrégées.\n- Le **training autogène** (TA) a été développé par le psychiatre berlinois **Johannes Heinrich Schultz**. À l’aide d’autosuggestions formulées (« Mon bras droit est très lourd »), le niveau de base aborde successivement la lourdeur, la chaleur, un rythme cardiaque calme, une respiration calme, la chaleur dans l’abdomen et la fraîcheur du front. Le TA demande plus de temps de pratique que la RMP.\n\nD’autres méthodes répandues sont les **exercices de respiration** (p. ex. expiration prolongée), les **exercices d’imagerie** et les **approches fondées sur la pleine conscience**, comme le programme *Mindfulness-Based Stress Reduction* (MBSR) développé par **Jon Kabat-Zinn**. La pleine conscience ne vise pas en premier lieu la relaxation, mais une attention sans jugement, centrée sur le moment présent ; la relaxation en est plutôt un effet secondaire possible.\n\nQuiconque souhaite guider des techniques de relaxation en cours ou en conseil devrait avoir suivi une **formation solide** à celles-ci."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les approches à leurs fondateurs et à leurs éléments centraux.",
+   "paare": [
+    [
+     "Relaxation musculaire progressive",
+     "Edmund Jacobson – alternance de contraction et de relâchement de groupes musculaires"
+    ],
+    [
+     "Training autogène",
+     "Johannes Heinrich Schultz – autosuggestion formulée (lourdeur, chaleur …)"
+    ],
+    [
+     "Mindfulness-Based Stress Reduction",
+     "Jon Kabat-Zinn – pleine conscience sans jugement dans le moment présent"
+    ],
+    [
+     "Salutogenèse",
+     "Aaron Antonovsky – sentiment de cohérence et continuum santé–maladie"
+    ]
+   ],
+   "erklaerung": "Les associations résument les fondateurs et les idées centrales. La salutogenèse n’est pas une technique de relaxation, mais un modèle-cadre de la genèse de la santé, qui fonde l’orientation vers les ressources dans le conseil."
+  },
+  {
+   "typ": "text",
+   "titel": "Limites et précautions",
+   "text": "Les techniques de relaxation sont en général bien tolérées, mais elles ne conviennent pas à tout le monde dans toutes les situations. Un conseil responsable en connaît les limites :\n\n- **Réactions paradoxales** : chez certaines personnes, la relaxation et l’attention tournée vers l’intérieur déclenchent de l’agitation, de l’anxiété ou des sensations corporelles désagréables (ce que l’on appelle l’anxiété induite par la relaxation). Il doit être possible d’interrompre les exercices à tout moment ; garder les yeux ouverts est permis.\n- **Séquelles traumatiques et dissociation** : chez les personnes ayant vécu des expériences traumatiques, le silence, les yeux fermés ou certaines sensations corporelles peuvent déclencher des souvenirs éprouvants. Une prudence particulière s’impose ici, et une évaluation par des professionnels est recommandée.\n- **Troubles psychotiques et troubles mentaux graves** : les techniques comportant une forte focalisation vers l’intérieur et de la suggestion, comme le training autogène, sont considérées comme inadaptées dans les phases aiguës ; la décision de leur utilisation revient au professionnel traitant.\n- **Maladies physiques** : en cas de maladie cardiovasculaire, d’hypotension, de douleurs ou de blessures, il convient de clarifier avec un médecin, avant de commencer, si et sous quelle forme la pratique est possible. Dans la RMP, la contraction de certains groupes musculaires peut devoir être adaptée.\n- **Pas de remède miracle** : la relaxation ne remplace pas la modification de conditions éprouvantes et ne constitue pas un traitement des maladies mentales.\n\nDans le conseil, il convient donc, avant de guider un exercice, de demander s’il existe des restrictions de santé ou des expériences antérieures éprouvantes, et de créer un cadre dans lequel la personne garde le contrôle."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles précautions sont appropriées lorsqu’on guide des exercices de relaxation ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Interroger au préalable sur les restrictions de santé et les expériences antérieures éprouvantes",
+    "Insister pour que les yeux restent fermés afin que l’exercice fonctionne",
+    "Autoriser explicitement la personne à interrompre l’exercice à tout moment",
+    "Stabiliser une personne atteinte d’une maladie psychotique aiguë au moyen du training autogène",
+    "Recommander de consulter un médecin en cas de maladie cardiovasculaire"
+   ],
+   "richtig": [
+    0,
+    2,
+    4
+   ],
+   "erklaerung": "La clarification préalable, la possibilité d’interrompre et la consultation médicale en cas de maladie physique sont appropriées. Les yeux fermés ne sont pas une condition et peuvent être éprouvants pour certaines personnes. Dans les psychoses aiguës, les techniques suggestives tournées vers l’intérieur sont considérées comme inadaptées ; la décision appartient ici aux personnes qui assurent le traitement."
+  },
+  {
+   "typ": "fall",
+   "titel": "Un exercice à l’effet inattendu",
+   "fall": "Vignette pédagogique construite : lors d’une séance de conseil de groupe destinée à des aidants familiaux, vous guidez un court exercice de respiration les yeux fermés. Au bout d’une minute, une participante ouvre les yeux, respire rapidement et dit à voix basse : « Je n’y arrive pas ; tout remonte. »",
+   "frage": "Quelle est la réaction la plus appropriée ?",
+   "optionen": [
+    "Vous l’encouragez à refermer les yeux et à continuer de respirer, car l’agitation va passer dans un instant.",
+    "Vous arrêtez l’exercice pour elle, l’invitez à garder les yeux ouverts et à s’orienter dans la pièce (p. ex. sentir ses pieds sur le sol, nommer des objets), et lui proposez un bref entretien individuel après le groupe.",
+    "Vous ignorez la réaction afin de ne pas perturber le groupe.",
+    "Vous lui demandez devant le groupe ce qui remonte exactement, afin qu’elle puisse l’élaborer."
+   ],
+   "richtig": 1,
+   "erklaerung": "La réaction évoque une réponse paradoxale ou des souvenirs éprouvants. Il est approprié de mettre fin à l’exercice pour elle, de favoriser l’orientation dans l’ici et maintenant et d’offrir un espace pour un entretien protégé. Poursuivre l’exercice peut intensifier la détresse. Explorer la question devant le groupe serait humiliant et dépasse le cadre du dispositif. L’ignorer la laisse seule avec sa détresse."
+  },
+  {
+   "typ": "karten",
+   "titel": "Ressources et récupération",
+   "karten": [
+    {
+     "vorne": "Résilience",
+     "hinten": "Résistance psychique conçue comme un processus dynamique et spécifique à la situation, soutenu par des facteurs de protection chez la personne et dans son environnement."
+    },
+    {
+     "vorne": "Étude de Kauai",
+     "hinten": "Étude longitudinale d’Emmy Werner et Ruth Smith : de nombreux enfants issus de conditions à haut risque se sont bien développés ; des facteurs de protection tels que des figures d’attachement stables ont joué un rôle important."
+    },
+    {
+     "vorne": "Sentiment de cohérence",
+     "hinten": "Selon Antonovsky : compréhensibilité, gérabilité et signifiance ; la signifiance est considérée comme la composante la plus importante."
+    },
+    {
+     "vorne": "Psychoéducation",
+     "hinten": "Transmission systématique et compréhensible de connaissances sur les charges et le coping ; elle se rattache à l’existant, est mesurée, interactive et solide."
+    },
+    {
+     "vorne": "Anxiété induite par la relaxation",
+     "hinten": "Réaction paradoxale dans laquelle les exercices de relaxation déclenchent de l’agitation ou de l’anxiété ; permettre à la personne d’interrompre et de s’orienter dans l’ici et maintenant."
+    },
+    {
+     "vorne": "Psychological detachment",
+     "hinten": "Déconnexion mentale du travail pendant les loisirs ; décrite par la recherche sur la récupération comme un facteur de récupération important."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Quels facteurs de protection et quelles ressources vous portent dans les phases éprouvantes ? Lesquels pourriez-vous cultiver plus délibérément ?",
+   "hinweis": "Questions directrices : quelles personnes me renforcent ? Qu’est-ce qui m’aide à comprendre les stresseurs et à les rendre gérables ? Qu’est-ce qui donne sa valeur à mon engagement ? Quelle forme de récupération me fait réellement du bien – et quelle place est-ce que je lui accorde ?"
+  }
+ ]
+}

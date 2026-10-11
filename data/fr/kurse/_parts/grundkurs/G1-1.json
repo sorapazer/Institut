@@ -1,0 +1,116 @@
+{
+ "id": "G1-1",
+ "titel": "Un médecin viennois au XXe siècle : le parcours de Frankl jusqu'en 1942",
+ "dauer": 20,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Origines et premières questions",
+   "text": "Viktor Emil Frankl est né à Vienne le 26 mars 1905 et y est mort le 2 septembre 1997. Il a grandi dans une famille juive de fonctionnaires et a connu, enfant, les privations de la Première Guerre mondiale. Dès le lycée, il était préoccupé par la question de savoir ce qui donne un sens à une vie – une question qui, de son propre aveu, ne l'a plus jamais quitté.\n\nPendant ses années scolaires, il s'intéressa intensément à la philosophie et à la psychologie. Il entretint une correspondance avec **Sigmund Freud**, qui transmit une contribution du jeune Frankl à l'*Internationale Zeitschrift für Psychoanalyse* ; elle parut en 1924. À cette époque, Frankl était donc encore un disciple de la psychanalyse – du moins sur le plan intellectuel.\n\nUn point important pour comprendre son œuvre ultérieure : dès le départ, Frankl était à la fois **médecin et homme de science** et esprit philosophique. Cette double perspective marque la logothérapie jusqu'à aujourd'hui. Celle-ci entend prendre au sérieux les conditions biologiques et psychologiques de l'être humain sans pour autant le réduire à celles-ci."
+  },
+  {
+   "typ": "text",
+   "titel": "De Freud à Adler, puis une voie propre",
+   "text": "Frankl se tourna bientôt vers la **psychologie individuelle d'Alfred Adler**. En 1925, il publia dans la revue d'Adler un essai sur la psychothérapie et la vision du monde. Mais il n'y resta pas non plus : Frankl souligna de plus en plus que les questions de sens et de valeur ne peuvent pas simplement être ramenées à des sentiments d'infériorité ou à une recherche de puissance. En 1927, il fut exclu de la Société de psychologie individuelle.\n\nAlors qu'il était encore étudiant en médecine, Frankl organisa à partir de 1928, à Vienne et dans d'autres villes, des **centres de consultation pour la jeunesse**, où des jeunes en crise recevaient gratuitement des conseils. Une campagne menée à l'époque de la remise des bulletins scolaires, visant à prévenir les suicides d'élèves, devint particulièrement connue.\n\nC'est durant cette période que Frankl commença à parler de **logothérapie**. Il comprenait le grec *logos* au sens de *sens*. L'idée fondamentale : à côté de la recherche du plaisir et de la recherche de reconnaissance, il existe chez l'être humain une aspiration encore plus fondamentale – l'aspiration au sens."
+  },
+  {
+   "typ": "mc",
+   "frage": "Pourquoi Frankl s'est-il finalement séparé aussi de la psychologie individuelle d'Alfred Adler ?",
+   "optionen": [
+    "Parce qu'il niait fondamentalement l'importance de l'enfance pour le développement de la personnalité.",
+    "Parce qu'il considérait les questions de sens et de valeur comme autonomes et ne voulait pas les ramener à la recherche de puissance ou à des sentiments d'infériorité.",
+    "Parce qu'il était revenu entièrement à la psychanalyse de Freud.",
+    "Parce qu'il jugeait la psychothérapie inefficace et voulait se consacrer exclusivement à la neurologie."
+   ],
+   "richtig": 1,
+   "erklaerung": "Frankl soutenait que l'aspiration au sens est une motivation humaine fondamentale et autonome. Il n'a pas déclaré l'enfance insignifiante, il n'est pas revenu à la psychanalyse, et il est resté toute sa vie à la fois psychothérapeute et neurologue."
+  },
+  {
+   "typ": "text",
+   "titel": "Années cliniques et menace croissante",
+   "text": "En 1930, Frankl obtint son doctorat en médecine et se spécialisa en neurologie et en psychiatrie. De 1933 à 1937, il travailla à l'hôpital psychiatrique **Am Steinhof** à Vienne, où il dirigeait un service pour femmes suicidaires. Ce travail le confrontait chaque jour au désespoir et à la question de ce qui maintient les êtres humains en vie.\n\nEn 1937, il ouvrit son propre cabinet. Après l'« Anschluss » de l'Autriche en 1938, les médecins juifs ne furent plus autorisés à soigner que des patients juifs. À partir de 1940, Frankl dirigea le service de neurologie de l'**hôpital Rothschild**, alors le seul hôpital de Vienne où des Juifs pouvaient encore être soignés. Selon son propre récit, il s'efforça d'y protéger des patients psychiatriques des meurtres de malades perpétrés par les nationaux-socialistes en établissant délibérément des diagnostics plus bénins.\n\nEn 1941, Frankl aurait pu émigrer aux États-Unis avec un visa. Selon son propre récit, il le laissa expirer afin de ne pas abandonner seuls ses parents âgés. La même année, il épousa Tilly Grosser, infirmière à l'hôpital."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Classez les étapes de la vie de Frankl jusqu'en 1942 dans l'ordre chronologique correct.",
+   "elemente": [
+    "Publication d'une contribution dans la revue de psychanalyse de Freud",
+    "Exclusion de la Société de psychologie individuelle",
+    "Doctorat en médecine",
+    "Activité à l'hôpital Am Steinhof",
+    "Direction du service de neurologie de l'hôpital Rothschild"
+   ],
+   "erklaerung": "La contribution parut dans la revue psychanalytique en 1924, l'exclusion du cercle d'Adler suivit en 1927, le doctorat en 1930, l'activité à Am Steinhof en 1933–1937 et la fonction de chef de service à l'hôpital Rothschild à partir de 1940."
+  },
+  {
+   "typ": "merke",
+   "text": "La logothérapie n'est pas née dans le camp de concentration. Frankl en avait déjà développé les idées fondamentales à la fin des années 1920 et dans les années 1930 – dans la consultation pour la jeunesse et dans le travail clinique auprès de personnes suicidaires."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Frankl comprenait le mot grec « logos » dans le terme logothérapie principalement au sens de « logique » ou de « pensée rationnelle ».",
+   "richtig": false,
+   "erklaerung": "Frankl traduisait explicitement « logos » par « sens ». La logothérapie désigne donc une thérapie centrée sur le sens – et non une thérapie par l'argumentation logique."
+  },
+  {
+   "typ": "text",
+   "titel": "La « troisième école viennoise »",
+   "text": "Dans l'histoire de la psychothérapie, la logothérapie est souvent désignée comme la **troisième école viennoise de psychothérapie** – après la psychanalyse de Sigmund Freud et la psychologie individuelle d'Alfred Adler. De manière simplifiée, on peut l'illustrer par les motivations fondamentales que chacune postule :\n\n- Dans la lecture volontairement accentuée de Frankl, Freud place le **principe de plaisir** au centre, souvent désigné comme « volonté de plaisir ».\n- Adler place au centre l'aspiration à surmonter l'infériorité et à obtenir de la reconnaissance, ce que Frankl appelait la « volonté de puissance ».\n- Frankl lui-même place au centre la **volonté de sens**.\n\nCette juxtaposition est une simplification que Frankl utilisait lui-même pour affirmer son propre profil. Ni Freud ni Adler n'auraient résumé leurs théories de façon aussi succincte. En guise d'introduction, elle aide toutefois à saisir l'essentiel : la logothérapie ne demande pas seulement *d'où* vient une personne et ce qui la pousse, mais aussi *pour quoi* elle vit.\n\nFrankl ne concevait pas son approche comme un substitut, mais comme un **complément** à la psychothérapie existante."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les fondateurs des trois écoles viennoises à leur motivation centrale respective – telle que Frankl l'a formulée de manière accentuée.",
+   "paare": [
+    [
+     "Sigmund Freud",
+     "Volonté de plaisir"
+    ],
+    [
+     "Alfred Adler",
+     "Volonté de puissance"
+    ],
+    [
+     "Viktor E. Frankl",
+     "Volonté de sens"
+    ]
+   ],
+   "erklaerung": "Cette association provient de la présentation volontairement accentuée de Frankl lui-même. Elle sert de repère, mais ne remplace pas une étude nuancée de la psychanalyse et de la psychologie individuelle."
+  },
+  {
+   "typ": "luecke",
+   "text": "À partir de 1928, Frankl organisa à Vienne des {{centres de consultation pour la jeunesse|soupes populaires pour chômeurs|écoles de musique}}. Plus tard, à Am Steinhof, il dirigea un service pour {{femmes suicidaires|enfants épileptiques|soldats rapatriés}}.",
+   "erklaerung": "Ces deux activités ont mis Frankl en contact direct avec des personnes en crise existentielle – un arrière-plan d'expérience important pour la logothérapie."
+  },
+  {
+   "typ": "karten",
+   "titel": "Fiches : les premières années de Frankl",
+   "karten": [
+    {
+     "vorne": "Dates de naissance et de décès",
+     "hinten": "26 mars 1905 à Vienne – 2 septembre 1997 à Vienne."
+    },
+    {
+     "vorne": "Logothérapie – signification du mot",
+     "hinten": "Du grec « logos », compris par Frankl comme « sens » : thérapie centrée sur le sens."
+    },
+    {
+     "vorne": "Troisième école viennoise",
+     "hinten": "Désignation de la logothérapie après la psychanalyse (Freud) et la psychologie individuelle (Adler)."
+    },
+    {
+     "vorne": "Hôpital Rothschild",
+     "hinten": "À partir de 1940, Frankl en dirigea le service de neurologie – le dernier hôpital de Vienne qui soignait encore des Juifs."
+    },
+    {
+     "vorne": "Visa expiré, 1941",
+     "hinten": "Selon son propre récit, Frankl resta à Vienne afin de ne pas abandonner ses parents."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Dès l'adolescence, Frankl était préoccupé par la question de savoir ce qui donne un sens à une vie. Quand avez-vous rencontré cette question consciemment pour la première fois – et dans quelle situation ?",
+   "hinweis": "Questions d'orientation : s'agissait-il d'une perte, d'une décision, d'une conversation ou d'un moment de vide ? Quelle réponse auriez-vous donnée à l'époque, et laquelle donneriez-vous aujourd'hui ?"
+  }
+ ]
+}

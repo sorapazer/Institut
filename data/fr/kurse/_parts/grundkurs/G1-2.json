@@ -1,0 +1,94 @@
+{
+ "id": "G1-2",
+ "titel": "Les années dans les camps – et ce qui en est résulté",
+ "dauer": 22,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Déportation à Theresienstadt",
+   "text": "En septembre 1942, Viktor Frankl fut déporté au ghetto de **Theresienstadt** avec son épouse Tilly et ses parents. Frankl y travailla notamment comme médecin et participa à la prise en charge des nouveaux arrivants, en particulier dans la prévention du suicide. Son père mourut à Theresienstadt en 1943 des suites des conditions de vie.\n\nCette leçon décrit les expériences de Frankl de manière factuelle. Elles ne doivent être ni dramatisées ni lissées en une histoire de réussite. La Shoah fut un crime qui coûta la vie à des millions de personnes. Ceux qui survécurent le durent avant tout à des circonstances sur lesquelles ils n'avaient aucune prise. Frankl lui-même soulignait que ce sont souvent précisément les meilleurs qui ne sont pas revenus.\n\nEn même temps, le récit de Frankl constitue un témoignage historique important, car, en tant que psychiatre, il s'est efforcé d'observer et de décrire avec précision le vécu des prisonniers."
+  },
+  {
+   "typ": "text",
+   "titel": "Auschwitz, Kaufering, Türkheim",
+   "text": "En octobre 1944, Frankl et son épouse furent déportés à **Auschwitz**. Ils y furent séparés. Frankl ne resta que quelques jours à Auschwitz, puis fut transféré à **Kaufering**, un camp annexe du camp de concentration de Dachau, où les prisonniers étaient astreints au travail forcé dans des conditions extrêmes. Il fut ensuite envoyé au camp de **Türkheim**, où il contracta le typhus. Fin avril 1945, il fut libéré par les troupes américaines.\n\nCe n'est qu'après son retour à Vienne que Frankl apprit l'ampleur entière de ses pertes : sa mère avait été assassinée à Auschwitz, son frère Walter avait également péri, et son épouse Tilly était morte au camp de **Bergen-Belsen**. Seule sa sœur Stella, qui avait émigré à temps en Australie, survécut.\n\nFrankl avait cousu dans la doublure de son manteau le manuscrit de son premier livre, qui devint plus tard *Ärztliche Seelsorge* (The Doctor and the Soul). Il fut perdu à Auschwitz. Selon son propre récit, il commença, pendant sa maladie à Türkheim, à noter de nouveau des idées clés sur des bouts de papier."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Classez les étapes de la captivité de Frankl dans l'ordre correct.",
+   "elemente": [
+    "Theresienstadt",
+    "Auschwitz",
+    "Kaufering (camp annexe de Dachau)",
+    "Türkheim",
+    "Libération par les troupes américaines"
+   ],
+   "erklaerung": "Theresienstadt en 1942, Auschwitz pendant quelques jours en octobre 1944, puis Kaufering, plus tard Türkheim, et la libération fin avril 1945."
+  },
+  {
+   "typ": "text",
+   "titel": "Ce que Frankl a observé",
+   "text": "Dans son récit *Ein Psycholog erlebt das Konzentrationslager* (1946 ; publié plus tard sous le titre *… trotzdem Ja zum Leben sagen*, connu en anglais sous le titre *Man’s Search for Meaning*), Frankl décrit trois phases de la réaction psychique :\n\n- **L'admission :** choc, désarroi et souvent l'espoir irréaliste que les choses ne seraient pas si graves.\n- **La vie proprement dite au camp :** apathie croissante et émoussement affectif comme réaction de protection ; la pensée tourne autour de la survie immédiate.\n- **Après la libération :** sentiments d'irréalité, parfois amertume et profonde désillusion lorsque plus personne n'attendait.\n\nEn même temps, Frankl observa que, même dans ces conditions, les êtres humains n'étaient pas entièrement déterminés. Certains partageaient leur dernier morceau de pain ; certains trouvaient un appui dans le souvenir d'êtres chers, dans une tâche ou dans la foi. Frankl en conclut que l'être humain conserve une dernière liberté : la liberté **de prendre position face aux circonstances**.\n\nCette conclusion est une interprétation, non une étude empirique. Elle ne signifie pas que la survie était une question de bonne attitude."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quel énoncé reflète le mieux la conclusion que Frankl a tirée de son expérience des camps ?",
+   "optionen": [
+    "Ceux qui avaient une attitude positive survivaient en général au camp.",
+    "La souffrance est nécessaire pour que les êtres humains puissent trouver un sens.",
+    "Même sous des contraintes extérieures extrêmes, l'être humain conserve la liberté d'adopter une attitude intérieure face aux circonstances.",
+    "Les réactions psychiques dans des conditions extrêmes sont entièrement déterminées par les circonstances."
+   ],
+   "richtig": 2,
+   "erklaerung": "Frankl parle d'une dernière liberté intérieure de prendre position. Il ne prétend pas que l'attitude décidait de la survie – celle-ci dépendait avant tout du hasard et de l'arbitraire. Il ne considérait pas la souffrance comme nécessaire et rejetait expressément un déterminisme complet."
+  },
+  {
+   "typ": "merke",
+   "text": "Frankl reprenait volontiers une pensée de Friedrich Nietzsche : celui qui a un pourquoi qui lui tient lieu de but peut supporter presque n'importe quel comment.",
+   "quelle": "Paraphrase d'après Nietzsche, cité dans Frankl, … trotzdem Ja zum Leben sagen (Man’s Search for Meaning)"
+  },
+  {
+   "typ": "text",
+   "titel": "Ce que signifie l'expérience des camps – et ce qu'elle ne signifie pas",
+   "text": "Ce serait un malentendu que de considérer la logothérapie comme un produit du camp de concentration. Frankl lui-même soulignait qu'il avait élaboré sa conception auparavant. Le camp fut plutôt pour lui une **mise à l'épreuve** : ses hypothèses sur le sens et la liberté pouvaient-elles être confirmées dans les conditions les plus extrêmes ?\n\nIl est tout aussi important de voir ce que Frankl n'a **pas** affirmé :\n\n- Il n'a pas glorifié la souffrance. À ses yeux, l'élimination de la souffrance évitable a toujours la priorité.\n- Il n'a pas dit qu'une orientation vers le sens garantit la survie.\n- Il n'a pas excusé les bourreaux, mais il s'est prononcé contre l'idée d'une culpabilité collective – une position qui a suscité des oppositions, à l'époque comme plus tard.\n\nLa recherche historique discute également la manière dont Frankl a façonné sa biographie dans des récits ultérieurs ; certains détails de ses descriptions ont été examinés de façon critique. Pour la logothérapie, cela signifie : sa validité ne dépend pas de la biographie de son fondateur, mais de la force de conviction de ses concepts et de leur mise à l'épreuve empirique."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Frankl n'a développé les idées fondamentales de la logothérapie qu'après sa libération, en réponse à l'expérience des camps.",
+   "richtig": false,
+   "erklaerung": "Les idées fondamentales datent de la fin des années 1920 et des années 1930. Le manuscrit d'*Ärztliche Seelsorge* (The Doctor and the Soul) existait déjà avant la déportation. Frankl concevait l'expérience des camps comme une mise à l'épreuve de sa conception."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels énoncés sont exacts au sens de Frankl ? Sélectionnez toutes les réponses correctes.",
+   "optionen": [
+    "La souffrance évitable doit être éliminée ; seule la souffrance inévitable soulève la question de l'attitude.",
+    "L'attitude intérieure d'un prisonnier était le facteur décisif de sa survie.",
+    "Même dans des conditions extrêmes, les êtres humains manifestaient des attitudes différentes, comme l'humanité ou l'absence de scrupules.",
+    "Frankl concevait son récit comme une observation psychologique, et non comme une étude contrôlée.",
+    "Frankl considérait la souffrance comme une condition préalable nécessaire à toute découverte de sens."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Sont exacts la priorité donnée à l'élimination de la souffrance, l'observation d'attitudes différentes et le caractère d'observation du récit. La survie dépendait avant tout des circonstances, non de l'attitude. Selon Frankl, la souffrance n'est pas une condition nécessaire du sens."
+  },
+  {
+   "typ": "text",
+   "titel": "Après 1945 : œuvre et rayonnement",
+   "text": "Après son retour à Vienne, Frankl dirigea pendant 25 ans, à partir de 1946, la **Polyclinique neurologique de Vienne**. En 1946 parurent à la fois *Ärztliche Seelsorge* (The Doctor and the Soul), son œuvre théorique principale, et le récit de son temps dans les camps. En 1947, il épousa Eleonore Schwindt ; leur fille Gabriele naquit la même année.\n\nFrankl obtint son habilitation en neurologie et en psychiatrie à l'Université de Vienne et y enseigna comme professeur. Des postes de professeur invité le conduisirent notamment aux États-Unis. L'édition anglaise de son récit des camps, *Man’s Search for Meaning*, devint l'un des livres les plus lus sur la psychologie et le sens de la vie.\n\nFrankl écrivit de nombreux livres et reçut de nombreux doctorats honoris causa. Des instituts et des sociétés de logothérapie furent fondés dans le monde entier. L'**Institut Viktor Frankl** existe à Vienne depuis 1992. L'œuvre de Frankl continue aujourd'hui d'exercer son influence en psychothérapie, en conseil psychologique, en accompagnement spirituel, en éducation et en soins palliatifs."
+  },
+  {
+   "typ": "luecke",
+   "text": "L'œuvre théorique principale de Frankl s'intitule {{Ärztliche Seelsorge (The Doctor and the Soul)|Die Traumdeutung (L'interprétation du rêve)|Menschenkenntnis (Connaissance de l'homme)}}. Son récit de son temps dans les camps est connu en anglais sous le titre {{Man’s Search for Meaning|The Courage to Be|On Becoming a Person}}.",
+   "erklaerung": "*Die Traumdeutung* est de Freud, *Menschenkenntnis* d'Adler, *The Courage to Be* de Paul Tillich et *On Becoming a Person* de Carl Rogers."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Frankl parle de la liberté de prendre position face à des circonstances que l'on ne peut pas changer. Pensez à une situation de votre vie que vous ne pouviez pas changer. Quelle position avez-vous adoptée face à elle ?",
+   "hinweis": "Il ne s'agit pas d'embellir la situation après coup. Demandez-vous : quelle attitude ai-je adoptée ? Qu'est-ce qui m'y a aidé ? Y avait-il quelque chose qui restait important malgré tout ?"
+  }
+ ]
+}

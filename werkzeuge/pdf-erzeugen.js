@@ -1,8 +1,8 @@
 /*
-  Erzeugt die PDF-Fassungen aller Beiträge der Zeitschrift (pdf/<id>.pdf)
-  und je Heft eine Gesamtausgabe (pdf/zsp-<jahr>-<heft>-gesamt.pdf).
-  Die Seitenzahlen werden fortlaufend über den Jahrgang vergeben und in
-  data/journal.js zurückgeschrieben.
+  Erzeugt die PDF-Fassungen aller Beiträge (pdf/<sprache>/<id>.pdf) und je Heft eine
+  Gesamtausgabe (pdf/<sprache>/zsp-<jahr>-<heft>-gesamt.pdf) für Englisch (Original),
+  Deutsch und Französisch. Die Seitenzahlen der englischen Originalfassung werden fortlaufend
+  über den Jahrgang vergeben und in data/journal.js zurückgeschrieben.
 
   Aufruf (im Ordner institut):  node werkzeuge/pdf-erzeugen.js
   Voraussetzungen: Node.js, Playwright mit Chromium, Python 3 mit pypdf, poppler-utils (pdfinfo)
@@ -30,6 +30,18 @@ function setSeiten(id, seiten) {
   const opts = process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : (fs.existsSync("/opt/pw-browsers/chromium") ? { executablePath: "/opt/pw-browsers/chromium" } : {});
   const browser = await chromium.launch(opts);
   const page = await browser.newPage();
+  async function render(file, hash, target) {
+    await page.goto("file://" + path.join(__dirname, file) + "#" + hash);
+    await page.reload();
+    await page.waitForFunction(() => window.ARTIKEL_BEREIT === true || window.HEFT_BEREIT === true);
+    await page.evaluate(() => document.fonts.ready);
+    await page.pdf({ path: target, preferCSSPageSize: true, printBackground: true });
+  }
+  const hasFr = fs.existsSync(path.join(ROOT, "data", "fr", "journal.js"));
+  const LANGS = hasFr ? ["en", "de", "fr"] : ["en", "de"];
+  for (const L of LANGS) fs.mkdirSync(path.join(OUT, L), { recursive: true });
+
+  // 1. Englische Originalfassung: fortlaufende Seitenzählung im Jahrgang, Rückschreiben nach data/journal.js
   let J = loadJournal();
   let next = 1;
   for (const a of J.artikel) {
@@ -37,72 +49,33 @@ function setSeiten(id, seiten) {
       J = loadJournal();
       const cur = J.artikel.find(x => x.id === a.id);
       const start = parseInt(String(cur.seiten).split(/[–-]/)[0], 10);
-      await page.goto("file://" + path.join(__dirname, "artikel-vorlage.html") + "#" + a.id);
-      await page.reload();
-      await page.waitForFunction(() => window.ARTIKEL_BEREIT === true);
-      await page.evaluate(() => document.fonts.ready);
-      const file = path.join(OUT, a.id + ".pdf");
-      await page.pdf({ path: file, preferCSSPageSize: true, printBackground: true });
+      const file = path.join(OUT, "en", a.id + ".pdf");
+      await render("artikel-vorlage.html", "en:" + a.id, file);
       const n = pages(file);
       const seiten = n === 1 ? String(next) : next + "–" + (next + n - 1);
-      if (start === next && cur.seiten === seiten) { console.log(a.id, seiten); next += n; break; }
+      if (start === next && cur.seiten === seiten) { console.log("en", a.id, seiten); next += n; break; }
       setSeiten(a.id, seiten);
     }
   }
-  // Titelblätter der Hefte
   J = loadJournal();
-  for (const iss of J.ausgaben) {
-    const arts = J.artikel.filter(x => x.ausgabe === iss.id);
-    await page.goto("file://" + path.join(__dirname, "heft-titel.html") + "#" + iss.id);
-    await page.reload();
-    await page.waitForFunction(() => window.HEFT_BEREIT === true);
-    await page.evaluate(() => document.fonts.ready);
-    const cover = path.join(OUT, "_titel-" + iss.id + ".pdf");
-    await page.pdf({ path: cover, preferCSSPageSize: true, printBackground: true });
-    const target = path.join(OUT, "zsp-" + iss.jahr + "-" + iss.heft + "-gesamt.pdf");
-    execFileSync("python3", ["-c", `
-import sys
-from pypdf import PdfWriter
-w = PdfWriter()
-for f in sys.argv[2:]:
-    w.append(f)
-w.add_metadata({"/Title": sys.argv[3] if False else "Zeitschrift für Sinnzentrierte Psychologie, Heft ${iss.heft}/${iss.jahr}", "/Author": "Institut für Sinnzentrierte Psychologie"})
-w.write(sys.argv[1])
-`, target, cover, ...arts.map(x => path.join(OUT, x.id + ".pdf"))]);
-    fs.unlinkSync(cover);
-    console.log("Heft", iss.id, "->", path.basename(target));
+  // 2. Übersetzungen (eigene Seitenzählung)
+  for (const L of LANGS.filter(l => l !== "en")) {
+    for (const a of J.artikel) { await render("artikel-vorlage.html", L + ":" + a.id, path.join(OUT, L, a.id + ".pdf")); }
+    console.log(L, "fertig");
   }
-  // Englische Fassungen (eigene Seitenzählung ab 1; Version of record bleibt die deutsche Fassung)
-  const OUT_EN = path.join(OUT, "en");
-  fs.mkdirSync(OUT_EN, { recursive: true });
-  for (const a of J.artikel) {
-    await page.goto("file://" + path.join(__dirname, "artikel-vorlage.html") + "#en:" + a.id);
-    await page.reload();
-    await page.waitForFunction(() => window.ARTIKEL_BEREIT === true);
-    await page.evaluate(() => document.fonts.ready);
-    await page.pdf({ path: path.join(OUT_EN, a.id + ".pdf"), preferCSSPageSize: true, printBackground: true });
-    console.log("EN", a.id);
-  }
-  for (const iss of J.ausgaben) {
-    const arts = J.artikel.filter(x => x.ausgabe === iss.id);
-    await page.goto("file://" + path.join(__dirname, "heft-titel.html") + "#en:" + iss.id);
-    await page.reload();
-    await page.waitForFunction(() => window.HEFT_BEREIT === true);
-    await page.evaluate(() => document.fonts.ready);
-    const cover = path.join(OUT_EN, "_cover-" + iss.id + ".pdf");
-    await page.pdf({ path: cover, preferCSSPageSize: true, printBackground: true });
-    const target = path.join(OUT_EN, "zsp-" + iss.jahr + "-" + iss.heft + "-gesamt.pdf");
-    execFileSync("python3", ["-c", `
-import sys
-from pypdf import PdfWriter
-w = PdfWriter()
-for f in sys.argv[2:]:
-    w.append(f)
-w.add_metadata({"/Title": "Journal of Meaning-Centered Psychology, Issue ${iss.heft}/${iss.jahr} (English edition)", "/Author": "Institute for Meaning-Centered Psychology"})
-w.write(sys.argv[1])
-`, target, cover, ...arts.map(x => path.join(OUT_EN, x.id + ".pdf"))]);
-    fs.unlinkSync(cover);
-    console.log("EN Heft", iss.id, "->", path.basename(target));
+  // 3. Gesamthefte je Sprache
+  for (const L of LANGS) {
+    for (const iss of J.ausgaben) {
+      const arts = J.artikel.filter(x => x.ausgabe === iss.id);
+      const cover = path.join(OUT, L, "_titel-" + iss.id + ".pdf");
+      await render("heft-titel.html", L + ":" + iss.id, cover);
+      const target = path.join(OUT, L, "zsp-" + iss.jahr + "-" + iss.heft + "-gesamt.pdf");
+      const title = { en: "Journal of Meaning-Centered Psychology", de: "Zeitschrift für Sinnzentrierte Psychologie", fr: "Revue de psychologie centrée sur le sens" }[L] + ", " + iss.heft + "/" + iss.jahr;
+      execFileSync("python3", ["-c", "import sys\nfrom pypdf import PdfWriter\nw = PdfWriter()\nfor f in sys.argv[3:]:\n    w.append(f)\nw.add_metadata({'/Title': sys.argv[2], '/Author': 'Institute for Meaning-Centered Psychology'})\nw.write(sys.argv[1])\n",
+        target, title, cover, ...arts.map(x => path.join(OUT, L, x.id + ".pdf"))]);
+      fs.unlinkSync(cover);
+      console.log(L, "Heft", iss.id);
+    }
   }
   await browser.close();
 })();
