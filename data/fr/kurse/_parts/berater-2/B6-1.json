@@ -1,0 +1,161 @@
+{
+ "id": "B6-1",
+ "titel": "Qu’est-ce qu’une crise ? Notion et types de crise",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "La notion de crise",
+   "text": "Le mot « crise » vient du grec *krisis* et signifiait à l’origine décision ou tournant. En médecine, il désignait le point culminant d’une maladie, où se décide si la guérison ou l’aggravation va suivre. Cette double signification de **danger et d’opportunité** marque aussi la compréhension psychologique.\n\nLa théorie moderne de la crise remonte largement au psychiatre **Gerald Caplan**, qui a décrit dans les années 1960 les crises comme un état temporaire de déséquilibre dans lequel les stratégies habituelles de résolution de problèmes ne suffisent plus. Dans l’espace germanophone, la notion a été façonnée surtout par le psychiatre viennois **Gernot Sonneck** et par le Centre d’intervention de crise de Vienne.\n\nEn paraphrasant, Sonneck comprend une **crise psychosociale** comme la perte de l’équilibre émotionnel qu’une personne éprouve lorsqu’elle est confrontée à des événements ou à des circonstances de vie qu’elle ne peut pas surmonter pour le moment, parce que ceux-ci, par leur nature et leur ampleur, dépassent ses expériences, capacités et moyens d’aide antérieurs.\n\nTrois aspects de cette conception sont importants :\n\n- Une crise **n’est pas une maladie**, mais une réaction à une charge extraordinaire, potentiellement possible chez chacun.\n- Une crise est **limitée dans le temps** ; elle dure typiquement de quelques jours à quelques semaines, mais peut se chroniciser si elle prend une évolution défavorable.\n- Une crise est **subjective** : ce qui compte n’est pas la gravité objective de l’événement, mais le rapport entre la charge et les possibilités de faire face disponibles – un parallèle clair avec le modèle transactionnel du stress."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quel énoncé décrit le plus exactement la conception de la crise psychosociale selon Caplan et Sonneck ?",
+   "optionen": [
+    "Une crise est une maladie mentale qui nécessite un diagnostic.",
+    "Une crise n’existe que si un événement objectivement grave, comme un décès, s’est produit.",
+    "Une crise est une perte temporaire de l’équilibre émotionnel lorsque les facteurs de stress dépassent les possibilités actuelles de faire face.",
+    "Une crise est un trait de personnalité permanent des personnes émotionnellement instables."
+   ],
+   "richtig": 2,
+   "erklaerung": "Les crises ne sont ni des maladies ni des traits, mais des états temporaires de déséquilibre. Ce qui compte, c’est le rapport subjectif entre la charge et les possibilités de faire face, et pas seulement la gravité objective du déclencheur."
+  },
+  {
+   "typ": "text",
+   "titel": "Crise traumatique et crise de changement de vie",
+   "text": "Le psychiatre suédois **Johan Cullberg** et, à sa suite, Sonneck distinguent deux formes fondamentales de crise psychosociale :\n\nLes **crises traumatiques** sont déclenchées par un événement **soudain et imprévisible** qui menace massivement l’identité, la sécurité sociale ou les moyens d’existence d’une personne. Parmi les exemples figurent le décès soudain d’un proche, un diagnostic grave, un accident, une expérience de violence, une séparation soudaine ou un licenciement sans préavis. Le choc est caractéristique : l’événement « fait irruption ».\n\nLes **crises de changement de vie** naissent d’événements qui appartiennent au **cours normal de la vie** et sont souvent prévisibles, voire souhaités, mais qui exigent une adaptation qui ne réussit pas pour le moment. Parmi les exemples figurent le départ des enfants, le mariage, la naissance d’un enfant, l’entrée dans la vie active, un déménagement, le départ à la retraite ou le besoin croissant de soins des parents. Ici, la crise tend à s’installer **progressivement**.\n\nLa distinction n’est pas une grille rigide : selon les circonstances, un événement peut relever des deux, et les crises de changement de vie peuvent brusquement s’aggraver sous l’effet de charges supplémentaires. Pour la pratique, la distinction est néanmoins utile, car les évolutions – et donc les tâches du conseil – diffèrent."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Attribuez les déclencheurs au type de crise le plus typique.",
+   "kategorien": [
+    "crise traumatique",
+    "crise de changement de vie"
+   ],
+   "elemente": [
+    {
+     "text": "Le mari meurt de manière inattendue dans un accident de la route.",
+     "kat": 0
+    },
+    {
+     "text": "Le plus jeune enfant part faire ses études, et la mère se sent de plus en plus vide.",
+     "kat": 1
+    },
+    {
+     "text": "Une infirmière est agressée physiquement par un proche de patient pendant son service.",
+     "kat": 0
+    },
+    {
+     "text": "Un enseignant part à la retraite et perd la structure de ses journées.",
+     "kat": 1
+    },
+    {
+     "text": "Une femme reçoit un diagnostic de cancer lors d’un examen de routine.",
+     "kat": 0
+    },
+    {
+     "text": "Après la naissance de leur premier enfant, un couple connaît des conflits et un épuisement croissants.",
+     "kat": 1
+    },
+    {
+     "text": "Après un incendie, l’appartement est inhabitable.",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Les crises traumatiques commencent par un événement soudain et imprévisible. Les crises de changement de vie naissent de transitions qui font partie du cours de la vie et sont souvent prévisibles. Dans les cas particuliers, les frontières peuvent être floues."
+  },
+  {
+   "typ": "text",
+   "titel": "Les phases de la crise traumatique selon Cullberg",
+   "text": "Cullberg décrit une évolution typique de la crise traumatique en quatre phases. Les phases sont à comprendre comme des repères ; toutes les personnes ne les traversent pas entièrement ni dans le même ordre.\n\n- **Phase de choc** : elle dure généralement de quelques heures à plusieurs jours. La réalité est tenue à l’écart de la conscience. Les personnes concernées paraissent parfois étonnamment maîtresses d’elles-mêmes à l’extérieur, mais se sentent engourdies intérieurement, ou bien elles sont chaotiques, confuses et difficilement accessibles. Plus tard, elles ne se souviennent souvent que de fragments.\n- **Phase de réaction** : la personne est confrontée à la réalité. Des sentiments intenses tels que le désespoir, la colère, la culpabilité, la peur et le chagrin surgissent, ainsi que des mécanismes de défense comme le déni ou la rationalisation. Choc et réaction forment ensemble la **phase aiguë**, qui peut durer plusieurs semaines. Dans cette phase, le danger de tentatives de coping défavorables comme l’abus de substances est accru, de même que le risque suicidaire.\n- **Phase d’élaboration** : la personne commence à se détacher de l’événement et du passé et à se tourner de nouveau vers l’avenir. De nouveaux intérêts et projets apparaissent.\n- **Réorientation** : l’événement est intégré comme partie de sa propre histoire de vie. L’estime de soi se rétablit, et de nouvelles relations et tâches deviennent possibles. Dans le cas favorable, la personne sort de la crise avec de nouvelles expériences et capacités.\n\nPour l’intervention, cela signifie : dans la phase de choc, la sécurité, l’orientation, l’accompagnement et l’aide pratique sont au premier plan – et non des entretiens approfondis sur les sentiments ou les significations."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Remettez dans le bon ordre les phases de la crise traumatique selon Cullberg.",
+   "elemente": [
+    "Phase de choc",
+    "Phase de réaction",
+    "Phase d’élaboration",
+    "Réorientation"
+   ],
+   "erklaerung": "Les phases de choc et de réaction forment la phase aiguë. Dans la phase d’élaboration, la personne se détache de l’événement ; dans la réorientation, celui-ci est intégré dans l’histoire de vie."
+  },
+  {
+   "typ": "text",
+   "titel": "Les phases de la crise de changement de vie",
+   "text": "Pour les crises de changement de vie, Sonneck, s’appuyant sur Caplan, décrit une autre évolution :\n\n- **Confrontation** : la personne est confrontée à un événement de changement de vie. La tension augmente, et elle tente de faire face à la situation avec ses stratégies habituelles de résolution de problèmes.\n- **Échec** : les stratégies habituelles ne fonctionnent pas. Un sentiment d’avoir échoué apparaît ; l’estime de soi et la confiance diminuent, et la charge s’accroît.\n- **Mobilisation** : la personne mobilise toutes ses ressources internes et externes, essaie de nouvelles approches et se montre souvent, dans cette phase, **particulièrement ouverte à une aide extérieure**. Si le dépassement réussit, la crise peut s’achever ici.\n- **Crise pleinement déclarée** : si la mobilisation échoue elle aussi, s’ensuivent repli, résignation, désespoir et désorganisation. Il existe un risque de **chronicisation**, de fuite dans l’addiction ou dans des troubles psychosomatiques, d’apparition d’une maladie mentale et de **suicidalité**.\n\nUn message important pour la pratique découle de cette évolution : la phase de mobilisation est une **fenêtre d’opportunité pour l’aide**. Qui s’adresse à un service de conseil dans cette phase est souvent très motivé, et quelques séances seulement peuvent prévenir une évolution vers une crise pleinement déclarée. Cela justifie le principe de répondre **rapidement** aux demandes liées à une crise plutôt que de les inscrire sur de longues listes d’attente."
+  },
+  {
+   "typ": "luecke",
+   "text": "Dans une crise de changement de vie, la confrontation est suivie de l’{{échec|expérience de choc|réorientation}} des stratégies habituelles. Dans la phase de {{mobilisation|réaction|déni}}, la personne est particulièrement ouverte à l’aide. Si celle-ci échoue, il existe un risque d’{{une crise pleinement déclarée|une phase d’élaboration|une phase de rétablissement}} avec repli et résignation.",
+   "erklaerung": "Selon Sonneck, la séquence est : confrontation – échec – mobilisation – et, le cas échéant, crise pleinement déclarée. La phase de mobilisation est une fenêtre favorable pour le soutien."
+  },
+  {
+   "typ": "text",
+   "titel": "Crise ou urgence psychiatrique ?",
+   "text": "Toute charge aiguë n’est pas une crise psychosociale au sens décrit. Il faut la distinguer de l’**urgence psychiatrique** : un état dans lequel, en raison d’un trouble mental ou d’un état aigu de détresse psychique, il existe un **danger immédiat pour la vie ou la santé** de la personne concernée ou d’autrui, et une action médicale immédiate est requise.\n\nParmi les exemples de situations d’urgence figurent :\n\n- la **suicidalité aiguë** avec des projets concrets et une incapacité à s’en distancier,\n- le **danger aigu pour autrui**, par exemple des menaces de violence,\n- les **états psychotiques aigus** avec une angoisse massive, une perception erronée de la réalité ou une agitation,\n- les **états confusionnels** (p. ex. delirium), dont les causes sont fréquemment somatiques,\n- l’**intoxication** par l’alcool, des médicaments ou des drogues, ainsi que des symptômes de sevrage dangereux.\n\nDans de telles situations, ce n’est pas le conseil qui est nécessaire, mais une **prise en charge médicale d’urgence** : le numéro d’urgence **112**, le service des urgences d’un hôpital psychiatrique ou – selon la région – un service psychiatrique de crise. Dans la mesure du possible et si cela est sûr, le conseiller reste auprès de la personne jusqu’à l’arrivée des secours.\n\nLes crises aussi peuvent évoluer en urgences, en particulier dans une crise pleinement déclarée ou dans la phase aiguë d’une crise traumatique. Reconnaître cette limite est une compétence centrale de l’intervention de crise. Sa propre sécurité est toujours prioritaire : lorsque d’autres personnes sont en danger, on appelle la police au **110** (numéro d’appel de la police en Allemagne)."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles situations doivent être classées comme urgence psychiatrique nécessitant une aide médicale immédiate ? (Plusieurs réponses possibles)",
+   "optionen": [
+    "Une personne décrit un plan de suicide concret pour ce soir et ne parvient pas à s’en distancier.",
+    "Une personne est abattue après son départ à la retraite et cherche une nouvelle structure quotidienne.",
+    "Une personne est soudainement désorientée, perçoit les situations de manière erronée et ne sait pas où elle se trouve.",
+    "Une personne a pris une grande quantité de comprimés avec de l’alcool.",
+    "Une personne est très triste après une séparation et pleure beaucoup pendant la séance."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Une suicidalité aiguë sans capacité de distanciation, une confusion aiguë et une intoxication nécessitent une aide médicale immédiate (112). Le chagrin après une séparation et l’abattement après une transition sont éprouvants, mais relèvent d’abord du conseil et de l’accompagnement de crise – bien qu’il faille aussi être attentif ici à la suicidalité."
+  },
+  {
+   "typ": "fall",
+   "titel": "Quel type de crise, quelle phase ?",
+   "fall": "Vignette pédagogique construite : M. T., 61 ans, a travaillé 35 ans pour la même entreprise. Il y a quatre mois, dans le cadre d’une restructuration annoncée de longue date, on lui a proposé une retraite anticipée, qu’il a acceptée. Au début, dit-il, il a planifié des « projets », mais il n’en a réalisé aucun. Depuis plusieurs semaines, il reste souvent au lit jusqu’à midi, évite ses connaissances et dit : « Je ne sers plus à rien. J’ai tout essayé ; ça ne sert à rien. »",
+   "frage": "Comment la situation peut-elle être le mieux qualifiée ?",
+   "optionen": [
+    "Crise traumatique en phase de choc",
+    "Crise de changement de vie en transition vers une crise pleinement déclarée, avec des signes qui rendent nécessaire une évaluation de la suicidalité",
+    "Crise de changement de vie en phase de mobilisation, donc avec un pronostic particulièrement favorable",
+    "Pas une crise, mais une réaction d’adaptation normale qui ne nécessite aucun soutien"
+   ],
+   "richtig": 1,
+   "erklaerung": "Le déclencheur est prévisible et fait partie du cours de la vie – typique d’une crise de changement de vie. Après l’échec de ses propres tentatives apparaissent repli, résignation et désespoir, c’est-à-dire les caractéristiques d’une crise pleinement déclarée. La phrase « ça ne sert à rien » rend nécessaire d’interroger avec tact et directement sur les pensées suicidaires et de proposer une évaluation médicale."
+  },
+  {
+   "typ": "karten",
+   "titel": "Notions centrales de la théorie de la crise",
+   "karten": [
+    {
+     "vorne": "Crise psychosociale (Sonneck, paraphrasé)",
+     "hinten": "Perte de l’équilibre émotionnel lorsque des événements ou des circonstances de vie dépassent les possibilités actuelles de faire face ; pas une maladie, limitée dans le temps."
+    },
+    {
+     "vorne": "Crise traumatique",
+     "hinten": "Événement soudain et imprévisible ; phases selon Cullberg : choc, réaction, élaboration, réorientation."
+    },
+    {
+     "vorne": "Crise de changement de vie",
+     "hinten": "Transition dans le cours de la vie ; phases : confrontation, échec, mobilisation, éventuellement crise pleinement déclarée."
+    },
+    {
+     "vorne": "Phase aiguë",
+     "hinten": "Phases de choc et de réaction de la crise traumatique ; risque accru de coping défavorable et de suicidalité."
+    },
+    {
+     "vorne": "Urgence psychiatrique",
+     "hinten": "Danger immédiat pour la vie ou la santé résultant d’un état aigu de détresse psychique ; aide médicale immédiate (112)."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Remémorez-vous une crise de votre propre vie ou de la vie d’une personne que vous avez accompagnée. Quelles phases peut-on reconnaître rétrospectivement, et qu’est-ce qui a été aidant dans quelle phase ?",
+   "hinweis": "Questions directrices : le déclencheur était-il soudain ou prévisible ? Quand l’aide extérieure était-elle bienvenue, et quand ne l’était-elle pas ? Qu’est-ce qui a contribué à la réorientation ? Qu’est-ce que j’en apprends pour mon attitude envers les personnes en crise ?"
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "id": "L6-2",
+ "titel": "Épuisement professionnel et burnout",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Le burnout dans la CIM-11 : un phénomène, non une maladie",
+   "text": "Le terme de **burnout** a été forgé dans les années 1970 par le psychanalyste Herbert Freudenberger, qui décrivait des états d’épuisement chez les professionnels de l’aide. Christina Maslach a ensuite développé l’instrument de mesure le plus connu, le Maslach Burnout Inventory.\n\nDans la **CIM-11** de l’Organisation mondiale de la santé, le burnout figure sous le code **QD85**. Le classement est décisif : le burnout apparaît dans le chapitre « Facteurs influant sur l’état de santé ou motifs de recours aux services de santé », dans la section consacrée aux problèmes liés à l’emploi ou au chômage. L’OMS a précisé que le burnout n’est donc **pas classé comme une affection médicale**, mais comme un **phénomène professionnel**.\n\nLa CIM-11 décrit le burnout comme un syndrome conceptualisé comme résultant d’un stress chronique au travail qui n’a pas été géré avec succès. Il se caractérise par trois dimensions :\n\n- un sentiment de **manque d’énergie** ou d’épuisement,\n- une **distance mentale** accrue vis-à-vis de son travail, ou des sentiments de négativisme ou de cynisme à son égard,\n- un sentiment d’**inefficacité** et de manque d’accomplissement.\n\nImportant : le terme se rapporte explicitement au **contexte professionnel** et ne devrait pas être appliqué à des expériences dans d’autres domaines de la vie. En Allemagne, c’est actuellement encore la CIM-10-GM (version allemande de la CIM-10) qui est utilisée pour la facturation ; le code complémentaire correspondant y est Z73.0."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quelles sont les trois dimensions qui caractérisent le burnout selon la CIM-11 (QD85) ? Sélectionnez toutes les réponses pertinentes.",
+   "optionen": [
+    "Un sentiment de manque d’énergie ou d’épuisement",
+    "Des convictions délirantes concernant son propre travail",
+    "Une distance mentale accrue ou une attitude cynique vis-à-vis de son travail",
+    "Un sentiment d’inefficacité ou de performance réduite",
+    "Une durée d’au moins douze mois"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "L’épuisement, la distance mentale ou le cynisme et l’inefficacité vécue sont les trois dimensions. Des convictions délirantes (B) n’en font pas partie et évoqueraient un trouble psychique grave. La CIM-11 ne prévoit aucun critère temporel fixe pour le burnout (E)."
+  },
+  {
+   "typ": "text",
+   "titel": "Distinguer le burnout de la dépression",
+   "text": "Le burnout et la dépression se recoupent considérablement sur le plan empirique. L’épuisement, les difficultés de concentration, le retrait et les troubles du sommeil se retrouvent dans les deux. La distinction est centrale pour l’accompagnement, car la dépression est une **maladie nécessitant un traitement**, alors que le burnout au sens de la CIM-11 ne l’est pas.\n\nRepères pour une première estimation – et non pour un diagnostic :\n\n- **Contexte** : le burnout se rapporte au travail. Si l’anhédonie et le désespoir s’étendent à tous les domaines de la vie – y compris les vacances, la famille, les loisirs –, une dépression est plus probable.\n- **Gravité et durée** : un abattement marqué et persistant, une perte d’intérêt, des sentiments de dévalorisation et de culpabilité évoquent un épisode dépressif.\n- **Idées suicidaires** : elles sont toujours une raison d’aborder directement le sujet et d’obtenir une évaluation professionnelle.\n- **Causes physiques** : l’épuisement peut aussi avoir des causes somatiques, comme une maladie thyroïdienne, une anémie, une apnée du sommeil ou des séquelles d’infection. Un examen médical est donc conseillé en cas d’épuisement persistant.\n\nLa distinction n’est pas toujours nette. Un état de burnout non traité peut évoluer vers une dépression ; inversement, une dépression est parfois qualifiée de « burnout » parce que ce terme semble moins stigmatisant. Les accompagnants devraient donc, par principe, suggérer une évaluation médicale face à des tableaux d’épuisement."
+  },
+  {
+   "typ": "fall",
+   "titel": "L’enseignante épuisée",
+   "fall": "Vignette pédagogique construite : Mme L., 52 ans, enseignante en école primaire, sollicite un accompagnement en raison d’un « burnout ». Elle rapporte un épuisement persistant depuis des mois, du cynisme envers la direction de l’école et le sentiment de « ne plus rien arriver à faire ». Interrogée, elle dit que même pendant les vacances d’été elle n’a pu se résoudre à rien faire, qu’elle ne dort presque plus, qu’elle se vit comme « sans valeur » et qu’elle pense depuis plusieurs semaines que sa famille serait mieux sans elle.",
+   "frage": "Comment devez-vous procéder en tant qu’accompagnant(e) logothérapeutique ?",
+   "optionen": [
+    "Travailler avec Mme L. sur ses valeurs professionnelles afin de restaurer sa motivation.",
+    "Lui recommander de prendre des congés et fixer un nouveau rendez-vous après les vacances.",
+    "Aborder directement, sous l’angle de la suicidalité, ses pensées selon lesquelles sa famille serait mieux sans elle, reconnaître sa détresse et organiser concrètement avec elle une évaluation médicale ou psychothérapeutique rapide.",
+    "Lui expliquer que le burnout n’est pas une maladie et qu’elle n’a donc pas besoin de traitement."
+   ],
+   "richtig": 2,
+   "erklaerung": "Les plaintes dépassent le contexte professionnel (même pendant les vacances), et s’y ajoutent des sentiments de dévalorisation, des troubles du sommeil et des pensées d’être un fardeau pour la famille – un facteur de risque connu de suicidalité. Il faut aborder directement d’éventuelles idées suicidaires et obtenir une évaluation professionnelle rapide (C). Travailler sur les valeurs (A) ou attendre (B) serait négligent ; l’option D confond le classement du phénomène de burnout avec la question de savoir si une dépression nécessitant un traitement est présente."
+  },
+  {
+   "typ": "text",
+   "titel": "Facteurs organisationnels : le burnout n’est pas un problème purement individuel",
+   "text": "Maslach et son collègue Michael P. Leiter ont montré que le burnout naît essentiellement d’un décalage entre la personne et l’environnement de travail. Ils ont décrit **six domaines de la vie professionnelle** dans lesquels de tels problèmes d’ajustement peuvent survenir :\n\n- **Charge de travail** : trop de travail de manière persistante avec trop peu de ressources,\n- **Contrôle** : peu d’influence sur son propre travail,\n- **Récompense** : manque de reconnaissance financière, sociale ou intrinsèque,\n- **Communauté** : relations de travail fragiles ou conflictuelles,\n- **Équité** : injustice vécue,\n- **Valeurs** : conflit entre ses propres valeurs et celles de l’organisation.\n\nLe dernier point en particulier touche au thème central de la logothérapie : celui qui est contraint de travailler à l’encontre de ses valeurs – par exemple dans les soins infirmiers, dans des conditions qui empêchent de bien soigner – vit une forme particulière de contrainte. En éthique des soins, on parle à ce sujet de **détresse morale** (moral distress).\n\nUne conséquence éthique importante en découle : l’accompagnement ne doit pas individualiser exclusivement le burnout. Un accompagnement orienté vers le sens peut aider les personnes à clarifier leur attitude et leurs limites – mais il ne remplace pas la responsabilité des employeurs en matière de conditions de travail saines. Une « cure de sens » pour des salariés soumis à des conditions structurellement nocives serait un usage abusif de la logothérapie."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les descriptions (construites) au domaine de la vie professionnelle correspondant selon Maslach et Leiter.",
+   "paare": [
+    [
+     "« Je n’ai absolument aucune influence sur la manière dont je soigne mes patients – tout est prescrit. »",
+     "Contrôle"
+    ],
+    [
+     "« Nous sommes censés vendre davantage, même si les clients n’ont absolument pas besoin du produit. Cela contredit tout ce en quoi je crois. »",
+     "Valeurs"
+    ],
+    [
+     "« Ce sont toujours les mêmes qui sont promus, peu importe qui fait du bon travail. »",
+     "Équité"
+    ],
+    [
+     "« Depuis la restructuration, plus personne dans l’équipe ne se parle. »",
+     "Communauté"
+    ],
+    [
+     "« Personne ne me remercie pour mes heures supplémentaires, et le salaire suffit à peine. »",
+     "Récompense"
+    ]
+   ],
+   "erklaerung": "Les six domaines (charge de travail, contrôle, récompense, communauté, équité, valeurs) aident à situer les risques de burnout non seulement dans la personne, mais aussi dans l’organisation. Dans une perspective logothérapeutique, le conflit de valeurs est particulièrement significatif."
+  },
+  {
+   "typ": "text",
+   "titel": "Perspectives logothérapeutiques sur l’épuisement professionnel",
+   "text": "Dans une perspective logothérapeutique et d’analyse existentielle, l’épuisement professionnel n’est pas compris uniquement comme le résultat d’un excès de travail. Une idée récurrente est que l’épuisement menace en particulier lorsque des activités sont accomplies de manière principalement **utilitaire** et sans **adhésion intérieure** – pour obtenir de la reconnaissance, répondre à des attentes ou se prémunir contre des peurs. Alfred Längle a décrit ce lien en détail dans des travaux d’analyse existentielle consacrés au burnout.\n\nIl en résulte plusieurs points d’appui pour l’accompagnement :\n\n- **Clarifier les valeurs** : qu’est-ce qui est vraiment important pour moi dans mon travail ? Que fais-je par conviction intérieure, que fais-je par devoir ou par peur ?\n- **Distinguer le sens de l’utilité** : une activité peut être utile et néanmoins vécue comme dépourvue de sens. Inversement, une activité discrète peut avoir du sens si elle est reliée à ses propres valeurs.\n- **Les limites comme responsabilité** : poser des limites n’est pas une trahison de ses propres valeurs, mais une condition pour pouvoir les servir à long terme.\n- **Le sens au-delà du travail** : celui qui tire tout le sens de sa vie de sa profession est particulièrement vulnérable. Les valeurs d’expérience, les relations et d’autres sources de sens ont un effet stabilisant.\n\nCes perspectives complètent les mesures établies de gestion du stress et de promotion de la santé en entreprise, mais ne les remplacent pas."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Dans une perspective logothérapeutique, un niveau particulièrement élevé de sens vécu au travail protège fondamentalement contre le burnout, de sorte que les personnes très idéalistes sont à peine exposées au risque.",
+   "richtig": false,
+   "erklaerung": "Faux. Ce sont précisément les personnes qui tirent le sens de leur vie presque exclusivement de leur profession ou qui se consacrent sans limite à une tâche qui peuvent être particulièrement vulnérables – surtout lorsque des conditions structurelles empêchent la réalisation de leurs valeurs. Freudenberger a d’ailleurs décrit le burnout à l’origine précisément chez des professionnels de l’aide engagés."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Classez les éléments : quelles mesures visent principalement la personne, lesquelles l’organisation ?",
+   "kategorien": [
+    "Centrées sur la personne",
+    "Centrées sur l’organisation"
+   ],
+   "elemente": [
+    {
+     "text": "Clarification des valeurs et priorités personnelles dans l’accompagnement",
+     "kat": 0
+    },
+    {
+     "text": "Des effectifs réalistes",
+     "kat": 1
+    },
+    {
+     "text": "Apprentissage de stratégies pour poser des limites",
+     "kat": 0
+    },
+    {
+     "text": "Association des salariés aux décisions concernant les processus de travail",
+     "kat": 1
+    },
+    {
+     "text": "Entretien de sources de sens en dehors du travail",
+     "kat": 0
+    },
+    {
+     "text": "Des critères de promotion équitables et transparents",
+     "kat": 1
+    },
+    {
+     "text": "Une supervision régulière proposée et financée par l’employeur",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Une prévention efficace du burnout agit sur les deux niveaux. Les mesures centrées sur la personne renforcent les ressources et les limites ; les mesures centrées sur l’organisation modifient les conditions. Bien que la supervision soit utilisée par des individus, elle constitue, en tant qu’offre mise à disposition par l’institution, une mesure organisationnelle."
+  },
+  {
+   "typ": "text",
+   "titel": "Un processus d’accompagnement en cas d’épuisement professionnel",
+   "text": "Un processus d’accompagnement d’orientation logothérapeutique en cas d’épuisement professionnel peut – après avoir exclu une maladie nécessitant un traitement – comprendre les éléments suivants :\n\n**1. Clarification et soulagement** : il s’agit d’abord de comprendre la situation et de reconnaître la charge. Si nécessaire, un examen médical est suggéré, et le cas échéant aussi un arrêt de travail prescrit par le médecin traitant.\n\n**2. État des lieux** : quelles charges résident dans le travail, lesquelles dans sa propre attitude ? Les six domaines de la vie professionnelle offrent une structure.\n\n**3. Clarification des valeurs** : à l’aide du dialogue socratique, on dégage les valeurs qui ont à l’origine conduit la personne vers sa profession, et l’on examine si et comment elles peuvent être réalisées dans les conditions données.\n\n**4. Marges de décision** : que peut-on changer au travail (entretiens, réorganisation, changement de poste) ? Qu’est-ce qui ne peut être changé – et comment la personne souhaite-t-elle prendre position à cet égard ?\n\n**5. Ancrage** : démarches concrètes, entretien d’autres sources de sens, accords sur le prendre-soin de soi.\n\nIl convient de noter que les personnes en état d’épuisement sévère n’ont qu’une capacité de réflexion limitée. Dans les phases aiguës, le repos et la stabilisation sont au premier plan ; les questions de sens plus profondes trouvent leur place plus tard."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Placez les phases d’un processus d’accompagnement d’orientation logothérapeutique en cas d’épuisement professionnel dans l’ordre décrit.",
+   "elemente": [
+    "Clarification, soulagement et, le cas échéant, évaluation médicale",
+    "État des lieux des charges liées au travail et à l’attitude",
+    "Clarification des valeurs professionnelles",
+    "Exploration des marges de décision : ce qui peut être changé et ce qui ne le peut pas",
+    "Ancrage de démarches concrètes et entretien d’autres sources de sens"
+   ],
+   "erklaerung": "Le soulagement et la clarification de la présence éventuelle d’une maladie nécessitant un traitement viennent toujours en premier. Ce n’est qu’ensuite que suivent l’analyse, la clarification des valeurs, les décisions et l’ancrage."
+  },
+  {
+   "typ": "karten",
+   "titel": "Burnout – notions clés",
+   "karten": [
+    {
+     "vorne": "QD85",
+     "hinten": "Code du burnout dans la CIM-11 ; classé comme phénomène professionnel dans le chapitre « Facteurs influant sur l’état de santé … », et non comme maladie."
+    },
+    {
+     "vorne": "Trois dimensions selon la CIM-11",
+     "hinten": "Manque d’énergie, distance mentale/cynisme vis-à-vis de son travail, sentiment d’inefficacité."
+    },
+    {
+     "vorne": "Z73.0",
+     "hinten": "Code complémentaire correspondant dans la CIM-10-GM, la version utilisée en Allemagne."
+    },
+    {
+     "vorne": "Six domaines de la vie professionnelle",
+     "hinten": "Charge de travail, contrôle, récompense, communauté, équité, valeurs (Maslach & Leiter)."
+    },
+    {
+     "vorne": "Détresse morale (moral distress)",
+     "hinten": "Charge qui apparaît lorsqu’on sait ce qui serait éthiquement juste, mais qu’on est empêché de le faire par des circonstances extérieures."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Comment se présente votre propre situation de travail dans les six domaines de la vie professionnelle ? Où voyez-vous des risques pour vous-même en tant que professionnel(le) de l’aide ?",
+   "hinweis": "Questions d’orientation : où vivez-vous une bonne adéquation, où une tension ? Quelles valeurs professionnelles pouvez-vous bien réaliser, lesquelles non ? Que faites-vous pour prendre soin de vous ?"
+  }
+ ]
+}

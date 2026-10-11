@@ -1,0 +1,107 @@
+{
+ "titel": "Chemins vers le sens",
+ "beschreibung": "Où et comment le sens peut-il être trouvé ? Ce module présente les trois catégories de valeurs de Frankl, le principe de l'autotranscendance et le phénomène du vide existentiel. Il montre comment la logothérapie aborde la souffrance, la culpabilité et la finitude, et vous invite, au moyen de nombreux exercices de réflexion, à mettre les concepts en relation avec votre propre vie.",
+ "lernziele": [
+  "Vous êtes capable de distinguer les valeurs créatrices, d'expérience et d'attitude et de les illustrer par des exemples.",
+  "Vous êtes capable d'expliquer pourquoi, selon Frankl, l'actualisation de soi et le bonheur sont des effets secondaires de l'autotranscendance.",
+  "Vous êtes capable de décrire le vide existentiel et de le distinguer d'une maladie psychique.",
+  "Vous êtes capable de présenter la triade tragique et les idées fondamentales de l'optimisme tragique.",
+  "Vous êtes capable de reconnaître des possibilités de sens dans des situations quotidiennes et d'y réfléchir."
+ ],
+ "pruefung": [
+  {
+   "typ": "multi",
+   "frage": "Quelles sont les trois catégories de valeurs que distingue Frankl ?",
+   "optionen": [
+    "Valeurs créatrices",
+    "Valeurs matérielles",
+    "Valeurs d'expérience",
+    "Valeurs d'attitude",
+    "Valeurs de performance"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Frankl distingue les valeurs créatrices (donner), les valeurs d'expérience (recevoir) et les valeurs d'attitude (prise de position face à ce qui ne peut être changé)."
+  },
+  {
+   "typ": "mc",
+   "frage": "Selon Frankl, quand les valeurs d'attitude entrent-elles en jeu ?",
+   "optionen": [
+    "Lorsqu'une personne fait face à un destin immuable.",
+    "À chaque désagrément quotidien.",
+    "Uniquement chez les personnes religieuses.",
+    "Lorsque quelqu'un s'impose volontairement une souffrance évitable."
+   ],
+   "richtig": 0,
+   "erklaerung": "Les valeurs d'attitude concernent la prise de position face à une souffrance inévitable. La souffrance évitable doit être éliminée."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Selon Frankl, l'actualisation de soi est un effet secondaire du dévouement à une tâche ou à une autre personne.",
+   "richtig": true,
+   "erklaerung": "Selon Frankl, l'actualisation de soi advient lorsqu'une personne se transcende ; poursuivie comme but direct, elle est facilement manquée."
+  },
+  {
+   "typ": "mc",
+   "frage": "Qu'illustre la parabole du boomerang ?",
+   "optionen": [
+    "Que les bonnes actions reviennent toujours vers soi.",
+    "Que les problèmes que l'on refoule reviennent.",
+    "Que les êtres humains reviennent à leur état antérieur après des crises.",
+    "Qu'une personne ne tourne constamment autour d'elle-même que lorsqu'elle a manqué son sens."
+   ],
+   "richtig": 3,
+   "erklaerung": "Selon Frankl, un boomerang ne revient que lorsqu'il a manqué sa cible – une image de l'égocentrisme comme conséquence d'une orientation vers le sens qui a échoué."
+  },
+  {
+   "typ": "mc",
+   "frage": "Selon Frankl, quelles sont les deux pertes d'orientation qui conduisent au vide existentiel ?",
+   "optionen": [
+    "Perte de la prospérité et de la santé",
+    "Perte des instincts et des traditions",
+    "Perte de la famille et des amis",
+    "Perte de la religion et de la science"
+   ],
+   "richtig": 1,
+   "erklaerung": "Les instincts ne disent pas à l'être humain ce qu'il doit faire, et les traditions lui disent de moins en moins ce qu'il devrait faire."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Frankl décrivait le doute sur le sens de la vie comme l'expression d'une maladie psychique.",
+   "richtig": false,
+   "erklaerung": "Pour Frankl, la question du sens est profondément humaine. La frustration existentielle n'est pas pathologique en soi ; seule une symptomatologie qui en découle constitue ce qu'il appelle une névrose noogène."
+  },
+  {
+   "typ": "mc",
+   "frage": "De quoi se compose la triade tragique ?",
+   "optionen": [
+    "Anxiété, compulsion, dépression",
+    "Dépression, agression, addiction",
+    "Souffrance, culpabilité, mort",
+    "Maladie, pauvreté, solitude"
+   ],
+   "richtig": 2,
+   "erklaerung": "La triade tragique comprend la souffrance, la culpabilité et la mort. Frankl appelait la dépression, l'agression et l'addiction la triade névrotique de masse."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels énoncés s'appliquent à l'optimisme tragique ?",
+   "optionen": [
+    "Il prend au sérieux la souffrance, la culpabilité et la mort.",
+    "Il exige de montrer de la bonne humeur dans toute situation.",
+    "Il voit dans la culpabilité une occasion de se changer en mieux.",
+    "Il ne peut pas être prescrit à une personne de l'extérieur.",
+    "Il nie l'existence d'une souffrance inévitable."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "L'optimisme tragique prend la triade au sérieux, y voit des possibilités et ne peut pas être commandé. Il n'est ni une contrainte à la gaieté ni un déni de la souffrance."
+  }
+ ]
+}

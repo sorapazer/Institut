@@ -1,0 +1,136 @@
+{
+ "id": "G2-4",
+ "titel": "Triade tragique, optimisme tragique et sens au quotidien",
+ "dauer": 24,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Souffrance, culpabilité et mort",
+   "text": "Aucune vie humaine n'échappe à trois expériences fondamentales, que Frankl appelait la **triade tragique** :\n\n- **La souffrance :** douleur, maladie, perte, déception.\n- **La culpabilité :** la conscience d'avoir commis des erreurs, blessé d'autres personnes ou manqué des occasions.\n- **La mort** ou la **finitude :** le caractère fini de sa propre vie et le passage de chaque instant.\n\nDe nombreuses approches qui décrivent une vie réussie laissent de côté ces expériences ou les traitent seulement comme des facteurs perturbateurs. Frankl, au contraire, les a placées au centre. Sa question était : une vie peut-elle avoir un sens malgré la souffrance, la culpabilité et la mort – ou peut-être même gagner en sens précisément dans la confrontation avec elles ?\n\nCette question n'est pas seulement théorique. Elle se pose dans les maisons de soins palliatifs et les hôpitaux, après des séparations et des accidents, après de graves erreurs de décision et dans la vieillesse. La logothérapie a donc acquis une importance particulière dans les **soins palliatifs**, dans l'**accompagnement du deuil** et dans l'**accompagnement spirituel**."
+  },
+  {
+   "typ": "text",
+   "titel": "L'optimisme tragique",
+   "text": "En 1984, Frankl ajouta à son livre le plus connu une postface intitulée *The Case for a Tragic Optimism*. Par **optimisme tragique**, il entend l'attitude qui consiste à dire oui à la vie malgré la triade tragique. Il y associait trois possibilités :\n\n- La **souffrance** peut être transformée en accomplissement humain – par exemple en compassion, en maturité ou en aide apportée à d'autres.\n- La **culpabilité** peut devenir l'occasion de se changer en mieux et d'assumer ses responsabilités.\n- La **finitude** peut être une incitation à utiliser son propre temps de manière responsable.\n\nL'optimisme tragique n'est **pas un optimisme forcé** ni une obligation d'être gai. Frankl soulignait que l'optimisme ne se commande pas. Dire à une personne en deuil qu'elle devrait voir le bon côté des choses n'est pas agir dans l'esprit de Frankl.\n\nCe qui est visé, c'est une attitude qui prend le tragique au sérieux et ne perd pourtant pas de vue les possibilités qui demeurent. Elle ne naît pas d'appels, mais – si elle naît – du propre combat intérieur d'une personne."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez les éléments de la triade tragique à la possibilité que Frankl voit dans l'optimisme tragique.",
+   "paare": [
+    [
+     "Souffrance",
+     "Transformation en accomplissement humain"
+    ],
+    [
+     "Culpabilité",
+     "Occasion de se changer en mieux"
+    ],
+    [
+     "Finitude",
+     "Incitation à agir de manière responsable"
+    ]
+   ],
+   "erklaerung": "C'est ainsi que Frankl formulait l'optimisme tragique : chaque élément de la triade recèle une possibilité qui peut – mais ne doit pas nécessairement – être saisie."
+  },
+  {
+   "typ": "mc",
+   "frage": "Une amie a perdu son partenaire. Quelle réaction contredit le plus clairement la conception de l'optimisme tragique ?",
+   "optionen": [
+    "Être présent, écouter et supporter la douleur sans la juger.",
+    "Lui demander ce qui comptait particulièrement pour elle chez son partenaire.",
+    "Lui dire : « Vois le bon côté des choses, maintenant tu es libre pour quelque chose de nouveau. »",
+    "La soutenir dans les questions pratiques au cours des semaines à venir."
+   ],
+   "richtig": 2,
+   "erklaerung": "Selon Frankl, l'optimisme ne peut pas être prescrit. L'injonction à voir le bon côté des choses passe outre la douleur. L'écoute, l'intérêt pour le défunt et l'aide pratique respectent le deuil."
+  },
+  {
+   "typ": "text",
+   "titel": "Le passé comme grenier",
+   "text": "Frankl a développé une idée remarquable sur la finitude. On dit souvent que tout passe et que tout est donc, en fin de compte, dépourvu de sens. Frankl voyait les choses à l'inverse : ce qui a été réalisé une fois est « sauvé » **irrévocablement** dans le passé. Aucun événement ultérieur ne peut faire qu'un amour n'ait pas été vécu, qu'un acte n'ait pas été accompli ou qu'une souffrance n'ait pas été courageusement supportée.\n\nFrankl utilisait pour cela l'image des **greniers du passé** : celui qui regarde un champ de chaumes moissonné ne voit que du vide. Mais la récolte n'est pas perdue ; elle a été engrangée. De même, une vie vécue n'est pas vide simplement parce qu'elle est passée.\n\nCette idée peut être particulièrement consolante pour les personnes âgées et pour les personnes endeuillées. Elle déplace le regard de ce qui n'est plus possible vers ce qui a déjà été réalisé.\n\nEn même temps, elle comporte un rappel : parce que chaque possibilité réalisée demeure et que chaque possibilité manquée est perdue, l'instant présent revêt une grande importance. La finitude ne rend pas la vie dépourvue de sens, mais en fait **une affaire de responsabilité**."
+  },
+  {
+   "typ": "merke",
+   "text": "Vis comme si tu vivais pour la seconde fois et comme si, la première fois, tu avais agi aussi mal que tu es sur le point d'agir maintenant.",
+   "quelle": "Viktor E. Frankl, paraphrase d'après Ärztliche Seelsorge (The Doctor and the Soul)"
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Selon Frankl, la finitude rend en fin de compte dépourvu de sens tout ce qui a été accompli.",
+   "richtig": false,
+   "erklaerung": "Frankl soutenait le contraire : ce qui a été réalisé est sauvé dans le passé et demeure irrévocable. La finitude donne son poids à l'instant et appelle à la responsabilité."
+  },
+  {
+   "typ": "text",
+   "titel": "Le sens au quotidien",
+   "text": "Selon Frankl, le sens ne se trouve pas seulement dans les grandes décisions de vie ou les situations limites. Parce que chaque situation contient sa propre possibilité de sens, le **quotidien** aussi est rempli de petites sollicitations : un collègue qui a besoin de soutien ; un enfant qui pose une question ; une tâche qui demande à être faite avec soin ; une soirée où l'on prend consciemment le temps de quelque chose de beau.\n\nDans la pratique, cela peut se traduire en trois questions simples correspondant aux trois catégories de valeurs :\n\n- **Que puis-je donner aujourd'hui ?**\n- **Que puis-je recevoir ou apprécier aujourd'hui ?**\n- **Quelle attitude veux-je adopter face à ce que je ne peux pas changer aujourd'hui ?**\n\nCe qui importe ici : il ne s'agit pas d'arracher de force un sens à chaque instant. Ce serait en soi une forme d'hyperintention. Les questions sont plutôt des invitations à l'attention. Le sens se montre souvent précisément lorsque nous sommes ouverts à ce qu'une situation nous demande.\n\nIci encore : personne ne peut dire à une autre personne ce qui a du sens dans son quotidien. Chacun donne la réponse par ses propres actes."
+  },
+  {
+   "typ": "luecke",
+   "text": "La triade tragique se compose de la souffrance, de la {{culpabilité|peur|monotonie}} et de la mort. Frankl comparait le passé à des {{greniers|ruines|prisons}} dans lesquels ce qui a été réalisé est engrangé.",
+   "erklaerung": "La souffrance, la culpabilité et la mort forment la triade tragique. L'image des greniers montre que ce qui a été réalisé est conservé en sécurité dans le passé."
+  },
+  {
+   "typ": "multi",
+   "frage": "Lesquelles des questions suivantes correspondent à la recherche de sens au quotidien au sens de Frankl ? Sélectionnez toutes les réponses pertinentes.",
+   "optionen": [
+    "Qu'est-ce que cette situation me demande en ce moment ?",
+    "Comment puis-je vivre le plus de bonheur possible aujourd'hui ?",
+    "Qui puis-je aider concrètement aujourd'hui ?",
+    "Qu'est-ce qui m'a touché(e) aujourd'hui sans que j'aie eu à l'accomplir ?",
+    "Comment puis-je faire pour ne plus jamais connaître la souffrance ?"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Les questions portant sur ce que demande la situation, sur le don et sur la réception correspondent à l'approche de Frankl. Maximiser directement le bonheur serait de l'hyperintention ; vouloir éviter entièrement la souffrance méconnaît la triade tragique."
+  },
+  {
+   "typ": "karten",
+   "titel": "Fiches : triade tragique et optimisme tragique",
+   "karten": [
+    {
+     "vorne": "Triade tragique",
+     "hinten": "Souffrance, culpabilité et mort (finitude) – expériences humaines fondamentales inéluctables."
+    },
+    {
+     "vorne": "Optimisme tragique",
+     "hinten": "Dire oui à la vie malgré la triade tragique ; non une gaieté prescrite, mais une attitude qui prend le tragique au sérieux."
+    },
+    {
+     "vorne": "Souffrance → ?",
+     "hinten": "Transformation en accomplissement humain, comme la compassion ou la maturité."
+    },
+    {
+     "vorne": "Culpabilité → ?",
+     "hinten": "Occasion de se changer en mieux et d'assumer ses responsabilités."
+    },
+    {
+     "vorne": "Finitude → ?",
+     "hinten": "Incitation à utiliser son propre temps de manière responsable."
+    },
+    {
+     "vorne": "Greniers du passé",
+     "hinten": "Ce qui a été réalisé est irrévocablement sauvé dans le passé."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Regardez dans vos « greniers du passé » : qu'avez-vous déjà réalisé dans votre vie que personne ne peut plus vous enlever ?",
+   "hinweis": "Pensez à des relations, à des actes, à des périodes difficiles que vous avez traversées, à des personnes que vous avez aidées. Notez au moins trois choses."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Essayez l'expérience de pensée de Frankl : imaginez que vous viviez aujourd'hui pour la seconde fois. Que feriez-vous différemment ?",
+   "hinweis": "Prêtez attention aux petites choses concrètes : une conversation, une décision, un moment d'attention. Lesquelles pouvez-vous effectivement mettre en pratique dès demain ?"
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Répondez aux trois questions du quotidien pour aujourd'hui : qu'ai-je pu donner ? Qu'ai-je pu recevoir ? Quelle attitude ai-je adoptée face à ce que je ne pouvais pas changer ?",
+   "hinweis": "Cet exercice peut être répété chaque soir pendant une semaine. Observez si votre attention aux possibilités de sens évolue au fil du temps."
+  }
+ ]
+}

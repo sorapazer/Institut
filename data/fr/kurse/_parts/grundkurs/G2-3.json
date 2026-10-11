@@ -1,0 +1,144 @@
+{
+ "id": "G2-3",
+ "titel": "Quand le sens fait défaut : le vide existentiel",
+ "dauer": 22,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Un sentiment de vide intérieur",
+   "text": "Par le terme de **vide existentiel**, Frankl décrivait un sentiment de vide intérieur et d'absence de sens qu'il considérait comme un phénomène répandu de son époque. Les personnes concernées vivent leur existence comme indifférente, vide de contenu ou sans but – pas nécessairement de manière dramatique, mais souvent plutôt comme un **ennui** sourd et un manque d'intérêt.\n\nFrankl expliquait ce phénomène par une double perte : contrairement à l'animal, l'être humain n'est guidé par **aucun instinct** qui lui dise ce qu'il *doit* faire. Et dans les sociétés modernes, les **traditions** lui disent de moins en moins ce qu'il *devrait* faire. Sans orientation intérieure, l'être humain risque soit de faire ce que font les autres (**conformisme**), soit de faire ce que les autres lui disent de faire (**totalitarisme**).\n\nLe vide existentiel n'est donc pas avant tout un échec individuel, mais a aussi des causes sociales. Frankl y voyait un défi : lorsque les instincts et les traditions n'offrent plus d'appui, l'être humain doit apprendre à découvrir lui-même le sens dans des situations concrètes à l'aide de sa **conscience**."
+  },
+  {
+   "typ": "text",
+   "titel": "Manifestations",
+   "text": "Le vide existentiel peut se manifester de diverses manières :\n\n- **Ennui et indifférence :** rien ne semble vraiment important.\n- **Névrose du dimanche :** terme de Frankl désignant le vide que certaines personnes ressentent lorsque la semaine de travail est terminée et qu'aucun cadre extérieur ne structure plus le temps.\n- **Crise lors du passage à la retraite** ou après le départ des enfants : des tâches familières disparaissent, et la question « À quoi bon, au fond ? » passe au premier plan.\n- **Satisfactions de substitution :** au lieu du sens, les personnes recherchent le pouvoir, l'argent, la consommation, la distraction permanente ou l'ivresse.\n\nFrankl a également décrit comment une volonté de sens non satisfaite peut être liée à des phénomènes comme la **dépression, l'agressivité et l'addiction** ; il parlait d'une « triade névrotique de masse ». Cette thèse est un diagnostic d'époque. Elle ne signifie pas que toute dépression, toute agression ou toute addiction provient d'une absence de sens – il existe pour celles-ci des causes biologiques, psychologiques et sociales multiples."
+  },
+  {
+   "typ": "mc",
+   "frage": "Comment Frankl expliquait-il l'apparition du vide existentiel ?",
+   "optionen": [
+    "Par un trouble inné du métabolisme cérébral.",
+    "Par la perte des instincts qui disent ce que l'on doit faire et par le déclin des traditions qui disent ce que l'on devrait faire.",
+    "Par une éducation trop stricte dans la petite enfance.",
+    "Par une surcharge de tâches pleines de sens."
+   ],
+   "richtig": 1,
+   "erklaerung": "Frankl invoquait la double perte d'orientation par les instincts et par les traditions. Il voyait le vide comme un phénomène existentiel, et non comme un phénomène principalement d'origine biologique ou lié à la petite enfance."
+  },
+  {
+   "typ": "text",
+   "titel": "Douter du sens n'est pas une maladie",
+   "text": "Une distinction importante : Frankl soulignait que **s'interroger sur le sens**, et même **douter** du sens de la vie, est profondément humain et n'est pas un signe de maladie. Poser la question du sens est l'expression d'une maturité spirituelle. Il distinguait donc :\n\n- **Frustration existentielle :** la volonté de sens est déçue. C'est douloureux, mais pas pathologique.\n- **Névrose noogène :** une symptomatologie nécessitant un traitement naît d'un conflit de sens ou de valeurs. Frankl y voyait le domaine d'indication propre de la logothérapie.\n\nPour la pratique, cela signifie : une personne en crise de sens ne doit pas être pathologisée hâtivement. En même temps, il ne faut pas négliger le cas où une **dépression** ou une autre maladie psychique se cache derrière une absence de sens ressentie. Une humeur dépressive persistante, une perte d'intérêt, des troubles du sommeil et de l'appétit ou des pensées suicidaires appellent une évaluation professionnelle, le cas échéant par un médecin ou un psychothérapeute. En cas de suicidalité aiguë, une aide professionnelle immédiate est nécessaire."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Selon Frankl, le doute sur le sens de la vie est en soi un symptôme de maladie psychique.",
+   "richtig": false,
+   "erklaerung": "Frankl considérait le doute sur le sens comme un phénomène profondément humain. Ce n'est que lorsqu'une symptomatologie nécessitant un traitement en découle qu'il parle de névrose noogène. Indépendamment de cela, il convient d'examiner si une dépression est présente."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "S'agit-il plutôt d'un signe de frustration existentielle ou d'un signal d'alerte qui suggère une évaluation professionnelle ?",
+   "kategorien": [
+    "Frustration existentielle",
+    "Signal d'alerte pour une évaluation professionnelle"
+   ],
+   "elemente": [
+    {
+     "text": "La question de savoir si son travail est encore épanouissant",
+     "kat": 0
+    },
+    {
+     "text": "Une humeur dépressive persistant depuis des semaines, avec perte de sommeil et d'appétit",
+     "kat": 1
+    },
+    {
+     "text": "Un sentiment de vide le week-end",
+     "kat": 0
+    },
+    {
+     "text": "Des propos exprimant le fait de ne plus vouloir vivre",
+     "kat": 1
+    },
+    {
+     "text": "Une incertitude après le départ à la retraite",
+     "kat": 0
+    },
+    {
+     "text": "Une consommation d'alcool croissante pour ne pas ressentir le vide",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Les questions de sens et les sentiments de vide sont souvent l'expression d'une frustration existentielle. Les symptômes dépressifs persistants, les pensées suicidaires et la consommation problématique de substances doivent en revanche faire l'objet d'une évaluation professionnelle – que des questions de sens soient présentes ou non."
+  },
+  {
+   "typ": "text",
+   "titel": "Peut-on mesurer le vécu du sens ?",
+   "text": "Le concept de vide existentiel de Frankl a très tôt stimulé la recherche empirique. Dans les années 1960, les psychologues américains James Crumbaugh et Leonard Maholick ont développé le **Purpose-in-Life Test (PIL)**, un questionnaire sur le vécu de l'accomplissement du sens. Elisabeth Lukas, une élève de Frankl, a développé dans l'espace germanophone le **Logo-Test**.\n\nAujourd'hui, le **Meaning in Life Questionnaire** (Steger et collaborateurs, 2006) est fréquemment utilisé à l'échelle internationale. Il distingue deux aspects : la *présence* de sens et la *recherche* de sens. Cette distinction est utile, car la recherche n'est pas automatiquement un déficit.\n\nDans l'ensemble, la recherche montre que le sens de la vie ressenti est associé à divers indicateurs de santé psychique et de satisfaction de vie. Il s'agit principalement de corrélations issues d'études par questionnaire ; elles ne permettent pas de conclusions simples sur ce qui est cause et ce qui est effet. La question de savoir dans quelle mesure le vécu du sens peut être clairement distingué du bien-être ou de la dépressivité fait également l'objet de débats critiques."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Associez correctement les instruments et les termes.",
+   "paare": [
+    [
+     "Purpose-in-Life Test",
+     "Crumbaugh et Maholick, années 1960"
+    ],
+    [
+     "Logo-Test",
+     "Elisabeth Lukas"
+    ],
+    [
+     "Meaning in Life Questionnaire",
+     "Distingue présence et recherche de sens"
+    ],
+    [
+     "Névrose du dimanche",
+     "Vide lorsque le cadre extérieur de la semaine de travail disparaît"
+    ]
+   ],
+   "erklaerung": "Le PIL, le Logo-Test et le MLQ sont des questionnaires sur le vécu du sens. La névrose du dimanche est le terme de Frankl pour une manifestation typique du vide existentiel."
+  },
+  {
+   "typ": "fall",
+   "titel": "Mme M. après la fin de sa carrière",
+   "fall": "Vignette pédagogique construite : Mme M., 64 ans, a travaillé pendant 40 ans comme comptable. Elle est à la retraite depuis trois mois. Elle raconte : « Je m'en réjouissais tellement. Maintenant je suis assise là et je ne sais pas pour quoi je devrais me lever le matin. Je ne suis pas malade, simplement tout me manque d'une certaine façon. » Elle dort normalement, voit des amies et n'a pas de pensées suicidaires.",
+   "frage": "Comment la situation de Mme M. peut-elle être le mieux qualifiée du point de vue logothérapeutique ?",
+   "optionen": [
+    "Il s'agit clairement d'une dépression sévère qui doit être traitée immédiatement par médicaments.",
+    "Mme M. a simplement trop peu de loisirs ; elle devrait trouver le plus possible d'activités de loisir.",
+    "Beaucoup d'éléments évoquent une frustration existentielle après la perte d'une structure porteuse de sens ; il serait utile d'explorer ensemble de nouvelles possibilités de sens et de garder un œil sur l'évolution.",
+    "Le problème est la conséquence d'expériences d'enfance refoulées qui doivent d'abord être élaborées."
+   ],
+   "richtig": 2,
+   "erklaerung": "La description correspond à une frustration existentielle : un vide de sens sans signes clairs de dépression sévère. Dans une perspective logothérapeutique, il s'agit d'explorer à nouveau les valeurs créatrices, d'expérience et d'attitude. La simple occupation ne remplace pas le sens ; une pathologisation hâtive ou une interprétation en termes d'enfance ne sont pas justifiées. Si la situation évolue, une évaluation professionnelle est recommandée."
+  },
+  {
+   "typ": "multi",
+   "frage": "Quels phénomènes Frankl cite-t-il comme satisfactions de substitution possibles lorsque la volonté de sens est frustrée ?",
+   "optionen": [
+    "La recherche de pouvoir",
+    "Le dévouement à une tâche",
+    "La course à l'argent et à la consommation",
+    "L'étourdissement par des substances enivrantes",
+    "L'amour pour une autre personne"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Selon Frankl, le pouvoir, l'argent et la consommation ainsi que l'étourdissement peuvent prendre la place d'un sens manqué. Le dévouement à une tâche et l'amour sont en revanche des formes d'accomplissement du sens."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Connaissez-vous des phases de vide intérieur ou d'ennui ? Quand surviennent-elles typiquement ?",
+   "hinweis": "Cherchez des récurrences : le week-end, en vacances, après avoir achevé quelque chose, lors de transitions. Que faites-vous habituellement dans ces moments ? Qu'est-ce qui vous ferait du bien à la place – du côté du don, de la réception ou de l'attitude ?"
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Où rencontrez-vous dans votre entourage le conformisme – faire ce que tout le monde fait – au lieu d'une orientation personnelle vers le sens ?",
+   "hinweis": "N'hésitez pas à vous inclure vous-même. Y a-t-il des décisions que vous avez prises surtout parce que « c'est comme ça qu'on fait » ? Que vous en dirait votre conscience ?"
+  }
+ ]
+}
