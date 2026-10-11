@@ -1,0 +1,186 @@
+{
+ "id": "G3-1",
+ "titel": "Le dialogue socratique",
+ "dauer": 24,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "La maïeutique : mettre la connaissance au monde",
+   "text": "Le nom de **dialogue socratique** remonte au philosophe grec Socrate, tel que Platon l'a dépeint dans ses dialogues. Socrate comparait sa manière de mener les conversations à l'art d'une sage-femme (*maïeutique*) : il ne voulait pas transmettre à ses interlocuteurs un savoir tout fait, mais les aider, par des questions, à faire naître eux-mêmes des connaissances.\n\nEn logothérapie, le dialogue socratique est la **forme fondamentale de l'entretien**. Il repose sur une conviction simple : le sens ne peut pas être donné de l'extérieur, il doit être découvert par la personne elle-même. Le conseiller n'est donc pas celui qui sait ce qui a du sens pour l'autre. Il aide l'autre à trouver ses propres valeurs, possibilités et réponses.\n\nFrankl utilisait pour cela une image : un logothérapeute devrait ressembler davantage à un **ophtalmologue** qu'à un **peintre**. Le peintre montre le monde tel qu'il le voit. L'ophtalmologue aide le patient à voir lui-même le monde plus clairement.\n\nEn logothérapie, le terme désigne donc moins une technique particulière qu'une **attitude** dans la conduite de l'entretien."
+  },
+  {
+   "typ": "text",
+   "titel": "L'attitude : questionner plutôt qu'enseigner",
+   "text": "Le dialogue socratique se caractérise par :\n\n- **Des questions ouvertes** plutôt que des conseils ou des leçons.\n- **Un intérêt authentique** pour le point de vue de la personne – pas de questions dont la réponse est déjà fixée d'avance.\n- **La concrétisation :** des affirmations générales comme « Tout est dénué de sens » sont prudemment rapportées à des situations, des expériences et des personnes concrètes.\n- **La reconnaissance :** ce que la personne a déjà accompli, vécu et supporté est reconnu.\n- **L'ouverture de possibilités :** à côté du problème, les marges de manœuvre, les valeurs et les ressources sont rendues visibles.\n\nLe dialogue socratique n'est pas une technique permettant de conduire quelqu'un, par des questions habiles, vers une prise de conscience souhaitée d'avance. Ce serait une forme de manipulation. Elisabeth Lukas et d'autres auteurs de la logothérapie ont souligné que la réponse doit rester ouverte.\n\nLe dialogue présuppose aussi une relation solide. Celui qui ne se sent pas compris ne s'engagera guère dans des questions de sens et de valeurs. C'est pourquoi il commence généralement par une écoute attentive et la reconnaissance de la souffrance."
+  },
+  {
+   "typ": "merke",
+   "text": "Selon l'image de Frankl, le logothérapeute ressemble davantage à un ophtalmologue qu'à un peintre : il ne montre pas le monde tel qu'il le voit, mais aide l'autre à voir lui-même plus clairement."
+  },
+  {
+   "typ": "text",
+   "titel": "Lignes de questionnement typiques",
+   "text": "La littérature logothérapeutique décrit diverses lignes de questionnement qui peuvent être utiles dans le dialogue socratique. Quelques exemples :\n\n- **Questions sur les valeurs :** « Qu'est-ce qui compte vraiment pour vous dans cette situation ? » – « Qu'est-ce qui en a valu la peine jusqu'ici ? »\n- **Questions sur les expériences de sens :** « Quand vous êtes-vous senti(e) pour la dernière fois vivant(e) ou utile ? »\n- **Questions sur les marges de manœuvre :** « Qu'est-ce qui est entre vos mains, même si beaucoup de choses ne le sont pas ? »\n- **Changement de perspective :** « Que vous dirait maintenant une personne qui vous est proche ? » – « Comment voudrez-vous regarder cette période dans dix ans ? »\n- **Questions sur ce que demande la situation :** « Qu'attend de vous cette situation ? »\n\nDe telles questions ne sont pas des formules. Leur effet dépend de ce qu'elles soient posées au bon moment, dans un langage adapté et avec une ouverture authentique. Posées trop tôt, les questions de sens peuvent être perçues comme une dévalorisation de la douleur."
+  },
+  {
+   "typ": "mc",
+   "frage": "Quelle question correspond le mieux à l'esprit du dialogue socratique ?",
+   "optionen": [
+    "« Ne pensez-vous pas, vous aussi, que vous avez un devoir envers votre famille ? »",
+    "« Vous devriez trouver un nouveau loisir – cela vous aidera certainement. »",
+    "« Pourquoi vous faites-vous autant de soucis inutiles ? »",
+    "« Qu'est-ce qui a été si important pour vous dans votre vie jusqu'ici que vous étiez prêt(e) à faire des efforts pour cela ? »"
+   ],
+   "richtig": 3,
+   "erklaerung": "La dernière question est ouverte et invite à découvrir ses propres valeurs. La première est suggestive et moralisatrice, la deuxième est un conseil et la troisième dévalorise les soucis de la personne."
+  },
+  {
+   "typ": "text",
+   "titel": "Un exemple célèbre – et ses limites",
+   "text": "Frankl a décrit un exemple fréquemment cité : un médecin âgé vint le consulter parce qu'il ne parvenait pas à surmonter la mort de son épouse. Frankl lui demanda ce qui se serait passé s'il était mort le premier et si son épouse avait dû lui survivre. L'homme répondit que, pour elle, cela aurait été terrible. Frankl lui fit remarquer que cette souffrance lui avait été épargnée – au prix du fait que c'était maintenant lui qui portait le deuil. Selon le récit de Frankl, cela permit à l'homme de trouver un sens à sa douleur.\n\nL'exemple montre comment une seule question peut ouvrir une nouvelle perspective. Mais il ne doit pas être compris à tort comme le modèle d'une solution rapide :\n\n- Frankl le rapporte sous une forme très condensée ; un véritable accompagnement du deuil prend généralement du temps.\n- La perspective est née des propres valeurs de l'homme – de son amour pour son épouse.\n- La même question pourrait blesser une autre personne.\n\nLe dialogue socratique n'est donc pas un « truc » ; il vit de questions qui se rattachent aux valeurs et à l'histoire d'une personne concrète."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Exercice : un dialogue socratique",
+   "einleitung": "Situation construite : Jonas, 24 ans, a abandonné ses études il y a deux mois. Il se rend dans un centre de consultation psychosociale parce qu'il se sent « comme un raté ». Un risque aigu a été écarté. À chaque tour, choisissez la réponse qui correspond le mieux au dialogue socratique.",
+   "runden": [
+    {
+     "klient": "J'ai tout simplement tout gâché. Maintenant, plus rien n'a de sens de toute façon.",
+     "antworten": [
+      {
+       "text": "On dirait que cela vous pèse beaucoup en ce moment. Voulez-vous me raconter comment vous en êtes venu à abandonner vos études ?",
+       "gut": true,
+       "feedback": "Bien. Vous reconnaissez le fardeau et l'invitez à raconter son histoire avant d'aborder la question du sens. Cela crée une base solide pour l'entretien."
+      },
+      {
+       "text": "Oh non, vous êtes encore jeune – la vie a encore plein de sens pour vous !",
+       "gut": false,
+       "feedback": "C'est bien intentionné, mais cette réponse contredit le vécu de Jonas sans le comprendre. Le sens ne peut pas être accordé de l'extérieur."
+      },
+      {
+       "text": "Beaucoup de gens abandonnent leurs études – c'est tout à fait normal.",
+       "gut": false,
+       "feedback": "Normaliser peut soulager, mais ici cela passe outre le vécu personnel de Jonas. Dans un premier temps, comprendre importe plus que relativiser."
+      }
+     ]
+    },
+    {
+     "klient": "J'ai étudié le génie mécanique parce que mon père est ingénieur. Chaque matin, c'était une lutte. À un moment donné, je n'en pouvais simplement plus.",
+     "antworten": [
+      {
+       "text": "Dans ce cas, vous devriez avoir une franche discussion avec votre père.",
+       "gut": false,
+       "feedback": "Conseil prématuré. Il détourne de la véritable question : qu'est-ce qui compte pour Jonas lui-même ?"
+      },
+      {
+       "text": "Vous vous êtes donc longtemps imposé quelque chose qui n'était pas le vôtre. Qu'est-ce qui vous a fait tenir si longtemps ?",
+       "gut": true,
+       "feedback": "Bien. Vous reflétez son vécu et vous interrogez sur ce qui a porté Jonas. Des valeurs comme la loyauté ou la persévérance peuvent ainsi devenir visibles."
+      },
+      {
+       "text": "Pourquoi ne vous êtes-vous pas rendu compte plus tôt que ce n'était pas pour vous ?",
+       "gut": false,
+       "feedback": "La question du pourquoi sonne comme un reproche et renforce le sentiment d'échec."
+      }
+     ]
+    },
+    {
+     "klient": "Je ne voulais pas décevoir mon père. Il a fait tellement pour moi.",
+     "antworten": [
+      {
+       "text": "Eh bien, vous vous êtes laissé mettre une sacrée pression par votre père.",
+       "gut": false,
+       "feedback": "Cette interprétation est dévalorisante et suggère une faiblesse. Elle ignore la valeur contenue dans les égards de Jonas envers son père."
+      },
+      {
+       "text": "C'est compréhensible. Mais maintenant, vous devez penser à vous.",
+       "gut": false,
+       "feedback": "L'injonction vient trop vite et présente le recentrage sur soi comme la solution. Elle ne tire pas parti de ce qui compte pour Jonas."
+      },
+      {
+       "text": "Il est donc important pour vous de ne pas décevoir les personnes qui vous sont proches. Où d'autre dans votre vie cette valeur joue-t-elle un rôle ?",
+       "gut": true,
+       "feedback": "Bien. Vous nommez une valeur contenue dans son propos et l'invitez à la considérer au-delà de la situation actuelle. Cela ouvre le regard sur les ressources."
+      }
+     ]
+    },
+    {
+     "klient": "Hum. Avec mes amis, en fait. Et avant, j'aidais dans un groupe de jeunes. C'était le seul endroit où je me sentais vraiment bien.",
+     "antworten": [
+      {
+       "text": "Qu'est-ce qui, précisément, rendait ce travail dans le groupe de jeunes si précieux pour vous ?",
+       "gut": true,
+       "feedback": "Bien. Vous concrétisez une expérience de sens vécue sans suggérer prématurément une voie professionnelle. Jonas peut découvrir lui-même ce qui lui parle."
+      },
+      {
+       "text": "Alors c'est évident : vous devriez étudier le travail social !",
+       "gut": false,
+       "feedback": "La conclusion vient du conseiller, non de Jonas. Ce serait le peintre, non l'ophtalmologue."
+      },
+      {
+       "text": "C'est bien, mais on ne gagne pas d'argent avec ça.",
+       "gut": false,
+       "feedback": "Cette réponse dévalorise une expérience de sens importante et exclut prématurément une possibilité."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "kategorien",
+   "frage": "L'énoncé correspond-il ou non au dialogue socratique ?",
+   "kategorien": [
+    "Socratique",
+    "Non socratique"
+   ],
+   "elemente": [
+    {
+     "text": "« Qu'est-ce qui compterait vraiment pour vous dans cette situation ? »",
+     "kat": 0
+    },
+    {
+     "text": "« À votre place, je démissionnerais immédiatement. »",
+     "kat": 1
+    },
+    {
+     "text": "« Quand vous êtes-vous senti(e) utile pour la dernière fois ? »",
+     "kat": 0
+    },
+    {
+     "text": "« Il faut voir le bon côté des choses. »",
+     "kat": 1
+    },
+    {
+     "text": "« Qu'est-ce qui est encore entre vos mains malgré tout ? »",
+     "kat": 0
+    },
+    {
+     "text": "« Admettez donc que vous avez en réalité peur. »",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Les énoncés socratiques sont ouverts et invitent à une découverte personnelle. Les conseils, les injonctions et les interprétations suggestives enlèvent la réponse à la personne ou la poussent dans une direction donnée."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Le but du dialogue socratique est de conduire le client, par des questions habiles, vers une prise de conscience que le conseiller tient déjà pour juste d'avance.",
+   "richtig": false,
+   "erklaerung": "Ce serait de la manipulation. Dans le dialogue socratique, la réponse reste ouverte ; le conseiller aide la personne à découvrir ses propres valeurs et possibilités."
+  },
+  {
+   "typ": "luecke",
+   "text": "Socrate comparait sa manière de mener les conversations à l'art d'une {{sage-femme|juge|enseignante}}. Frankl comparait le logothérapeute à {{un ophtalmologue|un peintre|un architecte}}.",
+   "erklaerung": "La maïeutique signifie l'art de la sage-femme. L'image de l'ophtalmologue souligne que le thérapeute aide l'autre à voir par lui-même."
+  },
+  {
+   "typ": "text",
+   "titel": "Limites et erreurs typiques",
+   "text": "Le dialogue socratique comporte aussi des écueils que la littérature spécialisée signale régulièrement :\n\n- **Interroger trop tôt sur le sens :** une personne en deuil aigu ou désespérée qui est immédiatement interrogée sur le sens peut se sentir incomprise.\n- **Moraliser :** des questions qui suggèrent une réponse déterminée (« Ne devriez-vous pas … ? ») affaiblissent la responsabilité personnelle.\n- **Intellectualiser :** un dialogue sur le sens peut se transformer en discussion abstraite qui occulte le vécu.\n- **Surcharge :** en cas de maladie psychique grave, de suicidalité aiguë ou de troubles cognitifs, une approche par l'entretien seule ne suffit pas ; d'autres formes d'aide, souvent aussi médicales, sont alors nécessaires.\n\nEn conseil et en thérapie, le dialogue socratique s'inscrit donc dans une évaluation attentive de la situation. C'est une attitude d'entretien précieuse – mais elle ne remplace ni l'évaluation diagnostique ni la coopération avec d'autres professionnels."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Rappelez-vous un entretien dans lequel quelqu'un vous a aidé(e) à avancer par une question – et non par un conseil. De quel type de question s'agissait-il ?",
+   "hinweis": "Qu'est-ce qui a rendu la question utile ? Le moment, la personne, l'ouverture ? Et inversement : quand avez-vous vécu des conseils plutôt comme un fardeau ?"
+  }
+ ]
+}
