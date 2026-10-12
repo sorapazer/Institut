@@ -240,21 +240,28 @@
     });
     html += "</div></div>";
     html += '<div class="section"><div class="split"><div class="prose"><p class="eyebrow">' + T("Für Autorinnen und Autoren", "For authors") + '</p><h2 style="margin-top:0">' + T("Hinweise zur Einreichung", "Submission guidelines") + "</h2>" +
-      T("<p>Die Zeitschrift nimmt deutsch- und englischsprachige Manuskripte zu sinnzentrierter Psychologie, existenziellen Themen in Psychotherapie und Beratung sowie zur vergleichenden Psychotherapieforschung an.</p>" +
+      P({ de: "<p>Die Zeitschrift nimmt deutsch- und englischsprachige Manuskripte zu sinnzentrierter Psychologie, existenziellen Themen in Psychotherapie und Beratung sowie zur vergleichenden Psychotherapieforschung an.</p>" +
         "<ul><li><strong>Rubriken:</strong> Übersichtsarbeit, Originalarbeit, Theoretischer Beitrag, Methodenbeitrag, Praxis und Lehre, Rezension.</li>" +
         "<li><strong>Umfang:</strong> Originalarbeiten und Übersichtsarbeiten bis 8.000 Wörter einschließlich Literatur; Praxisbeiträge bis 5.000 Wörter; Rezensionen bis 1.500 Wörter.</li>" +
-        "<li><strong>Form:</strong> Zitation und Literaturverzeichnis nach APA 7; strukturiertes deutsches und englisches Abstract mit je bis zu 250 Wörtern und fünf Schlüsselwörtern.</li>" +
+        "<li><strong>Form:</strong> Zitation und Literaturverzeichnis nach APA 7; englisches Abstract mit bis zu 250 Wörtern und fünf Schlüsselwörtern; eine deutsche Zusammenfassung ist bei deutschsprachigen Manuskripten zusätzlich erwünscht.</li>" +
         "<li><strong>Empirische Arbeiten:</strong> Angabe des Ethikvotums, Präregistrierung wird empfohlen, Daten und Analysecode sollen nach Möglichkeit offen zugänglich sein.</li></ul>",
-        "<p>The journal accepts manuscripts in German and English on meaning-centered psychology, existential themes in psychotherapy and counseling, and comparative psychotherapy research.</p>" +
+        en: "<p>The journal accepts manuscripts in German and English on meaning-centered psychology, existential themes in psychotherapy and counseling, and comparative psychotherapy research.</p>" +
         "<ul><li><strong>Article types:</strong> review, original article, theoretical article, methods article, practice and teaching, book review.</li>" +
         "<li><strong>Length:</strong> original articles and reviews up to 8,000 words including references; practice articles up to 5,000 words; book reviews up to 1,500 words.</li>" +
-        "<li><strong>Format:</strong> citations and references in APA 7 style; structured German and English abstracts of up to 250 words each, with five keywords.</li>" +
-        "<li><strong>Empirical studies:</strong> statement of ethics approval; preregistration is recommended; data and analysis code should be openly available where possible.</li></ul>") + "</div>" +
+        "<li><strong>Format:</strong> citations and references in APA 7 style; an English abstract of up to 250 words with five keywords; manuscripts in German should additionally include a German abstract.</li>" +
+        "<li><strong>Empirical studies:</strong> statement of ethics approval; preregistration is recommended; data and analysis code should be openly available where possible.</li></ul>",
+        fr: "<p>La revue accepte des manuscrits en allemand et en anglais portant sur la psychologie centrée sur le sens, les thèmes existentiels en psychothérapie et en conseil, ainsi que sur la recherche comparative en psychothérapie.</p>" +
+        "<ul><li><strong>Types d'articles :</strong> article de synthèse, article original, article théorique, article méthodologique, pratique et enseignement, compte rendu.</li>" +
+        "<li><strong>Longueur :</strong> articles originaux et de synthèse jusqu'à 8 000 mots, références comprises ; articles de pratique jusqu'à 5 000 mots ; comptes rendus jusqu'à 1 500 mots.</li>" +
+        "<li><strong>Format :</strong> citations et références selon les normes APA 7 ; résumé en anglais de 250 mots au maximum avec cinq mots-clés ; les manuscrits en allemand comportent en outre un résumé en allemand.</li>" +
+        "<li><strong>Études empiriques :</strong> mention de l'avis du comité d'éthique ; le préenregistrement est recommandé ; les données et le code d'analyse doivent, dans la mesure du possible, être librement accessibles.</li></ul>" }) + "</div>" +
       '<div class="prose"><p class="eyebrow">' + T("Begutachtung", "Peer review") + '</p><h2 style="margin-top:0">' + T("Redaktionelles Verfahren", "Editorial process") + "</h2>" +
-      T("<p>Jedes Manuskript wird zunächst von der Redaktion auf thematische Passung und formale Vollständigkeit geprüft. Geeignete Beiträge werden im doppelt verblindeten Verfahren von zwei unabhängigen Gutachtenden bewertet. Die Entscheidung über Annahme, Überarbeitung oder Ablehnung trifft die Redaktion auf Grundlage der Gutachten.</p>" +
+      P({ de: "<p>Jedes Manuskript wird zunächst von der Redaktion auf thematische Passung und formale Vollständigkeit geprüft. Geeignete Beiträge werden im doppelt verblindeten Verfahren von zwei unabhängigen Gutachtenden bewertet. Die Entscheidung über Annahme, Überarbeitung oder Ablehnung trifft die Redaktion auf Grundlage der Gutachten.</p>" +
         "<p>Interessenkonflikte, Finanzierung und der Einsatz generativer KI-Werkzeuge sind bei der Einreichung offenzulegen. Alle Beiträge erscheinen im offenen Zugang unter der Lizenz CC BY 4.0.</p>",
-        "<p>Each manuscript is first checked by the editorial office for fit and completeness. Suitable manuscripts are assessed by two independent reviewers in a double-blind process. The editors decide on acceptance, revision or rejection on the basis of the reviews.</p>" +
-        "<p>Conflicts of interest, funding and the use of generative AI tools must be disclosed at submission. All articles are published open access under the CC BY 4.0 license.</p>") +
+        en: "<p>Each manuscript is first checked by the editorial office for fit and completeness. Suitable manuscripts are assessed by two independent reviewers in a double-blind process. The editors decide on acceptance, revision or rejection on the basis of the reviews.</p>" +
+        "<p>Conflicts of interest, funding and the use of generative AI tools must be disclosed at submission. All articles are published open access under the CC BY 4.0 license.</p>",
+        fr: "<p>Chaque manuscrit est d'abord examiné par la rédaction quant à son adéquation thématique et à sa complétude formelle. Les manuscrits retenus sont évalués par deux experts indépendants selon une procédure en double aveugle. La rédaction décide de l'acceptation, de la révision ou du refus sur la base des expertises.</p>" +
+        "<p>Les conflits d'intérêts, le financement et l'utilisation d'outils d'IA générative doivent être déclarés lors de la soumission. Tous les articles sont publiés en libre accès sous licence CC BY 4.0.</p>" }) +
       '<div class="actions"><a class="btn btn-primary" href="#einreichen">' + T("Manuskript einreichen", "Submit a manuscript") + '</a><a class="btn btn-ghost" href="vorlagen/ZSP-Manuskriptvorlage.docx" download>' + T("Manuskriptvorlage (Word)", "Manuscript template (Word)") + "</a></div></div></div></div>";
     root.innerHTML = html;
   }
