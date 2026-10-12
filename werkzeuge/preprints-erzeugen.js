@@ -44,7 +44,7 @@ const slug = t => t.toLowerCase().replace(/[’']/g, "").replace(/[^a-z0-9]+/g, 
       "Title:\n" + titel + (unter ? ": " + unter : "") + "\n\n" +
       "Type: Preprint (" + TYP[a.rubrik] + ")\n" +
       "Date: " + MON[iss.monat][0] + " " + iss.jahr + " (" + iss.jahr + "-" + MON[iss.monat][1] + ")\n" +
-      "Author: Sora Pazer\nInstitution: Institute for Meaning-Centered Psychology\n\n" +
+      "Author: Sora Pazer\nInstitution: Institute for Meaning-Centered Psychology\n" + (a.doi ? "DOI: " + a.doi + "\n" : "") + "\n" +
       "Abstract:\n" + a.abstractEn + "\n\n" +
       "Keywords:\n" + (a.keywords || []).join(", ") + "\n\n" +
       "Additional information:\nPreprint, not peer reviewed. Written with the assistance of generative AI and reviewed by the author. License: CC BY 4.0. https://imcp-institute.org\n\n";

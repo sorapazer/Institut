@@ -206,8 +206,9 @@
   /* ---------- Zeitschrift ---------- */
   function apa(a) {
     var i = iss(a);
-    return (a.autorenApa || a.autoren) + " (" + i.jahr + "). " + enTitel(a) + ". Journal of Meaning-Centered Psychology, " + i.jahrgang + "(" + i.heft + "), " + a.seiten + ".";
+    return (a.autorenApa || a.autoren) + " (" + i.jahr + "). " + enTitel(a) + ". Journal of Meaning-Centered Psychology, " + i.jahrgang + "(" + i.heft + "), " + a.seiten + "." + (a.doi ? " https://doi.org/" + a.doi : "");
   }
+  function doiLink(a) { return a.doi ? '<a href="https://doi.org/' + esc(a.doi) + '" target="_blank" rel="noopener">' + esc(a.doi) + "</a>" : ""; }
   function pdfOf(a, l) { l = l || I.lang; if (!hasLoc(a, l)) l = "en"; return "pdf/" + l + "/" + a.id + ".pdf"; }
   function heftPdf(i) { return "pdf/" + I.lang + "/zsp-" + i.jahr + "-" + i.heft + "-gesamt.pdf"; }
   function issueLabel(i) { var v = issView(i); return T("Jahrgang ", "Volume ") + i.jahrgang + T(" · Heft ", " · Issue ") + i.heft + " · " + v.monat + " " + i.jahr; }
@@ -382,7 +383,7 @@
     var idx = J.artikel.indexOf(a);
     var prev = J.artikel[idx - 1], next = J.artikel[idx + 1];
     var autoren = autorenL(a);
-    var html = '<div class="page-head"><p class="mono muted"><a href="#journal">' + esc(jTitel()) + "</a> · " + esc(issueLabel(i)) + " · " + pg() + esc(a.seiten) + "</p>" +
+    var html = '<div class="page-head"><p class="mono muted"><a href="#journal">' + esc(jTitel()) + "</a> · " + esc(issueLabel(i)) + " · " + pg() + esc(a.seiten) + (a.doi ? " · DOI " + doiLink(a) : "") + "</p>" +
       '<span class="tag">' + esc(x.rubrik) + "</span><h1>" + esc(x.titel) + "</h1>" +
       (x.untertitel ? '<p class="lead">' + esc(x.untertitel) + "</p>" : "") +
       '<p class="muted">' + esc(autoren) + '<br><span class="small">' + esc(INST()) + "</span></p>" +
@@ -407,7 +408,7 @@
     html += '<h2>' + T("Erklärung zum Einsatz generativer KI", "Statement on the use of generative AI") + "</h2><p>" + T("Dieser Beitrag wurde mit Unterstützung generativer KI verfasst und von den Autorinnen und Autoren geprüft und verantwortet. Die englische Fassung ist das Original; die deutsche und die französische Fassung sind Übersetzungen.", "This article was written with the assistance of generative AI and was reviewed by the authors, who take full responsibility for its content. The English version is the original; the German and French versions are translations.") + "</p>";
     html += '</div><aside class="article-aside"><a class="pdf-card" href="' + pdfOf(a) + '" download><span class="pdf-ico" aria-hidden="true">PDF</span><span><strong>' + T("Beitrag als PDF", "Article as PDF") + '</strong><br><span class="small muted">' + (L === "en" ? "Typeset original, pp. " + esc(a.seiten) : T("Satzfassung der deutschen Übersetzung", "Typeset translation")) + "</span></span></a>" +
       '<div class="panel"><p class="eyebrow">' + T("Zitiervorschlag", "How to cite") + '</p><div class="cite-box" id="cite-text">' + esc(apa(a)) + '</div><button type="button" class="btn btn-ghost" id="cite-copy">' + T("Zitation kopieren", "Copy citation") + "</button></div>" +
-      '<div class="panel"><p class="eyebrow">' + T("Angaben", "Details") + '</p><dl class="facts"><div><dt>' + T("Rubrik", "Article type") + "</dt><dd>" + esc(x.rubrik) + "</dd></div><div><dt>" + T("Heft", "Issue") + "</dt><dd>" + esc(i.heft + "/" + i.jahr) + "</dd></div><div><dt>" + T("Seiten", "Pages") + "</dt><dd>" + esc(a.seiten) + "</dd></div><div><dt>" + T("Lizenz", "License") + "</dt><dd>CC BY 4.0</dd></div></dl></div>" +
+      '<div class="panel"><p class="eyebrow">' + T("Angaben", "Details") + '</p><dl class="facts"><div><dt>' + T("Rubrik", "Article type") + "</dt><dd>" + esc(x.rubrik) + "</dd></div><div><dt>" + T("Heft", "Issue") + "</dt><dd>" + esc(i.heft + "/" + i.jahr) + "</dd></div><div><dt>" + T("Seiten", "Pages") + "</dt><dd>" + esc(a.seiten) + "</dd></div><div><dt>" + T("Lizenz", "License") + "</dt><dd>CC BY 4.0</dd></div>" + (a.doi ? "<div><dt>DOI</dt><dd>" + doiLink(a) + "</dd></div>" : "") + "</dl></div>" +
       '<nav class="panel" aria-label="' + T("Weitere Beiträge", "More articles") + '">' + (prev ? '<a href="#' + prev.id + '">← ' + esc(art(prev).titel) + "</a>" : "") + (next ? '<a href="#' + next.id + '">' + esc(art(next).titel) + " →</a>" : "") + '<a href="#journal">' + T("Alle Ausgaben", "All issues") + "</a></nav></aside></div>";
     $("#journal-root").innerHTML = html;
     document.title = x.titel + " · " + jTitel();

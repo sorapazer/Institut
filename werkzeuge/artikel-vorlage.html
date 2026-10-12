@@ -113,15 +113,15 @@
     S.licText = "Preprint, not peer reviewed. Made available open access under the Creative Commons Attribution 4.0 International license (CC BY 4.0). This article was written with the assistance of generative AI and reviewed by the author, who takes full responsibility for its content. Correspondence: Sora Pazer, Institute for Meaning-Centered Psychology, https://imcp-institute.org";
     heft = "Preprint · " + monat;
   }
-  var cite = RG ? "Pazer, S. (" + iss.jahr + "). " + (ae.titel || a.titel) + ((ae.untertitel || a.untertitel) ? ": " + (ae.untertitel || a.untertitel) : "") + " [Preprint]. Institute for Meaning-Centered Psychology." : (a.autorenApa || a.autoren) + " (" + iss.jahr + "). " + (ae.titel || a.titel) + ((ae.untertitel || a.untertitel) ? ": " + (ae.untertitel || a.untertitel) : "") + ". Journal of Meaning-Centered Psychology, " + iss.jahrgang + "(" + iss.heft + "), " + a.seiten + ".";
+  var cite = RG ? "Pazer, S. (" + iss.jahr + "). " + (ae.titel || a.titel) + ((ae.untertitel || a.untertitel) ? ": " + (ae.untertitel || a.untertitel) : "") + " [Preprint]. Institute for Meaning-Centered Psychology." + (a.doi ? " https://doi.org/" + a.doi : "") : (a.autorenApa || a.autoren) + " (" + iss.jahr + "). " + (ae.titel || a.titel) + ((ae.untertitel || a.untertitel) ? ": " + (ae.untertitel || a.untertitel) : "") + ". Journal of Meaning-Centered Psychology, " + iss.jahrgang + "(" + iss.heft + "), " + a.seiten + "." + (a.doi ? " https://doi.org/" + a.doi : "");
   var logo = '<svg width="26" height="26" viewBox="0 0 40 40"><circle cx="20" cy="24" r="13" fill="none" stroke="#17202a" stroke-width="1.6"/><line x1="20" y1="2" x2="20" y2="37" stroke="#1d4d57" stroke-width="2"/><circle cx="20" cy="4" r="2.4" fill="#8a6a33"/></svg>';
   var style = document.createElement("style");
   style.textContent = "@page { @top-left { content: " + q((RG ? "S. Pazer" : S.jt) + " · " + heft) + "; } @top-right { content: " + q(kurz) + "; } } @page :first { counter-increment: page " + start + "; @top-left { content: none; } @top-right { content: none; } }";
   document.head.appendChild(style);
   document.documentElement.lang = L;
   var h = RG ? '<header class="mast"><div class="logo">' + logo + '<div class="jt">' + S.inst + "<small>Preprint · not peer reviewed</small></div></div>" +
-    '<div class="meta">' + monat + "<br>Open access · CC BY 4.0</div></header>" : '<header class="mast"><div class="logo">' + logo + '<div class="jt">' + S.jt + "<small>" + S.pub + "</small></div></div>" +
-    '<div class="meta">' + S.vol + " " + iss.jahrgang + " · " + S.issue + " " + iss.heft + " · " + (S.mon[iss.monat] || iss.monat) + " " + iss.jahr + "<br>" + S.pp + " " + e(a.seiten) + (L === "en" ? "" : " (Original)") + " · " + S.oa + " · CC BY 4.0</div></header>";
+    '<div class="meta">' + monat + "<br>Open access · CC BY 4.0" + (a.doi ? "<br>DOI " + e(a.doi) : "") + "</div></header>" : '<header class="mast"><div class="logo">' + logo + '<div class="jt">' + S.jt + "<small>" + S.pub + "</small></div></div>" +
+    '<div class="meta">' + S.vol + " " + iss.jahrgang + " · " + S.issue + " " + iss.heft + " · " + (S.mon[iss.monat] || iss.monat) + " " + iss.jahr + "<br>" + S.pp + " " + e(a.seiten) + (L === "en" ? "" : " (Original)") + " · " + S.oa + " · CC BY 4.0" + (a.doi ? "<br>DOI " + e(a.doi) : "") + "</div></header>";
   h += '<div class="rubrik">' + e(S.rub ? S.rub[a.rubrik] || a.rubrik : a.rubrik) + '</div><h1 class="titel">' + e(titel) + "</h1>" + (untertitel ? '<p class="untertitel">' + e(untertitel) + "</p>" : "");
   h += '<div class="autoren">' + e(autoren) + '</div><div class="affil">' + S.inst + "</div>";
   if (S.note) h += '<p class="affil" style="margin-top:2mm;font-style:italic">' + S.note + "</p>";
