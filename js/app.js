@@ -1,7 +1,8 @@
 (function () {
   "use strict";
 
-  var KONTAKT = "geschaeftsstelle@sinnzentrierte-psychologie.de";
+  // Kontaktadresse der Geschäftsstelle; leer = auf der Website wird keine Adresse genannt
+  var KONTAKT = "";
   var VIEWS = ["start", "institut", "logotherapie", "verfahren", "journal", "lexikon", "weiterbildung"];
   var I = window.I18N;
   var T = function (de, en) { return I.t(de, en); };
@@ -263,13 +264,20 @@
     var html = '<div class="page-head"><p class="mono muted"><a href="#journal">' + esc(jTitel()) + "</a></p><h1>" + T("Manuskript einreichen", "Submit a manuscript") + "</h1>" +
       '<p class="lead">' + T("Reichen Sie Ihren Beitrag in drei Schritten ein: Manuskriptvorlage verwenden, Formular ausfüllen, Unterlagen an die Redaktion senden.", "Submit your article in three steps: use the manuscript template, complete the form and send your documents to the editorial office.") + "</p></div>";
     html += '<div class="article"><div>';
-    html += '<ol class="sub-steps">' + T(
+    html += '<ol class="sub-steps">' + P({
+      de:
       '<li><strong>Vorlage verwenden.</strong> Laden Sie die <a href="vorlagen/ZSP-Manuskriptvorlage.docx" download>Manuskriptvorlage</a> herunter (Word, Arial 11 pt, Zeilenabstand 1,5) und verfassen Sie Ihr Manuskript darin. Es darf keine Angaben enthalten, die auf die Autorinnen und Autoren schließen lassen.</li>' +
-      "<li><strong>Formular ausfüllen.</strong> Aus Ihren Angaben entsteht ein vollständiges Einreichungsschreiben mit Eingangsnummer.</li>" +
-      '<li><strong>Unterlagen senden.</strong> Senden Sie das Schreiben zusammen mit dem anonymisierten Manuskript und einem separaten Titelblatt an <span class="mono">' + esc(KONTAKT) + "</span>. Die Redaktion bestätigt den Eingang innerhalb von fünf Werktagen.</li>",
+        "<li><strong>Formular ausfüllen.</strong> Aus Ihren Angaben entsteht ein vollständiges Einreichungsschreiben mit Eingangsnummer.</li>" +
+        '<li><strong>Unterlagen senden.</strong> Senden Sie das Schreiben zusammen mit dem anonymisierten Manuskript und einem separaten Titelblatt an ' + (KONTAKT ? '<span class="mono">' + esc(KONTAKT) + "</span>" : "die Redaktion") + ". Die Redaktion bestätigt den Eingang innerhalb von fünf Werktagen.</li>",
+      en:
       '<li><strong>Use the template.</strong> Download the <a href="vorlagen/ZSP-Manuskriptvorlage.docx" download>manuscript template</a> (Word, Arial 11 pt, line spacing 1.5) and write your manuscript in it. It must not contain any information that identifies the authors.</li>' +
       "<li><strong>Complete the form.</strong> Your details are turned into a complete cover letter with a submission number.</li>" +
-      '<li><strong>Send your documents.</strong> Send the letter together with the anonymized manuscript and a separate title page to <span class="mono">' + esc(KONTAKT) + "</span>. The editorial office confirms receipt within five working days.</li>") + "</ol>";
+      '<li><strong>Send your documents.</strong> Send the letter together with the anonymized manuscript and a separate title page to ' + (KONTAKT ? '<span class="mono">' + esc(KONTAKT) + "</span>" : "the editorial office") + ". The editorial office confirms receipt within five working days.</li>",
+      fr:
+      '<li><strong>Utiliser le modèle.</strong> Téléchargez le <a href="vorlagen/ZSP-Manuskriptvorlage.docx" download>modèle de manuscrit</a> (Word, Arial 11 pt, interligne 1,5) et rédigez-y votre manuscrit. Celui-ci ne doit contenir aucune information permettant d\'identifier les auteurs.</li>' +
+      "<li><strong>Remplir le formulaire.</strong> Vos informations sont transformées en une lettre de soumission complète avec un numéro d'enregistrement.</li>" +
+      '<li><strong>Envoyer les documents.</strong> Envoyez la lettre, accompagnée du manuscrit anonymisé et d\'une page de titre séparée, ' + (KONTAKT ? 'à <span class="mono">' + esc(KONTAKT) + "</span>" : "à la rédaction") + ". La rédaction accuse réception dans un délai de cinq jours ouvrables.</li>"
+    }) + "</ol>";
     var checks = I.lang !== "de" ? [
       "The manuscript is unpublished and is not currently under review with another journal.",
       "For research involving humans, ethics approval has been obtained and all participants gave informed consent, or the article contains no such research.",
@@ -302,7 +310,7 @@
       checks.map(function (c, i) { return '<label class="check"><input type="checkbox" id="s-c' + (i + 1) + '"> <span>' + c + "</span></label>"; }).join("") +
       '</fieldset><p class="error" id="sub-err" hidden></p><div class="actions"><button class="btn btn-primary" type="submit">' + T("Einreichungsschreiben erstellen", "Create cover letter") + "</button></div>" +
       '<div id="sub-out" class="panel" hidden><p class="eyebrow">' + T("Eingangsnummer", "Submission number") + ' <span class="mono" id="sub-nr"></span></p><h3>' + T("Ihr Einreichungsschreiben", "Your cover letter") + "</h3>" +
-      "<p>" + T("Senden Sie diesen Text mit dem anonymisierten Manuskript und dem Titelblatt als Anhang an ", "Send this text with the anonymized manuscript and the title page attached to ") + '<strong class="mono">' + esc(KONTAKT) + "</strong>. " + T("Geben Sie die Eingangsnummer im Betreff an.", "Please include the submission number in the subject line.") + "</p>" +
+      "<p>" + (KONTAKT ? T("Senden Sie diesen Text mit dem anonymisierten Manuskript und dem Titelblatt als Anhang an ", "Send this text with the anonymized manuscript and the title page attached to ") + '<strong class="mono">' + esc(KONTAKT) + "</strong>. " : T("Senden Sie diesen Text mit dem anonymisierten Manuskript und dem Titelblatt als Anhang an die Redaktion. ", "Send this text with the anonymized manuscript and the title page attached to the editorial office. ")) + T("Geben Sie die Eingangsnummer im Betreff an.", "Please include the submission number in the subject line.") + "</p>" +
       '<pre class="result" id="sub-text"></pre><div class="actions"><button type="button" class="btn btn-ghost" id="sub-copy">' + T("Text kopieren", "Copy text") + "</button></div></div></form>";
     html += '</div><aside class="article-aside"><div class="panel"><p class="eyebrow">' + T("Vorlage", "Template") + '</p><a class="pdf-card" href="vorlagen/ZSP-Manuskriptvorlage.docx" download><span class="pdf-ico is-doc" aria-hidden="true">DOCX</span><span><strong>' + T("Manuskriptvorlage", "Manuscript template") + '</strong><br><span class="small muted">' + T("Gliederung, Abstracts, Erklärungen, APA-Beispiele", "Structure, abstracts, statements, APA examples") + "</span></span></a></div>" +
       '<div class="panel"><p class="eyebrow">' + T("Umfang", "Length") + '</p><dl class="facts"><div><dt>' + T("Original- und Übersichtsarbeiten", "Original articles and reviews") + "</dt><dd>" + T("bis 8.000 Wörter", "up to 8,000 words") + "</dd></div><div><dt>" + T("Praxis und Lehre", "Practice and teaching") + "</dt><dd>" + T("bis 5.000 Wörter", "up to 5,000 words") + "</dd></div><div><dt>" + T("Rezensionen", "Book reviews") + "</dt><dd>" + T("bis 1.500 Wörter", "up to 1,500 words") + "</dd></div></dl></div>" +
@@ -538,7 +546,7 @@
     };
     try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
   }
-  function initFooter() { $("#footer-mail").textContent = KONTAKT; }
+  function initFooter() { var f = $("#footer-mail"); if (!f) return; if (KONTAKT) f.textContent = KONTAKT; else f.parentNode.hidden = true; }
 
   /* ---------- Darstellung ---------- */
   var themeLabel = function () {};

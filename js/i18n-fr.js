@@ -218,6 +218,8 @@ window.FR_UI = {
   "Scope": "Étendue",
   "See also:": "Voir aussi :",
   "Send this text to ": "Envoyez ce texte à ",
+  "Send this text to the institute's office. ": "Envoyez ce texte au secrétariat de l'Institut. ",
+  "Send this text with the anonymized manuscript and the title page attached to the editorial office. ": "Envoyez ce texte à la rédaction, accompagné du manuscrit anonymisé et de la page de titre en pièces jointes. ",
   "Send this text with the anonymized manuscript and the title page attached to ": "Envoyez ce texte, accompagné du manuscrit anonymisé et de la page de titre en pièces jointes, à ",
   "Sequence": "Mise en ordre",
   "Show answer": "Afficher la réponse",

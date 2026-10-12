@@ -43,6 +43,7 @@
   .abstracts p { margin: 0 0 1.6mm; text-align: left; hyphens: auto; }
   .abstracts .kw { margin-top: 2mm; color: var(--soft); }
   .abstracts .kw b { color: var(--ink); font-weight: 600; }
+  .abstracts.single { grid-template-columns: 1fr; font-size: 8.4pt; }
 
   /* Fließtext */
   .body { column-count: 2; column-gap: 7mm; column-rule: 0.4pt solid var(--line); text-align: left; }
@@ -67,11 +68,12 @@
 <script src="../data/en/journal.js"></script>
 <script src="../data/fr/journal.js"></script>
 <script>
-/* Aufruf: artikel-vorlage.html#<sprache>:<id>   sprache = en (Original), de, fr (Übersetzungen) */
+/* Aufruf: artikel-vorlage.html#<sprache>:<id>   sprache = en (Original), de, fr (Übersetzungen)
+   rg = englische Preprint-Fassung für Repositorien (ResearchGate, Zenodo): Sora Pazer als alleinige Autorin bzw. alleiniger Autor, ohne Zeitschriftenangaben */
 (function () {
   var J = window.JOURNAL, raw = decodeURIComponent(location.hash.slice(1));
-  var m = /^(en|de|fr):(.+)$/.exec(raw) || [null, "en", raw];
-  var L = m[1], id = m[2];
+  var m = /^(en|de|fr|rg):(.+)$/.exec(raw) || [null, "en", raw];
+  var RG = m[1] === "rg", L = RG ? "en" : m[1], id = m[2];
   var a = J.artikel.filter(function (x) { return x.id === id; })[0] || J.artikel[0];
   var iss = J.ausgaben.filter(function (x) { return x.id === a.ausgabe; })[0];
   var JE = (window.EN && window.EN.journal) || { artikel: {} }, JF = (window.FR && window.FR.journal) || { artikel: {} };
@@ -100,17 +102,25 @@
   function q(t) { return '"' + String(t).replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"'; }
   var src = L === "en" ? ae : L === "fr" ? af : a;
   var titel = src.titel || a.titel, untertitel = src.untertitel || a.untertitel, abschnitte = src.abschnitte || a.abschnitte;
-  var start = L === "en" ? (parseInt(String(a.seiten).split(/[–-]/)[0], 10) || 1) : 1;
+  var start = L === "en" && !RG ? (parseInt(String(a.seiten).split(/[–-]/)[0], 10) || 1) : 1;
   var heft = iss.jahrgang + "(" + iss.heft + "), " + iss.jahr;
   var kurz = titel.length > 70 ? titel.slice(0, 68).replace(/\s+\S*$/, "") + " …" : titel;
-  var autoren = a.autoren.replace(" und ", S.and);
-  var cite = (a.autorenApa || a.autoren) + " (" + iss.jahr + "). " + (ae.titel || a.titel) + ((ae.untertitel || a.untertitel) ? ": " + (ae.untertitel || a.untertitel) : "") + ". Journal of Meaning-Centered Psychology, " + iss.jahrgang + "(" + iss.heft + "), " + a.seiten + ".";
+  var autoren = RG ? "Sora Pazer" : a.autoren.replace(" und ", S.and);
+  var monat = (S.mon[iss.monat] || iss.monat) + " " + iss.jahr;
+  if (RG) {
+    S.cite = "How to cite";
+    S.lic = "Status, license and use of AI";
+    S.licText = "Preprint, not peer reviewed. Made available open access under the Creative Commons Attribution 4.0 International license (CC BY 4.0). This article was written with the assistance of generative AI and reviewed by the author, who takes full responsibility for its content. Correspondence: Sora Pazer, Institute for Meaning-Centered Psychology, https://imcp-institute.org";
+    heft = "Preprint · " + monat;
+  }
+  var cite = RG ? "Pazer, S. (" + iss.jahr + "). " + (ae.titel || a.titel) + ((ae.untertitel || a.untertitel) ? ": " + (ae.untertitel || a.untertitel) : "") + " [Preprint]. Institute for Meaning-Centered Psychology." : (a.autorenApa || a.autoren) + " (" + iss.jahr + "). " + (ae.titel || a.titel) + ((ae.untertitel || a.untertitel) ? ": " + (ae.untertitel || a.untertitel) : "") + ". Journal of Meaning-Centered Psychology, " + iss.jahrgang + "(" + iss.heft + "), " + a.seiten + ".";
   var logo = '<svg width="26" height="26" viewBox="0 0 40 40"><circle cx="20" cy="24" r="13" fill="none" stroke="#17202a" stroke-width="1.6"/><line x1="20" y1="2" x2="20" y2="37" stroke="#1d4d57" stroke-width="2"/><circle cx="20" cy="4" r="2.4" fill="#8a6a33"/></svg>';
   var style = document.createElement("style");
-  style.textContent = "@page { @top-left { content: " + q(S.jt + " · " + heft) + "; } @top-right { content: " + q(kurz) + "; } } @page :first { counter-increment: page " + start + "; @top-left { content: none; } @top-right { content: none; } }";
+  style.textContent = "@page { @top-left { content: " + q((RG ? "S. Pazer" : S.jt) + " · " + heft) + "; } @top-right { content: " + q(kurz) + "; } } @page :first { counter-increment: page " + start + "; @top-left { content: none; } @top-right { content: none; } }";
   document.head.appendChild(style);
   document.documentElement.lang = L;
-  var h = '<header class="mast"><div class="logo">' + logo + '<div class="jt">' + S.jt + "<small>" + S.pub + "</small></div></div>" +
+  var h = RG ? '<header class="mast"><div class="logo">' + logo + '<div class="jt">' + S.inst + "<small>Preprint · not peer reviewed</small></div></div>" +
+    '<div class="meta">' + monat + "<br>Open access · CC BY 4.0</div></header>" : '<header class="mast"><div class="logo">' + logo + '<div class="jt">' + S.jt + "<small>" + S.pub + "</small></div></div>" +
     '<div class="meta">' + S.vol + " " + iss.jahrgang + " · " + S.issue + " " + iss.heft + " · " + (S.mon[iss.monat] || iss.monat) + " " + iss.jahr + "<br>" + S.pp + " " + e(a.seiten) + (L === "en" ? "" : " (Original)") + " · " + S.oa + " · CC BY 4.0</div></header>";
   h += '<div class="rubrik">' + e(S.rub ? S.rub[a.rubrik] || a.rubrik : a.rubrik) + '</div><h1 class="titel">' + e(titel) + "</h1>" + (untertitel ? '<p class="untertitel">' + e(untertitel) + "</p>" : "");
   h += '<div class="autoren">' + e(autoren) + '</div><div class="affil">' + S.inst + "</div>";
@@ -118,7 +128,7 @@
   var absEn = '<div lang="en"><h2>Abstract</h2>' + paras(a.abstractEn) + (a.keywords ? '<p class="kw"><b>Keywords:</b> ' + e(a.keywords.join(" · ")) + "</p>" : "") + "</div>";
   var absDe = '<div lang="de"><h2>Zusammenfassung</h2>' + paras(a.abstract) + (a.schluesselwoerter ? '<p class="kw"><b>Schlüsselwörter:</b> ' + e(a.schluesselwoerter.join(" · ")) + "</p>" : "") + "</div>";
   var absFr = '<div lang="fr"><h2>Résumé</h2>' + paras(af.abstract) + (af.keywords ? '<p class="kw"><b>Mots-clés :</b> ' + e(af.keywords.join(" · ")) + "</p>" : "") + "</div>";
-  h += '<section class="abstracts">' + (L === "en" ? absEn + absDe : L === "de" ? absDe + absEn : absFr + absEn) + "</section>";
+  h += '<section class="abstracts' + (L === "en" ? " single" : "") + '">' + (L === "en" ? absEn : L === "de" ? absDe + absEn : absFr + absEn) + "</section>";
   h += '<div class="body">';
   (abschnitte || []).forEach(function (s) { h += "<h2>" + e(s.titel) + "</h2>" + (s.absaetze || []).map(function (p) { return "<p>" + e(p) + "</p>"; }).join(""); });
   h += "</div>";
