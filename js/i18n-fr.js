@@ -204,7 +204,7 @@ window.FR_UI = {
   "Process": "Processus",
   "Progress": "Progression",
   "Psychotherapies at a Glance": "Les psychothérapies en bref",
-  "Published twice a year<br>Peer-reviewed · Open access": "Parution semestrielle<br>Évaluation par les pairs · Libre accès",
+  "Published twice a year, plus special issues<br>Peer-reviewed · Open access": "Parution semestrielle et numéros spéciaux<br>Évaluation par les pairs · Libre accès",
   "Qualification": "Qualification",
   "Question ": "Question ",
   "Read entry": "Lire l'entrée",

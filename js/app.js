@@ -217,7 +217,7 @@
   function journalMast() {
     return '<header class="page-head"><div class="journal-mast"><div><p class="eyebrow">' + T("Fachzeitschrift des Instituts", "The Institute's scholarly journal") + "</p><h1>" + esc(jTitel()) + "</h1>" +
       (I.lang !== "en" ? '<p class="muted small">Journal of Meaning-Centered Psychology (ZSP)</p>' : "") + "</div>" +
-      '<p class="mono muted">' + T("Erscheint halbjährlich<br>Begutachtet · Open Access", "Published twice a year<br>Peer-reviewed · Open access") + "</p></div>" +
+      '<p class="mono muted">' + T("Erscheint halbjährlich, dazu Themenhefte<br>Begutachtet · Open Access", "Published twice a year, plus special issues<br>Peer-reviewed · Open access") + "</p></div>" +
       '<p class="lead">' + T("Die Zeitschrift veröffentlicht Übersichtsarbeiten, theoretische Beiträge, Methodenbeiträge und Rezensionen zu Logotherapie, Existenzpsychologie, Sinnforschung und vergleichender Psychotherapieforschung. Die Beiträge erscheinen auf Englisch; deutsche und französische Übersetzungen werden zu allen Beiträgen bereitgestellt.",
         "The journal publishes reviews, theoretical articles, methods articles and book reviews on logotherapy, existential psychology, research on meaning and comparative psychotherapy research. Articles are published in English; German and French translations are provided for all contributions.") + "</p>" + aiNote() + "</header>";
   }
