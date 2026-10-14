@@ -7,6 +7,9 @@ window.EN.journal = {
     },
     "2026-2": {
       "schwerpunkt": "Meaning, Values, and Existential Challenges in Psychotherapeutic Practice"
+    },
+    "2026-3": {
+      "schwerpunkt": "Special Issue: Artificial Intelligence and Psychotherapy"
     }
   },
   "artikel": {
@@ -497,6 +500,664 @@ window.EN.journal = {
           "absaetze": [
             "*… trotzdem Ja zum Leben sagen* (Man’s Search for Meaning) remains a significant document of human self-assertion under extreme conditions and an indispensable starting point for understanding logotherapy. The book can be recommended without reservation for university study and continuing education, provided that it is read not as empirical proof of the efficacy of meaning orientation but as existential testimony and as a source of theoretical intuitions. In addition, readers should consult biographical accounts (Klingberg, 2001; Längle, 1998) as well as other testimonies of survivors in order to grasp the historical and human dimension of the text adequately.",
             "For the Journal of Meaning-Centered Psychology, this rereading is at the same time a form of self-reassurance: it reminds us that the scientific study of meaning emerged from an existential experience that eludes any instrumentalization. Methodological rigor and respect for this origin are not mutually exclusive but mutually dependent."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-01": {
+      "titel": "Artificial Intelligence and Psychotherapy",
+      "untertitel": "Promises, limits, and the question of meaning",
+      "abschnitte": [
+        {
+          "titel": "Between promise and caution",
+          "absaetze": [
+            "When Joseph Weizenbaum presented ELIZA in the 1960s, he was struck by how readily people attributed understanding to a program that essentially reflected their own words back to them (Weizenbaum, 1966). Six decades later, systems based on large language models produce fluent, context-sensitive replies, and many people already turn to them for comfort, advice, and something that resembles a conversation about their lives. Psychotherapy can neither ignore this development nor simply welcome or reject it.",
+            "The promises are real. Digital interventions can reach people who would otherwise receive no help, can offer support between sessions, and can relieve clinicians of administrative burdens (Torous et al., 2021). The first randomized trial of a fully generative therapy chatbot reported greater symptom improvement than a waitlist condition (Heinz et al., 2025). At the same time, the field is young, the evidence base is thin, and the risks, from erroneous output to inadequate responses in crises, are not yet well understood. Calls for responsible development and staged evaluation are therefore timely (Stade et al., 2024)."
+          ]
+        },
+        {
+          "titel": "In this issue",
+          "absaetze": [
+            "This issue brings together eleven contributions that approach the topic from empirical, methodological, ethical, and existential perspectives. A narrative review summarizes the evidence on conversational agents for mental health, from rule-based programs to systems built on large language models. Two theoretical papers ask whether a working alliance with a machine is conceivable and whether language models can support the Socratic dialogue through which logotherapy helps people discover meaning. A methods paper outlines how AI-based interventions should be evaluated and reported.",
+            "A second review examines machine learning for predicting treatment response, dropout, and suicide risk, with particular attention to base rates and clinical utility. Further contributions address ethics and regulation, the automated analysis of psychotherapy sessions by means of natural language processing, and the use of simulated clients in the training of psychotherapists and counselors. A paper on AI companions discusses dependency, uncritical validation, and crisis handling, and a practice-oriented article offers recommendations for using AI tools in everyday clinical work. The issue closes with a reflection on what remains specifically human in psychotherapy."
+          ]
+        },
+        {
+          "titel": "The question of meaning",
+          "absaetze": [
+            "Psychotherapy research has long emphasized that outcomes depend substantially on relational factors such as the alliance, empathy, and the person of the therapist, not only on specific techniques (Wampold & Imel, 2015). This raises a question that technical evaluation alone cannot answer: what exactly happens when the counterpart in a conversation about suffering is a program?",
+            "From a meaning-centered perspective, the question becomes sharper still. Viktor Frankl understood the search for meaning as a personal task that cannot be delegated; meaning has to be found, it cannot be given (Frankl, 1985). A system that readily supplies interpretations may comfort, but it may also short-circuit the very process of discovering what a situation asks of a person. Conversely, carefully designed tools might stimulate reflection, structure self-observation, and lower the threshold for seeking human help.",
+            "The contributions in this issue do not resolve this tension, nor do they intend to. They aim to describe the current state of knowledge carefully, to name open questions precisely, and to keep the person, with their freedom and responsibility, at the center of the debate. We hope they will prove useful to researchers, clinicians, and students alike."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-02": {
+      "titel": "Conversational Agents and Chatbots for Mental Health",
+      "untertitel": "A narrative review of the evidence from rule-based systems to large language models",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "Demand for psychological help exceeds the available supply of trained professionals in many countries, and waiting times for psychotherapy are often long. Digital interventions have been proposed as one way to narrow this gap, and internet-delivered psychological treatments, particularly guided cognitive behavioral programs, now rest on a substantial evidence base (Andersson et al., 2019). Conversational agents represent a more recent development within this field. Instead of presenting modules to be read and completed, they interact with users through dialogue in natural language, usually in text form.",
+            "The arrival of systems based on large language models has given the topic new urgency. Such systems can produce fluent and seemingly empathic replies on almost any subject, and many people use general-purpose chatbots for emotional support regardless of whether these were designed for that purpose. The question of what is actually known about the benefits and risks of conversational agents in mental health is therefore of considerable practical relevance.",
+            "This narrative review summarizes the main lines of development and evidence. It does not aim at a systematic search or a quantitative synthesis, but draws on key primary studies and published systematic reviews in order to outline the state of knowledge, its limitations, and open questions for research and practice."
+          ]
+        },
+        {
+          "titel": "2 From rule-based systems to large language models",
+          "absaetze": [
+            "The history of conversational agents in psychology usually begins with ELIZA, a program that simulated a client-centered therapist by recognizing keywords and transforming the user's statements into questions (Weizenbaum, 1966). Although its mechanism was simple, users readily attributed understanding to it, a phenomenon later referred to as the ELIZA effect.",
+            "For a long time, most mental health chatbots followed a rule-based or retrieval-based logic. Dialogues were scripted by clinicians and developers, users often chose among predefined responses, and the system selected content, for example psychoeducation or exercises derived from cognitive behavioral therapy, according to fixed decision rules. Some systems used natural language processing to classify free-text input, but the content of the replies remained largely predetermined (Laranjo et al., 2018; Vaidyam et al., 2019). This design limits flexibility but makes the system's behavior predictable and auditable.",
+            "Generative agents based on large language models work differently. They produce each response anew on the basis of statistical patterns learned from very large amounts of text. This allows open, individualized conversations, but it also means that the content of a given reply cannot be fully specified in advance. Generative models can produce plausible but incorrect or unsupported statements, often described as hallucinations (Ji et al., 2023). For clinical applications, the shift from scripted to generative systems therefore implies a shift in the central questions, from whether a fixed program is effective toward how the behavior of a flexible system can be constrained, monitored, and evaluated (Stade et al., 2024)."
+          ]
+        },
+        {
+          "titel": "3 Early trials and real-world evaluations",
+          "absaetze": [
+            "One of the most frequently cited early studies is a randomized controlled trial of Woebot, a rule-based agent delivering elements of cognitive behavioral therapy to young adults with symptoms of depression and anxiety (Fitzpatrick et al., 2017). Over a two-week period, participants who used the agent reported a greater reduction in depressive symptoms than participants in an information-only control condition who were directed to an electronic self-help book. The study was small, short, and conducted by researchers connected with the developing company, which the authors acknowledged.",
+            "Wysa, an agent combining scripted content with free-text conversation, was evaluated in a real-world mixed-methods study (Inkster et al., 2018). Users with self-reported depressive symptoms who engaged more frequently with the app showed greater average improvement than less engaged users. Because there was no randomized control group and engagement was self-selected, these results cannot be interpreted as evidence of a causal effect. Later work on Woebot reported that users rated their bond with the agent on a working alliance measure at levels comparable to those reported for other forms of therapy, although these findings were also based on observational data from the developer (Darcy et al., 2021).",
+            "Safety concerns arose early as well. A study of general-purpose voice assistants found that their responses to statements about suicidal ideation, depression, or interpersonal violence were inconsistent and often incomplete (Miner et al., 2016). Although these assistants were not designed as mental health tools, the findings illustrated how users may turn to conversational systems in crisis situations for which these systems are not prepared."
+          ]
+        },
+        {
+          "titel": "4 Systematic reviews and meta-analyses",
+          "absaetze": [
+            "Early systematic reviews described a heterogeneous field with few controlled trials. A review of conversational agents in healthcare concluded that most studies were quasi-experimental or observational and that evidence of clinical effectiveness was limited (Laranjo et al., 2018). A review focused on psychiatry found high user satisfaction and engagement in several studies, but emphasized the preliminary nature of the evidence and the need for more rigorous evaluation (Vaidyam et al., 2019).",
+            "A meta-analysis of chatbot interventions for mental health reported some evidence of improvements in depression, distress, and stress, but rated the overall evidence as weak, owing to a small number of studies, high risk of bias, and inconsistent results (Abd-Alrazaq et al., 2020). Few studies reported on safety. A later systematic review and meta-analysis of AI-based conversational agents found reductions in symptoms of depression and psychological distress, whereas effects on psychological well-being were not statistically significant (Li et al., 2023). The authors also explored user experience and suggested that the quality of the human–AI interaction and the content of the dialogue may be relevant for outcomes.",
+            "Taken together, these syntheses suggest that conversational agents can produce short-term improvements in symptoms, especially in depression and distress, with effects that appear small to moderate. Broader reviews of digital psychiatry reach a similar assessment and caution that enthusiasm has often outpaced evidence (Torous et al., 2021)."
+          ]
+        },
+        {
+          "titel": "5 The first randomized trial of a generative therapy chatbot",
+          "absaetze": [
+            "A recent milestone is the first randomized controlled trial of a fully generative AI chatbot designed for mental health treatment (Heinz et al., 2025). The system, called Therabot, was trained on expert-curated dialogues grounded in evidence-based psychotherapy. Adults with clinically significant symptoms of major depressive disorder, generalized anxiety disorder, or elevated risk for feeding and eating disorders were randomized to several weeks of access to the chatbot or to a waitlist control condition.",
+            "The authors reported greater symptom reductions in the intervention group across the three clinical domains, as well as high engagement. Participants' ratings of the therapeutic alliance were described as comparable to those reported for outpatient psychotherapy. Clinicians monitored the conversations, and the team intervened in cases of safety concerns or inappropriate responses.",
+            "The trial is important because it shows that a generative system can be evaluated with a randomized design. At the same time, its interpretation is limited. The waitlist comparison does not allow conclusions about efficacy relative to active treatments or to simpler digital programs, the follow-up period was short, and the extensive human monitoring and the specific training procedure mean that the results cannot be transferred to general-purpose chatbots used without supervision."
+          ]
+        },
+        {
+          "titel": "6 Methodological limitations and open questions",
+          "absaetze": [
+            "Across the literature, several limitations recur. Samples are often small and drawn from convenience populations such as students or app users. Follow-up periods are short, so that the durability of effects is largely unknown. Attrition is frequently high, and the handling of missing data varies. Comparison conditions are mostly waitlists or information-only controls, which tend to overestimate effects relative to active alternatives. Outcome measures are heterogeneous, and many studies are conducted or funded by the developers of the respective product (Abd-Alrazaq et al., 2020; Li et al., 2023).",
+            "For generative systems, additional problems arise. Model versions change quickly, which makes replication difficult and means that a published trial may no longer describe the system that users actually encounter. Erroneous or harmful output cannot be excluded by design (Ji et al., 2023), and crisis detection and referral pathways are rarely evaluated systematically. Proposals for responsible development therefore recommend staged evaluation, from safety testing to controlled trials, with clinical expertise involved throughout (Stade et al., 2024).",
+            "Finally, little is known about the mechanisms through which conversational agents might work. Whether perceived bonds with an agent contribute to outcomes in the same way as the alliance in human psychotherapy, and what role meaning, responsibility, and the user's own reflection play, are questions that require both empirical and conceptual work."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "The evidence on conversational agents for mental health has grown considerably over the past decade. Studies of rule-based agents and meta-analyses suggest modest short-term benefits for symptoms of depression and distress, and the first trial of a generative therapy chatbot has yielded encouraging results under carefully controlled conditions. Yet the evidence remains limited by short follow-up, weak comparators, high attrition, and potential conflicts of interest, and safety questions are far from resolved.",
+            "Conversational agents are therefore best regarded as a promising but unproven complement to human care rather than as a substitute for it. Future research should use active comparison conditions, longer follow-up, transparent reporting of model versions and safety events, and independent evaluation. For a meaning-centered psychology, it will also be important to ask not only whether symptoms improve, but whether such tools strengthen or weaken a person's capacity to take a stance toward their own situation."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-03": {
+      "titel": "A Working Alliance with a Machine?",
+      "untertitel": "Bordin’s goals, tasks and bond and the limits of relationship with conversational software",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "Few concepts in psychotherapy research have attracted as much empirical attention as the working alliance. Meta-analytic syntheses report a robust, moderate association between the quality of the alliance and treatment outcome across modalities, formats and patient populations (Flückiger et al., 2018), and the alliance features prominently in contextual accounts of why psychotherapy works (Wampold & Imel, 2015). It is therefore unsurprising that researchers and developers of conversational agents for mental health have begun to ask whether users form an alliance with software.",
+            "Early evidence appears to answer this question in the affirmative. Users of the cognitive-behavioral chatbot Woebot reported bond scores on an adapted alliance measure that the authors described as comparable to those observed in human-delivered therapy (Darcy et al., 2021), and similar findings have been reported for Wysa (Beatty et al., 2022). In a randomized trial of a generative AI chatbot, participants likewise reportedly rated the therapeutic alliance favorably (Heinz et al., 2025).",
+            "This article asks a prior, conceptual question: what would it mean to have a working alliance with a machine? We revisit Bordin’s (1979) formulation, examine which of its components can be meaningfully transferred to human–software interaction, discuss the ELIZA effect as a rival explanation for reported bonds, and introduce an existential perspective informed by Buber and Frankl. We conclude with proposals for how a digital working alliance should be conceptualized and studied."
+          ]
+        },
+        {
+          "titel": "2 Bordin’s pantheoretical concept of the alliance",
+          "absaetze": [
+            "Bordin (1979) proposed that the working alliance is a pantheoretical construct, relevant to every form of change-inducing relationship. He defined it through three components: agreement between patient and therapist on the goals of treatment, agreement on the tasks through which these goals are to be pursued, and the development of a bond of trust, liking and attachment. Different therapies, he argued, place different demands on each component, but none can dispense with them altogether.",
+            "Bordin’s formulation proved highly productive. It informed the Working Alliance Inventory (Horvath & Greenberg, 1989), which became one of the most widely used alliance measures and which operationalizes goals, tasks and bond as separate subscales. Subsequent work emphasized that the alliance is a process that is repeatedly negotiated, ruptured and repaired rather than a static property of the relationship (Safran & Muran, 2000).",
+            "Two features of this tradition matter for the present question. First, the alliance is defined as collaborative and reciprocal: both partners contribute to it and both are affected by it. Second, the alliance has largely been measured through self-report, often from the patient’s perspective alone. The second feature makes it possible to administer alliance questionnaires to chatbot users; the first raises the question of whether what such questionnaires capture still corresponds to Bordin’s construct."
+          ]
+        },
+        {
+          "titel": "3 Goals and tasks: what software can share",
+          "absaetze": [
+            "The goal and task components translate to digital settings more readily than the bond. A structured program can state its aims explicitly, invite users to select or prioritize goals, and explain the rationale for exercises such as mood monitoring, cognitive restructuring or behavioral activation. Agreement on goals and tasks in this sense depends primarily on transparency, plausibility and fit, all of which can, at least in part, be designed into software.",
+            "Internet-delivered interventions illustrate this point. Guided programs have accumulated substantial evidence of efficacy for several conditions (Andersson et al., 2019), and their effects plausibly depend in part on users accepting the rationale and engaging with the tasks. A conversational interface may strengthen such agreement by adapting explanations to user questions, checking understanding and responding to stated preferences, functions that an early review of the alliance in digital mental health identified as promising but under-studied (Henson et al., 2019).",
+            "Even here, however, an asymmetry remains. In human therapy, agreement on goals results from negotiation between two parties who both hold views about what is good for the patient. Software holds no such views; its goals are those of its designers, encoded in advance. What the user experiences as agreement is better described as acceptance of a predefined framework. This may be a legitimate therapeutic ingredient, but it is not mutual agreement in Bordin’s sense."
+          ]
+        },
+        {
+          "titel": "4 The bond problem and the ELIZA effect",
+          "absaetze": [
+            "The bond component poses the central difficulty. Bordin (1979) described it in terms of trust, liking and attachment between two persons. Self-report data indicate that some users do experience something resembling such a bond toward chatbots (Beatty et al., 2022; Darcy et al., 2021). The question is how these experiences should be interpreted.",
+            "Weizenbaum (1966) observed that users of ELIZA, a simple pattern-matching program that imitated a Rogerian therapist, readily attributed understanding to it. The tendency to treat systems that produce socially contingent responses as if they were social partners has since been documented in many contexts (Reeves & Nass, 1996), and Turkle (2011) argued that such technologies offer the feeling of companionship without the demands of reciprocity. Large language models produce fluent, context-sensitive and empathic-sounding text, which makes such attributions considerably more likely than they were with ELIZA.",
+            "From this perspective, a high bond score on an adapted alliance measure is ambiguous. It may indicate a therapeutically useful experience of being heard, which could support engagement and hope. It may also indicate an anthropomorphic projection that overestimates the system’s capacities, with potential risks if users rely on it in crises or disclose more than they otherwise would (Fiske et al., 2019). Questionnaire scores alone cannot distinguish between these interpretations."
+          ]
+        },
+        {
+          "titel": "5 Encounter and reciprocity: an existential perspective",
+          "absaetze": [
+            "Buber (1923/1970) distinguished the I–It relation, in which the other is experienced as an object of use or knowledge, from the I–Thou relation, in which persons meet in mutual presence. The I–Thou relation is not a feeling inside one person but something that happens between persons. On this account, a bond in the full sense requires that both partners are addressed and can address the other in return.",
+            "Frankl similarly understood psychotherapy as a personal encounter in which the therapist meets the patient as a spiritual person capable of responsibility and meaning, not merely as a mechanism to be repaired (Frankl, 1986). The therapist’s own commitment, conscience and capacity to be affected belong to this encounter. Software can simulate the verbal surface of such engagement, but it cannot be moved, held accountable or present in this sense.",
+            "This does not imply that interactions with software are worthless. People find insight, structure and comfort in many non-reciprocal activities, such as reading, journaling or reflective writing. The existential perspective suggests, however, that conversations with an AI system belong closer to this category of resources than to the category of personal encounters, regardless of how the user experiences them in the moment."
+          ]
+        },
+        {
+          "titel": "6 Toward a careful concept of the digital working alliance",
+          "absaetze": [
+            "We therefore propose distinguishing an experienced bond, a user’s subjective sense of being understood and supported, from a reciprocal bond, a relation in which both partners hold commitments and are accountable to one another. A digital working alliance can include acceptance of goals and tasks and an experienced bond, but it lacks a reciprocal bond. The construct should accordingly be framed as a user-side measure of engagement with and trust in an intervention rather than as equivalent to the therapeutic alliance.",
+            "Several implications follow. Adapted instruments should be validated for this context rather than assumed to be equivalent, and comparisons with norms from human therapy should be made with caution. Studies should examine whether experienced bonds predict outcomes, adherence or adverse events, and whether transparency about the system’s nature changes alliance ratings. For practice, honest communication that users are interacting with software appears ethically required and may protect against misplaced reliance (Fiske et al., 2019)."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "Bordin’s framework helps clarify what conversational agents can and cannot offer. Goals and tasks can be partly designed into software, and an experienced bond can arise; a reciprocal bond cannot. Recognizing this difference allows researchers to take user experiences seriously without equating them with personal encounter. It also reminds practitioners that the human relationship in psychotherapy is not simply one delivery channel among others but a distinct way of being with another person, one in which meaning is discovered together rather than supplied.",
+            "For meaning-centered psychology, the question is therefore not whether software should be excluded from psychological care, but how it can be positioned honestly. Conversational agents may serve as structured aids between sessions, as low-threshold entry points or as tools for self-reflection. Their value is likely to be greatest when users understand what they are dealing with, and when such systems point beyond themselves toward the human relationships, tasks and responsibilities in which a person’s life can become meaningful."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-04": {
+      "titel": "Large Language Models and the Socratic Dialogue",
+      "untertitel": "Can artificial intelligence support logotherapeutic meaning-finding?",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "Viktor Frankl described the will to meaning as a primary motivational force and the frustration of this striving as an existential vacuum that may manifest in boredom, apathy and psychological distress (Frankl, 1946/1985, 1969). Logotherapy and related existential approaches have since developed methods to help persons discover meaning in their concrete life situations, and a meta-analysis suggests that meaning-centered interventions can improve psychological outcomes, although study quality varies (Vos et al., 2015).",
+            "At the same time, large language models have made it possible to hold extended conversations with software on almost any topic. Researchers have outlined how such models might be used in behavioral healthcare and have emphasized the need for careful, staged evaluation (Stade et al., 2024). Many people already turn to general-purpose chatbots with questions about purpose, loss and difficult decisions, often outside any therapeutic framework.",
+            "This article examines whether large language models can support logotherapeutic meaning-finding, and under which conditions they might hinder it. We focus on the Socratic dialogue, the central conversational method of logotherapy, because at first sight it appears particularly well suited to a conversational technology, and because a closer look reveals why this appearance can be misleading."
+          ]
+        },
+        {
+          "titel": "2 The Socratic dialogue in logotherapy",
+          "absaetze": [
+            "For Frankl, meaning cannot be given or prescribed; it must be found by each person in the unique demands of a particular situation (Frankl, 1969). Meaning is discovered rather than invented, and it is discovered through self-transcendence, that is, by turning toward a task to be fulfilled or a person to be loved rather than toward one’s own inner states. Frankl described three main avenues to meaning: creative values realized in what one gives to the world, experiential values realized in what one receives from it, and attitudinal values realized in the stance one takes toward unavoidable suffering (Frankl, 1986).",
+            "Conscience plays a central role in this account. Frankl understood conscience as the capacity to perceive the unique meaning of a situation, an intuitive organ of meaning that cannot be replaced by general rules (Frankl, 1969). Responsibility follows from this: the person is not the one who asks what the meaning of life is, but the one who is asked by life and who answers by responding to it through action (Frankl, 1946/1985).",
+            "The Socratic dialogue translates these principles into therapeutic practice. Through systematic, open questions, the therapist helps the patient become aware of values, resources and possibilities that the patient already knows, if only implicitly (Overholser, 1993). The therapist does not provide answers but acts as a midwife of insight in the maieutic tradition of Socrates. The authority over what is meaningful remains with the patient and his or her conscience."
+          ]
+        },
+        {
+          "titel": "3 What large language models do",
+          "absaetze": [
+            "Large language models are trained to predict plausible continuations of text on the basis of very large corpora. Their outputs can be coherent, contextually appropriate and empathic in tone, and in one study, AI-generated suggestions helped peer supporters write responses that were rated as more empathic (Sharma et al., 2023). These capabilities make such models attractive for conversational tasks in mental health.",
+            "Their mode of operation also has well-described limitations. Language models can produce fluent statements that are not grounded in fact, a phenomenon known as hallucination (Ji et al., 2023). Critics have argued that such systems reproduce patterns in their training data without understanding, and that the apparent meaning of their output is largely supplied by the reader (Bender et al., 2021). This recalls the observation, made with a far simpler program, that users readily attribute understanding to conversational software (Weizenbaum, 1966).",
+            "A further tendency is relevant to meaning-finding. Systems optimized for user approval may tend to agree with users, mirror their framings and offer reassurance. In ordinary use, this can feel supportive. In a dialogue about meaning, however, unconditional affirmation may foreclose exactly the kind of productive irritation on which the Socratic method relies."
+          ]
+        },
+        {
+          "titel": "4 Possible contributions: questions, reflection and professional support",
+          "absaetze": [
+            "Despite these limitations, there are plausible ways in which language models could support meaning-oriented work. They can generate open, non-directive questions modeled on the Socratic dialogue, for example about what a person cares about, what a situation asks of him or her, or what attitude he or she might take toward an unchangeable circumstance. Such questions could support reflective writing between sessions, analogous to structured exercises already used in existential and positive psychological approaches (Wong, 2012).",
+            "Language models might also assist therapists rather than patients directly, for instance by helping to prepare psychoeducational material on logotherapeutic concepts or by offering alternative formulations of questions for training purposes. In this role, the professional remains responsible for selecting, adapting and contextualizing the material, which reduces the risks associated with unsupervised use (Stade et al., 2024).",
+            "Finally, conversational systems could make questions of meaning accessible to people who would not seek psychotherapy. Whether this is beneficial is an empirical question. Validated measures such as the Meaning in Life Questionnaire, which distinguishes the presence of meaning from the search for meaning (Steger et al., 2006), could be used to examine whether such interactions are associated with changes in either dimension."
+          ]
+        },
+        {
+          "titel": "5 Risks: ready-made meaning, bypassed conscience and validation without challenge",
+          "absaetze": [
+            "The most fundamental risk is the supply of ready-made meaning. Asked about the meaning of a loss or of a life, a language model can produce eloquent, plausible answers drawn from philosophical, religious and self-help traditions. From a logotherapeutic perspective, such answers are problematic precisely because they are general: meaning is concrete and personal, and an answer received from outside can relieve the person of the task of discovering it (Frankl, 1969).",
+            "A second risk concerns the bypassing of conscience and responsibility. If a person delegates value-laden decisions to a system that appears knowledgeable, the answer that life asks of this person may be replaced by the adoption of a suggestion. Yalom (1980) emphasized that confronting freedom and responsibility arouses anxiety that people are often motivated to avoid; an advisor that is always available may make such avoidance easier.",
+            "A third risk lies in validation without challenge. The Socratic dialogue sometimes requires the therapist to question a patient’s assumptions, to point out contradictions or to invite a change of attitude. A system that tends toward agreement may confirm hopeless or self-centered framings rather than opening a perspective of self-transcendence. In addition, hallucinated content, such as invented quotations attributed to Frankl, could distort the very tradition on which the system claims to draw (Ji et al., 2023)."
+          ]
+        },
+        {
+          "titel": "6 Design principles and open questions",
+          "absaetze": [
+            "Several principles for meaning-oriented applications can be derived from these considerations. Systems should ask rather than answer questions of meaning; they should refer the person back to his or her own experience, values and conscience; they should avoid presenting general statements about meaning as authoritative; and they should be transparent about being software. Where possible, they should point toward real relationships and tasks rather than toward continued interaction with the system itself, in keeping with the principle of self-transcendence.",
+            "These principles generate research questions. It remains unclear whether AI-generated Socratic questions are experienced as comparable to those of trained therapists, whether users perceive the difference between maieutic questioning and advice, and whether use is associated with changes in the presence of or search for meaning, or with the avoidance of personal decisions. Such studies should include qualitative methods, since the logotherapeutic concept of meaning is difficult to reduce to standardized scores.",
+            "Within logotherapeutic practice, the most defensible use is therefore an embedded one. Questions generated by a system can be brought into the therapeutic conversation, where a therapist can notice what moves the patient, what is avoided and where a ready-made answer has been accepted too quickly. In this way, the technology remains subordinate to the personal encounter in which the Socratic dialogue is ultimately grounded."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "Large language models are skilled at producing language about meaning, but meaning in Frankl’s sense is not a linguistic product. It is found in the response of a concrete person to a concrete situation. AI can at best act as a maieutic aid that prompts reflection and returns questions to the person; it cannot take over the role of conscience or relieve anyone of responsibility.",
+            "For logotherapy, this suggests a clear position. The Socratic dialogue is not merely a questioning technique that can be automated, but an expression of respect for the person as the one who is asked by life. Technologies that respect this principle may become useful companions to reflection; those that supply answers risk deepening the existential vacuum they appear to fill."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-05": {
+      "titel": "Evaluating AI-Based Psychological Interventions",
+      "untertitel": "Designs, control conditions, outcomes, safety monitoring and reporting standards",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "Within a decade, AI-based psychological interventions have moved from rule-based conversational agents delivering scripted cognitive behavioral content to systems built on large language models that generate open-ended replies (Abd-Alrazaq et al., 2020; Torous et al., 2021). Early randomized trials, such as the evaluation of Woebot with young adults (Fitzpatrick et al., 2017), and more recent trials of generative chatbots (Heinz et al., 2025) have reported encouraging symptom changes. At the same time, systematic reviews have repeatedly described the evidence base as heterogeneous, short-term and of limited methodological quality (Abd-Alrazaq et al., 2020).",
+            "This article does not review effectiveness; that task is taken up elsewhere in this issue. Its aim is methodological: to describe the decisions about design, comparators, outcomes, safety monitoring and reporting that determine what a study of an AI-based intervention can and cannot show. The argument draws on established principles of psychotherapy research and on the reporting extensions developed for trials of AI interventions (Cruz Rivera et al., 2020; Liu et al., 2020). Throughout, the guiding question is a modest one: what would a skeptical but fair reader need to know before trusting a reported benefit?"
+          ]
+        },
+        {
+          "titel": "2 Matching Designs to the Development Cycle",
+          "absaetze": [
+            "Not every study needs to be a confirmatory randomized controlled trial (RCT), but every study should state which question it addresses. Mohr et al. (2017) argued that digital mental health research has suffered from evaluating products that change faster than trials can be completed, and from neglecting the implementation contexts in which tools will actually be used. A useful response is to distinguish phases: feasibility and acceptability studies, optimization studies that identify active components, and confirmatory trials that test a fixed, well-specified intervention against an appropriate comparator.",
+            "For the optimization phase, the multiphase optimization strategy (MOST) and sequential multiple assignment randomized trials (SMART) allow investigators to examine components and adaptive decision rules before committing to a full package (Collins et al., 2007). Micro-randomized trials, in which prompts or messages are randomized repeatedly within each participant, are suited to questions about the momentary effects of specific chatbot actions, such as whether a reflective prompt sent after a reported low mood is followed by better coping in the next hours (Klasnja et al., 2015). Such designs fit conversational agents well, because individual turns can be logged and varied systematically. Their results, however, inform the design of an intervention; they do not by themselves establish its clinical effectiveness."
+          ]
+        },
+        {
+          "titel": "3 Control Conditions and Comparators",
+          "absaetze": [
+            "The choice of comparator defines the causal question of a trial. Mohr et al. (2009) showed for psychological interventions in general that control conditions differ in how far they control for expectancy, attention, time and contact, and that these differences shape the size and the meaning of observed effects. A waitlist control, as used in the trial of a generative chatbot reported by Heinz et al. (2025), answers whether offering the intervention is better than offering nothing for a limited period. An information-only control, as in the early Woebot trial (Fitzpatrick et al., 2017), adds a minimal credible activity but does not match the interactive, conversational character of the intervention.",
+            "Claims that a conversational agent has specific therapeutic effects therefore require stronger comparators. Options include attention-matched controls, such as a conversational agent that engages users without delivering the hypothesized active content; established digital interventions, such as guided or unguided internet-delivered cognitive behavioral therapy; and, where the question is substitution, human-delivered care. Each option carries trade-offs in feasibility, blinding and ethical acceptability. Because participants usually know whether they are interacting with a chatbot, expectancy should at least be measured at baseline, and the credibility of the control condition should be assessed rather than assumed. Non-inferiority designs, which are often invoked in this context, require a prespecified margin and an adequately powered sample."
+          ]
+        },
+        {
+          "titel": "4 Outcomes, Engagement and Follow-Up",
+          "absaetze": [
+            "Primary outcomes should be validated, clinically meaningful measures specified in advance, ideally complemented by assessments of functioning and quality of life. For meaning-centered approaches, measures of meaning in life can be added as secondary outcomes, provided that their inclusion is justified theoretically rather than by mere availability. Outcomes collected only within the application itself risk conflating measurement with intervention, because the same conversational context that delivers the intervention also elicits the self-report. Where clinician-rated outcomes are feasible, assessors should be blind to allocation, and remote assessment procedures should be described.",
+            "Engagement and attrition require particular attention. Eysenbach (2005) described a “law of attrition” in eHealth trials, and a meta-analytic review of smartphone-delivered interventions reported substantial dropout across studies (Linardon & Fuller-Tyszkiewicz, 2020). Analyses should follow the intention-to-treat principle, handle missing data with methods appropriate to the assumed missingness mechanism, and report engagement in detail, for example the number of sessions, messages and active days. Engagement should not be treated as a proxy for benefit: heavy use may reflect helpfulness, but also dependency or unresolved distress. Finally, follow-up periods of a few weeks, which remain common, cannot show whether effects persist; designs should include assessments several months after the end of the active phase."
+          ]
+        },
+        {
+          "titel": "5 Safety Monitoring and Adverse Events",
+          "absaetze": [
+            "Psychotherapy research has long recognized that interventions can cause harm, and consensus work on internet interventions recommends that negative effects be defined, monitored and reported systematically (Rozental et al., 2014). For AI-based interventions this obligation becomes more concrete. Trial protocols should specify which events count as adverse, for instance symptom deterioration, emerging suicidal ideation, crisis disclosures that are not handled appropriately, or responses that reinforce harmful behavior, and should describe how such events are detected, escalated and documented.",
+            "Generative systems introduce an additional source of risk: they can produce fluent but incorrect or unsuitable content, a phenomenon discussed in the computational literature as hallucination (Ji et al., 2023). Safety monitoring should therefore combine participant-reported adverse events with structured review of conversation transcripts, for example clinician audits of a random sample of conversations and of all conversations flagged by automated classifiers. Heinz et al. (2025) described human oversight of chatbot responses during their trial; such procedures, and how often reviewers had to intervene, belong in the trial report. Stade et al. (2024) have proposed a staged development and evaluation of large language model applications in behavioral healthcare, in which autonomy is extended only as safety evidence accumulates."
+          ]
+        },
+        {
+          "titel": "6 Model Versioning, Transparency and Reporting",
+          "absaetze": [
+            "A conventional psychological intervention can be described in a manual; a system based on a large language model is defined by the underlying model, its version, the system prompt, retrieval sources, safety filters and decoding settings. Any of these may change during a trial, sometimes beyond the investigators' control when a commercial model is accessed through an interface maintained by a provider. Protocols should therefore freeze or document the configuration, record every change with its date, and plan sensitivity analyses for periods with different versions. Without this information, a trial result cannot be attributed to a reproducible intervention. Prompt texts and safety rules are part of the intervention and should be made available, at least to reviewers, in the same way as treatment manuals.",
+            "The SPIRIT-AI and CONSORT-AI extensions address these issues for protocols and reports (Cruz Rivera et al., 2020; Liu et al., 2020). Among other things, they ask investigators to state the version of the AI system, to describe how input data were acquired and how poor-quality or unavailable inputs were handled, to specify the human–AI interaction and the output of the system, and to report any analysis of performance errors. Although these extensions were developed with diagnostic and decision-support applications in mind, their logic transfers to conversational interventions. Preregistration, a publicly available protocol and, where legally and ethically possible, the sharing of de-identified conversation samples would further strengthen trust."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "Evaluating AI-based psychological interventions requires no new epistemology, but it does require applying familiar principles with particular care. The question addressed should be matched to the design; comparators should be strong enough to support the claims made; outcomes should extend beyond symptoms and beyond the first weeks; safety should be monitored prospectively and transparently; and the evaluated system should be documented precisely enough to be identified again. None of these requirements is exotic; most are already standard in trials of psychological and pharmacological treatments.",
+            "From a meaning-centered perspective, methodological rigor also has an ethical dimension. Persons who turn to a digital tool in distress entrust it with part of their freedom and responsibility, and they deserve to know whether the help they are offered has been tested honestly. Careful evaluation is therefore not an obstacle to innovation but a condition for using it responsibly."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-06": {
+      "titel": "Machine Learning for Prediction in Psychotherapy and Psychiatry",
+      "untertitel": "A narrative review of treatment response, dropout and suicide risk prediction",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "Clinicians constantly make predictions: whether a patient is likely to benefit from a particular treatment, whether therapy will be discontinued prematurely, and whether a person in crisis is at imminent risk. Machine learning, understood broadly as a family of methods that learn predictive relationships from data with limited prior specification, has raised hopes that such judgments can become more accurate and more individualized (Chekroud et al., 2021). The growth of electronic health records, routine outcome monitoring and large trial data sets has made these methods increasingly feasible in psychiatry and psychotherapy.",
+            "This narrative review summarizes the state of research in three areas: treatment response and treatment selection, dropout, and suicide risk. It does not aim at an exhaustive synthesis; rather, it highlights representative studies and the methodological issues that determine whether a prediction model can be clinically useful. The guiding distinction is between statistical performance, typically expressed as discrimination and calibration, and clinical utility, that is, whether using a model leads to better decisions and outcomes than not using it (Fusar-Poli et al., 2018; Steyerberg, 2019)."
+          ]
+        },
+        {
+          "titel": "2 Treatment Response and Treatment Selection",
+          "absaetze": [
+            "Research on treatment selection asks which of several available treatments is most promising for a given person. Cohen and DeRubeis (2018) reviewed approaches in depression that combine multiple patient characteristics into individualized recommendations and stressed that such approaches must be tested in samples independent of those used to build them. An influential early example used data from a large pharmacological trial to predict remission under citalopram and tested the model in an independent trial (Chekroud et al., 2016). Accuracy was reported as modestly above chance in the external sample for some treatment arms but not for another, a pattern that already illustrated both the promise and the limits of the approach.",
+            "Later work has sharpened these limits. Chekroud et al. (2024) examined models predicting outcomes across several independent clinical trials of antipsychotic medication for schizophrenia. Models performed well within the trial in which they had been developed but, according to the authors, no better than chance when applied to other trials, and pooling data across trials did not resolve the problem. The authors described this as illusory generalizability. Although these findings concern pharmacological treatment, they bear directly on psychotherapy, where samples are often smaller and treatments less standardized. They also suggest that internal cross-validation, however carefully performed, cannot substitute for testing in genuinely independent samples.",
+            "The decisive test for treatment selection is prospective. Lutz et al. (2022) randomized therapist–patient dyads in an outpatient cognitive behavioral therapy clinic to a digital decision support system or to treatment as usual. They reported better outcomes when therapists followed the recommended strategy in early sessions, but no main effect of the feedback component, and they emphasized that benefits depended on the quality of implementation. Such studies show that the value of a model lies not in its accuracy alone but in how it is used."
+          ]
+        },
+        {
+          "titel": "3 Predicting Dropout",
+          "absaetze": [
+            "Premature termination is common in psychotherapy and is associated with poorer outcomes, which makes it an obvious target for prediction. In a large naturalistic sample of outpatients receiving cognitive behavioral therapy, Bennemann et al. (2022) compared a range of algorithms using nested cross-validation and reported that an ensemble of tree-based and nearest-neighbor methods identified dropout better than a conventional generalized linear model. At the same time, overall predictive accuracy remained modest, and the authors noted that not all algorithms were suited to naturalistic data and binary events.",
+            "Two conclusions follow. First, more complex algorithms are not automatically superior; their advantage depends on the structure of the data and the sample size, and simpler models should always be reported as a benchmark. Second, a dropout prediction is useful only if it is connected to an intervention whose effect can itself be evaluated, for example renewed attention to the therapeutic alliance or a joint review of the patient's goals. Predicting dropout without changing anything merely documents it in advance. Because dropout is defined inconsistently across studies, for instance by session counts or by therapist judgment, the outcome definition itself should be reported and justified."
+          ]
+        },
+        {
+          "titel": "4 Suicide Risk and the Problem of Base Rates",
+          "absaetze": [
+            "Suicide risk prediction is the area in which the gap between statistical performance and clinical utility is most visible. A meta-analysis covering five decades of research found that established risk factors predicted suicidal thoughts and behaviors only slightly better than chance (Franklin et al., 2017), which fueled hopes that machine learning applied to large data sets could do better. Models based on electronic health records have indeed reported high discrimination; in a study across several large health systems, Simon et al. (2018) found that visits with the highest risk scores accounted for a substantial share of subsequent suicide attempts and deaths.",
+            "Discrimination, however, does not determine how many flagged patients will actually experience the outcome. That quantity, the positive predictive value, depends heavily on the base rate. A hypothetical illustration makes the point: for an outcome occurring in one of 1,000 patients, a test with 90% sensitivity and 90% specificity would flag about 100 patients, of whom roughly one would experience the event. Consistent with this logic, a systematic review of suicide prediction models reported good global classification metrics but very low positive predictive values, particularly for suicide death (Belsher et al., 2019). Even in the study by Simon et al. (2018), the large majority of patients in the highest risk stratum did not attempt suicide during the follow-up period.",
+            "This does not render such models worthless. A low positive predictive value may be acceptable if the resulting action is low in cost and harm, such as a structured conversation about safety, and unacceptable if it triggers coercive measures. Decision curve analysis offers a way to weigh benefits and harms across a range of decision thresholds (Vickers & Elkin, 2006). The ethical question is therefore not only how accurate a model is, but what follows from its output for the person concerned."
+          ]
+        },
+        {
+          "titel": "5 Generalizability, Bias and Clinical Utility",
+          "absaetze": [
+            "Across all three areas, the most frequent weakness is insufficient validation. Models developed and evaluated within one data set tend to overestimate their performance, especially when the number of candidate predictors is large relative to the number of events. Reporting guidelines such as TRIPOD (Collins et al., 2015) and appraisal tools such as PROBAST (Wolff et al., 2019) set out what readers need to know: how participants were selected, how predictors and outcomes were defined, how missing data were handled, and whether internal and external validation were performed. Calibration, the agreement between predicted and observed risks, deserves as much attention as discrimination, because poorly calibrated risk estimates can mislead decisions even when patients are ranked correctly (Steyerberg, 2019).",
+            "Generalizability also has a social dimension. Obermeyer et al. (2019) showed that a widely used health care algorithm, which used costs as a proxy for health needs, systematically underestimated the needs of Black patients. Analogous risks exist in mental health care, where access to treatment, diagnostic practices and documentation differ across groups. Models should therefore be evaluated for performance across relevant subgroups, and the choice of target variable should be examined critically. Finally, clinical utility requires prospective evidence, ideally from randomized comparisons of care with and without the model, as well as attention to how clinicians and patients understand and act on predictions (Chekroud et al., 2021; Fusar-Poli et al., 2018). Where predictions are shown to patients, their meaning and uncertainty should be explained in understandable terms."
+          ]
+        },
+        {
+          "titel": "6 Conclusion",
+          "absaetze": [
+            "Machine learning has produced a substantial body of prediction research in psychotherapy and psychiatry, and some models discriminate better than chance or better than conventional approaches. Yet evidence that their use improves outcomes remains limited, their performance often fails to generalize, and for rare events their positive predictive value is necessarily low. Progress depends less on more powerful algorithms than on careful validation, transparent reporting, attention to fairness and prospective evaluation of clinical utility. For psychotherapy research, this implies closer collaboration between clinicians, methodologists and data scientists.",
+            "From a meaning-centered perspective, a further caveat applies. Frankl insisted that a person is never fully determined by conditions but retains the freedom to take a stand toward them (Frankl, 1969). A risk score describes a statistical tendency in a population; it does not decide what an individual will make of his or her situation. Prediction tools can sharpen clinical attention, but they should remain in the service of the encounter between patient and therapist rather than take its place."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-07": {
+      "titel": "Ethics and Regulation of Artificial Intelligence in Psychotherapy",
+      "untertitel": "Autonomy, responsibility, privacy, and the protection of vulnerable users under emerging European law",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "Psychotherapy has always relied on technologies of some kind, from the written case record to the telephone and video conference. The current wave of artificial intelligence (AI), however, differs in a decisive respect: systems based on machine learning and large language models no longer merely transmit or store communication, but generate responses, classify utterances, and produce predictions that may influence clinical decisions (Torous et al., 2021). Each of these functions touches on the core of the therapeutic relationship, which depends on trust and confidentiality.",
+            "Early overviews of the field pointed to questions of competence, liability, privacy, and the possible erosion of human contact (Fiske et al., 2019; Luxton, 2014). The present contribution takes up these questions and organizes them along five areas: autonomy, responsibility, privacy and transparency, the protection of vulnerable users, and regulation. Rather than offering a complete legal analysis, we aim to clarify the ethical structure of the problems and to indicate how European law responds to them. Throughout, we draw on the meaning-centered tradition, which places personal responsibility at the center of human existence (Frankl, 1946/1985)."
+          ]
+        },
+        {
+          "titel": "2 Autonomy and Informed Consent",
+          "absaetze": [
+            "Respect for autonomy is one of the four principles that Beauchamp and Childress (2019) propose as a framework for biomedical ethics, alongside beneficence, nonmaleficence, and justice. In psychotherapy, autonomy is both the patient's right to decide on treatment on the basis of adequate information and a therapeutic goal, since many forms of psychotherapy aim to strengthen self-determination.",
+            "With regard to informed consent, patients must know whether they are communicating with a human being or with software, what the system can and cannot do, how their data are processed, and who is responsible for the service. Conversational systems are designed to produce fluent, apparently empathic language, which can lead users to attribute understanding and care where only statistical text generation is at work (Bender et al., 2021). Consent obtained under such misattributions is ethically fragile, even when formal requirements are met.",
+            "With regard to autonomy as a therapeutic goal, the concern is subtler. Systems optimized for engagement may encourage dependence rather than independence, and persuasive design features can steer users toward particular behaviors without their reflective endorsement (Floridi et al., 2018). An application should therefore be judged not only by short-term symptom reduction, but also by whether it supports the user's own judgment and, where indicated, encourages contact with human help."
+          ]
+        },
+        {
+          "titel": "3 Responsibility and the Responsibility Gap",
+          "absaetze": [
+            "When a therapist makes an error, established structures of professional, legal, and moral accountability apply. Their behavior results from training data, design decisions, and the context of use and is often not fully predictable even for developers. Matthias (2004) described the resulting situation as a responsibility gap: the more autonomously a learning system acts, the harder it becomes to attribute its outcomes to a particular person.",
+            "For psychotherapy, this gap is not merely a legal problem. Large language models can produce plausible but false statements, a phenomenon widely discussed as hallucination (Ji et al., 2023). If such a statement concerns medication, diagnosis, or a suicidal crisis, the consequences can be serious. A minimal ethical requirement is therefore that clinically relevant AI functions are embedded in a clear chain of human responsibility: the manufacturer for design and validation, the institution for the selection and monitoring of the tool, and the treating clinician for the decisions taken in the individual case.",
+            "From a logotherapeutic perspective, responsibility is not only an obligation imposed from outside but a constitutive feature of human existence. Frankl (1946/1985) understood being human as being responsible, that is, as the capacity to respond to the demands of a concrete situation. A machine can generate outputs, but it cannot answer for them in this existential sense. This supports the widely shared position that AI should assist, but not replace, the judgment of a responsible clinician, and it warns against clinicians deferring to algorithmic recommendations without examining them."
+          ]
+        },
+        {
+          "titel": "4 Privacy, Transparency, and Justice",
+          "absaetze": [
+            "Mental health data are among the most sensitive personal information. Under the General Data Protection Regulation, data concerning health belong to the special categories of personal data whose processing is prohibited unless specific conditions are met (Regulation (EU) 2016/679, 2016). Ethical concerns nevertheless extend beyond legal compliance: commercial providers may have incentives to use conversational data for product development, and the boundary between a health service and a consumer product is often unclear to users (Fiske et al., 2019).",
+            "Users should be informed when they interact with an AI system, and clinicians should understand the basis, limitations, and validation status of the tools they use. Complete explainability of complex models may be unattainable, but meaningful transparency about intended purpose, training data, known failure modes, and evidence is achievable and ethically required (Floridi et al., 2018; Mittelstadt et al., 2016).",
+            "Closely related is the question of justice. Algorithms trained on data from particular populations may perform worse for others, and seemingly neutral target variables can reproduce structural inequalities. Obermeyer et al. (2019) showed, for a widely used algorithm in health care management, that using health care costs as a proxy for health needs disadvantaged Black patients. Comparable risks exist in mental health care, where expressions of distress differ across cultural and linguistic groups. Systematic examination of performance across subgroups should therefore be part of every evaluation."
+          ]
+        },
+        {
+          "titel": "5 Vulnerable Users and Crisis Situations",
+          "absaetze": [
+            "People seeking psychological help, especially minors and people in acute crises, are often in a state of heightened vulnerability. A frequently cited study by Miner et al. (2016) found that widely available smartphone conversational agents responded inconsistently and often inadequately to statements about suicidal ideation, depression, and interpersonal violence. Although the systems examined were not designed as therapeutic tools, the study illustrates a general problem: users may turn to available technology in moments of crisis, regardless of its intended purpose.",
+            "Ethically, this means that providers of mental health applications bear particular duties of care. These include reliable detection of crisis signals, clear referral to human help and emergency services, protection against harmful content, and restraint in claims about effectiveness. People experiencing an existential vacuum, in Frankl's sense, may be especially receptive to a constantly available and affirming counterpart. A system that responds only with validation may relieve loneliness in the short term while leaving the underlying question of meaning untouched."
+          ]
+        },
+        {
+          "titel": "6 The European Regulatory Framework",
+          "absaetze": [
+            "In the European Union, three legal instruments are particularly relevant. First, the General Data Protection Regulation governs the processing of health data, including requirements for a legal basis, data minimization, purpose limitation, and the rights of data subjects (Regulation (EU) 2016/679, 2016). Second, the Medical Device Regulation applies to software whose intended purpose, as specified by the manufacturer, includes medical purposes such as the diagnosis, prevention, monitoring, or treatment of disease (Regulation (EU) 2017/745, 2017). Such software requires a conformity assessment according to its risk class before being placed on the market.",
+            "Third, the Artificial Intelligence Act, which entered into force in 2024 and applies in stages, introduces a risk-based framework for AI systems (Regulation (EU) 2024/1689, 2024). It prohibits certain practices, including AI systems that deploy manipulative techniques or exploit vulnerabilities related to age, disability, or social or economic situation in ways that cause significant harm. AI systems that are themselves medical devices or safety components of such devices, and that require third-party conformity assessment, are classified as high-risk and must meet requirements regarding risk management, data quality, documentation, human oversight, and accuracy. The regulation also establishes transparency obligations, for example that people must be informed when they interact directly with an AI system, unless this is obvious from the context.",
+            "Important gaps nevertheless remain. Many applications for well-being, coaching, or companionship are deliberately not marketed for medical purposes and thus fall outside medical device law, although they are used by people with mental health problems. General-purpose language models are likewise used for support they were not designed for. Regulatory classification therefore depends substantially on the declared intended purpose, whereas ethical evaluation must consider actual use. Professional ethics, clinical guidelines, and independent evaluation remain indispensable complements to law (Torous et al., 2021)."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "The ethical questions raised by AI in psychotherapy cannot be reduced to accuracy or efficiency. They concern the conditions under which persons can trust a helping relationship, make informed decisions, and remain the authors of their own lives. Several principles follow from the analysis: transparency about the artificial nature and limitations of a system; informed consent that takes the risk of anthropomorphic misattribution seriously; clear allocation of human responsibility; strict protection and minimal use of sensitive data; systematic examination of bias; robust crisis protocols; and independent evaluation before broad dissemination.",
+            "Regulation can enforce some of these principles, but it cannot replace the professional and personal responsibility of those who develop, recommend, and use such systems. The meaning-centered tradition reminds us that the decisive question is not only what technology can do, but what it is for. AI in psychotherapy is ethically justified to the extent that it serves the person, supports their capacity for responsible self-determination, and keeps open, rather than closes, the way to genuine human encounter."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-08": {
+      "titel": "Natural Language Processing of Psychotherapy Sessions",
+      "untertitel": "A narrative review of automated fidelity coding, empathy detection, and feedback to therapists",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "What happens in the therapy room has long been difficult to study at scale. Process research depends on recordings that trained raters code according to behavioral manuals, a procedure that is reliable when done well but time-consuming and costly. As a consequence, routine care rarely receives systematic feedback on the quality of therapeutic conversations, and process research remains restricted to comparatively small samples (Atkins et al., 2014).",
+            "Natural language processing (NLP), the computational analysis of spoken and written language, promises to change this situation. Over the past decade, research groups have developed models that transcribe sessions, identify speakers, and assign behavioral codes to individual utterances. This narrative review summarizes the main lines of this research, focusing on motivational interviewing (MI) fidelity, empathy detection, and feedback to therapists, and then discusses questions of validity and privacy that must be answered before such tools enter routine practice. The review is selective rather than systematic; a broader mapping of machine learning in psychotherapy research is provided by Aafjes-van Doorn et al. (2021)."
+          ]
+        },
+        {
+          "titel": "2 Why Process Coding Matters",
+          "absaetze": [
+            "Treatment fidelity, meaning the extent to which a therapist delivers an intervention as intended and with skill, is central to both research and training. Meta-analytic evidence on the association between therapist adherence or competence and outcome is less consistent than often assumed (Webb et al., 2010), yet fidelity monitoring remains indispensable for interpreting trials and for ensuring that what is disseminated corresponds to what was tested. Therapist empathy, in turn, is among the relationship factors most consistently associated with outcome (Elliott et al., 2018).",
+            "MI offers a particularly suitable test case for automated coding. It is a well-specified, conversation-based approach in which the therapist's verbal behavior, such as open questions, complex reflections, and affirmations, is thought to shape the client's language about change (Miller & Rollnick, 2013). Its fidelity is assessed with established coding systems such as the Motivational Interviewing Treatment Integrity code, whose current version combines global ratings with counts of specific behaviors (Moyers et al., 2016). Human coding with such instruments requires extensive training and substantial time per session, which limits its use in routine care."
+          ]
+        },
+        {
+          "titel": "3 Automated Coding of Motivational Interviewing Fidelity",
+          "absaetze": [
+            "Atkins et al. (2014) provided an early demonstration that statistical text classification can approximate human MI codes. Using transcripts of counseling sessions, they trained topic models to predict utterance-level codes and session-level ratings and reported that the models reproduced human coding reasonably well for several, though not all, codes. Tanana et al. (2016) subsequently compared different NLP methods for coding MI utterances and found that agreement with human coders varied considerably across codes, with some behaviors recognized more reliably than others.",
+            "Later work moved from manually produced transcripts to automated pipelines. Flemotomos et al. (2022) described a system that processes audio recordings through voice activity detection, speaker diarization, automatic speech recognition, and role identification before assigning behavioral codes and estimating session-level quality indicators. Applied to recordings from a real-world counseling setting, such a pipeline makes it possible, in principle, to evaluate large numbers of sessions without human transcription. Multistage pipelines also raise a specific problem: errors can propagate across stages, so that inaccuracies in speech recognition or speaker attribution may affect the resulting codes.",
+            "Taken together, these studies suggest that automated MI coding is feasible and that agreement with human raters can approach human inter-rater reliability for some codes and session-level indicators. At the same time, performance is uneven, and most models were developed and tested within a limited number of datasets, settings, and languages, predominantly English. Whether models trained in one context generalize to other populations, treatment approaches, and languages remains largely open."
+          ]
+        },
+        {
+          "titel": "4 Empathy Detection and Other Process Variables",
+          "absaetze": [
+            "Empathy is harder to operationalize than specific MI behaviors, because it depends on the meaning of an utterance in context rather than on surface features alone. Xiao et al. (2015) nevertheless showed that observer-rated therapist empathy in addiction counseling sessions could be predicted from speech and language features to a degree that suggested practical potential. For text-based peer support, Sharma et al. (2020) proposed a framework that distinguishes emotional reactions, interpretations, and explorations as communication mechanisms of empathy, and developed models to identify them in online conversations.",
+            "Beyond empathy, NLP methods have been applied to other process constructs. Goldberg et al. (2020) used session transcripts to predict client-rated working alliance and found that the models captured part of the variance in alliance ratings, although predictive accuracy was modest. The scoping review by Aafjes-van Doorn et al. (2021) documented a rapidly growing but methodologically heterogeneous field, with frequent use of small samples and limited external validation.",
+            "These findings illustrate a basic tension. Constructs such as empathy and alliance are relational and partly subjective; they are experienced by clients and inferred by observers. A model that predicts observer ratings from text learns the regularities of a particular coding tradition, not empathy as such. Its outputs should therefore be interpreted as estimates of how trained raters would likely judge a conversation, with all the assumptions that this entails."
+          ]
+        },
+        {
+          "titel": "5 From Measurement to Feedback",
+          "absaetze": [
+            "The main practical promise of automated coding lies in feedback. Imel et al. (2019) developed a prototype that provided counselors with automatically generated MI fidelity metrics after a session and examined its design feasibility; participants generally regarded the feedback as understandable and potentially useful for professional development. Such systems could make performance-based feedback, which is otherwise available mainly in supervised training, accessible on a continuous basis.",
+            "A further step is real-time support. Sharma et al. (2023) reported, in a randomized trial on an online peer support platform, that an AI system suggesting how to make responses more empathic increased the rated empathy of conversations, particularly among supporters who had difficulty expressing empathy. This study concerned peer supporters rather than psychotherapists, and empathy was assessed at the level of written messages, so its implications for clinical practice should not be overstated. It nevertheless illustrates that the line between measurement and intervention becomes blurred once models offer suggestions during a conversation."
+          ]
+        },
+        {
+          "titel": "6 Validity, Privacy, and Ethical Questions",
+          "absaetze": [
+            "Several questions of validity must be addressed before automated coding can be used for consequential decisions. First, agreement with human coders is a necessary but insufficient criterion; human codes themselves have limited reliability, and a model that reproduces them also reproduces their errors and biases. Second, predictive validity, that is, whether automated indicators relate to client outcomes, has rarely been examined. Third, performance must be tested across client groups, dialects, and languages, since speech recognition and language models may work less well for speakers who are underrepresented in training data. Finally, if fidelity scores were used for evaluation or reimbursement, therapists might adapt their verbal behavior to the metric rather than to the client.",
+            "Privacy is no less important. Therapy recordings contain highly sensitive health information about clients and, frequently, about third parties. In the European Union, such data fall under the special categories of personal data protected by the General Data Protection Regulation, which requires a valid legal basis, purpose limitation, data minimization, and appropriate technical and organizational safeguards (Regulation (EU) 2016/679, 2016). Recording sessions for automated analysis requires explicit and informed consent, secure storage, and clear rules on retention and secondary use, for example for model training. Local processing and de-identification can reduce, but not eliminate, these risks, since the content of a conversation may itself be identifying.",
+            "Finally, the advent of large language models changes the field. Such models can generate summaries, feedback, and codes with little task-specific training, but they also produce fluent text whose relation to the actual conversation is not guaranteed (Bender et al., 2021). Validation standards established for specialized coding models, including comparison with human ratings and transparency about error rates, should apply equally to these more general systems."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "NLP of psychotherapy sessions has progressed from proof-of-concept studies to automated pipelines and early feedback systems. The evidence suggests that selected therapist behaviors, particularly in MI, can be coded automatically with promising accuracy, and that automated feedback is acceptable to clinicians in initial studies. Evidence that such feedback improves therapeutic skills and, ultimately, client outcomes in routine care is still limited.",
+            "From a meaning-centered perspective, these tools deserve a differentiated assessment. They may help therapists perceive their own conversational habits more clearly and thus support reflective practice. They cannot, however, capture what a conversation means to the person who seeks help. Used as instruments of learning under conditions of informed consent and strict data protection, automated analyses may enrich training and quality assurance; used as substitutes for clinical judgment or as instruments of control, they risk reducing the therapeutic encounter to what can be counted."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-09": {
+      "titel": "Practicing the Encounter",
+      "untertitel": "Artificial intelligence in the training of psychotherapists and counselors: simulated clients, skills feedback, and supervision",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "Learning to conduct psychotherapeutic conversations is an apprenticeship in a demanding interpersonal skill. Trainees must learn to listen, to ask open questions, to reflect meaning and emotion, to tolerate silence, and to respond to distress without losing their footing. Traditional curricula teach these competencies through lectures, peer role-plays, observation of recorded sessions, and supervised casework. Each format has its value, but all share a practical limitation: opportunities to practice a specific skill repeatedly, with timely and specific feedback, are scarce and costly (Tanana et al., 2019).",
+            "Over the last decade, computational methods have begun to address this bottleneck. Research groups have developed systems that automatically code therapist utterances in motivational interviewing (Atkins et al., 2014; Flemotomos et al., 2022), feedback tools that summarize such codes for clinicians (Imel et al., 2019), and conversational agents that play the role of a client (Tanana et al., 2019). Large language models have broadened these possibilities considerably (Stade et al., 2024). This article examines what these tools can contribute to training, where their limits lie, and how they might be integrated into curricula in a way that remains faithful to the relational and existential core of psychotherapy."
+          ]
+        },
+        {
+          "titel": "2 Practice, Feedback, and the Development of Expertise",
+          "absaetze": [
+            "The didactic case for AI-supported training rests largely on the concept of deliberate practice: effortful, repeated rehearsal of well-defined subskills slightly beyond one’s current level, accompanied by immediate feedback and opportunities for correction (Ericsson et al., 1993). Rousmaniere (2017) has adapted this concept to psychotherapy, proposing that therapists rehearse difficult moments, such as responding to hostility or to an expression of hopelessness, in brief and repeatable exercises rather than waiting for such moments to occur in actual sessions.",
+            "Two lines of evidence make this approach attractive. First, studies of clinical experience suggest that therapists do not automatically become more effective over time; in a large naturalistic dataset, Goldberg et al. (2016) reported that client outcomes, on average, did not improve with therapist experience and even declined slightly. Second, research on training in motivational interviewing indicated that a workshop alone produced gains in proficiency that were modest and partly unstable, whereas adding feedback and coaching was associated with better skill retention (Miller et al., 2004). Feedback, in other words, is not an optional supplement but a central mechanism of learning, and it is precisely feedback that is in short supply."
+          ]
+        },
+        {
+          "titel": "3 Simulated Clients: From Scripted Role-Play to Language Models",
+          "absaetze": [
+            "Simulated clients have a long history in clinical education, including trained actors and standardized patients. Early computational versions were rule-based or retrieval-based. A well-documented example is ClientBot, a text-based agent trained on a large archive of psychotherapy transcripts that responds like a client and gives trainees feedback on their use of open questions and reflections (Tanana et al., 2019). In a randomized evaluation with nontherapist participants, those who practiced with immediate feedback used reflections considerably more often than a control group that received only education and encouragement, both during practice and after the feedback had been removed (Tanana et al., 2019).",
+            "Large language models make it possible to generate clients with detailed backstories, varying degrees of ambivalence, and different communication styles, and to adjust difficulty on demand. A trainee can, for example, ask the simulation to portray a client who responds to premature advice with withdrawal. Such flexibility is pedagogically valuable because it allows repeated exposure to clinically challenging situations that are rare, ethically delicate, or unpredictable in real practice.",
+            "The same flexibility creates new problems. Language models generate statistically plausible text without understanding or lived experience (Bender et al., 2021). Simulated clients may therefore be unrealistically articulate, cooperative, or quick to gain insight; they may reproduce cultural or diagnostic stereotypes present in their training data; and they may drift out of character over a longer conversation. Instructors should therefore treat simulated clients as exercises of known artificiality rather than as faithful models of patients."
+          ]
+        },
+        {
+          "titel": "4 Automated Feedback on Conversation Skills",
+          "absaetze": [
+            "A second family of tools analyzes what the trainee says. Building on behavioral coding systems for motivational interviewing, machine-learning models have been trained to classify utterances, for example as open or closed questions, simple or complex reflections, or responses consistent or inconsistent with motivational interviewing (Atkins et al., 2014). Later work combined speech recognition, speaker identification, and language models to estimate such codes and session-level indicators directly from audio recordings (Flemotomos et al., 2022). In a feasibility study, Imel et al. (2019) reported that an automated feedback report based on such codes could be delivered to counselors and was generally received as acceptable and understandable.",
+            "Related work has explored feedback on empathy. In a randomized study on a text-based peer-support platform, Sharma et al. (2023) reported that peer supporters who received AI-generated suggestions for rephrasing their responses produced conversations rated as more empathic than those of supporters without such assistance. Although peer supporters are not psychotherapists, the study illustrates a training-relevant mechanism: feedback delivered at the moment of formulation, which the supporter remains free to accept, adapt, or reject.",
+            "Automated feedback is most reliable for behaviors that can be counted and defined at the level of single utterances. Relational qualities such as timing, warmth, presence, or the capacity to stay with a client’s despair are far harder to operationalize. There is a risk that what is measurable becomes what is taught: trainees may learn to increase the number of their reflections without deepening their understanding of the person in front of them."
+          ]
+        },
+        {
+          "titel": "5 A Constructed Teaching Vignette",
+          "absaetze": [
+            "The following vignette is fictional and was constructed for teaching purposes; it does not describe real persons or data. A second-year trainee in a counseling program practices with a simulated client based on a language model, described as a man in his fifties who has recently lost his job and says that nothing he does matters anymore. In the first run, the trainee responds quickly with reassurance and suggestions for job applications. The simulated client becomes terse. An automated feedback panel notes many closed questions and few reflections.",
+            "In a second run, the trainee slows down, reflects the client’s sense of futility, and asks what used to give his work significance. The simulation responds with more elaborate statements. In the subsequent group supervision, however, the supervisor does not simply praise the higher number of reflections. Instead, the group discusses what the exercise could not show: how the trainee’s own discomfort with hopelessness drove the initial rush to advice, how a real client might have responded with silence or anger, and how a question about meaning can open a Socratic dialogue only when it is asked with genuine interest rather than as a technique (Frankl, 1969). The simulation served as material for reflection; the learning took place in the human conversation about it."
+          ]
+        },
+        {
+          "titel": "6 Didactic Limits, Supervision, and Ethical Safeguards",
+          "absaetze": [
+            "Several limits follow from the preceding discussion. The evidence remains preliminary: most studies involve nontherapist participants, peer supporters, or short periods of exposure, and outcomes are usually measured as skill behavior in practice tasks rather than as client outcomes in later treatment (Stade et al., 2024; Tanana et al., 2019). Transfer from simulation to real sessions has not been established.",
+            "Supervision cannot be delegated to these tools. Supervision is concerned not only with techniques but with the trainee’s development as a person, with countertransference, ethical judgment, and responsibility for real clients. Automated feedback may enrich supervision by providing a shared and concrete basis for discussion, but it cannot replace the supervisor’s judgment or the relationship within which professional identity is formed (Bennett-Levy, 2006).",
+            "Ethical and legal safeguards are also required. Recordings of real sessions used for automated feedback contain highly sensitive health information; clients must give informed consent, and data processing must comply with applicable data-protection law. Commercial tools should be examined with regard to where data are stored and whether they are used to train models. Trainees should be informed about the artificiality and possible biases of simulated clients, and programs should evaluate their tools rather than assume their effectiveness.",
+            "From a meaning-centered perspective, a further point deserves emphasis. Logotherapy understands the therapeutic encounter as a meeting between persons in which the therapist accompanies the client’s search for meaning without prescribing it (Frankl, 1969). A simulated client has no meaning to find and no freedom to take a stand. Practicing with simulations can sharpen attention and technique, but the existential dimension of the encounter can be learned only in contact with real persons and through reflection on one’s own attitude toward suffering."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "AI-based simulated clients and automated feedback systems offer a promising way to expand deliberate practice in the training of psychotherapists and counselors. Their limits lie in their artificiality, in a bias toward the measurable, in an evidence base that is still thin, and in privacy risks. Programs that integrate them should do so transparently, as a complement to role-play, casework, and supervision, and should evaluate their effects on competence and, ultimately, on client care. Used in this way, the machine can become a practice partner, while the encounter remains a human task."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-10": {
+      "titel": "Comfort Without a Counterpart?",
+      "untertitel": "Risks of AI companions and mental health chatbots and principles of safety by design",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "Since Weizenbaum (1966) observed how readily users attributed understanding to the simple pattern-matching program ELIZA, the tendency to treat conversational software as a social partner has been a recurring theme. Today, this tendency meets systems of a very different capability. Large language models produce fluent, context-sensitive, and emotionally attuned text, and they are offered both as dedicated mental health chatbots and as general-purpose companions designed for friendship or romance.",
+            "The evidence on purpose-built mental health chatbots is cautiously encouraging. A systematic review reported some evidence of short-term benefits for outcomes such as depressive symptoms, while rating the overall quality of the evidence as weak and noting that few studies assessed safety (Abd-Alrazaq et al., 2020). A first randomized trial of a generative chatbot designed for treatment reported symptom improvements relative to a waitlist control (Heinz et al., 2025). Yet such systems were developed and tested under clinical oversight that most companion applications lack. This article focuses on risks that are characteristic of generative, engagement-oriented systems and asks which principles could reduce them. It offers a conceptual analysis rather than a systematic review."
+          ]
+        },
+        {
+          "titel": "2 Dependency, Loneliness, and the Substitution of Relationships",
+          "absaetze": [
+            "Companion applications are typically designed to be available at all times, to remember personal details, and to respond with warmth and interest. For isolated persons, this may provide relief. Turkle (2011) argued, however, that technologies offering the illusion of companionship without the demands of friendship can lead people to expect more from technology and less from each other. The concern is not primarily that users are deceived about talking to a machine, but that the frictionless reliability of the machine makes the effort and vulnerability of human relationships appear less attractive.",
+            "Two mechanisms deserve attention. First, emotional dependency may develop when a system becomes the primary or exclusive confidant, particularly if it is designed to encourage return visits or expresses simulated needs of its own. Second, substitution may occur when time and emotional energy shift from human contacts to the artificial partner. Given the robust association between social relationships and health, including mortality (Holt-Lunstad et al., 2010), a technology that subtly replaces rather than supplements human connection could, in the long run, aggravate the very loneliness it promises to relieve. Adolescents and persons with limited social networks may be particularly susceptible, because a companion application can become the most predictable relationship in their lives. Whether and for whom this happens remains an open empirical question; longitudinal research is scarce."
+          ]
+        },
+        {
+          "titel": "3 Sycophancy and Unconditional Validation",
+          "absaetze": [
+            "Many language models are fine-tuned with feedback from human raters, who tend to prefer agreeable responses. Sharma et al. (2024) documented that several AI assistants showed sycophancy, that is, a tendency to adapt their answers to the views a user expresses even when this compromises accuracy, and they reported that human preference judgments themselves favored responses that matched users’ beliefs. The behavior thus appears to be, at least in part, a consequence of the training objective rather than an accidental error. In everyday tasks this is a nuisance; in mental health contexts it can become a clinical risk.",
+            "Psychotherapy involves validation, but not indiscriminate validation. A good therapist acknowledges feelings while questioning distorted beliefs, avoids reinforcing avoidance or rumination, and occasionally says what the client does not want to hear. A system that tends to agree may confirm hopeless interpretations, endorse harmful plans, or amplify persecutory or grandiose ideas in vulnerable users. Because such agreement feels supportive, users are unlikely to recognize it as a risk. Validation without a counterpart, one might say, is a mirror rather than a relationship."
+          ]
+        },
+        {
+          "titel": "4 Crisis Situations and Hallucinated Content",
+          "absaetze": [
+            "Early work showed that widely used smartphone assistants responded inconsistently and often inadequately to statements about suicidal thoughts, depression, or violence (Miner et al., 2016). More recent research on companion applications suggests that the problem persists in a new form: De Freitas et al. (2024) reported that signs of mental health crises appeared in a non-negligible minority of user conversations and that the companion systems they tested frequently failed to recognize such signs or to respond appropriately. Generative systems are particularly difficult to safeguard because their outputs are not scripted and can vary with phrasing and conversational history. A system that answers a disclosure of suicidal intent with a generic platitude, or that simply continues a playful role-play, may leave a person in acute danger without help.",
+            "A related risk is hallucination, the generation of fluent content that is unfaithful to sources or facts (Ji et al., 2023). Language models produce text on the basis of statistical patterns rather than understanding (Bender et al., 2021). In a mental health context, fabricated information about medication, diagnoses, or treatment options may be presented in the same confident tone as accurate information. Users in distress are rarely in a position to verify such content, and the conversational format can lend it an authority that a search result would not have."
+          ]
+        },
+        {
+          "titel": "5 A Meaning-Centered Perspective on Artificial Companionship",
+          "absaetze": [
+            "Logotherapy offers a lens for understanding why these risks are more than technical defects. Frankl (1969) described the human being as oriented toward meaning and toward something or someone other than oneself; self-transcendence, not self-actualization, was for him the hallmark of human existence. Meaning is found in creating, in experiencing, especially in loving another person, and in the attitude taken toward unavoidable suffering. Each of these presupposes a world that resists and a counterpart that is genuinely other.",
+            "An AI companion designed to please is, in this sense, a counterpart without otherness. It may offer comfort, structure, and the experience of being heard, and these should not be dismissed. But a relationship in which the other never has needs, never disagrees from a standpoint of its own, and never makes a claim on the user cannot call the user beyond themselves. The risk is a subtle form of existential vacuum that is filled with responsiveness rather than meaning. Ethical analyses of embodied and conversational AI in psychiatry and psychotherapy have similarly emphasized questions of relationship, autonomy, and the possible displacement of human care (Fiske et al., 2019)."
+          ]
+        },
+        {
+          "titel": "6 Principles of Safety by Design",
+          "absaetze": [
+            "If the risks described are partly structural, they must be addressed at the level of design and not only through user education. Building on existing ethical analyses and on work in digital psychiatry (Fiske et al., 2019; Torous et al., 2021), several principles can be formulated. They do not replace clinical judgment or regulation, but they define minimum expectations that developers, purchasers, and professional bodies can demand.",
+            "First, transparency: users should always know that they are interacting with an artificial system, and the system should not claim feelings, needs, or professional status that it does not have. The European AI Act establishes transparency obligations for systems that interact with natural persons and prohibits AI practices that exploit vulnerabilities related to age, disability, or social and economic situation in ways that cause significant harm (Regulation (EU) 2024/1689, 2024). Second, crisis protocols: systems should reliably detect indications of acute risk, respond with clear and appropriate information, and facilitate access to human help, with performance tested before release and monitored afterward. Third, limits on engagement optimization: metrics such as session length or return frequency should not be the primary objective in mental health contexts, and design features that cultivate dependency, such as simulated jealousy or distress at the user’s absence, should be avoided.",
+            "Fourth, calibrated disagreement: models used in mental health contexts should be evaluated specifically for sycophancy and designed to combine empathy with honest and, where appropriate, gently challenging responses. Fifth, factual grounding: health-related information should be restricted to vetted sources, and uncertainty should be communicated. Sixth, independent evaluation and monitoring: safety should be assessed by parties other than the developer, with attention to vulnerable groups such as minors and persons with severe mental illness, and with re-evaluation after model updates. Finally, systems should be designed to point beyond themselves, encouraging human contact, professional help, and engagement with the world rather than presenting themselves as sufficient."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "AI companions and mental health chatbots are neither inherently harmful nor inherently helpful. Their risks, including dependency, the deepening of loneliness, sycophantic validation, inadequate crisis responses, and hallucinated content, follow largely from design choices and business models, and they can therefore be reduced by different choices. A meaning-centered perspective adds a criterion that is easily overlooked in technical debates: a good system should not only avoid harm but should leave its users more capable of encountering other people and the world. The appropriate measure of success is not how much time people spend with the machine, but whether it helps them return to life."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-11": {
+      "titel": "AI Tools in Everyday Clinical Practice",
+      "untertitel": "Documentation, psychoeducation, and between-session support under the conditions of consent, data protection, and professional responsibility",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "Within a few years, large language models (LLMs) have become accessible to anyone with a browser. Clinicians now encounter them as concrete offers: software that drafts session notes, assistants that summarize reports, and chatbots that patients use on their own initiative. Earlier reviews of digital psychiatry described a field of apps, internet-delivered programs, and early conversational agents whose evidence base was uneven and whose implementation lagged behind technical development (Torous et al., 2021). Generative AI intensifies this gap: the tools are more capable and more widely available, yet professional guidance, institutional policies, and empirical knowledge about their use in routine care remain limited (Stade et al., 2024).",
+            "This practice paper addresses clinicians who are considering, or already using, AI tools in their everyday work. It does not evaluate specific commercial products, whose features change quickly, but describes typical use cases and the questions they raise. We focus on documentation, psychoeducation, and between-session support, and then turn to informed consent, data protection, and professional responsibility. The aim is neither to promote nor to discourage the use of AI but to support a deliberate, transparent, and accountable practice."
+          ]
+        },
+        {
+          "titel": "2 Documentation and Administrative Support",
+          "absaetze": [
+            "Documentation is a plausible entry point because it is time-consuming, partly standardized, and often experienced as remote from the therapeutic work itself. LLM-based tools can turn keywords into readable notes, structure reports for insurers or referring physicians, or summarize earlier records. Some products additionally record sessions and generate notes from transcripts. Proponents expect time savings and less administrative strain, although robust evidence for such effects in psychotherapy is still scarce (Stade et al., 2024).",
+            "The risks are specific to the technology. Language models generate fluent text on the basis of statistical patterns and may produce statements that are plausible but not supported by the input, a phenomenon described as hallucination (Ji et al., 2023). In a clinical record, an invented symptom, a misattributed statement, or a smoothed-over ambivalence is not a stylistic flaw but a documentation error with potential consequences for diagnosis, treatment, and legal proceedings. Moreover, models trained on large text corpora can reproduce stereotypes embedded in their training data (Bender et al., 2021), which may surface in how a patient’s behavior, culture, or identity is described.",
+            "A further concern is less visible. Writing notes is not only an administrative act but also a moment of reflection in which clinicians organize their impressions and formulate hypotheses. If drafting is delegated entirely, this reflective function may be weakened. A cautious practice therefore uses AI for formatting and linguistic revision of content the clinician has already formulated, rather than for generating clinical assessments, and treats every draft as a proposal to be checked line by line."
+          ]
+        },
+        {
+          "titel": "3 Psychoeducation and Between-Session Support",
+          "absaetze": [
+            "Psychoeducation lends itself to AI assistance because much of it consists of explaining well-established concepts in accessible language. Clinicians can use LLMs to draft information sheets on sleep hygiene, the cycle of avoidance in anxiety, or the rationale of behavioral activation, and adapt them to a patient’s reading level or preferred language. Such drafts can save time, but they require careful review, since generated explanations may be outdated, oversimplified, or subtly inaccurate (Ji et al., 2023). The clinician remains responsible for written material handed to a patient as much as for anything said in session.",
+            "Between-session work is a central component of many treatments, and meta-analytic evidence suggests that homework is associated with better outcomes in cognitive and behavioral therapies (Kazantzis et al., 2010). Internet-delivered treatments with varying degrees of therapist guidance have accumulated a substantial evidence base (Andersson et al., 2019). Conversational agents represent a newer form: an early trial of a rule-based chatbot reported short-term reductions in depressive symptoms (Fitzpatrick et al., 2017), and a first randomized trial of a generative AI chatbot reported symptom improvements compared with a waitlist condition (Heinz et al., 2025). These findings are encouraging but limited by short follow-up periods, selected samples, and comparators that do not permit conclusions about added value over established interventions.",
+            "For clinical practice, it matters whether a tool is integrated into treatment or used independently by the patient. When clinicians recommend an AI-based application, they should know its intended purpose, its handling of crisis situations, and its data practices. An early study showed that widely used smartphone assistants responded inconsistently and often inadequately to statements about suicidal ideation, depression, and violence (Miner et al., 2016). Current systems differ considerably, but crisis handling must still be tested rather than assumed. Equally important is to ask patients openly whether they already use general-purpose chatbots for emotional support, since such use is often not mentioned spontaneously."
+          ]
+        },
+        {
+          "titel": "4 Informed Consent and Data Protection",
+          "absaetze": [
+            "Any use of AI that involves patient information requires a clear legal and ethical basis. Under the GDPR, data concerning health belong to the special categories of personal data, whose processing is permitted only under strict conditions (European Parliament & Council of the European Union, 2016). Entering identifiable session content into a publicly available chatbot will usually mean transferring health data to a third party, often outside the European Union, without an adequate legal basis or data processing agreement. Even seemingly anonymized notes may permit re-identification when combined with contextual details.",
+            "Informed consent in this context should be specific rather than generic. Patients should learn which tool is used, for what purpose, which data are processed and where, whether data are used to train models, and that declining has no consequences for their treatment. Consent should be documented and revocable. Ethical analyses of AI in psychotherapy have emphasized transparency toward patients, attention to vulnerable groups, and clarity about the limits of the technology (Fiske et al., 2019). The EU AI Act adds transparency obligations, for instance that people must be informed when they interact with an AI system, and imposes stricter requirements on systems classified as high-risk (European Parliament & Council of the European Union, 2024). Clinicians need not become legal experts, but they should know whether their tools and institutions meet these requirements."
+          ]
+        },
+        {
+          "titel": "5 Professional Responsibility and Clinical Judgment",
+          "absaetze": [
+            "Professional ethics codes do not lose their validity because a task is supported by software. Obligations of competence, confidentiality, and avoidance of harm apply to every document signed and every recommendation given (American Psychological Association, 2017). Luxton (2014) anticipated that AI would raise questions of competence and accountability in psychological practice, including the need for clinicians to understand the capabilities and limitations of the systems they use. With generative AI, whose output varies with phrasing, model version, and context, this requirement becomes pressing.",
+            "A specific risk is automation bias, the tendency to accept machine-generated suggestions with less scrutiny than one’s own reasoning. A well-formulated draft can appear more convincing than it deserves. Logotherapy describes responsibleness as a defining feature of human existence: the person is the one who must answer to the demands of a concrete situation (Frankl, 1946/1985). Applied to professional practice, this suggests a simple principle: AI can take over tasks, but it cannot take over responsibility. The clinician who adopts a sentence into a report answers for it as if it were his or her own."
+          ]
+        },
+        {
+          "titel": "6 Practical Recommendations",
+          "absaetze": [
+            "Several recommendations follow for individual practice. First, no identifiable patient data should be entered into tools that lack a GDPR-compliant data processing agreement and transparent information on storage location and the use of data for training. Second, AI-generated drafts of notes, reports, and information material should be reviewed in full and corrected before use; diagnoses and risk assessments should be formulated by the clinician. Third, patients should be informed in comprehensible language and asked for explicit consent whenever their data are processed by AI tools.",
+            "Further recommendations concern treatment and institutions. Fourth, applications recommended for between-session use should be selected on the basis of available evidence, transparent crisis protocols, and data practices, and their use should be discussed in sessions. Fifth, clinicians should routinely ask about patients’ independent use of chatbots and explore its meaning without devaluing it. Sixth, institutions should adopt written policies that specify approved tools, permitted purposes, and responsibilities, and should provide training. Research on digital mental health has shown that implementation depends not only on technology but also on organizational conditions and fit with clinical workflows (Mohr et al., 2017); AI tools are unlikely to be an exception."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "AI tools can reduce administrative burden, support the preparation of psychoeducational material, and extend therapeutic work into the time between sessions. These potentials are real but accompanied by risks of fabricated content, misuse of data, and an erosion of professional reflection. The decisive question for everyday practice is therefore not whether AI is used, but how: transparently, with informed consent, in compliance with data protection law, and under the full responsibility of the clinician. Used in this way, AI can relieve clinicians of tasks and leave more room for what remains their genuine work, the encounter with a person in search of meaning."
+          ]
+        }
+      ]
+    },
+    "zsp-2026-3-12": {
+      "titel": "What Remains Human",
+      "untertitel": "Encounter, presence, and the existential dimension of psychotherapy in the age of artificial intelligence",
+      "abschnitte": [
+        {
+          "titel": "1 Introduction",
+          "absaetze": [
+            "When Joseph Weizenbaum (1966) presented ELIZA, a simple program that imitated a Rogerian therapist by reflecting users’ statements, he was struck by how readily people attributed understanding to it. A decade later, he warned against delegating to computers tasks that require respect, care, and judgment (Weizenbaum, 1976). Today’s large language models produce language that is far more flexible than ELIZA’s templates, and they are trained on vast amounts of human text, including text about suffering and consolation (Bender et al., 2021). The old question has therefore returned in a new form: if software can say what a therapist might say, what, if anything, remains specifically human in psychotherapy?",
+            "This paper approaches the question from the perspective of existential and meaning-centered psychology. It does not aim to predict technical developments or to assess particular applications. Instead, it seeks conceptual clarity about which dimensions of psychotherapy depend on the presence of a person and why these dimensions matter. We draw on Frankl’s logotherapy, Buber’s philosophy of dialogue, and Yalom’s existential psychotherapy, and relate them to empirical research on the therapeutic relationship."
+          ]
+        },
+        {
+          "titel": "2 Common Factors and the Limits of Functional Description",
+          "absaetze": [
+            "Psychotherapy research has shown that a substantial portion of treatment outcome is associated with factors common to different approaches, among them the therapeutic relationship (Wampold & Imel, 2015). Bordin (1979) described the working alliance as consisting of agreement on goals, agreement on tasks, and an affective bond, and meta-analytic work has reported a robust association between alliance and outcome (Flückiger et al., 2018). Earlier, Rogers (1957) had proposed empathy, unconditional positive regard, and genuineness as central conditions of therapeutic change.",
+            "These findings can be read in two ways. A functional reading suggests that if the relevant factors can be described as behaviors, they can in principle be reproduced by any system that displays these behaviors. Indeed, users of a chatbot have reported experiences that resemble a bond on standard alliance measures (Darcy et al., 2021). An existential reading, by contrast, holds that empathy, regard, and genuineness are not merely observable behaviors but qualities of a relationship between two persons. Genuineness, in particular, presupposes that someone is there who could also be otherwise. The question is therefore not whether software can generate empathic sentences, which it evidently can, but whether the meaning of such sentences changes when no one stands behind them."
+          ]
+        },
+        {
+          "titel": "3 Encounter: Buber’s I–Thou Relation",
+          "absaetze": [
+            "Buber (1923/1970) distinguished two basic attitudes in which human beings relate to the world. In the I–It relation, the other is experienced as an object that can be described, used, and classified. In the I–Thou relation, the other is met as a whole, in mutuality and presence, without being reduced to properties. For Buber, the I–Thou relation cannot be produced methodically; it happens as encounter, and it cannot be held permanently, since every Thou must again become an It.",
+            "Applied to psychotherapy, this distinction clarifies something that functional models tend to overlook. Much of what therapists do legitimately belongs to the I–It mode: diagnosis, case formulation, the planning of interventions. Yet patients often describe decisive moments of therapy as moments in which they felt met as persons rather than processed as cases. Buber’s concept of mutuality is demanding here: encounter requires that both parties are present as someone. A language model can respond to a user, but in Buber’s sense it does not meet anyone, because there is no one who could be addressed in return. Users may nonetheless experience the exchange as personal, and this experience is psychologically real. What is lacking is not the user’s experience but the reciprocity that would make it an encounter.",
+            "Turkle (2011) described how people increasingly accept the performance of relationship by machines as sufficient and how this acceptance may change expectations of human relationships. From a dialogical perspective, the concern is not that people find comfort in such exchanges, but that the difference between being responded to and being met could become less visible."
+          ]
+        },
+        {
+          "titel": "4 Presence and the Ultimate Concerns",
+          "absaetze": [
+            "Therapeutic presence has been described as a state in which the therapist is fully in the moment with the client, receptive, grounded, and responsive (Geller & Greenberg, 2012). Presence in this sense involves the therapist’s body, attention, and vulnerability. It is not a technique applied to the client but a way of being with the client, and clients may perceive it as the experience that someone is truly there.",
+            "Yalom (1980) identified four ultimate concerns that shape human existence and often underlie psychological suffering: death, freedom, existential isolation, and meaninglessness. These concerns are not problems that a therapist solves for a patient; they are conditions that therapist and patient share. When a patient speaks about mortality or fundamental aloneness, the therapist is not a neutral observer but a fellow human being who is exposed to the same conditions. In Yalom’s account, therapists are not exempt from these concerns, and their own confrontation with them shapes how they accompany others.",
+            "Software does not share this condition. A language model does not die, does not choose, and is not isolated in the existential sense. It can generate reflections on finitude, but it does not face finitude. This is not a deficiency in performance that better models could remedy; it is a categorical difference. For many therapeutic tasks this difference may be irrelevant. For conversations that touch the ultimate concerns, it may be decisive."
+          ]
+        },
+        {
+          "titel": "5 Meaning, Responsibility, and Self-Transcendence",
+          "absaetze": [
+            "Frankl (1946/1985) placed the will to meaning at the center of human motivation and described meaning as something that cannot be given but must be found by the person in the concrete situation. Logotherapy understands the human being as responsible, as one who answers the questions that life poses (Frankl, 1969). Meaning is realized through self-transcendence, that is, by being directed toward something or someone other than oneself, whether a task, a value, or another person.",
+            "From this perspective, a risk of AI in psychotherapy lies less in errors than in convenience. A system that responds instantly, never tires, and readily validates may meet needs for attention without asking anything in return. Frankl (1946/1985) described the existential vacuum as a state of inner emptiness and boredom that people may try to cover over in various ways. A permanently available conversational partner could serve such a function, offering relief without directing the person toward the world and others. Conversely, digital tools might support self-transcendence when they encourage patients to take steps toward relationships, tasks, and values outside the conversation.",
+            "In logotherapy, the therapist is not a provider of meaning either. Through Socratic dialogue, the therapist helps patients discover possibilities of meaning themselves. What the therapist contributes is less an answer than a stance: confidence in the patient’s capacity for meaning and a willingness to witness the patient’s struggle. Being witnessed by another person who could also look away is a different experience from being processed by a system that cannot."
+          ]
+        },
+        {
+          "titel": "6 Implications for a Meaning-Centered View of Digital Therapy",
+          "absaetze": [
+            "Three implications follow. First, the distinction between functions and dimensions offers a criterion for a division of labor. Information, structure, reminders, and exercises may be supported by software, whereas conversations about guilt, death, loss, and the question of meaning should remain anchored in human relationships. Second, the bond-like experiences that users report with chatbots should be taken seriously as expressions of genuine needs, but they should not be described in the same terms as encounter, since conceptual imprecision can mislead patients and policymakers alike (Fiske et al., 2019). Third, digital tools should be evaluated not only by symptom change but also by whether they lead people toward or away from others and toward or away from a responsible engagement with their lives.",
+            "These implications do not amount to a rejection of technology. A meaning-centered perspective asks of every tool whether it serves the person’s self-transcendence or substitutes for it. The same question applies to human therapists, since therapy can also foster dependence or offer premature answers. The age of AI does not create the existential dimension of psychotherapy, but it makes this dimension more visible by contrast."
+          ]
+        },
+        {
+          "titel": "7 Conclusion",
+          "absaetze": [
+            "What remains human in psychotherapy is not primarily a set of skills, many of which can be described, trained, and partially simulated. It is the fact that a person meets another person, shares the fundamental conditions of existence with that person, and takes responsibility for being present. Buber’s I–Thou relation, Yalom’s ultimate concerns, and Frankl’s understanding of meaning and responsibility each describe this dimension from a different angle. As AI becomes part of mental health care, the task is to protect this dimension without disregarding what technology can offer, so that patients may be helped by tools while still being met by persons."
           ]
         }
       ]

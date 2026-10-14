@@ -21,6 +21,16 @@
   .bottom { margin-top: auto; display: flex; justify-content: space-between; align-items: flex-end; font: 400 8pt/1.5 "IBM Plex Sans", Arial, sans-serif; color: #d7e2e2; }
   .toc { width: 210mm; height: 297mm; box-sizing: border-box; padding: 26mm 22mm; }
   .toc h1 { font: 500 24pt/1.1 "Newsreader", Georgia, serif; margin: 0 0 2mm; }
+  .toc.dense { padding: 18mm 22mm 14mm; }
+  .toc.dense h1 { font-size: 20pt; }
+  .toc.dense .sub { margin-bottom: 3mm; padding-bottom: 3mm; }
+  .toc.dense .item { padding: 2.1mm 0; gap: 4mm; }
+  .toc.dense .item .t { font-size: 11pt; margin-top: .5mm; }
+  .toc.dense .item .u { display: none; }
+  .toc.dense .item .a { font-size: 7.6pt; margin-top: .5mm; }
+  .toc.dense .item .p { padding-top: 2.5mm; font-size: 9pt; }
+  .toc.dense .imp { margin-top: 5mm; font-size: 7pt; }
+  .item { break-inside: avoid; }
   .toc .sub { font: 400 9pt "IBM Plex Sans", Arial, sans-serif; color: #4b5661; border-bottom: 2.2pt double #17202a; padding-bottom: 4mm; margin-bottom: 6mm; }
   .item { display: grid; grid-template-columns: 1fr 16mm; gap: 6mm; padding: 4.2mm 0; border-bottom: .5pt solid #cfd5d4; }
   .item .r { font: 600 7pt "IBM Plex Sans", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #8a6a33; }
@@ -68,7 +78,7 @@
     '<div class="heft">' + S.vol + " " + iss.jahrgang + " · " + S.issue + " " + iss.heft + " · " + (S.mon[iss.monat] || iss.monat) + " " + iss.jahr + S.ed + "</div>" +
     '<div class="schwer">' + e(schwer) + "</div>" +
     '<div class="bottom"><span>' + S.sub + "</span><span>" + S.pp + " " + first + "–" + lastS + " · " + S.oa + "</span></div></section>";
-  h += '<section class="toc"><h1>' + S.toc + '</h1><div class="sub">' + S.issue + " " + iss.heft + "/" + iss.jahr + " · " + S.focus + ": " + e(schwer) + S.tocNote + "</div>";
+  h += '<section class="toc' + (arts.length > 8 ? " dense" : "") + '"><h1>' + S.toc + '</h1><div class="sub">' + S.issue + " " + iss.heft + "/" + iss.jahr + " · " + S.focus + ": " + e(schwer) + S.tocNote + "</div>";
   arts.forEach(function (a) {
     var tr = JL && JL.artikel ? JL.artikel[a.id] || {} : {};
     var t = tr.titel || a.titel, u = tr.untertitel || a.untertitel;
